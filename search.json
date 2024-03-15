@@ -1,0 +1,362 @@
+[
+  {
+    "objectID": "board.html",
+    "href": "board.html",
+    "title": "Our team",
+    "section": "",
+    "text": "Dirk-Jan de Koning, chair of board (VH, Ultuna)\n\n\n\n\n Stéphanie Robert, board member (S, Umeå)\n\n\n \n\n\n\n\n \n\n\n Anders Carlsson, board member (LTV, Alnarp)\n\n\n\n\n Sara Hallin, board member (NJ, Ultuna)",
+    "crumbs": [
+      "About us",
+      "Our team"
+    ]
+  },
+  {
+    "objectID": "worskhops.html",
+    "href": "worskhops.html",
+    "title": "Seminars & Workshops",
+    "section": "",
+    "text": "Bioinformatics in Umeå Workshop Series\n\n\n\n\n\n\nseminar\n\n\nnextflow\n\n\neducation\n\n\nworkshop\n\n\n\nThe first instance of the new bioinformatics workshop series. Learn about Nextflow and how to write your own pipeline.\n\n\n\n\n\nNov 16, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\n3B’s: Basic Biostatistics & Bioinformatics\n\n\n\n\n\n\nseminar\n\n\nworkshop\n\n\nstatistics\n\n\n\nToday we finally launch our long awaited collaboration with SLU’s Center for Statistics.\n\n\n\n\n\nNov 13, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics seminar series\n\n\n\n\n\n\nseminar\n\n\nstatistics\n\n\n\nThe 2021 edition of the seminar series of SLU’s Center for Statistics, this year on environmental statistics\n\n\n\n\n\nAug 27, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop for supervisors: Introduction to, and visualisation in R\n\n\n\n\n\n\neducation\n\n\nworkshop\n\n\n\nTraining day to get to know the possibilities of R\n\n\n\n\n\nSep 24, 2018\n\n\nSLUBI\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "social.html",
+    "href": "social.html",
+    "title": "Bioinformatics fika",
+    "section": "",
+    "text": "Meet us and other bioinformaticians for an informal fika to chat about projects, new tools or life in general.\nWe meet by the colorful couches in front of the IT service center in Ulls hus. Dates and times are announced via e-mail. If you do not receive them sign up for updates via slubi@slu.se.",
+    "crumbs": [
+      "Events",
+      "Bioinformatics fika"
+    ]
+  },
+  {
+    "objectID": "dropin.html",
+    "href": "dropin.html",
+    "title": "Weekly drop-in",
+    "section": "",
+    "text": "Meet us in our drop-in Zoom room (Password: 410 410).\nBefore the pandemic, SLUBI organised bioinformatics drop-in sessions at all 3 SLU campuses for answering various bioinformatics questions around a fika. Now the drop-in is online: all campuses at the same place and time! Come and join us with your questions or take the opportunity to gather and exchange experiences with other bioinformaticians.\nAround once per month we join forces with SLU’s Centre for Statistics and offer a joint drop-in.\nDuring the time leading up to the VR and Formas grant application deadline we are offering additional drop-ins, together with the Centre for Statistics and the Data Management Support.",
+    "crumbs": [
+      "Services",
+      "Weekly drop-in"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to SLUBI",
+    "section": "",
+    "text": "We are proud to present our collaborative workshop series, Three Bees:\n\nImagine basic statistical concepts and bioinformatics tools explained to you by experts. Informative lessons and hands-on coding exercises on a variety of topics.\nWe make it possible in our collaboration with SLU’s Center for Statistics.\nMore information here.\n\n\n\n\n\nCurrent news and events\n\n\n\n\n\n\n\n\n\n\nSwedish Bioinformatics Workshop 2024\n\n\nNovember 4th & 5th, 2024 on Campus Ultuna\n\n\n\nSLUBI\n\n\nNov 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop session at Sasuf Week\n\n\nThe South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you.\n\n\n\nSLUBI\n\n\nMay 14, 2024\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "Welcome to SLUBI"
+    ]
+  },
+  {
+    "objectID": "slubi.html",
+    "href": "slubi.html",
+    "title": "SLU’s bioinformatics infrastructure",
+    "section": "",
+    "text": "Our goal\nOur goal is to provide support and training in bioinformatics for SLU staff, and to build a strong community of bioinformaticians within SLU. Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp. We want to join forces and coordinate teaching activities, common resources (hardware, software).\n\n\n\n\n\n\nOur team\nWe are a group of skilled bioinformaticians. Please klick on us to see more about our background.\n\n\n\n\n\n\n\n\n\n\n Amrei Binzer-Panchal, bioinformatician in Ultuna (VH faculty): head of the infrastructure, and expert in analysing RNAseq, methylation data, microarrays, and 10x single cell RNAseq data.\n\n\n\n\n\n\n Nicolas Delhomme, bioinformatician in Umeå (S faculty): head of the UPSC Bioinformatics Facility, expert in expression profiling and anything bioinformatics related.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lizel Potgieter, bioinformatician in Alnarp (LTV faculty): our plant breeding, comparative genomics, population genomics, variant calling, genome assembly and annotation expert.\n\n\n\n\n\n\n Adnan Niazi, bioinformatician in Ultuna (VH faculty): our expert in RNAseq, metabarcoding (16S/18S/ITS), epigenomics (WGBS/RRBS), genome assembly and annotation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Abu Bakar Siddique, bioinformatician in Ultuna (NJ faculty): our expert in metagenomics, DNASeq, shotgun seq, metabarcoding (ITS), WGS analysis, read mapping, genome assembly and annotation. With wetlab experience in DNA, PCR and HTS library prep.",
+    "crumbs": [
+      "About us",
+      "SLU's bioinformatics infrastructure"
+    ]
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News and Events",
+    "section": "",
+    "text": "Swedish Bioinformatics Workshop 2024\n\n\n\n\n\n\nworkshop\n\n\noutreach\n\n\n\nNovember 4th & 5th, 2024 on Campus Ultuna\n\n\n\n\n\nNov 4, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop session at Sasuf Week\n\n\n\n\n\n\nworkshop\n\n\nmeeting\n\n\n\nThe South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you.\n\n\n\n\n\nMay 14, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nNordic Network of Agricultural Data Scientists\n\n\n\n\n\n\nnetwork\n\n\ntraining\n\n\n\nA new collaboration together with colleagues from other Nordic countries, exchange ideas and develop training materials.\n\n\n\n\n\nMar 15, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Introduction to Bioinformatics\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science\n\n\n\n\n\nNov 24, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatics in Umeå Workshop Series\n\n\n\n\n\n\nseminar\n\n\nnextflow\n\n\neducation\n\n\nworkshop\n\n\n\nThe first instance of the new bioinformatics workshop series. Learn about Nextflow and how to write your own pipeline.\n\n\n\n\n\nNov 16, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\n3B’s: Basic Biostatistics & Bioinformatics\n\n\n\n\n\n\nseminar\n\n\nworkshop\n\n\nstatistics\n\n\n\nToday we finally launch our long awaited collaboration with SLU’s Center for Statistics.\n\n\n\n\n\nNov 13, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Genome-wide predictions in breeding: genotype-phenotype associations and genomic selection\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nAn introduction to R and large data handling\n\n\n\n\n\nNov 13, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation: Practical considerations and available tools for big data science\n\n\n\n\n\n\noutreach\n\n\nreproducibility\n\n\neducation\n\n\n\nTalking reproducible science at the Microbiome Research Initiative Meeting 2023.\n\n\n\n\n\nNov 9, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Analysis of High Throughput Sequencing RNA-Seq Data\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nThe 2023 edition of our popular course - learn about the ins and outs of working with RNA-sequencing data.\n\n\n\n\n\nOct 23, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLU’s Day of Bioinformatics\n\n\n\n\n\n\nsymposium\n\n\nmeeting\n\n\n\nTerrestrial and aquatic communities, breeding, crop production, animal health, automatization – bioinformatics can also be for you! Listen to exciting SLU projects and be inspired.\n\n\n\n\n\nSep 29, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSciFest 2023\n\n\n\n\n\n\noutreach\n\n\neducation\n\n\n\nWe had a lot of fun at Uppsala’s Science Festival this year, talking about viruses, sequencing and metagenomics.\n\n\n\n\n\nSep 23, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Applied Bioinformatics\n\n\n\n\n\n\ntraining\n\n\nnextflow\n\n\n\nTeaching an introduction to Nextflow to a diverse group of students from all over Sweden.\n\n\n\n\n\nMay 12, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Applied population genetics in plant disease epidemiology,\n\n\n\n\n\n\nnews\n\n\nmeeting\n\n\n\nWe are happy to teach the bioinformatics of population genetics in this masters course.\n\n\n\n\n\nMar 1, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI day 2023\n\n\n\n\n\n\nnews\n\n\nmeeting\n\n\n\nA day filled with bioinformatics\n\n\n\n\n\nFeb 27, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Plant Biology for Breeding and Protection\n\n\n\n\n\n\ncourse\n\n\nbreeding\n\n\n\nMSc course held in Alnarp, Ultuna and online.\n\n\n\n\n\nJan 20, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Analysis of High Throughput Sequencing RNA-Seq Data\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nSLUBI’s very own course on RNA-sequencing data, held for the Research School Organism Biology.\n\n\n\n\n\nNov 12, 2022\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Introduction to Bioinformatics\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nOct 12, 2022\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\ntitle\n\n\n\n\n\n\nnews\n\n\nmeeting\n\n\n\nPost description\n\n\n\n\n\nMar 12, 2022\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Analysis of High Throughput Sequencing RNA-Seq Data\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nSLUBI’s very own course on analysing RNA-sequencing data.\n\n\n\n\n\nNov 29, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Introduction to Bioinformatics\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nOct 4, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics seminar series\n\n\n\n\n\n\nseminar\n\n\nstatistics\n\n\n\nThe 2021 edition of the seminar series of SLU’s Center for Statistics, this year on environmental statistics\n\n\n\n\n\nAug 27, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop: High Throughput Sequencing Data Analysis Workshop\n\n\n\n\n\n\nworkshop\n\n\neducation\n\n\n\n\n\n\n\n\n\nMar 2, 2020\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nUppmax meeting\n\n\n\n\n\n\nworkshop\n\n\nmeeting\n\n\n\nDiscuss existing computing solutions and future possibilities.\n\n\n\n\n\nMay 8, 2019\n\n\nSASUF\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop for supervisors: Introduction to, and visualisation in R\n\n\n\n\n\n\neducation\n\n\nworkshop\n\n\n\nTraining day to get to know the possibilities of R\n\n\n\n\n\nSep 24, 2018\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI day 2018\n\n\n\n\n\n\nnews\n\n\nmeeting\n\n\n\nShowcasing SLUBI support and discussing long-term plans.\n\n\n\n\n\nJun 4, 2018\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI kickoff meeting\n\n\n\n\n\n\nmeeting\n\n\n\nWe are kicking off SLUBI with a celebration of bioinformatics. \n\n\n\n\n\nOct 27, 2017\n\n\nSLUBI\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Archive",
+      "News and Events"
+    ]
+  },
+  {
+    "objectID": "newsposts/events/201903_Uppmax_meeting/index.html",
+    "href": "newsposts/events/201903_Uppmax_meeting/index.html",
+    "title": "Uppmax meeting",
+    "section": "",
+    "text": "We discussed computing solutions by SNIC and UPPMAX with seven UPPMAX experts and learned tips and trick on how to run code on a high performance computer."
+  },
+  {
+    "objectID": "newsposts/events/20231109_AMRI/index.html",
+    "href": "newsposts/events/20231109_AMRI/index.html",
+    "title": "Presentation: Practical considerations and available tools for big data science",
+    "section": "",
+    "text": "SLUBI representing SLU bioinformatics and talking about tools for reproducible research.\nThank you for the invitation, and for the inspiring environment!\nHave a look at the presentation here.\nAnd read here more about the meeting and the initiative."
+  },
+  {
+    "objectID": "newsposts/events/20230929_DayOfBioinformatics/index.html",
+    "href": "newsposts/events/20230929_DayOfBioinformatics/index.html",
+    "title": "SLU’s Day of Bioinformatics",
+    "section": "",
+    "text": "Monday, 25th of September 2023, 09:00 - 15:00\nCampus Ultuna, in person, VHC, plan 2, sal Särimner\nCampus Alnarp, remotely, Horticum, sal Triticum\nor via Zoom\n\n Registration is now closed!\nThank-you for everybody who attended and made the day as successful as it was.\n\n Program\n\n\n\n\n\n\nStart\nSpeaker\nTitle\n\n\n\n\n09:00\nintroduction\n-\n\n\n09:15\nGabriella Lindgren\nAn endothelial regulatory module links blood pressure regulation with elite athletic performance\n\n\n09:30\nG&lt;U+00F6&gt;ran Andersson\nBioinformatics analyses of genomics, epigenomics and transcriptomics data of complex diseases&lt;U+00A0&gt;\n\n\n09:45\nJan Ingemar Ohlsson\nBioinformatics R-ABCD: Research Acceleration with Big Cow Data in Gigacow\n\n\n10:00\nMicael Landi\nUtilizing cassava genomes for genomics-assisted breeding\n\n\n10:15\nbreak\n-\n\n\n10:45\n&lt;U+00C1&gt;lvaro Mart&lt;U+00ED&gt;nez Barrio\n20 years of computational biology: where the road has taken us and the highway is leading\n\n\n11:30\nOlga Vinnere Pettersson\nGenomics for agriculture - two cases\n\n\n11:45\nGirma Gebresenbet\nDigitalization in agricultural practices\n\n\n12:00\nlunch\n-\n\n\n13:00\ndiscussion\nBioinformatics in Agricultural Sciences\n\n\n13:30\nSara Hallin\nMicrobes driving nitrogen losses and retention in soils\n\n\n13:45\nShrikant Sharma\nGenome editing in potatoes\n\n\n14:00\nbreak\n-\n\n\n14:15\nSalme Timmusk\nPlant-root microbiome interactions\n\n\n14:30\nMoritz Buck\nMicrobial diversity and nutrient cycling in the central arctic ocean\n\n\n14:45\nAnna Sz&lt;U+00E9&gt;kely\nEnvironmental virus sequencing and genotyping&lt;U+00A0&gt;as a tool of epidemiological&lt;U+00A0&gt;monitoring\n\n\n15:00\nclosing and fika\n-"
+  },
+  {
+    "objectID": "newsposts/events/future_events/20240514_sasuf/index.html",
+    "href": "newsposts/events/future_events/20240514_sasuf/index.html",
+    "title": "Workshop session at Sasuf Week",
+    "section": "",
+    "text": "Join us on the 14th of May to discover how open source tools can be used in process of describing plant-pathogen interactions. We will use browser and R-based tools to annotate genomes, perform functional annotation, and select genes that are important in both the process of a fungal pathogen infecting the plant, and the plant launching an immune response. We will use Cercospora and sugar beet as a model system, but the tools we will show can be applied to any plant-fungal patho-system.\nWe will also have a session in the afternoon with industry representatives where we will discuss how students and researchers can prepare themselves for a career move into industry, as well as how university-industry collaborations can be established and maintained.\nOur session will be hosted in Alnarp, and you are welcome to join via Zoom. No prior bioinformatics knowledge is required for this workshop.\nPlease sign up here: https://sasufevents2024.sched.com/event/c2a46acf1ef8613a5282f827b85cc8d4"
+  },
+  {
+    "objectID": "newsposts/events/20240314_nadas/index.html",
+    "href": "newsposts/events/20240314_nadas/index.html",
+    "title": "Nordic Network of Agricultural Data Scientists",
+    "section": "",
+    "text": "Technological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed. A number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.\nMore information on NADAS and its activities here."
+  },
+  {
+    "objectID": "newsposts/courses/202210_course_IntroToBioinf/index.html",
+    "href": "newsposts/courses/202210_course_IntroToBioinf/index.html",
+    "title": "Course: Introduction to Bioinformatics",
+    "section": "",
+    "text": "On this year’s edition of the popular course SLUBI has contributed with an Introduction to RNA Sequencing Data Analysis."
+  },
+  {
+    "objectID": "newsposts/courses/20231023_course_RNAseq/index.html",
+    "href": "newsposts/courses/20231023_course_RNAseq/index.html",
+    "title": "Course: Analysis of High Throughput Sequencing RNA-Seq Data",
+    "section": "",
+    "text": "High Throughput Sequencing (HTS) and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies. This course, aimed at advanced students, has the objective to help addressing this problem by (i) helping participants critically assess the challenges faced in the HTS field, (ii) developing efficient communication skill with bioinformatician, and (iii) training students in analyzing HTS data."
+  },
+  {
+    "objectID": "newsposts/courses/202211_course_RNAseq/index.html",
+    "href": "newsposts/courses/202211_course_RNAseq/index.html",
+    "title": "Course: Analysis of High Throughput Sequencing RNA-Seq Data",
+    "section": "",
+    "text": "High Throughput Sequencing (HTS) and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies. This course, aimed at advanced students, has the objective to help addressing this problem by (i) helping participants critically assess the challenges faced in the HTS field, (ii) developing efficient communication skill with bioinformatician, and (iii) training students in analyzing HTS data."
+  },
+  {
+    "objectID": "newsposts/courses/20231124_course_IntroToBioinf/index.html",
+    "href": "newsposts/courses/20231124_course_IntroToBioinf/index.html",
+    "title": "Course: Introduction to Bioinformatics",
+    "section": "",
+    "text": "We are happy to be teaching in this introductory course for PhD and Masters students.\nThis year SLUBI taught the Introduction to Next Generation Sequencing, as well as RNA-sequencing.\nMore information here."
+  },
+  {
+    "objectID": "newsposts/courses/202304_course_PopGen/index.html",
+    "href": "newsposts/courses/202304_course_PopGen/index.html",
+    "title": "Course: Applied population genetics in plant disease epidemiology,",
+    "section": "",
+    "text": "A course held in collaboration with the Research School Organism Biology in Ultuna.\nPopulation genetics is an important tool to understand the life cycles of microorganisms causing diseases in plants and is an important part of plant disease epidemiology. The aim of this course is to equip students with knowledge and tools to carry out a population genetic study in any pathosystem.\nAfter this course, the you will be able to: • Discuss population genetic theory and how it can be applied when studying disease causing organisms. • Design sampling strategies to address a given problem and set up an experiment for molecularbased population biological analysis to answer epidemiological questions. • Apply methods and analytical tools available in population genetics."
+  },
+  {
+    "objectID": "newsposts/seminars_workshops/20231113_3bees/index.html",
+    "href": "newsposts/seminars_workshops/20231113_3bees/index.html",
+    "title": "3B’s: Basic Biostatistics & Bioinformatics",
+    "section": "",
+    "text": "We are starting a topic-driven discussion series where Adam Flöhr from the Centre for Statistics will discuss the statistical magic behind some of the common methods we use, and Lizel Potgieter from SLUBI will use data to show a hands-on example of how to execute the analyses.\nMore information here."
+  },
+  {
+    "objectID": "newsposts/seminars_workshops/20180924_R_workshop/index.html",
+    "href": "newsposts/seminars_workshops/20180924_R_workshop/index.html",
+    "title": "Workshop for supervisors: Introduction to, and visualisation in R",
+    "section": "",
+    "text": "We organised a training day in R for supervisors. This was jointly organised with the Graduate School VMAS. The teacher Hadrien Gourlé is a Software Carpentry instructor."
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "Swedish Bioinformatics Workshop 2024\n\n\n\n\n\n\nworkshop\n\n\noutreach\n\n\n\nNovember 4th & 5th, 2024 on Campus Ultuna\n\n\n\n\n\nNov 4, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop session at Sasuf Week\n\n\n\n\n\n\nworkshop\n\n\nmeeting\n\n\n\nThe South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you.\n\n\n\n\n\nMay 14, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nNordic Network of Agricultural Data Scientists\n\n\n\n\n\n\nnetwork\n\n\ntraining\n\n\n\nA new collaboration together with colleagues from other Nordic countries, exchange ideas and develop training materials.\n\n\n\n\n\nMar 15, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation: Practical considerations and available tools for big data science\n\n\n\n\n\n\noutreach\n\n\nreproducibility\n\n\neducation\n\n\n\nTalking reproducible science at the Microbiome Research Initiative Meeting 2023.\n\n\n\n\n\nNov 9, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLU’s Day of Bioinformatics\n\n\n\n\n\n\nsymposium\n\n\nmeeting\n\n\n\nTerrestrial and aquatic communities, breeding, crop production, animal health, automatization – bioinformatics can also be for you! Listen to exciting SLU projects and be inspired.\n\n\n\n\n\nSep 29, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSciFest 2023\n\n\n\n\n\n\noutreach\n\n\neducation\n\n\n\nWe had a lot of fun at Uppsala’s Science Festival this year, talking about viruses, sequencing and metagenomics.\n\n\n\n\n\nSep 23, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI day 2023\n\n\n\n\n\n\nnews\n\n\nmeeting\n\n\n\nA day filled with bioinformatics\n\n\n\n\n\nFeb 27, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nUppmax meeting\n\n\n\n\n\n\nworkshop\n\n\nmeeting\n\n\n\nDiscuss existing computing solutions and future possibilities.\n\n\n\n\n\nMay 8, 2019\n\n\nSASUF\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI day 2018\n\n\n\n\n\n\nnews\n\n\nmeeting\n\n\n\nShowcasing SLUBI support and discussing long-term plans.\n\n\n\n\n\nJun 4, 2018\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI kickoff meeting\n\n\n\n\n\n\nmeeting\n\n\n\nWe are kicking off SLUBI with a celebration of bioinformatics. \n\n\n\n\n\nOct 27, 2017\n\n\nSLUBI\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Events",
+      "Events"
+    ]
+  },
+  {
+    "objectID": "abu.html",
+    "href": "abu.html",
+    "title": "Abu Bakar Siddique",
+    "section": "",
+    "text": "Bioinformatician (based at NJ in Ultuna)\nMetagenomics, DNASeq, Shotgun Seq, Metabarcoding (ITS), WGS analysis, Read Mapping, Genome assembly and annotation, wetlab: DNA, PCR, HTS library prep."
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "Course: Introduction to Bioinformatics\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science\n\n\n\n\n\nNov 24, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Genome-wide predictions in breeding: genotype-phenotype associations and genomic selection\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nAn introduction to R and large data handling\n\n\n\n\n\nNov 13, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Analysis of High Throughput Sequencing RNA-Seq Data\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nThe 2023 edition of our popular course - learn about the ins and outs of working with RNA-sequencing data.\n\n\n\n\n\nOct 23, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Applied Bioinformatics\n\n\n\n\n\n\ntraining\n\n\nnextflow\n\n\n\nTeaching an introduction to Nextflow to a diverse group of students from all over Sweden.\n\n\n\n\n\nMay 12, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Applied population genetics in plant disease epidemiology,\n\n\n\n\n\n\nnews\n\n\nmeeting\n\n\n\nWe are happy to teach the bioinformatics of population genetics in this masters course.\n\n\n\n\n\nMar 1, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Plant Biology for Breeding and Protection\n\n\n\n\n\n\ncourse\n\n\nbreeding\n\n\n\nMSc course held in Alnarp, Ultuna and online.\n\n\n\n\n\nJan 20, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Analysis of High Throughput Sequencing RNA-Seq Data\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nSLUBI’s very own course on RNA-sequencing data, held for the Research School Organism Biology.\n\n\n\n\n\nNov 12, 2022\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Introduction to Bioinformatics\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nOct 12, 2022\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Analysis of High Throughput Sequencing RNA-Seq Data\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nSLUBI’s very own course on analysing RNA-sequencing data.\n\n\n\n\n\nNov 29, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Introduction to Bioinformatics\n\n\n\n\n\n\ncourse\n\n\neducation\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nOct 4, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop: High Throughput Sequencing Data Analysis Workshop\n\n\n\n\n\n\nworkshop\n\n\neducation\n\n\n\n\n\n\n\n\n\nMar 2, 2020\n\n\nSLUBI\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Training",
+      "Courses"
+    ]
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "SLUBI contact information",
+    "section": "",
+    "text": "If you want to get help with a project or to get more information about our support or our prices, you have several options:\n\nWrite an email to slubi@slu.se.\nGet in contact with us during an online drop-in session.\nJoin our Slack workspace and chat with us.\nStop us in the corridor, or find us in our offices - there is a bioinformatician near you!\n\n We suggest that researchers contact SLUBI at an early stage to discuss the planned project, experimental design and what kind of support will be needed. Initial consultation is free. Subsequent SLUBI support and bioinformatics analyses cost 800 SEK/h.",
+    "crumbs": [
+      "About us",
+      "SLUBI contact information"
+    ]
+  },
+  {
+    "objectID": "lizel.html",
+    "href": "lizel.html",
+    "title": "Lizel Potgieter",
+    "section": "",
+    "text": "I am a trained molecular biologist turned bioinformatician, based at LTV in Alnarp\nComparative genomics, population genomics, variant calling, genome assembly and annotation."
+  },
+  {
+    "objectID": "adnan.html",
+    "href": "adnan.html",
+    "title": "Adnan Nizai",
+    "section": "",
+    "text": "Expert in RNAseq, Metabarcoding (16S/18S/ITS), Epigenomics (WGBS/RRBS), Genome assembly and annotation."
+  },
+  {
+    "objectID": "newsposts/seminars_workshops/20210827_seminar_statistics/index.html",
+    "href": "newsposts/seminars_workshops/20210827_seminar_statistics/index.html",
+    "title": "Statistics seminar series",
+    "section": "",
+    "text": "Follow this year’s seminar series and learn about different aspects of environmental statistics.\nMore information (also on past instances) here."
+  },
+  {
+    "objectID": "newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html",
+    "href": "newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html",
+    "title": "Bioinformatics in Umeå Workshop Series",
+    "section": "",
+    "text": "This is the fist in a series of workshop that aims to bring to Umeå experts from academia or the industry to deliver high quality workshops. A secondary aspect of these workshops will be to bring the Umeå bioinformatics crowd together to build a thriving community.\nNextflow is a widely adopted workflow system for running high-throughput, data-intensive applications across cloud and on-premise infrastructure. It has quickly become one of the primary technology platforms for computational workloads in life sciences. Its framework allows scientists to write code in any scripting language, define software dependencies with containers, connect tasks with the event-driven dataflow programming DSL and then deploy anywhere: local machines, grid computing systems or public cloud infrastructure.\nMore information here."
+  },
+  {
+    "objectID": "newsposts/courses/202303_course_PlantBreeding/index.html",
+    "href": "newsposts/courses/202303_course_PlantBreeding/index.html",
+    "title": "Course: Plant Biology for Breeding and Protection",
+    "section": "",
+    "text": "Course together with the Department of Plant Biology for Breeding and Protection.\nMore information on the course, its content and the next instance it will be run."
+  },
+  {
+    "objectID": "newsposts/courses/20231113_course_breeding/index.html",
+    "href": "newsposts/courses/20231113_course_breeding/index.html",
+    "title": "Course: Genome-wide predictions in breeding: genotype-phenotype associations and genomic selection",
+    "section": "",
+    "text": "This course has been designed for PhD students registered in the Organismal Biology Research School, in collaboration with the SLU breeding network. Experts in the plant and animal breeding areas at our university collaborate to answer common questions: (1) how to associate phenotypes and genotypes and (2) how to accelerate marker-assisted selection in the era of high throughput genome sequencing. While plant and animal populations are intrinsically different, quantitative genetics principles and association mapping methods rely on the same theoretical basis. Along the three weeks of this course, students from all the faculties across campuses will be able to review basic principles of association mapping, study in detail the bioinformatic methods today available, and do extensive hands-on work both on pre-designed examples or using their own data sets.\nMore information here."
+  },
+  {
+    "objectID": "newsposts/courses/20211129_course_RNAseq/index.html",
+    "href": "newsposts/courses/20211129_course_RNAseq/index.html",
+    "title": "Course: Analysis of High Throughput Sequencing RNA-Seq Data",
+    "section": "",
+    "text": "Developed from last year’s workshop, held for the Research School Organism Biology.\nHigh Throughput Sequencing (HTS) and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies. This course, aimed at advanced students, has the objective to help addressing this problem by (i) helping participants critically assess the challenges faced in the HTS field, (ii) developing efficient communication skill with bioinformatician, and (iii) training students in analyzing HTS data."
+  },
+  {
+    "objectID": "newsposts/courses/202110_course_IntroToBioinf/index.html",
+    "href": "newsposts/courses/202110_course_IntroToBioinf/index.html",
+    "title": "Course: Introduction to Bioinformatics",
+    "section": "",
+    "text": "This year SLUBI was teaching Epigenetics, as well as an Introduction to RNA-sequencing.\nThanks to the incredible team of teachers!\nMore information about the course here."
+  },
+  {
+    "objectID": "newsposts/courses/202010_course_RNAseq/index.html",
+    "href": "newsposts/courses/202010_course_RNAseq/index.html",
+    "title": "Workshop: High Throughput Sequencing Data Analysis Workshop",
+    "section": "",
+    "text": "A workshop organised and sponsored by the UPSCb, as part of SLUBI.\nTwo days of workshop, offered both in-person and online."
+  },
+  {
+    "objectID": "newsposts/courses/202305_course_MedBioInfo/index.html",
+    "href": "newsposts/courses/202305_course_MedBioInfo/index.html",
+    "title": "Course: Applied Bioinformatics",
+    "section": "",
+    "text": "The Swedish National Graduate School in Medical Bioinformatics (MedBioInfo) invited us to teach an introduction to Nextflow as part of their PhD course."
+  },
+  {
+    "objectID": "newsposts/events/20230923_SciFest/index.html",
+    "href": "newsposts/events/20230923_SciFest/index.html",
+    "title": "SciFest 2023",
+    "section": "",
+    "text": "SciFest is a science festival with a wide range of workshops, shows, competitions, researcher meet and greets, and lectures. Since 2020, the festival is co-organised by Uppsala University and the Swedish University of Agricultural Sciences.\nMore information here."
+  },
+  {
+    "objectID": "newsposts/events/future_events/20241104_SBW24/index.html",
+    "href": "newsposts/events/future_events/20241104_SBW24/index.html",
+    "title": "Swedish Bioinformatics Workshop 2024",
+    "section": "",
+    "text": "We are excited to plan this year’s edition of the Swedish Bioinformatics Workshop here at SLU, together with an enthusiastic group of young researchers from all over Uppsala.\nStay tuned for more information!"
+  },
+  {
+    "objectID": "newsposts/events/20180604_SLUBI_day/index.html",
+    "href": "newsposts/events/20180604_SLUBI_day/index.html",
+    "title": "SLUBI day 2018",
+    "section": "",
+    "text": "The day was divided into 2 parts: the morning was dedicated to presentations by SLUBI experts about the support they are providing or could provide. Everyone was welcome to this meeting. In the afternoon, we had an internal meeting where we invited personnel from the IT-department to discuss with them about cloud computing solutions and long-term storage."
+  },
+  {
+    "objectID": "newsposts/events/20230227_SLUBI_day/index.html",
+    "href": "newsposts/events/20230227_SLUBI_day/index.html",
+    "title": "SLUBI day 2023",
+    "section": "",
+    "text": "We had a nice fika with bioinformaticians all over Ultuna, discussed with experts from UPPMAX, visited the servers halls and met with NBIS bioinformaticians to discuss bioinformatics services for researchers."
+  },
+  {
+    "objectID": "newsposts/events/20171027_kickoff/index.html",
+    "href": "newsposts/events/20171027_kickoff/index.html",
+    "title": "SLUBI kickoff meeting",
+    "section": "",
+    "text": "Everyone interested in Bioinformatics was welcome to this meeting. We had short introductions from all participants when they presented briefly their field and what they were expecting from a Bioinformatics Infrastructure at SLU. The rest of the day was dedicated to brainstorming in groups and the participants discussed - Teaching/training activities - Organisation of the support - Activities for the bioinformatics community - Technical infrastructure organisation\nAll participants were invited to discuss at least 2 themes within an hour."
+  },
+  {
+    "objectID": "nicolas.html",
+    "href": "nicolas.html",
+    "title": "Nicolas Delhomme",
+    "section": "",
+    "text": "Geneticist by training, bioinformatician/biostatistician in practice, interested in gene regulation in a systems biology context, expert in expression profiling. Researcher, bioinformatician and UPSC Bioinformatics Facility Manager in Umeå."
+  },
+  {
+    "objectID": "amrei.html",
+    "href": "amrei.html",
+    "title": "Amrei Binzer-Panchal",
+    "section": "",
+    "text": "Biologist, bioinformatician and director of SLU’s bioinformatics infrastructure.\nI am a trained biologist and theoretical ecologist. My bioinformatics expertise is in analysing RNAseq, methylation data, microarrays, and 10x single cell RNAseq data. I enjoy training and connecting people."
+  },
+  {
+    "objectID": "organigram.html",
+    "href": "organigram.html",
+    "title": "SLUBI’s structure",
+    "section": "",
+    "text": "We are located at 3 SLU campuses, Alnarp, Ultuna and Umeå, and provide support to researchers from all 4 faculties: LTV (Faculty of Landscape Architecture, Horticulture and Crop Production Science), NJ (Faculty of Natural Resources and Agricultural Sciences ), S (Faculty of Forest Sciences) and VH (Faculty of Veterinary Medicine and Animal Science).",
+    "crumbs": [
+      "About us",
+      "SLUBI's structure"
+    ]
+  },
+  {
+    "objectID": "3BS.html",
+    "href": "3BS.html",
+    "title": "Basic Biostatistics & Bioinformatics",
+    "section": "",
+    "text": "SLUBI and the SLU Centre for Statistics are bringing you a new series focused on R and applications in bioinformatics.\nMondays in even weeks, 09:45 \nCampus Alnarp, Horticum \nor via Zoom (Password: 410 410) \n\n\n\n\n\n\nWe are starting a topic-driven discussion series where Adam Flöhr from the Centre for Statistics will discuss the statistical magic behind some of the common methods we use, and Lizel Potgieter from SLUBI will use data to show a hands-on example of how to execute the analyses.\n\nAll data and codes will be available at https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series.\n Program\n\n\n\n\n\n\nDate\nTopic\n\n\n\n\n13th Nov 2023\nIntroduction to R\n\n\n27th Nov 2023\nLinux Basics\n\n\n11th Dec 2023\nTheory and practice PCA\n\n\n15th Jan 2024\nIntroduction to Markdown\n\n\n12th Feb 2024\nPopulation Structure\n\n\n26th Feb 2024\nFunctions in R\n\n\n11th March 2024\nIntroduction to Python\n\n\n25th Match 2024\nIntroduction to Machine Learning\n\n\n8th April 2024\nIntermediate ggplot in R\n\n\n\n\n\n\n\n We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open:\nPlease fill out this questionnaire to decide what you would like to hear (more) about.",
+    "crumbs": [
+      "Training",
+      "Basic Biostatistics & Bioinformatics"
+    ]
+  },
+  {
+    "objectID": "online-resources.html",
+    "href": "online-resources.html",
+    "title": "Online resources",
+    "section": "",
+    "text": "Tools and Pipelines\n\n\n\n\n\n\n\n\n\n Nf-core - Portable, documented and easy to use workflows based on nextflow.\n\n\n\n\n \n\n\n Git - a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.\n\n\n\n\n\n\nTraining Resources\n\n\n\n\n\n\n\n\n\n\n Software Carprentries - teaching basic coding skills for research computing to researchers worldwide.\n\n\n\n\n \n\n\n The Unix Shell - a self paced introduction to the unix shell and command line operations, provided by the Software Carpentries.\n\n\n\n\n \n\n\n Elixir - brings together life science resources from across Europe, including databases, software tools, training materials, cloud storage and supercomputers.\n\n\n\n\n \n\n\n Code Refinery - teaching all the essential tools so everyone can make full use of software, computing, and data.\n\n\n\n\n\n\nComputing Resources\n\n\n\n\n\n\n\n\n\n\n SLUBI computing resources - we have local computing resources at all campuses and strive to coordinate the management of these.\n\n\n\n\n \n\n\n National Academic Infrastructure for Supercomputing in Sweden - organization for high-performance computing, storage, and data services for academic users in Sweden.\n\n\n\n\n \n\n\n UPPMAX - Uppsala Multidisciplinary Center for Advanced Computational Science, HPC computing rescource for Swedish scientists. Apply for free computing projects via NAISS.\n\n\n\n\n\n\n\n Microsoft Azure - SLU has an agreement with Microsoft Azure for cloud computing (including price discounts). You can get more information by contacting the SLU IT-support.\n\n\n\n\n\nSLU support\n\n\n\n\n\n\n\n\n\n\n Center for Statistics - a joint platform for statisticians at SLU to enable exchange of knowledge and to be a resource for the entire university by organizing workshops and providing statistical advice and support for all employees at SLU.\n\n\n\n\n\n\n\n Data Management Support - assists SLU employees with data management - from planning, including data management plans, to publishing, long-term preservation, archiving and the reuse of research and environmental assessment data.\n\n\n\n\n \n\n\n UPSC Bioinformatics Facility - centralises bioinformatics competences in Umeå, offering a range of bioinformatics services as well as local bioinformatics training, international workshops and training programs.\n\n\n\n\n\nSequencing Resources\n\n\n\n\n\n\n \n\n\n National Genomics Infrastructure - NGI Uppsala offers next generation sequencing (NGS) and genotyping services of high quality using the latest technologies to academic researchers in Sweden and abroad.\n\n\n\n\n \n\n\n SNP&SEQ - Part of NGI Sweden, hosted by SciLifeLab, offers genotyping and next generation sequencing services to academic researchers in Sweden.\n\n\n\n\n \n\n\n Uppsala Genome Center - Part of NGI Sweden, hosted by SciLifeLab, provides long read sequencing services, from i.e. PacBio, Ion, Oxford Nanopore.",
+    "crumbs": [
+      "Services",
+      "Online resources"
+    ]
+  },
+  {
+    "objectID": "support_what.html",
+    "href": "support_what.html",
+    "title": "Support",
+    "section": "",
+    "text": "Consultation\nThe support we offer is based on your needs. We offer free consultation in the planning stages of your project, or if you have some specific questions about best practices or optimal tools. We are here for your questions, for example in our drop-in.\n\n\nProject support\nWe also offer more intensive project support for SEK800 per hour. There, we only count time when our experts are actively working with your project (including meetings), compute-time is free. This support is highly individual and depends on your needs. We can run all bioinformatic analyses for you, or be a sounding board for you or your students in the progress of your project.\nIf you need a bioinformatician for your project you can hire a bioinformatician for a certain time.\n\n\nEducation and training\nWe offer a range of PhD and MSc courses on a multitude of bioinformatics topics. Check our list of past and present courses to see if something fits your interest. Most of these courses are on a recurring schedule.\nWe also organize seminars and workshops, shorter hands-on sessions on a selected range of topics. Notably, we have a recuring workshop session in collaboration with SLU’s Center for Statistics, the Basic Biostatistics & Bioinformatics Series. Here we explain basic statistics concepts, or introduce handy tools and techniques.\nWe also can arrange workshops on demand. So if there is a topic you are interested in, or you are organzing a course and need someone to teach the bioinformatics part, please contact us.\n\n\nAccess to our services\nWe have no application deadlines, and projects are accepted continuously.\nIf you are interested, please contact us. We will then set up a first meeting with one of our experts. Once you have agreed with the expert to what analyses should be performed, a contract will be written. Once the contract is agreed upon, signed by the project’s PI, and submitted to SLUBI, the support can start.\nDuring the support you will communicate with the expert via email and/or meetings as necessary. Our coordinator will also be available to support you if needed.",
+    "crumbs": [
+      "Services",
+      "Support"
+    ]
+  }
+]
