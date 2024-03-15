@@ -1,5 +1,6 @@
 ---
-title: "SLU's bioinformatics infrastructure"
+title: "SLUBI"
+description: SLU's bioinformatics infrastructure
 ---
 <br>
 

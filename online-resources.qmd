@@ -1,10 +1,10 @@
 ---
-title: "Online resources"
-
+title: "Tools and resources"
+description: useful bioinformatics tools and resources for you
 ---
 
 
-<br><br>
+<br>
 
 # Tools and Pipelines
 

@@ -24,9 +24,8 @@ website:
           - online-resources.qmd
       - section: "Training"
         contents:
-          - 3BS.qmd
           - courses.qmd
-          - workshops
+          - workshops.qmd
       - section: "Events"
         contents: 
           - events.qmd
@@ -35,7 +34,6 @@ website:
         contents: 
           - slubi.qmd
           - contact.qmd
-          - organigram.qmd
           - board.qmd
       - section: "Archive"
         contents: 

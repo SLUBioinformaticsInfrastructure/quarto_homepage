@@ -13,6 +13,49 @@ listing:
   grid-columns: 2
 ---
 
+We provide support and training in bioinformatics for SLU staff, and want to build a strong community of bioinformaticians within SLU. 
+
+Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp. 
+
+
+# Services
+::: {.card}
+<br>
+SLU's Bioinformatics Infrastructure offers a range of bioinformatics services, consultation, training and project support. 
+
+More information on our support [here](support_what.qmd).
+
+:::
+
+<br>
+
+::: {layout-ncol=2}
+
+#  Drop-in
+:::: {.card}
+<br>
+
+Every week we arrange a digital drop-in. If you have a question, want to discuss your project, know what tool or analyses fits your data best, join us!
+
+Every wednesday between 13:00 and 14:00 on Zoom. 
+
+ More information [here](dropin.qmd).
+::::
+
+# Training
+:::: {.card}
+<br>
+
+We want to advance expertise in bioinformatics at SLU through curated [courses](courses.qmd), [seminars &workshops](worskhops.qmd), and individual training sessions. 
+
+Pick an existing course or [contact us](contact.qmd) if there is a topic that is missing.
+
+<br>
+::::
+:::
+
+
+# Seminar series
 ::: {.card}
 
 <center>

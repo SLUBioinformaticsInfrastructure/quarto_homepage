@@ -1,5 +1,5 @@
 ---
-title: "Weekly drop-in"
+title: "Drop-in"
 description: |
   Every Wednesday 13:00-14:00
 ---

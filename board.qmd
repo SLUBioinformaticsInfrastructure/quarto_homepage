@@ -1,5 +1,5 @@
 ---
-title: "Our team"
+title: "Board"
 ---
 
 ::: {layout-ncol=2}

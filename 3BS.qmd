@@ -5,7 +5,7 @@ description: |
 ---
 
 ::: {layout-ncol=2}
-<br><br>
+<br>
 SLUBI and the SLU Centre for Statistics are bringing you a new series focused on R and applications in bioinformatics.\
   <b>Mondays in even weeks, 09:45 </b>\
   <b>Campus Alnarp, Horticum </b>\
@@ -13,7 +13,6 @@ SLUBI and the SLU Centre for Statistics are bringing you a new series focused on
 
 ![](images/3bees_opaque.png){.class width=80%}
 :::
-
 
 We are starting a topic-driven discussion series where Adam Flöhr from the Centre for Statistics will discuss the statistical magic behind some of the common methods we use, and Lizel Potgieter from SLUBI will use data to show a hands-on example of how to execute the analyses. \
 
