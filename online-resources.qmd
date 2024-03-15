@@ -1,0 +1,132 @@
+---
+title: "Online resources"
+
+---
+
+
+<br><br>
+
+# Tools and Pipelines
+
+::: {layout-ncol=2}
+[![](images/nf-core-logo-square.svg){.class width=50%}](https://nf-co.re/)
+
+<br>
+[Nf-core](https://nf-co.re/) - Portable, documented and easy to use workflows based on nextflow. 
+
+<br><br>
+[![](images/Git_square.png){.class width=50%}](https://git-scm.com/)
+
+<br><br>
+[Git](https://git-scm.com/) - a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. 
+
+:::
+
+<br><br>
+
+# Training Resources
+
+<br>
+
+::: {layout-ncol=2}
+[![](images/swc-hex-logo.svg){.class width=50%}](https://software-carpentry.org/)
+
+<br>
+[Software Carprentries](https://software-carpentry.org/) - teaching basic coding skills for research computing to researchers worldwide.
+
+<br><br>
+[![](images/terminal.png){.class width=50%}](https://swcarpentry.github.io/shell-novice/)
+
+<br><br><br>
+[The Unix Shell](https://swcarpentry.github.io/shell-novice/) - a self paced introduction to the unix shell and command line operations, provided by the Software Carpentries. 
+
+<br><br>
+[![](images/elixir.png){.class width=50%}](https://elixir-europe.org/)
+
+<br><br><br>
+[Elixir](https://elixir-europe.org/) - brings together life science resources from across Europe, including databases, software tools, training materials, cloud storage and supercomputers. 
+
+<br><br>
+[![](images/Code_refinery.png){.class width=50%}](https://coderefinery.org/)
+
+<br><br><br>
+[Code Refinery](https://coderefinery.org/) - teaching all the essential tools so everyone can make full use of software, computing, and data.
+
+:::
+
+<br><br>
+
+# Computing Resources
+
+<br>
+
+::: {layout-ncol=2}
+[![](images/SLUBI_logo.png){.class width=50%}](https://www.slubi.se)
+
+<br>
+[SLUBI computing resources](https://www.slubi.se/) - we have local computing resources at all campuses and strive to coordinate the management of these.
+
+<br><br><br>
+[![](images/naiss_logo_black.png){.class width=70%}](https://www.naiss.se/)
+
+<br>
+[National Academic Infrastructure for Supercomputing in Sweden](https://www.naiss.se/) - organization for high-performance computing, storage, and data services for academic users in Sweden. 
+
+<br><br>
+[![](images/uppmax.png){.class width=90%}](https://www.uppmax.uu.se/)
+
+<br>
+[UPPMAX](https://www.uppmax.uu.se/) - Uppsala Multidisciplinary Center for Advanced Computational Science, HPC computing rescource for Swedish scientists. Apply for free computing projects via [NAISS](https://www.uppmax.uu.se/support/getting-started/applying-for-a-user-account/).
+
+
+[![](images/microsoft-azure.jpg){.class width=90%}](https://azure.microsoft.com/de-de/)
+
+<br><br>
+[Microsoft Azure](https://azure.microsoft.com/de-de/) - SLU has an agreement with Microsoft Azure for cloud computing (including price discounts). You can get more information by contacting the SLU IT-support.
+:::
+
+
+# SLU support
+<br><br>
+
+::: {layout-ncol=2}
+[![](images/slu_logo_cmyk.jpg){.class width=60%}](https://www.slu.se/en/Collaborative-Centres-and-Projects/centreforstatistics/)
+
+<br>
+[Center for Statistics](https://www.slu.se/en/Collaborative-Centres-and-Projects/centreforstatistics/) -  a joint platform for statisticians at SLU to enable exchange of knowledge and to be a resource for the entire university by organizing workshops and providing statistical advice and support for all employees at SLU. 
+
+[![](images/slu_logo_cmyk.jpg){.class width=60%}](https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data/)
+
+<br>
+[Data Management Support](https://www.slu.se/en/subweb/library/publish-and-analyse/archiving-and-publishing-research-data/) -  assists SLU employees with data management - from planning, including data management plans, to publishing, long-term preservation, archiving and the reuse of research and environmental assessment data. 
+
+<br>
+[![](images/UPSC.png){.class width=60%}](https://www.upsc.se/platforms/upsc-bioinformatics-facility.html)
+
+<br>
+[UPSC Bioinformatics Facility](https://www.upsc.se/platforms/upsc-bioinformatics-facility.html) - centralises bioinformatics competences in Umeå, offering a range of bioinformatics services as well as local bioinformatics training, international workshops and training programs.
+
+:::
+
+# Sequencing Resources
+
+::: {layout-ncol=2}
+<br><br>
+[![](images/NGI-logo.svg){.class width=80%}](https://ngisweden.scilifelab.se/)
+
+<br>
+[National Genomics Infrastructure](https://ngisweden.scilifelab.se/) -   NGI Uppsala offers next generation sequencing (NGS) and genotyping services of high quality using the latest technologies to academic researchers in Sweden and abroad.
+
+<br><br>
+[![](images/SciLifeLab_Logotype_Green_POS.svg){.class width=80%}](https://www.medsci.uu.se/snpseq_technology_platfom/)
+
+<br>
+[SNP&SEQ](https://www.medsci.uu.se/snpseq_technology_platfom/) - Part of NGI Sweden, hosted by SciLifeLab, offers genotyping and next generation sequencing services to academic researchers in Sweden.
+
+<br><br>
+[![](images/SciLifeLab_Logotype_Green_POS.svg){.class width=80%}](https://www.ugc.igp.uu.se/our-services/sequencing/)
+
+<br>
+[Uppsala Genome Center](https://www.ugc.igp.uu.se/our-services/sequencing/) - Part of NGI Sweden, hosted by SciLifeLab, provides long read sequencing services, from i.e. PacBio, Ion, Oxford Nanopore.
+
+:::

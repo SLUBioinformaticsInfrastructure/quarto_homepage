@@ -1,0 +1,22 @@
+---
+title: "Presentation: Practical considerations and available tools for big data science"
+description: "Talking reproducible science at the Microbiome Research Initiative Meeting 2023."
+author: "SLUBI"
+date: "11-09-2023"
+categories:
+  - outreach
+  - reproducibility
+  - education
+image: amri.png
+---
+
+SLUBI representing SLU bioinformatics and talking about tools for reproducible research.
+
+Thank you for the invitation, and for the inspiring environment!
+
+Have a look at the presentation [here](https://figshare.com/articles/presentation/Practical_considerations_and_available_tools_for_big_data_science_/24754065).
+
+And read [here](https://www.amri-sweden.org/allhands-meeting-2023) more about the meeting and the initiative.
+
+<center>
+![](amri.png){#id .class width=60%}

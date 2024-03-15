@@ -1,0 +1,48 @@
+project:
+  type: website
+
+website: 
+  title: "SLU bioinformatics infrastructure"
+  description: Slubi homepage
+  navbar:
+    logo: images/SLUBI_logo.png
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/NADAS-network/homepage
+  sidebar:
+    style: "docked"
+    contents:
+      - section: "Home"
+        contents:
+          - index.qmd
+      - section: "Services"
+        contents:
+          - support_what.qmd
+          - dropin.qmd
+          - online-resources.qmd
+      - section: "Training"
+        contents:
+          - 3BS.qmd
+          - courses.qmd
+          - workshops
+      - section: "Events"
+        contents: 
+          - events.qmd
+          - social.qmd
+      - section: "About us"
+        contents: 
+          - slubi.qmd
+          - contact.qmd
+          - organigram.qmd
+          - board.qmd
+      - section: "Archive"
+        contents: 
+          - news.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true

@@ -1,0 +1,30 @@
+---
+title: "Our team"
+---
+
+::: {layout-ncol=2}
+<br>
+![](images/Dirk-Jan_de_Koning.jpg){.class width=50%}
+
+<br><br><br>
+Dirk-Jan de Koning, chair of board (VH, Ultuna)
+
+<br><br><br><br>
+Stéphanie Robert, board member (S, Umeå)
+
+<br>
+![](images/Stephanie_Robert.jpeg){.class width=50%}
+
+<br>
+![](images/AndersCarlsson_jsg.jpg){.class width=50%}
+
+<br><br><br><br>
+Anders Carlsson, board member (LTV, Alnarp)
+
+
+<br><br><br>
+Sara Hallin, board member (NJ, Ultuna)
+
+<br>
+![](images/SaraHallin.jpg){.class width=50%}
+:::

@@ -1,0 +1,18 @@
+---
+title: "Swedish Bioinformatics Workshop 2024"
+description: "November 4th & 5th, 2024 on Campus Ultuna"
+author: "SLUBI"
+date: "11-04-2024"
+categories:
+  - workshop
+  - outreach
+image: SBW24.PNG
+---
+
+We are excited to plan this year's edition of the Swedish Bioinformatics Workshop here at SLU, together with an enthusiastic group of young researchers from all over Uppsala. 
+
+Stay tuned for more information!
+
+
+<center>
+![](SBW24.PNG){.class width=60%}

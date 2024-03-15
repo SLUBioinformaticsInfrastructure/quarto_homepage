@@ -1,0 +1,16 @@
+---
+title: "Course: Introduction to Bioinformatics"
+description: "A course together with SLU’s Graduate School for Veterinary Medicine and Animal Science."
+author: "SLUBI"
+date: "10-12-2022"
+categories:
+  - course
+  - education
+image: IntroBioinf.png
+---
+
+On this year's edition of the popular course SLUBI has contributed with an Introduction to RNA Sequencing Data Analysis. 
+
+
+<center>
+![](IntroBioinf.png){.class width=60%}

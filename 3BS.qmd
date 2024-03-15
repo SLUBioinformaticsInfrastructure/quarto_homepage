@@ -1,0 +1,42 @@
+---
+title: "Basic Biostatistics & Bioinformatics"
+description: |
+  practical concepts and coding for everyone
+---
+
+::: {layout-ncol=2}
+<br><br>
+SLUBI and the SLU Centre for Statistics are bringing you a new series focused on R and applications in bioinformatics.\
+  <b>Mondays in even weeks, 09:45 </b>\
+  <b>Campus Alnarp, Horticum </b>\
+  <b>or via [Zoom](https://slu-se.zoom.us/j/69486568642) (Password: 410 410) </b>
+
+![](images/3bees_opaque.png){.class width=80%}
+:::
+
+
+We are starting a topic-driven discussion series where Adam Flöhr from the Centre for Statistics will discuss the statistical magic behind some of the common methods we use, and Lizel Potgieter from SLUBI will use data to show a hands-on example of how to execute the analyses. \
+
+All data and codes will be available at https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series.
+
+<br>
+**Program** \
+
+
+```{r echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library("xlsx")
+library(knitr)
+library(kableExtra)
+table <- read.xlsx("3bees_schedule.xlsx", 1, header=TRUE)
+dt <- table[1:9,1:2]
+dt %>%
+  kbl() %>%
+  kable_material(c("striped", "hover"))
+```
+
+<br>
+We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open: 
+
+Please fill out [this questionnaire](https://forms.gle/4juDXf3tK8dSxmpe8) to decide what you would like to hear (more) about. 
+

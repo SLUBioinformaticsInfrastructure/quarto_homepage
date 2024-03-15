@@ -1,0 +1,15 @@
+---
+title: "Adnan Nizai"
+about: 
+  template: jolla
+  image: images/AdnanNiazi.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      url: "https://se.linkedin.com/in/adnan-niazi-93a6333a"
+    - icon: github
+      text: Github
+      href: https://github.com/daniazi
+---
+ 
+Expert in RNAseq, Metabarcoding (16S/18S/ITS), Epigenomics (WGBS/RRBS), Genome assembly and annotation.

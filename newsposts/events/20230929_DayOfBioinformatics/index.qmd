@@ -1,0 +1,39 @@
+---
+title: "SLU's Day of Bioinformatics"
+description: "Terrestrial and aquatic communities, breeding, crop production, animal health, automatization
+– bioinformatics can also be for you! Listen to exciting SLU projects and be inspired."
+author: "SLUBI"
+date: "09-29-2023"
+categories:
+  - symposium
+  - meeting
+image: SDB.png
+---
+
+<br><br>
+<center>
+  **Monday, 25th of September 2023, 09:00 - 15:00** \
+  **Campus Ultuna, in person, VHC, plan 2, sal Särimner** \
+  **Campus Alnarp, remotely, Horticum, sal Triticum** \
+  **or via Zoom**
+</center>
+
+<br><br>
+**Registration is now closed!** \
+Thank-you for everybody who attended and made the day as successful as it was. \
+
+<br><br>
+**Program** \
+
+
+```{r echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library("xlsx")
+library(knitr)
+library(kableExtra)
+table <- read.xlsx("SBD_schedule.xlsx", 1, header=TRUE)
+dt <- table[1:18,1:3]
+dt %>%
+  kbl() %>%
+  kable_material(c("striped", "hover"))
+```

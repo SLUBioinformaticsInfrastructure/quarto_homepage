@@ -1,0 +1,24 @@
+---
+title: "Workshop session at Sasuf Week"
+description: "The South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you."
+author: "SLUBI"
+date: "05-14-2024"
+categories:
+  - workshop
+  - meeting
+image: sasuf_2024.png
+---
+
+Join us on the 14th of May to discover how open source tools can be used in process of describing plant-pathogen interactions. We will use browser and R-based tools to annotate genomes, perform functional annotation, and select genes that are important in both the process of a fungal pathogen infecting the plant, and the plant launching an immune response. We will use Cercospora and sugar beet as a model system, but the tools we will show can be applied to any plant-fungal patho-system.
+
+We will also have a session in the afternoon with industry representatives where we will discuss how students and researchers can prepare themselves for a career move into industry, as well as how university-industry collaborations can be established and maintained.
+
+Our session will be hosted in Alnarp, and you are welcome to join via Zoom. No prior bioinformatics knowledge is required for this workshop.
+
+Please sign up here: https://sasufevents2024.sched.com/event/c2a46acf1ef8613a5282f827b85cc8d4
+ 
+
+
+
+<center>
+![](sasuf_2024.png){#id .class width=60%}

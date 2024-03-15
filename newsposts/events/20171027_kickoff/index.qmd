@@ -1,0 +1,20 @@
+---
+title: "SLUBI kickoff meeting"
+description: "We are kicking off SLUBI with a celebration of bioinformatics. "
+author: "SLUBI"
+date: "10-27-2017"
+categories:
+  - meeting
+image: group_pic.jpeg
+---
+
+Everyone interested in Bioinformatics was welcome to this meeting. We had short introductions from all participants when they presented briefly their field and what they were expecting from a Bioinformatics Infrastructure at SLU. The rest of the day was dedicated to brainstorming in groups and the participants discussed
+- Teaching/training activities
+- Organisation of the support
+- Activities for the bioinformatics community
+- Technical infrastructure organisation
+
+All participants were invited to discuss at least 2 themes within an hour.
+
+<center>
+![](group_pic.jpeg){#id .class width=60%}

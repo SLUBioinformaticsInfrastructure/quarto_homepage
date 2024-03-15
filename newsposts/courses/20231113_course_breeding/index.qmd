@@ -1,0 +1,19 @@
+---
+title: "Course: Genome-wide predictions in breeding: genotype-phenotype associations and genomic selection"
+description: "An introduction to R and large data handling"
+author: "SLUBI"
+date: "11-13-2023"
+categories:
+  - course
+  - education
+image: breeding.png
+---
+
+This course has been designed for PhD students registered in the Organismal Biology Research School, in collaboration with the SLU breeding network. Experts in the plant and animal breeding areas at our university collaborate to answer common questions: (1) how to associate phenotypes and genotypes and (2) how to accelerate marker-assisted selection in the era of high throughput genome sequencing. While plant and animal populations are intrinsically different, quantitative genetics principles and association mapping methods rely on the same theoretical basis. Along the three weeks of this course, students from all the faculties across campuses will be able to review basic principles of association mapping, study in detail the bioinformatic methods today available, and do extensive hands-on work both on pre-designed examples or using their own data sets.
+
+More information [here](https://www.slu.se/globalassets/ew/org/fsk/orgb/documents/syllabus_genome-wide-predictions-in-breeding.pdf).
+
+
+
+<center>
+![](breeding.png){#id .class width=60%}

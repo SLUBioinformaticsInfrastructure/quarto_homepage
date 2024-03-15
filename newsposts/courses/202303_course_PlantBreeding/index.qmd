@@ -1,0 +1,19 @@
+---
+title: "Course: Plant Biology for Breeding and Protection"
+description: "MSc course held in Alnarp, Ultuna and online."
+author: "SLUBI"
+date: "01-20-2023"
+categories:
+  - course
+  - breeding
+image: plant_breeding.png
+---
+
+Course together with the Department of Plant Biology for Breeding and Protection. 
+
+[More information](https://www.slu.se/en/education/programmes-courses/course/BI1296/30023.2425) on the course, its content and the next instance it will be run. 
+
+
+
+<center>
+![](plant_breeding.png){ .class width=60%}

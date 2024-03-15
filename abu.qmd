@@ -1,0 +1,17 @@
+---
+title: "Abu Bakar Siddique"
+about: 
+  template: jolla
+  image: images/Abu_2023.jpg
+  links:
+    - icon: ORCID
+      text: ORCID
+      url: "https://orcid.org/0000-0002-0472-0609"
+    - icon: github
+      text: Github
+      href: https://github.com/amrei-bp
+---
+ 
+Bioinformatician (based at NJ in Ultuna)
+
+Metagenomics, DNASeq, Shotgun Seq, Metabarcoding (ITS), WGS analysis, Read Mapping, Genome assembly and annotation, wetlab: DNA, PCR, HTS library prep.

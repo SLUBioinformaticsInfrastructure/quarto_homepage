@@ -1,0 +1,18 @@
+---
+title: "Statistics seminar series"
+description: "The 2021 edition of the seminar series of SLU's Center for Statistics, this year on environmental statistics"
+author: "SLUBI"
+date: "08-27-2021"
+categories:
+  - seminar
+  - statistics
+image: Statistics_Seminar_screenshot.png
+---
+
+Follow this year's seminar series and learn about different aspects of environmental statistics. 
+
+More information (also on past instances) [here](https://www.slu.se/en/Collaborative-Centres-and-Projects/centreforstatistics/knowledge-base/statisticsslu-seminar-series-and-workshops/).
+
+
+<center>
+![](Statistics_Seminar_screenshot.png){#id .class width=60%}

@@ -1,0 +1,15 @@
+---
+title: "Course: Applied Bioinformatics "
+description: "Teaching an introduction to Nextflow to a diverse group of students from all over Sweden."
+author: "SLUBI"
+date: "05-12-2023"
+categories:
+  - training
+  - nextflow
+image: MedBioINfo_photo-amphitheater.jpeg
+---
+
+The [Swedish National Graduate School in Medical Bioinformatics (MedBioInfo)](https://www.medbioinfo.se/) invited us to teach an introduction to Nextflow as part of their PhD course.
+
+<center>
+![](MedBioINfo_photo-amphitheater.jpeg){ .class width=60%}

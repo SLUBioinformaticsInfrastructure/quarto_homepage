@@ -1,0 +1,16 @@
+---
+title: "SLUBI day 2023"
+description: "A day filled with bioinformatics"
+author: "SLUBI"
+date: "02-27-2023"
+categories:
+  - news
+  - meeting
+image: IMG_8241.jpg
+---
+
+We had a nice fika with bioinformaticians all over Ultuna, discussed with experts from UPPMAX, visited the servers halls and met with NBIS bioinformaticians to discuss bioinformatics services for researchers.
+
+
+<center>
+![](IMG_8241.jpg){#id .class width=60%}

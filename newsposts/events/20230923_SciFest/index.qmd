@@ -1,0 +1,17 @@
+---
+title: "SciFest 2023"
+description: "We had a lot of fun at Uppsala's Science Festival this year, talking about viruses, sequencing and metagenomics."
+author: "SLUBI"
+date: "09-23-2023"
+categories:
+  - outreach
+  - education
+image: SciFest.png
+---
+
+SciFest is a science festival with a wide range of workshops, shows, competitions, researcher meet and greets, and lectures. Since 2020, the festival is co-organised by Uppsala University and the Swedish University of Agricultural Sciences.
+
+More information [here](https://www.scifest.se/). 
+
+<center>
+![](SciFest.png){.class width=60%}

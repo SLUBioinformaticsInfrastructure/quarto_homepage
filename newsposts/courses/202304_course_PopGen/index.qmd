@@ -1,0 +1,22 @@
+---
+title: "Course: Applied population genetics in plant disease epidemiology,"
+description: "We are happy to teach the bioinformatics of population genetics in this masters course."
+author: "SLUBI"
+date: "03-01-2023"
+categories:
+  - news
+  - meeting
+image: popgen.png
+---
+
+A course held in collaboration with the Research School Organism Biology in Ultuna. 
+
+Population genetics is an important tool to understand the life cycles of microorganisms causing diseases in plants and is an important part of plant disease epidemiology. The aim of this course is to equip students with knowledge and tools to carry out a population genetic study in any pathosystem.
+
+After this course, the you will be able to:
+• Discuss population genetic theory and how it can be applied when studying disease causing organisms.
+• Design sampling strategies to address a given problem and set up an experiment for molecularbased population biological analysis to answer epidemiological questions.
+• Apply methods and analytical tools available in population genetics.
+
+<center>
+![](popgen.png){.class width=60%}

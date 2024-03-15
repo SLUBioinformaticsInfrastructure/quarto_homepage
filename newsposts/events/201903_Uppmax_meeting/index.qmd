@@ -1,0 +1,15 @@
+---
+title: "Uppmax meeting"
+description: "Discuss existing computing solutions and future possibilities."
+author: "SASUF"
+date: "05-08-2019"
+categories:
+  - workshop
+  - meeting
+image: uppmax.png
+---
+
+We discussed computing solutions by SNIC and UPPMAX with seven UPPMAX experts and learned tips and trick on how to run code on a high performance computer.
+
+<center>
+![](uppmax.png){.class width=60%}

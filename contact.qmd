@@ -1,0 +1,24 @@
+---
+title: "SLUBI contact information"
+  
+---
+
+<br>
+If you want to get help with a project or to get more information about our support or our prices, you have several options:
+    
+1. Write an email to slubi@slu.se.
+  
+2. Get in contact with us during an [online drop-in session](dropin.qmd).
+  
+3. Join our [Slack workspace](https://join.slack.com/t/slubi-workspace/shared_invite/zt-hamul6ub-VjMU0F2ZlonsqgXSVg7Cng) and chat with us.
+
+4. Stop us in the corridor, or find us in our offices - there is a bioinformatician near you!
+
+<br>
+We suggest that researchers contact SLUBI at an early stage to discuss the planned project, experimental design and what kind of support will be needed. Initial consultation is free. Subsequent SLUBI support and bioinformatics analyses cost 800 SEK/h.
+  
+<br>
+<center>
+![](images/SLUBI_logo.png){#id .class width=15%}
+</center>
+ 

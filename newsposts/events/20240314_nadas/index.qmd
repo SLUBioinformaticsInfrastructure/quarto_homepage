@@ -1,0 +1,17 @@
+---
+title: "Nordic Network of Agricultural Data Scientists"
+description: "A new collaboration together with colleagues from other Nordic countries, exchange ideas and develop training materials."
+author: "SLUBI"
+date: "03-15-2024"
+categories:
+  - network
+  - training
+image: Logo_hands.web_cleaned_final.png
+---
+
+Technological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed. A number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.
+
+More information on NADAS and its activities [here](https://nadas-network.github.io/homepage/).
+
+<center>
+![](Logo_hands.web_cleaned_final.png){.class width=60%}

@@ -1,0 +1,10 @@
+---
+title: "SLUBI's structure"
+---
+
+
+We are located at 3 SLU campuses, Alnarp, Ultuna and Umeå, and provide support to researchers from all 4 faculties: LTV (Faculty of Landscape Architecture, Horticulture and Crop Production Science), NJ (Faculty of Natural Resources and Agricultural Sciences ), S (Faculty of Forest Sciences) and VH (Faculty of Veterinary Medicine and Animal Science). 
+
+<center>
+  ![](images/SLUBi_organigram.png){#id .class width=100% height=100%}
+</center>

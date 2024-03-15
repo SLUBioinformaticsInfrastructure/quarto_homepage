@@ -1,0 +1,79 @@
+---
+title: "SLU's bioinformatics infrastructure"
+---
+<br>
+
+# Our goal
+
+Our goal is to provide support and training in bioinformatics for SLU staff, and to build a strong community of bioinformaticians within SLU. Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp. We want to join forces and coordinate teaching activities, common resources (hardware, software).
+
+<center>
+![](images/flagga.jpg){.class width=45% height=75%}
+</center>
+
+<br>
+
+# Our team
+
+We are a group of skilled bioinformaticians. Please klick on us to see more about our background. 
+
+::: {layout-ncol=2}
+
+:::: {.card}
+<br>
+<center>
+[![](images/Amrei_Binzer-Panchal.jpg){.class width=50%}](amrei.qmd) 
+</center>
+
+<br>
+[Amrei Binzer-Panchal, bioinformatician in Ultuna (VH faculty)](amrei.qmd): head of the infrastructure, and expert in analysing RNAseq, methylation data, microarrays, and 10x single cell RNAseq data.
+::::
+
+:::: {.card}
+<br>
+<center>
+[![](images/NicolasDelhomme_9704.jpg){.class width=50%}](nicolas.qmd)
+</center>
+
+<br>
+[Nicolas Delhomme, bioinformatician in Umeå (S faculty)](nicolas.qmd): head of the [UPSC Bioinformatics Facility](https://www.upsc.se/platforms/upsc-bioinformatics-facility.html), expert in expression profiling and anything bioinformatics related.
+::::
+
+<br>
+
+<br>
+
+:::: {.card}
+<br>
+<center>
+[![](images/potgieter.jpg){.class width=50%}](lizel.qmd)
+</center>
+
+<br>
+[Lizel Potgieter, bioinformatician in Alnarp (LTV faculty)](lizel.qmd): our plant breeding, comparative genomics, population genomics, variant calling, genome assembly and annotation expert.
+::::
+
+:::: {.card}
+<br>
+<center>
+[![](images/AdnanNiazi.jpg){.class width=50%}](adnan.qmd)
+</center>
+
+<br>
+[Adnan Niazi, bioinformatician in Ultuna (VH faculty)](adnan.qmd): our expert in RNAseq, metabarcoding (16S/18S/ITS), epigenomics (WGBS/RRBS), genome assembly and annotation.
+::::
+
+<br> 
+
+<br>
+
+:::: {.card}
+<br>
+<center>
+[![](images/Abu_2023.jpg){.class width=50%}](abu.qmd)
+</center>
+
+<br>
+[Abu Bakar Siddique, bioinformatician in Ultuna (NJ faculty)](abu.qmd): our expert in metagenomics, DNASeq, shotgun seq, metabarcoding (ITS), WGS analysis, read mapping, genome assembly and annotation. With wetlab experience in DNA, PCR and HTS library prep.
+::::
+:::

@@ -1,0 +1,22 @@
+---
+title: "Bioinformatics in Umeå
+Workshop Series"
+description: "The first instance of the new bioinformatics workshop series. Learn about Nextflow and how to write your own pipeline."
+author: "SLUBI"
+date: "11-16-2023"
+categories:
+  - seminar
+  - nextflow
+  - education
+  - workshop
+image: nf_umea.png
+---
+
+This is the fist in a series of workshop that aims to bring to Umeå experts from academia or the industry to deliver high quality workshops. A secondary aspect of these workshops will be to bring the Umeå bioinformatics crowd together to build a thriving community.
+
+Nextflow is a widely adopted workflow system for running high-throughput, data-intensive applications across cloud and on-premise infrastructure. It has quickly become one of the primary technology platforms for computational workloads in life sciences. Its framework allows scientists to write code in any scripting language, define software dependencies with containers, connect tasks with the event-driven dataflow programming DSL and then deploy anywhere: local machines, grid computing systems or public cloud infrastructure. 
+
+More information [here](http://natstreet.upsc.se:3001/).
+
+<center>
+![](nf_umea.png){ .class width=60%}

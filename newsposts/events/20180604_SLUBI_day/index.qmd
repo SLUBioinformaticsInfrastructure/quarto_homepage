@@ -1,0 +1,15 @@
+---
+title: "SLUBI day 2018"
+description: "Showcasing SLUBI support and discussing long-term plans."
+author: "SLUBI"
+date: "06-04-2018"
+categories:
+  - news
+  - meeting
+image: 20180604_SLUBI_day_flyer_1A4.png
+---
+
+The day was divided into 2 parts: the morning was dedicated to presentations by SLUBI experts about the support they are providing or could provide. Everyone was welcome to this meeting. In the afternoon, we had an internal meeting where we invited personnel from the IT-department to discuss with them about cloud computing solutions and long-term storage.
+
+<center>
+![](20180604_SLUBI_day_flyer_1A4.png){ .class width=60%}

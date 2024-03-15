@@ -1,0 +1,19 @@
+---
+title: "Course: Introduction to Bioinformatics"
+description: "A course together with SLU's Graduate School for Veterinary Medicine and Animal Science"
+author: "SLUBI"
+date: "11-24-2023"
+categories:
+  - course
+  - education
+image: IntroBioinf.png
+---
+
+We are happy to be teaching in this introductory course for PhD and Masters students. 
+
+This year SLUBI taught the Introduction to Next Generation Sequencing, as well as RNA-sequencing. 
+
+More information [here](https://www.slu.se/en/education/programmes-courses/course/PVS0141/0/Introduction-to-bioinformatics/).
+
+<center>
+![](IntroBioinf.png){.class width=60%}

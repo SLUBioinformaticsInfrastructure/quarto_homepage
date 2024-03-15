@@ -1,0 +1,15 @@
+---
+title: "Workshop for supervisors: Introduction to, and visualisation in R"
+description: "Training day to get to know the possibilities of R"
+author: "SLUBI"
+date: "09-24-2018"
+categories:
+  - education
+  - workshop
+image: workshop_R_2018_sept.png
+---
+
+We organised a training day in R for supervisors. This was jointly organised with the Graduate School VMAS. The teacher Hadrien Gourlé is a [Software Carpentry](https://software-carpentry.org) instructor.
+
+<center>
+![](workshop_R_2018_sept.png){.class width=60%}

@@ -1,0 +1,19 @@
+---
+title: "3B's: Basic Biostatistics & Bioinformatics"
+description: "Today we finally launch our long awaited collaboration with SLU's Center for Statistics."
+author: "SLUBI"
+date: "11-13-2023"
+categories:
+  - seminar
+  - workshop
+  - statistics
+image: 3bees_fulltext.png
+---
+
+<center>
+![](3bees_fulltext.png){ .class width=60%}
+</center>
+
+We are starting a topic-driven discussion series where Adam Flöhr from the Centre for Statistics will discuss the statistical magic behind some of the common methods we use, and Lizel Potgieter from SLUBI will use data to show a hands-on example of how to execute the analyses.
+
+More information [here](../../3BS.qmd).

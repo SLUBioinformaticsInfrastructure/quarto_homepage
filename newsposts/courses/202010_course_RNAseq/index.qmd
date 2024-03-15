@@ -1,0 +1,17 @@
+---
+title: "Workshop: High Throughput Sequencing Data Analysis Workshop"
+description: ""
+author: "SLUBI"
+date: "03-02-2020"
+categories:
+  - workshop
+  - education
+image: code.png
+---
+
+A workshop organised and sponsored by the UPSCb, as part of SLUBI.
+
+Two days of workshop, offered both in-person and online.
+
+<center>
+![](code.png){.class width=60%}

@@ -1,0 +1,17 @@
+---
+title: "Course: Analysis of High Throughput Sequencing RNA-Seq Data"
+description: "SLUBI's very own course on analysing RNA-sequencing data."
+author: "SLUBI"
+date: "11-29-2021"
+categories:
+  - course
+  - education
+image: code.png
+---
+
+Developed from last year's workshop, held for the Research School Organism Biology. 
+
+High Throughput Sequencing (HTS) and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies. This course, aimed at advanced students, has the objective to help addressing this problem by (i) helping participants critically assess the challenges faced in the HTS field, (ii) developing efficient communication skill with bioinformatician, and (iii) training students in analyzing HTS data.
+
+<center>
+![](code.png){ .class width=60%}
