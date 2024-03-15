@@ -14,7 +14,7 @@ website:
   sidebar:
     style: "docked"
     background: "primary"
-    border: true
+    border: false
     bread-crumbs: false
     contents:
       - section: "Home"
