@@ -1,6 +1,9 @@
 project:
   type: website
 
+execute:
+  freeze: auto
+
 website: 
   title: "SLU bioinformatics infrastructure"
   description: Slubi homepage
