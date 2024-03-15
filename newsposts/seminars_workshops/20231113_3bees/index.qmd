@@ -16,4 +16,4 @@ image: 3bees_fulltext.png
 
 We are starting a topic-driven discussion series where Adam Flöhr from the Centre for Statistics will discuss the statistical magic behind some of the common methods we use, and Lizel Potgieter from SLUBI will use data to show a hands-on example of how to execute the analyses.
 
-More information [here](../../3BS.qmd).
+More information [here](../../../3BS.qmd).
