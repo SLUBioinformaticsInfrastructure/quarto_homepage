@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -67,8 +67,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -88,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">SLU bioinformatics infrastructure</span>
     </a>
   </div>
-        <div class="quarto-navbar-tools">
+        <div class="quarto-navbar-tools tools-end">
     <div class="dropdown">
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
       <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -314,58 +312,52 @@ ul.task-list li input[type="checkbox"] {
 <p>All data and codes will be available at https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series.</p>
 <p><br> <strong>Program</strong><br>
 </p>
-<div class="cell">
-<div class="cell-output-display">
-<table class="lightable-material lightable-striped lightable-hover table table-sm table-striped small" data-quarto-postprocess="true">
+<table class="table-striped table-hover table">
 <thead>
 <tr class="header">
-<th style="text-align: left;" data-quarto-table-cell-role="th">Date</th>
-<th style="text-align: left;" data-quarto-table-cell-role="th">Topic</th>
+<th>Date</th>
+<th>Topic</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">13th Nov 2023</td>
-<td style="text-align: left;">Introduction to R</td>
+<td>8th April 2024</td>
+<td>Intermedial ggplot in R</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">27th Nov 2023</td>
-<td style="text-align: left;">Linux Basics</td>
+<td>25th Match 2024</td>
+<td>Introduction to Neural Networks</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">11th Dec 2023</td>
-<td style="text-align: left;">Theory and practice PCA</td>
+<td>11th March 2024</td>
+<td>Introduction to Python</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">15th Jan 2024</td>
-<td style="text-align: left;">Introduction to Markdown</td>
+<td>26th Feb 2024</td>
+<td>How to write functions in R</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">12th Feb 2024</td>
-<td style="text-align: left;">Population Structure</td>
+<td>12th Feb 2024</td>
+<td>Population Structure</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">26th Feb 2024</td>
-<td style="text-align: left;">Functions in R</td>
+<td>15th Jan 2024</td>
+<td>Introduction to Markdown</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">11th March 2024</td>
-<td style="text-align: left;">Introduction to Python</td>
+<td>11th Dec 2023</td>
+<td>Theory and practice PCA</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">25th Match 2024</td>
-<td style="text-align: left;">Introduction to Machine Learning</td>
+<td>27th Nov 2023</td>
+<td>Linux Basics</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">8th April 2024</td>
-<td style="text-align: left;">Intermediate ggplot in R</td>
+<td>13th Nov 2023</td>
+<td>Introduction to R</td>
 </tr>
 </tbody>
 </table>
-
-
-</div>
-</div>
 <p><br> We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open:</p>
 <p>Please fill out <a href="https://forms.gle/4juDXf3tK8dSxmpe8">this questionnaire</a> to decide what you would like to hear (more) about.</p>
 
@@ -451,6 +443,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/SLUBioinformaticsInfrastructure\.github\.io\/quarto_homepage\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -485,7 +495,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
