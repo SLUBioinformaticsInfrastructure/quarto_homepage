@@ -21,18 +21,19 @@ All data and codes will be available at https://github.com/SLUBioinformaticsInfr
 <br>
 **Program** \
 
+| Date  | Topic  |
+|--------|--------|
+| 8th April 2024 | Intermedial ggplot in R   |
+| 25th Match 2024   | Introduction to Neural Networks   |
+| 11th March 2024 | Introduction to Python  |
+| 26th Feb 2024 | How to write functions in R |
+| 12th Feb 2024 | Population Structure |
+| 15th Jan 2024 | Introduction to Markdown  |
+| 11th Dec 2023 | Theory and practice PCA  |
+| 27th Nov 2023 | Linux Basics  |
+| 13th Nov 2023 | Introduction to R  |
 
-```{r echo = FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library("xlsx")
-library(knitr)
-library(kableExtra)
-table <- read.xlsx("3bees_schedule.xlsx", 1, header=TRUE)
-dt <- table[1:9,1:2]
-dt %>%
-  kbl() %>%
-  kable_material(c("striped", "hover"))
-```
+: {.striped .hover}
 
 <br>
 We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open: 

@@ -25,15 +25,25 @@ Thank-you for everybody who attended and made the day as successful as it was. \
 <br><br>
 **Program** \
 
+|Start  | Speaker  | Title|
+|------|----------|-------------------|
+|09:00  | introduction  |  |
+|09:15  | Gabriella Lindgren  | An endothelial regulatory module links blood pressure regulation with elite athletic performance|
+|09:30  | Göran Andersson  | Bioinformatics analyses of genomics, epigenomics and transcriptomics data of complex diseases |
+|09:45  | Jan Ingemar Ohlsson  | Bioinformatics R-ABCD: Research Acceleration with Big Cow Data in Gigacow|
+|10:00  | Micael Landi  | Utilizing cassava genomes for genomics-assisted breeding|
+|10:15  | break  |  |
+|10:45  | Alvaro Martinez Barrio  | 20 years of computational biology: where the road has taken us and the highway is leading|
+|11:30  | Olga Vinnere Pettersson  | Genomics for agriculture - two cases|
+|11:45  | Girma Gebresenbet  | Digitalization in agricultural practices|
+|12:00  | lunch  |  |
+|13:00  | discussion  | Bioinformatics in Agricultural Sciences|
+|13:30  | Sara Hallin  | Microbes driving nitrogen losses and retention in soils|
+|13:45  | Shrikant Sharma  | Genome editing in potatoes|
+|14:00  | break  |  |
+|14:15  | Salme Timmusk  | Plant-root microbiome interactions|
+|14:30  | Moritz Buck  | Microbial diversity and nutrient cycling in the central arctic ocean|
+|14:45  | Anna Szekely  | Environmental virus sequencing and genotyping as a tool of epidemiological monitoring|
+|15:00  | closing and fika  |  |
 
-```{r echo = FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library("xlsx")
-library(knitr)
-library(kableExtra)
-table <- read.xlsx("SBD_schedule.xlsx", 1, header=TRUE)
-dt <- table[1:18,1:3]
-dt %>%
-  kbl() %>%
-  kable_material(c("striped", "hover"))
-```
+:  {.striped .hover}
