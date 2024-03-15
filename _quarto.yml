@@ -13,6 +13,9 @@ website:
             url:  https://github.com/NADAS-network/homepage
   sidebar:
     style: "docked"
+    background: "primary"
+    border: true
+    bread-crumbs: false
     contents:
       - section: "Home"
         contents:
