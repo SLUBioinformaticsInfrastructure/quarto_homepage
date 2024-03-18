@@ -3,32 +3,31 @@ title: "Support"
   
 ---
 
-<br>
 
 # Consultation
-The support we offer is based on your needs. We offer **free consultation** in the planning stages of your project, or if you have some specific questions about best practices or optimal tools. We are here for your questions, for example in our [drop-in](dropin-qmd).
+Our support services are tailored to meet your specific needs. We provide **free consultation** during the initial planning stages of your project or for addressing specific inquiries regarding best practices or optimal tools. Feel free to [contact us](contact.qmd) for assistance or visit us in one of our our [drop-in](dropin.qmd) sessions.
 
 # Project support
-We also offer more intensive **project support** for SEK800 per hour. There, we only count time when our experts are actively working with your project (including meetings), compute-time is free. This support is highly individual and depends on your needs. We can run all bioinformatic analyses for you, or be a sounding board for you or your students in the progress of your project. 
+We also offer more intensive **project support** for SEK800 per hour. This support is highly individual and depends on your needs. We can run all bioinformatic analyses for you, or be a sounding board for you or your students in the progress of your project. 
 
-If you need a bioinformatician for your project you can **hire a bioinformatician** for a certain time.
+If you require dedicated bioinformatics expertise for your project, you have the option to **hire a bioinformatician** for a specified duration.
 
 # Education and training
 We offer a range of PhD and MSc **courses** on a multitude of bioinformatics topics. Check our list of [past and present courses](courses.qmd) to see if something fits your interest. Most of these courses are on a recurring schedule. 
 
-We also organize **seminars and workshops**, shorter hands-on sessions on a selected range of topics. Notably, we have a recuring workshop session in collaboration with SLU's Center for Statistics, the [Basic Biostatistics & Bioinformatics](3BS.qmd) Series. Here we explain basic statistics concepts, or introduce handy tools and techniques. 
+Additionally, we organize **seminars and workshops**, shorter hands-on sessions on a selected range of topics. Notably, we have a recuring workshop session in collaboration with SLU's Center for Statistics, the [Basic Biostatistics & Bioinformatics](3BS.qmd) Series. Here we explain basic statistics concepts, or introduce useful tools and techniques.
 
- We also can arrange workshops on demand. So if there is a topic you are interested in, or you are organzing a course and need someone to teach the bioinformatics part, please [contact](contact.qmd) us. 
+ We also accommodate workshop requests based on demand. If there's a specific topic you're interested in or if you're organizing a course and require bioinformatics instructors, please [contact](contact.qmd) us.
 
 # Access to our services
-We have **no application deadlines**, and projects are accepted continuously. 
 
-If you are interested, please [contact us](contact.qmd). We will then set up a first meeting with one of our experts. Once you have agreed with the expert to what analyses should be performed, a contract will be written. Once the contract is agreed upon, signed by the project's PI, and submitted to SLUBI, the support can start. 
+We maintain an open application process, accepting projects on a rolling basis. To express your interest, simply [contact us](contact.qmd). We will then arrange an introductory meeting with one of our experts. 
 
-During the support you will communicate with the expert via email and/or meetings as necessary. Our coordinator will also be available to support you if needed.
+Once the project scope and requirements are agreed upon, a contract will be drafted, signed by the project's principal investigator, and submitted to SLUBI to initiate support.
 
+Throughout the support period, you'll have direct communication with your designated expert via email and/or meetings as needed. Our coordinator will also be on hand to provide additional support if required.
 
-  
+<br>
 <center>
 ![](images/SLUBI_logo.png){#id .class width=15%}
 </center>

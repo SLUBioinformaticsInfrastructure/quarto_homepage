@@ -6,7 +6,9 @@ description: |
 
 Meet us in our drop-in [Zoom room](https://slu-se.zoom.us/j/69486568642) (Password: 410 410).
 
-Before the pandemic, SLUBI organised bioinformatics drop-in sessions at all 3 SLU campuses for answering various bioinformatics questions around a fika. Now the drop-in is online: all campuses at the same place and time! Come and join us with your questions or take the opportunity to gather and exchange experiences with other bioinformaticians.
+Before the pandemic, SLUBI organised bioinformatics drop-in sessions at all 3 SLU campuses for answering various bioinformatics questions around a fika. 
+
+Now the drop-in is online: all campuses at the same place and time! Come and join us with your questions or take the opportunity to gather and exchange experiences with other bioinformaticians.
 
 Around once per month we join forces with SLU's [Centre for Statistics](https://www.slu.se/en/Collaborative-Centres-and-Projects/centreforstatistics/) and offer a joint drop-in. 
 

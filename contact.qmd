@@ -4,7 +4,9 @@ title: "Contact"
 ---
 
 <br>
-If you want to get help with a project or to get more information about our support or our prices, you have several options:
+Whether you're a seasoned researcher or a newcomer to bioinformatics, we welcome all inquiries and look forward to supporting your journey in computational biology and genomics.
+
+You have several possibilities to get in touch with us:
     
 1. Write an email to slubi@slu.se.
   

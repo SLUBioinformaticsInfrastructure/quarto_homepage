@@ -8,6 +8,8 @@ description: SLU's bioinformatics infrastructure
 
 Our goal is to provide support and training in bioinformatics for SLU staff, and to build a strong community of bioinformaticians within SLU. Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp. We want to join forces and coordinate teaching activities, common resources (hardware, software).
 
+We also serve as a link to the broader bioinformatics community in Sweden, such as the [National Bioinformatics Infrastructure Sweden, NBIS](https://nbis.se/), facilitating collaboration and knowledge exchange.
+
 <center>
 ![](images/flagga.jpg){.class width=45% height=75%}
 </center>

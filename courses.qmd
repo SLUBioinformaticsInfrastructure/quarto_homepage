@@ -2,6 +2,7 @@
 title: "Courses"
 listing:
   contents: newsposts/courses
+  id: courses
   sort: "date desc"
   type: default
   categories: true
@@ -10,3 +11,12 @@ listing:
 page-layout: full
 title-block-banner: false
 ---
+
+Our bioinformatics courses provide training in a variety of methods for analyzing biological data, covering topics such as sequence analysis, population genetics and reproducible research.
+
+Designed for both beginners and seasoned researchers, our courses blend theoretical foundations with practical applications, training participants in the skills needed to tackle complex biological questions.
+
+We also arrange private courses. If you are interested in a topic you can't find in our list, please contact us. 
+
+::: {#courses}
+:::

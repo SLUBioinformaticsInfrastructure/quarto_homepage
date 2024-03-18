@@ -14,9 +14,11 @@ listing:
 ---
 
 ::: {layout-ncol=2}
-We provide support and training in bioinformatics for SLU staff, and want to build a strong community of bioinformaticians within SLU. 
-<br>
-Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp. 
+Welcome to SLUBI, where our mission is to provide support and training in bioinformatics for researchers, students, and faculty at SLU.
+<br><br>
+As a hub for bioinformatics expertise within the university, we facilitate the application of computational methods in biological research and strieve to build a strong community of bioinformaticians within SLU.
+<br><br>
+Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp and available to you in [many different ways](contact.qmd).
 
 ![](images/SLUBI_logo.png){.class width=50% fig-align="center"}
 
@@ -25,7 +27,9 @@ Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp.
 # Services
 ::: {.card}
 <br>
-SLU's Bioinformatics Infrastructure offers a range of bioinformatics services, consultation, training and project support. 
+We offer a range of bioinformatics services, including data analysis, software support, consultation, and training, tailored to meet the diverse needs of the university community.
+
+In addition to our core services, we offer customized solutions and training courses to support researchers at every stage of their bioinformatics projects, from data acquisition to publication.
 
 More information on our support [here](support_what.qmd).
 
@@ -41,7 +45,7 @@ More information on our support [here](support_what.qmd).
 
 Every week we arrange a digital drop-in. If you have a question, want to discuss your project, know what tool or analyses fits your data best, join us!
 
-Every wednesday between 13:00 and 14:00 on Zoom. 
+Join us every Wednesday from 13:00 to 14:00 on Zoom.
 
  More information [here](dropin.qmd).
 ::::
@@ -50,9 +54,9 @@ Every wednesday between 13:00 and 14:00 on Zoom.
 :::: {.card}
 <br>
 
-We want to advance expertise in bioinformatics at SLU through curated [courses](courses.qmd), [seminars &workshops](worskhops.qmd), and individual training sessions. 
+We aim to advance bioinformatics expertise at SLU through curated [courses](courses.qmd), [seminars &workshops](worskhops.qmd), and personalized training sessions. 
 
-Pick an existing course or [contact us](contact.qmd) to suggest a missing topic.
+Explore our current courses or [contact us](contact.qmd) to propose a topic you believe is missing. 
 
 <br>
 ::::
