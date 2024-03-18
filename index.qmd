@@ -13,10 +13,14 @@ listing:
   grid-columns: 2
 ---
 
+::: {layout-ncol=2}
 We provide support and training in bioinformatics for SLU staff, and want to build a strong community of bioinformaticians within SLU. 
-
+<br>
 Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp. 
 
+![](images/SLUBI_logo.png){.class width=50% fig-align="center"}
+
+:::
 
 # Services
 ::: {.card}
