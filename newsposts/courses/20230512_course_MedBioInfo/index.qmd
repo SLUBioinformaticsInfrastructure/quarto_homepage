@@ -4,6 +4,7 @@ description: "Teaching an introduction to Nextflow to a diverse group of student
 author: "SLUBI"
 date: "05-12-2023"
 categories:
+  - course
   - training
   - nextflow
 image: MedBioINfo_photo-amphitheater.jpeg

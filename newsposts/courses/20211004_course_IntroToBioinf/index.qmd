@@ -5,7 +5,7 @@ author: "SLUBI"
 date: "10-04-2021"
 categories:
   - course
-  - education
+  - training
 image: IntroBioinf.png
 ---
 
