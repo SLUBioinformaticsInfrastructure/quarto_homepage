@@ -10,7 +10,7 @@ website:
       - icon: github
         menu:
           - text: Source Code
-            url:  https://github.com/NADAS-network/homepage
+            url:  https://github.com/SLUBioinformaticsInfrastructure/quarto_homepage
   sidebar:
     style: "docked"
     background: "primary"

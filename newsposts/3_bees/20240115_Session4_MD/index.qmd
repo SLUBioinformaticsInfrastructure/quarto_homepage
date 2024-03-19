@@ -1,0 +1,31 @@
+---
+title: "Introduction to Markdown"
+description: "Session 4 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "01-15-2024"
+categories:
+  - workshop
+  - education
+image: session4.png
+---
+
+We wish you all a happy continuation of the new year!
+ 
+For the fourth session of the 3 B’s series, we cover some of the basics of Markdown. 
+
+Markdown is a reporting language with several applications in scientific communication. With this, you are able to seamlessly render reproducible reports in PDF and HTML formats to include text, code and figures in an aesthetically pleasing way.
+ 
+We will address basic syntax, applications in R and VSCode, and a new iteration of markdown in the form of Quarto.
+ 
+**Preparation:** If you would like to prepare in advance, have a look at this [guide](https://rmarkdown.rstudio.com/).
+
+As always, you are most welcome to drop by and listen without participating.
+ 
+When: Monday Jan 15th, 09:45 \
+Where: Campus Alnarp, Horticum, sal Triticum\
+or via **[Zoom](https://slu-se.zoom.us/j/69486568642)** (Password: 410 410)
+
+All materials are available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series).
+
+<center>
+![](../../../images/3bees_opaque.png){.class width=40%}

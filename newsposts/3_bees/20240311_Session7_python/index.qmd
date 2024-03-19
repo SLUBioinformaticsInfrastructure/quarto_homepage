@@ -1,0 +1,35 @@
+---
+title: "Introduction to Python"
+description: "Session 7 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "03-11-2024"
+categories:
+  - workshop
+  - education
+image: session7.png
+---
+
+Following popular demand, our next two sessions of the 3’B’s series will be building on top of each other, but can also be enjoyed individually.
+ 
+**!! Please note that the following workshops will be held in-person in ULTUNA, with remote participation via Zoom!!**
+ 
+**Part I**, on Monday the 11th of March, will give you an Introduction to Python:
+
+In this programming workshop we start from the most basic elements of the Python3 syntax and we will see how such commands will come together to actually solve a simple problem like sorting. This base knowledge will lead to introducing two extremely useful libraries, NumPy and Matplotlib which are extremely effective in efficient manipulation and visualization of numerical data.
+ 
+**Part II**, on Monday the 25th of March, will have you use Python to start Training Neural Networks:
+
+Part I is the basis for the numerical manipulation necessary in the next workshop where we will go through theory and practice of neural network training. Several steps of the lecture will be illustrated on Google Colab notebooks in order for them to be easily reproducible by participants during the class.
+
+**Preparation:** To follow the course and the exercises please have a google account ready!
+
+However, as always, you are most welcome to drop by and listen without participating!
+
+**When:** Monday March 11th, 09:45 \
+**Where:** Campus ULTUNA, VHC, plan 4, room Ulv\
+or via **[Zoom](https://slu-se.zoom.us/j/69486568642)** (Password: 410 410)
+
+All materials are available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series).
+
+<center>
+![](../../../images/3bees_opaque.png){.class width=40%}

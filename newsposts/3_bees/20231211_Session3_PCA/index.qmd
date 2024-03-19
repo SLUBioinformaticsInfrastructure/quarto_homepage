@@ -1,0 +1,40 @@
+---
+title: "PCA: Theory and Practice"
+description: "Session 3 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "12-11-2023"
+categories:
+  - workshop
+  - education
+image: session3.png
+---
+
+It is time for the third installment of the 3 Bee’s workshop series from SLUBI and the SLU Centre for Statistics. 
+
+This time we will learn more about PCA’s!
+ 
+Adam will presents a short lecture on the theory behind PCA’s and what we can learn from them, and Lizel shows some commonly used R tools used to compute PCA’s on different kinds of data with an emphasis on data from an RNA sequencing project.
+ 
+**When:** Monday Dec 11th, 09:30 \
+**Where:** Campus Alnarp, Horticum, sal Triticum\
+or via **[Zoom](https://slu-se.zoom.us/j/69486568642)** (Password: 410 410)
+  
+**Preparation:** You are welcome to just come and listen. If you would like to participate, please ensure that you have a working RStudio installed on your computer. Please install the following libraries in R with these easy commands:
+
+`if (!requireNamespace('BiocManager', quietly = TRUE))
+  install.packages('BiocManager')
+BiocManager::install('PCAtools')
+BiocManager::install("airway")
+BiocManager::install("org.Hs.eg.db")
+BiocManager::install("DESeq2")
+install.packages("tidyverse")
+install.packages("magrittr")`
+ 
+ 
+**Material:** This time, we follow this [tutorial](https://bioconductor.org/packages/devel/bioc/vignettes/PCAtools/inst/doc/PCAtools.html) where we focus on using a PCA on RNASeq data. The methods we show here are applicable for all kinds of data- not just RNASeq.
+ 
+
+All materials are available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series).
+
+<center>
+![](../../../images/3bees_opaque.png){.class width=40%}

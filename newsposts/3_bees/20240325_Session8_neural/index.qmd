@@ -1,0 +1,25 @@
+---
+title: "Introduction to Neural Networks"
+description: "Session 8 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "03-25-2024"
+categories:
+  - workshop
+  - education
+image: ../../../images/3bees_opaque.png
+---
+
+In this session where we will go through theory and practice of neural network training. Several steps of the lecture will be illustrated on Google Colab notebooks in order for them to be easily reproducible by participants during the class.
+
+**Preparation:** To follow the course and the exercises please have a google account ready! This session build on Session 7 - Introduction to Python. 
+
+However, as always, you are most welcome to drop by and listen without participating!
+
+**When:** Monday March 25th, 09:45 \
+**Where:** Campus ULTUNA, VHC, plan 5, room Tanngrisner\
+or via **[Zoom](https://slu-se.zoom.us/j/69486568642)** (Password: 410 410)
+
+All materials are available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series).
+
+<center>
+![](../../../images/3bees_opaque.png){.class width=40%}

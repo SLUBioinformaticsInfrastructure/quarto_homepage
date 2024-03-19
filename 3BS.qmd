@@ -2,6 +2,16 @@
 title: "Basic Biostatistics & Bioinformatics"
 description: |
   practical concepts and coding for everyone
+listing:
+  contents: newsposts/3_bees
+  id: 3bs
+  sort: "date asc"
+  type: grid
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  grid-columns: 2
+
 ---
 
 ::: {layout-ncol=2}
@@ -19,7 +29,8 @@ We are starting a topic-driven discussion series where Adam Flöhr from the Cent
 All data and codes will be available at https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series.
 
 <br>
-**Program** \
+
+# Program 
 
 | Date  | Topic  |
 |--------|--------|
@@ -39,4 +50,8 @@ All data and codes will be available at https://github.com/SLUBioinformaticsInfr
 We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open: 
 
 Please fill out [this questionnaire](https://forms.gle/4juDXf3tK8dSxmpe8) to decide what you would like to hear (more) about. 
+
+# Session information
+::: {#3bs}
+:::
 
