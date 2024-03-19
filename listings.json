@@ -19,9 +19,17 @@
     "items": [
       "/newsposts/events/future_events/20241104_SBW24/index.html",
       "/newsposts/events/future_events/20240514_sasuf/index.html",
+      "/newsposts/3_bees/20240325_Session8_neural/index.html",
       "/newsposts/events/20240314_nadas/index.html",
+      "/newsposts/3_bees/20240311_Session7_python/index.html",
+      "/newsposts/3_bees/20240226_Session6_Rfunctions/index.html",
+      "/newsposts/3_bees/20240212_Session5_Pop/index.html",
+      "/newsposts/3_bees/20240115_Session4_MD/index.html",
+      "/newsposts/3_bees/20231211_Session3_PCA/index.html",
+      "/newsposts/3_bees/20231127_Session2_linux/index.html",
       "/newsposts/courses/20231124_course_IntroToBioinf/index.html",
       "/newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html",
+      "/newsposts/3_bees/20231114_Session1_R/index.html",
       "/newsposts/seminars_workshops/20231113_3bees/index.html",
       "/newsposts/courses/20231113_course_breeding/index.html",
       "/newsposts/events/20231109_AMRI/index.html",
@@ -59,6 +67,19 @@
       "/newsposts/courses/20211129_course_RNAseq/index.html",
       "/newsposts/courses/20211004_course_IntroToBioinf/index.html",
       "/newsposts/courses/20200203_course_RNAseq/index.html"
+    ]
+  },
+  {
+    "listing": "/3BS.html",
+    "items": [
+      "/newsposts/3_bees/20231114_Session1_R/index.html",
+      "/newsposts/3_bees/20231127_Session2_linux/index.html",
+      "/newsposts/3_bees/20231211_Session3_PCA/index.html",
+      "/newsposts/3_bees/20240115_Session4_MD/index.html",
+      "/newsposts/3_bees/20240212_Session5_Pop/index.html",
+      "/newsposts/3_bees/20240226_Session6_Rfunctions/index.html",
+      "/newsposts/3_bees/20240311_Session7_python/index.html",
+      "/newsposts/3_bees/20240325_Session8_neural/index.html"
     ]
   },
   {

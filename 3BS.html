@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -67,7 +69,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-3bs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-3bs'] = new List('listing-3bs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -91,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
       <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/NADAS-network/homepage">
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/SLUBioinformaticsInfrastructure/quarto_homepage">
             Source Code
             </a>
           </li>
@@ -262,7 +322,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#program" id="toc-program" class="nav-link active" data-scroll-target="#program">Program</a></li>
+  <li><a href="#session-information" id="toc-session-information" class="nav-link" data-scroll-target="#session-information">Session information</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -310,8 +377,9 @@ ul.task-list li input[type="checkbox"] {
 <p>We are starting a topic-driven discussion series where Adam Flöhr from the Centre for Statistics will discuss the statistical magic behind some of the common methods we use, and Lizel Potgieter from SLUBI will use data to show a hands-on example of how to execute the analyses.<br>
 </p>
 <p>All data and codes will be available at https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series.</p>
-<p><br> <strong>Program</strong><br>
-</p>
+<p><br></p>
+<section id="program" class="level1">
+<h1>Program</h1>
 <table class="table-striped table-hover table">
 <thead>
 <tr class="header">
@@ -360,8 +428,220 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p><br> We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open:</p>
 <p>Please fill out <a href="https://forms.gle/4juDXf3tK8dSxmpe8">this questionnaire</a> to decide what you would like to hear (more) about.</p>
+</section>
+<section id="session-information" class="level1">
+<h1>Session information</h1>
+<div id="listing-3bs" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="workshop,education" data-listing-date-sort="1699920000000" data-listing-file-modified-sort="1710841623706" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
+<a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./newsposts/3_bees/20231114_Session1_R/session1.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="session-information">
+Introduction to R
+</h5>
+<div class="card-text listing-description">
+Session 1 in the series Basic Biostatistics and Bioinformatics
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+SLUBI
+</div>
+<div class="listing-date">
+Nov 14, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="workshop,education" data-listing-date-sort="1701043200000" data-listing-file-modified-sort="1710841623710" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="179">
+<a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/3bees_opaque.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Introduction to the command line
+</h5>
+<div class="card-text listing-description">
+Session 2 in the series Basic Biostatistics and Bioinformatics
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+SLUBI
+</div>
+<div class="listing-date">
+Nov 27, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="workshop,education" data-listing-date-sort="1702252800000" data-listing-file-modified-sort="1710841623710" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./newsposts/3_bees/20231211_Session3_PCA/session3.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+PCA: Theory and Practice
+</h5>
+<div class="card-text listing-description">
+Session 3 in the series Basic Biostatistics and Bioinformatics
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+SLUBI
+</div>
+<div class="listing-date">
+Dec 11, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="workshop,education" data-listing-date-sort="1705276800000" data-listing-file-modified-sort="1710841623710" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
+<a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./newsposts/3_bees/20240115_Session4_MD/session4.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Introduction to Markdown
+</h5>
+<div class="card-text listing-description">
+Session 4 in the series Basic Biostatistics and Bioinformatics
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+SLUBI
+</div>
+<div class="listing-date">
+Jan 15, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="workshop,education" data-listing-date-sort="1707696000000" data-listing-file-modified-sort="1710841623714" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
+<a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./newsposts/3_bees/20240212_Session5_Pop/session5.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Population structure analyses
+</h5>
+<div class="card-text listing-description">
+Session 5 in the series Basic Biostatistics and Bioinformatics
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+SLUBI
+</div>
+<div class="listing-date">
+Feb 12, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="workshop,education" data-listing-date-sort="1708905600000" data-listing-file-modified-sort="1710841623718" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
+<a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./newsposts/3_bees/20240226_Session6_Rfunctions/session6.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Introduction to writing functions in R
+</h5>
+<div class="card-text listing-description">
+Session 6 in the series Basic Biostatistics and Bioinformatics
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+SLUBI
+</div>
+<div class="listing-date">
+Feb 26, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="workshop,education" data-listing-date-sort="1710115200000" data-listing-file-modified-sort="1710841623718" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
+<a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./newsposts/3_bees/20240311_Session7_python/session7.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Introduction to Python
+</h5>
+<div class="card-text listing-description">
+Session 7 in the series Basic Biostatistics and Bioinformatics
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+SLUBI
+</div>
+<div class="listing-date">
+Mar 11, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="workshop,education" data-listing-date-sort="1711324800000" data-listing-file-modified-sort="1710841623718" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
+<a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/3bees_opaque.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Introduction to Neural Networks
+</h5>
+<div class="card-text listing-description">
+Session 8 in the series Basic Biostatistics and Bioinformatics
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+SLUBI
+</div>
+<div class="listing-date">
+Mar 25, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
