@@ -6,7 +6,8 @@ date: "02-26-2024"
 categories:
   - workshop
   - education
-image: session6.png
+  - statistics
+image: 3bees_session6.png
 ---
 
 For the sixth session of the 3 B’s series, we talk about how to write your own functions in R. Very handy of you want to wrap code you are using over and over again into a re-usable function!
@@ -15,11 +16,11 @@ For the sixth session of the 3 B’s series, we talk about how to write your own
  
 As always, you are most welcome to drop by and listen without participating.
  
-When: Monday Feb 26, 09:45\
-Where: Campuse Alnarp, Vegetum, Red room (different room from the usual for Alnarp attendees)\
+**When:** Monday Feb 26, 09:45\
+**Where:** Campuse Alnarp, Vegetum, Red room (different room from the usual for Alnarp attendees)\
 or via **[Zoom](https://slu-se.zoom.us/j/69486568642)** (Password: 410 410)
 
 All materials are available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series).
 
 <center>
-![](../../../images/3bees_opaque.png){.class width=40%}
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}

@@ -6,7 +6,8 @@ date: "12-11-2023"
 categories:
   - workshop
   - education
-image: session3.png
+  - statistics
+image: 3bees_session3.png
 ---
 
 It is time for the third installment of the 3 Bee’s workshop series from SLUBI and the SLU Centre for Statistics. 
@@ -37,4 +38,4 @@ install.packages("magrittr")`
 All materials are available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series).
 
 <center>
-![](../../../images/3bees_opaque.png){.class width=40%}
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}

@@ -6,7 +6,8 @@ date: "11-14-2023"
 categories:
   - workshop
   - education
-image: session1.png
+  - statistics
+image: 3bees_session1.png
 ---
 
 A warm welcome to our new mini-workshop series “Basic Biostatistics & Bioinformatics”, where SLUBI and SLU’s Center for Statistics collaborate to bring you a mix of theoretical background and practical coding on a variety of topics.
@@ -23,4 +24,4 @@ All materials are available on [Github](https://github.com/SLUBioinformaticsInfr
 
 
 <center>
-![](../../../images/3bees_opaque.png){.class width=40%}
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}
