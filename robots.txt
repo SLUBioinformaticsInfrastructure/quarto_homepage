@@ -1,1 +1,1 @@
-Sitemap: https://SLUBioinformaticsInfrastructure.github.io/quarto_homepage/sitemap.xml
+Sitemap: https://www.slubi.se/sitemap.xml
