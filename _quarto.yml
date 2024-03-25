@@ -15,7 +15,7 @@ website:
           - text: Source Code
             url:  https://github.com/SLUBioinformaticsInfrastructure/quarto_homepage
   sidebar:
-    style: "docked"
+    style: "floating"
     background: "primary"
     border: false
     bread-crumbs: false
