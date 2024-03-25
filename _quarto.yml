@@ -16,8 +16,7 @@ website:
             url:  https://github.com/SLUBioinformaticsInfrastructure/quarto_homepage
   sidebar:
     style: "floating"
-    background: "primary"
-    border: false
+    border: true
     bread-crumbs: false
     contents:
       - section: "Home"
