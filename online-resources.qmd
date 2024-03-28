@@ -34,13 +34,8 @@ description: useful bioinformatics tools and resources for you
 <br>
 [Software Carprentries](https://software-carpentry.org/) - teaching basic coding skills for research computing to researchers worldwide.
 
-<br><br>
-[![](images/terminal.png){.class width=50%}](https://swcarpentry.github.io/shell-novice/)
 
 <br><br><br>
-[The Unix Shell](https://swcarpentry.github.io/shell-novice/) - a self paced introduction to the unix shell and command line operations, provided by the Software Carpentries. 
-
-<br><br>
 [![](images/elixir.png){.class width=50%}](https://elixir-europe.org/)
 
 <br><br><br>

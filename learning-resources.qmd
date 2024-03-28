@@ -1,0 +1,37 @@
+---
+title: "Self learning"
+description: tried and trusted learning resources 
+---
+
+# R
+R is a common coding language used in bioinformatics.
+[R for Data Science (2e)](https://r4ds.hadley.nz/) is an excellent place to start your journey into R. 
+
+If you prefer learning through self-paced courses:
+[Dataquest](https://www.dataquest.io/path/data-analyst-r/) has a free, self-paced course.
+[CodeAcademy](https://www.codecademy.com/learn/learn-r) has a free course, but you will have to pay for the certificate.
+
+And, of course, our [3 Bees workshop series](https://www.slubi.se/3BS.html)!
+
+
+# Bash
+Most servers run on a Unix build. It is intimidating to start with a new interface, but with these guides things will be a lot smoother!
+
+Data Carpentry's [Intro to the shell](https://datacarpentry.org/2015-11-04-ACUNS/shell-intro/) is a great place to start when you are a new user of Linux. As is the [The Unix Shell](https://swcarpentry.github.io/shell-novice/), a self paced introduction to the unix shell and command line operations, provided by the Software Carpentries. 
+
+If you don't have access to a server yet, and would like to practice on your local Windows machine, download [MobaXterm](https://mobaxterm.mobatek.net/download.html) and run a shell session on your Windows machine.
+If you are using a Mac, you will be able to follow the tutorial from the terminal that comes with your operating system.
+
+# Visual Studio Code
+Traditionally, Windows users had to connect to servers using PuTTy or a similar interface. We recommend making use of [VSCode](https://code.visualstudio.com/download) that comes with your Windows operating system (it can also be installed on machines that run Linux builds and MacOS).
+
+With VSCode, you can connect to servers using [ssh](https://code.visualstudio.com/docs/remote/ssh), install extensions supporting a variety of coding languages, write and render markdown documents, and more. VSCode makes working on servers much easier as you can have a text editor open to edit your scripts to save them directly on the server you are working on, have a file manager open for a more traditional view of the file tree, as well as having multiple terminals open simultaneously.
+
+### Connecting to Uppmax servers with VSCode
+- Open VSCode
+- `ctrl+shift+p`
+- `Remote-SSH: Add new SSH Host`
+- Follow login instructions on [Uppmax support](https://www.uppmax.uu.se/support/user-guides/guide--first-login-to-uppmax/)
+- Add the info to the first .ssh file prompted
+- `ctrl+shift+p`
+- `Remote-SSH: Connect to Host`

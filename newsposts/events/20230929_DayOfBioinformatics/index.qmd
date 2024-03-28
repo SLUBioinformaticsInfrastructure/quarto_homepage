@@ -1,7 +1,6 @@
 ---
 title: "SLU's Day of Bioinformatics"
-description: "Terrestrial and aquatic communities, breeding, crop production, animal health, automatization
-– bioinformatics can also be for you! Listen to exciting SLU projects and be inspired."
+description: "Terrestrial and aquatic communities, breeding, crop production, animal health, automatization – bioinformatics can also be for you! Listen to exciting SLU projects and be inspired."
 author: "SLUBI"
 date: "09-29-2023"
 categories:
