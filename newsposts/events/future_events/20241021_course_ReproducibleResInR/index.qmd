@@ -2,7 +2,7 @@
 title: "Course: Reproducible Research in R"
 description: "Oct 21st to Oct 25th, 2024, online via Zoom"
 author: "SLUBI"
-date: "03-26-2024"
+date: "10-21-2024"
 categories:
   - course
   - reproducibility

@@ -5,7 +5,7 @@ description: |
 listing:
   contents: newsposts/events/future_events
   id: future_events
-  sort: "date desc"
+  sort: "date asc"
   type: grid
   categories: false
   sort-ui: false
