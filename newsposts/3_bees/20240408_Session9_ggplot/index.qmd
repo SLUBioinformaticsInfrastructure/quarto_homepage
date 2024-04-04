@@ -1,0 +1,40 @@
+---
+title: "Intermediate ggplot in R"
+description: "Session 9 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "04-08-2024"
+categories:
+  - workshop
+  - education
+  - statistics
+image: 3bees_session8.png
+---
+
+In this session you can learn more about R’s data visualization package ggplot. The workshop will answer the following questions:
+
+- Why ggplot (difference between base plot and ggplot2)?
+- How do you make plots using ggplot2 in R?
+- How do you customize and modify plots?
+ 
+**What to Expect:**
+
+- Learn Grammar of the graphics & synatx
+- Build a graph (data visualization) from the scratch
+- Describe Geometric components of a graph
+- Produce different kinds of plot (scatter plots, boxplots, barplots etc) using ggplot.
+- Describe what faceting is and apply faceting in ggplot.
+- Modify the aesthetics of an existing ggplot plot (including theme, axis labels, stats and color etc).
+- Combine and save plots as publishable figures.
+ 
+**Preparation:** Please have R and RStudio installed on your computer. Install ggplot2 by typing `install.packages("ggplot2")` into the console of your RStudio.
+ 
+This session uses the publicly available [Penguins data set](https://allisonhorst.github.io/palmerpenguins/). You can install the data with: `install.packages("palmerpenguins")`.
+
+**When:** Monday April 8th, 09:45 \
+**Where:** Campus ULTUNA, VHC, floor 5, room Tanngrisner\
+or via **[Zoom](https://slu-se.zoom.us/j/69486568642)** (Password: 410 410)
+
+All materials are available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series) after the session.
+
+<center>
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}
