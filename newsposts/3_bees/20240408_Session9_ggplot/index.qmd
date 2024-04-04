@@ -7,7 +7,7 @@ categories:
   - workshop
   - education
   - statistics
-image: 3bees_session8.png
+image: 3bees_session9.png
 ---
 
 In this session you can learn more about R’s data visualization package ggplot. The workshop will answer the following questions:
