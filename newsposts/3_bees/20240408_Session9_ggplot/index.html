@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="SLUBI">
-<meta name="dcterms.date" content="2024-05-14">
-<meta name="description" content="The South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you.">
+<meta name="dcterms.date" content="2024-04-08">
+<meta name="description" content="Session 9 in the series Basic Biostatistics and Bioinformatics">
 
-<title>SLU bioinformatics infrastructure - Workshop session at Sasuf Week</title>
+<title>SLU bioinformatics infrastructure - Intermediate ggplot in R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,22 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../../">
-<script src="../../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -81,10 +81,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../../images/SLUBI_logo.png" alt="" class="navbar-logo">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/SLUBI_logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">SLU bioinformatics infrastructure</span>
     </a>
   </div>
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Workshop session at Sasuf Week</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Intermediate ggplot in R</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -131,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome to SLUBI</span></a>
   </div>
 </li>
@@ -148,25 +148,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../support_what.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../support_what.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Support</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../dropin.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../dropin.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Drop-in</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../learning-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../learning-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Self learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../online-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../online-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tools and resources</span></a>
   </div>
 </li>
@@ -183,13 +183,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../courses.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../courses.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Courses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../workshops.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../workshops.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Seminars and Workshops</span></a>
   </div>
 </li>
@@ -206,13 +206,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../events.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../events.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Events</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../social.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../social.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fika</span></a>
   </div>
 </li>
@@ -229,19 +229,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../slubi.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../slubi.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SLUBI</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../contact.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../contact.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Contact</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../board.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../board.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Board</span></a>
   </div>
 </li>
@@ -258,7 +258,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../../news.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../news.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">News and Events</span></a>
   </div>
 </li>
@@ -277,16 +277,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Workshop session at Sasuf Week</h1>
+<h1 class="title">Intermediate ggplot in R</h1>
   <div class="quarto-categories">
     <div class="quarto-category">workshop</div>
-    <div class="quarto-category">meeting</div>
+    <div class="quarto-category">education</div>
+    <div class="quarto-category">statistics</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    The South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you.
+    Session 9 in the series Basic Biostatistics and Bioinformatics
   </div>
 </div>
 
@@ -303,7 +304,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 14, 2024</p>
+      <p class="date">April 8, 2024</p>
     </div>
   </div>
   
@@ -315,12 +316,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Join us on the 14th of May to discover how open source tools can be used in process of describing plant-pathogen interactions. We will use browser and R-based tools to annotate genomes, perform functional annotation, and select genes that are important in both the process of a fungal pathogen infecting the plant, and the plant launching an immune response. We will use Cercospora and sugar beet as a model system, but the tools we will show can be applied to any plant-fungal patho-system.</p>
-<p>We will also have a session in the afternoon with industry representatives where we will discuss how students and researchers can prepare themselves for a career move into industry, as well as how university-industry collaborations can be established and maintained.</p>
-<p>Our session will be hosted in Alnarp, and you are welcome to join via Zoom. No prior bioinformatics knowledge is required for this workshop.</p>
-<p>Please sign up here: https://sasufevents2024.sched.com/event/c2a46acf1ef8613a5282f827b85cc8d4</p>
+<p>In this session you can learn more about R’s data visualization package ggplot. The workshop will answer the following questions:</p>
+<ul>
+<li>Why ggplot (difference between base plot and ggplot2)?</li>
+<li>How do you make plots using ggplot2 in R?</li>
+<li>How do you customize and modify plots?</li>
+</ul>
+<p><strong>What to Expect:</strong></p>
+<ul>
+<li>Learn Grammar of the graphics &amp; synatx</li>
+<li>Build a graph (data visualization) from the scratch</li>
+<li>Describe Geometric components of a graph</li>
+<li>Produce different kinds of plot (scatter plots, boxplots, barplots etc) using ggplot.</li>
+<li>Describe what faceting is and apply faceting in ggplot.</li>
+<li>Modify the aesthetics of an existing ggplot plot (including theme, axis labels, stats and color etc).</li>
+<li>Combine and save plots as publishable figures.</li>
+</ul>
+<p><strong>Preparation:</strong> Please have R and RStudio installed on your computer. Install ggplot2 by typing <code>install.packages("ggplot2")</code> into the console of your RStudio.</p>
+<p>This session uses the publicly available <a href="https://allisonhorst.github.io/palmerpenguins/">Penguins data set</a>. You can install the data with: <code>install.packages("palmerpenguins")</code>.</p>
+<p><strong>When:</strong> Monday April 8th, 09:45<br>
+<strong>Where:</strong> Campus ULTUNA, VHC, floor 5, room Tanngrisner<br>
+or via <strong><a href="https://slu-se.zoom.us/j/69486568642">Zoom</a></strong> (Password: 410 410)</p>
+<p>All materials are available on <a href="https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series">Github</a> after the session.</p>
 <center>
-<p><img src="sasuf_2024.png" id="id" class="class img-fluid" style="width:60.0%"></p>
+<p><img src="../../../images/3bees_fulltext_ampersand2.png" class="class img-fluid" style="width:40.0%"></p>
 
 
 
