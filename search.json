@@ -166,82 +166,102 @@
     ]
   },
   {
-    "objectID": "adnan.html",
-    "href": "adnan.html",
-    "title": "Adnan Nizai",
+    "objectID": "uppmax.html",
+    "href": "uppmax.html",
+    "title": "How to: Uppmax",
     "section": "",
-    "text": "Expert in RNAseq, Metabarcoding (16S/18S/ITS), Epigenomics (WGBS/RRBS), Genome assembly and annotation."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to SLUBI",
-    "section": "",
-    "text": "Welcome to SLUBI, where our mission is to provide support and training in bioinformatics for researchers, students, and faculty at SLU.  As a hub for bioinformatics expertise within the university, we facilitate the application of computational methods in biological research and strieve to build a strong community of bioinformaticians within SLU.  Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp and available to you in many different ways.\n\n\n\n\n\n\n\n\n\n\n\nServices\n\n We offer a range of bioinformatics services, including data analysis, software support, consultation, and training, tailored to meet the diverse needs of the university community.\nIn addition to our core services, we offer customized solutions and training courses to support researchers at every stage of their bioinformatics projects, from data acquisition to publication.\nMore information on our support here.\n\n\n\n\n\n\n\n\n\nDrop-in\n\nEvery week we arrange a digital drop-in. If you have a question, want to discuss your project, know what tool or analyses fits your data best, join us!\nJoin us every Wednesday from 13:00 to 14:00 on Zoom.\nMore information here.\n\n\nTraining\n\nWe aim to advance bioinformatics expertise at SLU through curated courses, seminars &workshops, and personalized training sessions.\nExplore our current courses or contact us to propose a topic you believe is missing.\n\n\n\n\nSeminar series\n\n\n We are proud to present our collaborative workshop series, Three Bees:\n\nImagine basic statistical concepts and bioinformatics tools explained to you by experts. Informative lessons and hands-on coding exercises on a variety of topics.\nWe make it possible in our collaboration with SLU’s Center for Statistics.\nMore information here.\n\n\n\n\n\n\nCurrent news and events\n\n\n\n\n\n\n\n\n\n\nWorkshop session at Sasuf Week\n\n\nThe South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you.\n\n\n\nSLUBI\n\n\nMay 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Reproducible Research in R\n\n\nOct 21st to Oct 25th, 2024, online via Zoom\n\n\n\nSLUBI\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSwedish Bioinformatics Workshop 2024\n\n\nNovember 4th & 5th, 2024 on Campus Ultuna\n\n\n\nSLUBI\n\n\nNov 4, 2024\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "Welcome to SLUBI"
-    ]
-  },
-  {
-    "objectID": "abu.html",
-    "href": "abu.html",
-    "title": "Abu Bakar Siddique",
-    "section": "",
-    "text": "Bioinformatician (based at NJ in Ultuna)\nMetagenomics, DNASeq, Shotgun Seq, Metabarcoding (ITS), WGS analysis, Read Mapping, Genome assembly and annotation, wetlab: DNA, PCR, HTS library prep."
-  },
-  {
-    "objectID": "slubi.html",
-    "href": "slubi.html",
-    "title": "SLUBI",
-    "section": "",
-    "text": "Our goal\nOur goal is to provide support and training in bioinformatics for SLU staff, and to build a strong community of bioinformaticians within SLU. Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp. We want to join forces and coordinate teaching activities, common resources (hardware, software).\nWe also serve as a link to the broader bioinformatics community in Sweden, such as the National Bioinformatics Infrastructure Sweden, NBIS, facilitating collaboration and knowledge exchange.\n\n\n\n\n\n\nOur team\nWe are a group of skilled bioinformaticians. Please klick on us to see more about our background.\n\n\n\n\n\n\n\n\n\n\n Amrei Binzer-Panchal, bioinformatician in Ultuna (VH faculty): head of the infrastructure, and expert in analysing RNAseq, methylation data, microarrays, and 10x single cell RNAseq data.\n\n\n\n\n\n\n Nicolas Delhomme, bioinformatician in Umeå (S faculty): head of the UPSC Bioinformatics Facility, expert in expression profiling and anything bioinformatics related.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lizel Potgieter, bioinformatician in Alnarp (LTV faculty): our plant breeding, comparative genomics, population genomics, variant calling, genome assembly and annotation expert.\n\n\n\n\n\n\n Adnan Niazi, bioinformatician in Ultuna (VH faculty): our expert in RNAseq, metabarcoding (16S/18S/ITS), epigenomics (WGBS/RRBS), genome assembly and annotation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Abu Bakar Siddique, bioinformatician in Ultuna (NJ faculty): our expert in metagenomics, DNASeq, shotgun seq, metabarcoding (ITS), WGS analysis, read mapping, genome assembly and annotation. With wetlab experience in DNA, PCR and HTS library prep.",
-    "crumbs": [
-      "About us",
-      "SLUBI"
-    ]
-  },
-  {
-    "objectID": "3BS.html",
-    "href": "3BS.html",
-    "title": "Basic Biostatistics & Bioinformatics",
-    "section": "",
-    "text": "SLUBI and the SLU Centre for Statistics are bringing you a workshop series focused on R and applications in bioinformatics.\nMondays in even weeks, 09:45 \nCampus Alnarp, Horticum \nor via Zoom (Password: 410 410) \n\n\n\n\n\n\nWe are running a topic-driven discussion series where Adam Flöhr from the Centre for Statistics discusses the statistical magic behind some of the common methods we use, and Lizel Potgieter from SLUBI uses data to show a hands-on example of how to execute the analyses.\n\nAll data and codes of past sessions is available at https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series.\n\n\nProgram\n\n\n\n\n\n\n\n\nSession #\nDate\nTopic\n\n\n\n\nSession 1\n13th Nov 2023\nIntroduction to R\n\n\nSession 2\n27th Nov 2023\nLinux Basics\n\n\nSession 3\n11th Dec 2023\nTheory and practice PCA\n\n\nSession 4\n15th Jan 2024\nIntroduction to Markdown\n\n\nSession 5\n12th Feb 2024\nPopulation Structure\n\n\nSession 6\n26th Feb 2024\nHow to write functions in R\n\n\nSession 7\n11th March 2024\nIntroduction to Python\n\n\nSession 8\n25th Match 2024\nIntroduction to Neural Networks\n\n\nSession 9\n8th April 2024\nIntermedial ggplot in R\n\n\nSession 10\n22nd Apr 2024\nIntroduction to High Performance Computing\n\n\nSession 11\n06th May 2024\nTools and tricks for reproducible research\n\n\nSession 12\n20th May 2024\nIntroduction to git\n\n\nSession 13\n03rd Jun 2024\nProject organization in R\n\n\nSession 14\n17th Jun 2024\nInteractive Data Visualization in R using “shiny”\n\n\n\n We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open:\nPlease fill out this questionnaire to decide what you would like to hear (more) about.\n\n\nSession information\n\n\n\n\n\n\n\n\n\n\nIntroduction to R\n\n\nSession 1 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nNov 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to the command line\n\n\nSession 2 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nNov 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPCA: Theory and Practice\n\n\nSession 3 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nDec 11, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Markdown\n\n\nSession 4 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nJan 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPopulation structure analyses\n\n\nSession 5 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nFeb 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to writing functions in R\n\n\nSession 6 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nFeb 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Python\n\n\nSession 7 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nMar 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Neural Networks\n\n\nSession 8 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nMar 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntermediate ggplot in R\n\n\nSession 9 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nApr 8, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "nicolas.html",
-    "href": "nicolas.html",
-    "title": "Nicolas Delhomme",
-    "section": "",
-    "text": "Geneticist by training, bioinformatician/biostatistician in practice, interested in gene regulation in a systems biology context, expert in expression profiling. Researcher, bioinformatician and UPSC Bioinformatics Facility Manager in Umeå."
-  },
-  {
-    "objectID": "social.html",
-    "href": "social.html",
-    "title": "Fika",
-    "section": "",
-    "text": "Meet us and other bioinformaticians for an informal fika to chat about projects, new tools or life in general.\nWe meet by the colorful couches in front of the IT service center in Ulls hus. Dates and times are announced via e-mail. If you do not receive them sign up for updates via slubi@slu.se.",
-    "crumbs": [
-      "Events",
-      "Fika"
-    ]
-  },
-  {
-    "objectID": "lizel.html",
-    "href": "lizel.html",
-    "title": "Lizel Potgieter",
-    "section": "",
-    "text": "I am a trained molecular biologist turned bioinformatician, based at LTV in Alnarp\nComparative genomics, population genomics, variant calling, genome assembly and annotation."
-  },
-  {
-    "objectID": "workshops.html",
-    "href": "workshops.html",
-    "title": "Seminars and Workshops",
-    "section": "",
-    "text": "Bioinformatics in Umeå Workshop Series\n\n\n\n\n\n\nseminar\n\n\nnextflow\n\n\neducation\n\n\nworkshop\n\n\n\nThe first instance of the new bioinformatics workshop series. Learn about Nextflow and how to write your own pipeline.\n\n\n\n\n\nNov 16, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\n3B’s: Basic Biostatistics & Bioinformatics\n\n\n\n\n\n\nseminar\n\n\nworkshop\n\n\nstatistics\n\n\n\nToday we finally launch our long awaited collaboration with SLU’s Center for Statistics.\n\n\n\n\n\nNov 13, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics seminar series\n\n\n\n\n\n\nseminar\n\n\nstatistics\n\n\n\nThe 2021 edition of the seminar series of SLU’s Center for Statistics, this year on environmental statistics\n\n\n\n\n\nAug 27, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop for supervisors: Introduction to, and visualisation in R\n\n\n\n\n\n\neducation\n\n\nworkshop\n\n\n\nTraining day to get to know the possibilities of R\n\n\n\n\n\nSep 24, 2018\n\n\nSLUBI\n\n\n\n\n\n\nNo matching items",
+    "text": "UPPMAX (Uppsala Multidisciplinary Center for Advanced Computational Science) is Uppsala University’s resource of high-performance computers, large-scale storage and know-how of high-performance computing (HPC). They provide resources for the Swedish Research Community. Their server for non-human data is called Rackham.",
     "crumbs": [
       "Training",
-      "Seminars and Workshops"
+      "How to: Uppmax"
+    ]
+  },
+  {
+    "objectID": "uppmax.html#rackham-end-of-life",
+    "href": "uppmax.html#rackham-end-of-life",
+    "title": "How to: Uppmax",
+    "section": "Rackham End of Life",
+    "text": "Rackham End of Life\nUnfortunately Rackham’s end of life has been announced. While researchers can still use this amazing resource, we have to prepare ourselves for a big change. Fortunately, we expect that what you learn from this guide will still be applicable to Dardel in 2025.",
+    "crumbs": [
+      "Training",
+      "How to: Uppmax"
+    ]
+  },
+  {
+    "objectID": "uppmax.html#uppmax-training",
+    "href": "uppmax.html#uppmax-training",
+    "title": "How to: Uppmax",
+    "section": "UPPMAX Training",
+    "text": "UPPMAX Training\nUPPMAX offers regular training. For a regularly updated list, please see here.",
+    "crumbs": [
+      "Training",
+      "How to: Uppmax"
+    ]
+  },
+  {
+    "objectID": "uppmax.html#applying-for-an-account",
+    "href": "uppmax.html#applying-for-an-account",
+    "title": "How to: Uppmax",
+    "section": "Applying for an account",
+    "text": "Applying for an account\nIn order to log in to the cluster, you need to apply for an account. You can register a new account here. You will also use this page to log on when registering projects.",
+    "crumbs": [
+      "Training",
+      "How to: Uppmax"
+    ]
+  },
+  {
+    "objectID": "uppmax.html#appyling-for-projects",
+    "href": "uppmax.html#appyling-for-projects",
+    "title": "How to: Uppmax",
+    "section": "Appyling for projects",
+    "text": "Appyling for projects\nFor an extensive guide of how to start with UPPMAX have a look here.\nThe following is a small rundown of this information based on our experience.\nMore often than not, small compute and small storage projects are enough for the bioinformatics projects we see at SLU. You must apply for a storage project alongside a compute project if you are planning to do any analyses.\nThe administrators at NAISS approve projects at least once a month, but often more frequently.\nWhen you have logged in, there will be a list of options in the panel on the left, select ‘Proposals’ to see your proposals, scroll down to ‘Rounds and ’Resources’, and click on ‘Go to Rounds’ to get to the application.\nFrom here you can apply for computing and storage projects.\n\nComputing Projects\nSelect Compute Rounds followed by NAISS Small Compute\nYou will then select Create New Proposal for NAISS Small Compute 2024\nWe generally recommend asking for 2 or 3 x1000 core hours per month. This can always be increased later if you realise that you exceed this boundary, but that is quite rare.\n\n\nStorage Projects\nSelect Go to Storage Rounds followed by NAISS Small Storage\nHere you will have to request the size of the project folder as well as the number of files you will be storing.\nAs a general rule of thumb\n\nFor folder size: multiply the size of the data you are uploading by 5-7, depending on the analysis you will be doing. If the size of your files decreases with each step of your pipeline (and you remove large intermediate files during your workflow) as with variant calling for example, a factor of 5 is usually more than enough. If you are performing multiple genome alignments from de novo assemblies, for example, your file sizes don’t decrease significantly between each step of the pipeline, then you should multiply by a higher factor of 7 (or higher, depending on what you will be doing).\nFor number of files: multiply the number of files you are starting out with by 1000. If you are using Nextflow workflows, this number may have to be a bit higher (but should not exceed 5000) as the number of intermediate files produced here is higher due to parallelisation.\n\nIn short, consider the analyses you will be doing, what kind of data you are producing, and how big the files are. With these two very general rules, it should be easier to decide on these parameters when applying for projects!\nWhen your storage and compute projects have been approved, you will be able to upload data from your computer, or download from data delivery systems. If you are downloading from SciLifeLab, please see their guide.\nYour approved projects will be located under /proj/naiss202x_xy_xyz where xyz are the project identifiers provided to you by UPPMAX. Here it is important to note that your project will be called “NAISS 2024/23-xyz” on the SUPR page, but the projects follow the above naming convention on the server.\nAfter your storage and compute projects have been approved, you can navigate to your folder in the /proj/ directory and upload your data in your storage project folder. DO NOT upload your data to your user home directory as that directory is only intended for things you will use for every project and space is limited.",
+    "crumbs": [
+      "Training",
+      "How to: Uppmax"
+    ]
+  },
+  {
+    "objectID": "uppmax.html#logging-in-for-the-first-time",
+    "href": "uppmax.html#logging-in-for-the-first-time",
+    "title": "How to: Uppmax",
+    "section": "Logging in for the first time",
+    "text": "Logging in for the first time\nPlease see our guide or a more comprehensive version",
+    "crumbs": [
+      "Training",
+      "How to: Uppmax"
+    ]
+  },
+  {
+    "objectID": "uppmax.html#loading-modules",
+    "href": "uppmax.html#loading-modules",
+    "title": "How to: Uppmax",
+    "section": "Loading modules",
+    "text": "Loading modules\nRackham uses modules. This ensures that the path is not flooded, and allows for multiple versions of software to be installed simultaneously.\n\nTo see all available modules type module avail\nIf you want to see the modules that match your search term module spider tool_name. This is not case specific, so you could search “fastqc” to see all modules that match the string “fastqc” (without the inverted commas!)\nTo load a module module load tool_name from the module spider results. This is case specific, so be sure to include version numbers, capital letters, and any punctuation present.\nA good habit to get into is to run module load bioinfo-tools the moment you log on to ensure that all modules contained within bioinfo-tools is available to load\nYou can load multiple modules at once by simply listing them, e.g.: module load bioinfo-tools blast/2.14.1+\n\nFor a list of installed software, please see here.\nTo learn more about the module system, have a look at the guide on UPPMAX",
+    "crumbs": [
+      "Training",
+      "How to: Uppmax"
+    ]
+  },
+  {
+    "objectID": "uppmax.html#slurm",
+    "href": "uppmax.html#slurm",
+    "title": "How to: Uppmax",
+    "section": "Slurm",
+    "text": "Slurm\nUPPMAX uses a job manager called Slurm. Please be sure to read their guide before you start working on UPPMAX! This is simply a short overview of the most commonly used functions by SLUBI, and not an exhaustive list.\nTo use Slurm, your project number from the compute project is used for the -A flag. Your storage project number is just the place you store data. Here, the / and spaces in the name are replaced by - as you can see below\n\nTime flags are in the format of HH:MM:SS\nTo run an interactive session use interactive -A naiss202x-xy-xyz -t 2:00:00 to launch an interactive session of 2 hours. Time can be changed according to your needs\nIf you need to run a batch script, set it up so that the information in the UPPMAX guide is in the header with your project number. You submit your script with the sbatch script.sh command\nTo view the jobs active for your user jobinfo -u your_username\nTo cancel a job scancel jobnumber. You can get the jobnumber from the jobinfo command above",
+    "crumbs": [
+      "Training",
+      "How to: Uppmax"
+    ]
+  },
+  {
+    "objectID": "uppmax.html#uppmax-in-a-can",
+    "href": "uppmax.html#uppmax-in-a-can",
+    "title": "How to: Uppmax",
+    "section": "UPPMAX in a can",
+    "text": "UPPMAX in a can\nUPPMAX in a can is a wonderful resource produced by the scientists at UPPMAX that allows users to run UPPMAX on their local servers.",
+    "crumbs": [
+      "Training",
+      "How to: Uppmax"
     ]
   },
   {
@@ -256,13 +276,92 @@
     ]
   },
   {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Seminars and Workshops",
+    "section": "",
+    "text": "Bioinformatics in Umeå Workshop Series\n\n\n\n\n\n\nseminar\n\n\nnextflow\n\n\neducation\n\n\nworkshop\n\n\n\nThe first instance of the new bioinformatics workshop series. Learn about Nextflow and how to write your own pipeline.\n\n\n\n\n\nNov 16, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\n3B’s: Basic Biostatistics & Bioinformatics\n\n\n\n\n\n\nseminar\n\n\nworkshop\n\n\nstatistics\n\n\n\nToday we finally launch our long awaited collaboration with SLU’s Center for Statistics.\n\n\n\n\n\nNov 13, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics seminar series\n\n\n\n\n\n\nseminar\n\n\nstatistics\n\n\n\nThe 2021 edition of the seminar series of SLU’s Center for Statistics, this year on environmental statistics\n\n\n\n\n\nAug 27, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop for supervisors: Introduction to, and visualisation in R\n\n\n\n\n\n\neducation\n\n\nworkshop\n\n\n\nTraining day to get to know the possibilities of R\n\n\n\n\n\nSep 24, 2018\n\n\nSLUBI\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Training",
+      "Seminars and Workshops"
+    ]
+  },
+  {
+    "objectID": "lizel.html",
+    "href": "lizel.html",
+    "title": "Lizel Potgieter",
+    "section": "",
+    "text": "I am a trained molecular biologist turned bioinformatician, based at LTV in Alnarp\nComparative genomics, population genomics, variant calling, genome assembly and annotation."
+  },
+  {
+    "objectID": "social.html",
+    "href": "social.html",
+    "title": "Fika",
+    "section": "",
+    "text": "Meet us and other bioinformaticians for an informal fika to chat about projects, new tools or life in general.\nWe meet by the colorful couches in front of the IT service center in Ulls hus. Dates and times are announced via e-mail. If you do not receive them sign up for updates via slubi@slu.se.",
+    "crumbs": [
+      "Events",
+      "Fika"
+    ]
+  },
+  {
+    "objectID": "nicolas.html",
+    "href": "nicolas.html",
+    "title": "Nicolas Delhomme",
+    "section": "",
+    "text": "Geneticist by training, bioinformatician/biostatistician in practice, interested in gene regulation in a systems biology context, expert in expression profiling. Researcher, bioinformatician and UPSC Bioinformatics Facility Manager in Umeå."
+  },
+  {
+    "objectID": "3BS.html",
+    "href": "3BS.html",
+    "title": "Basic Biostatistics & Bioinformatics",
+    "section": "",
+    "text": "SLUBI and the SLU Centre for Statistics are bringing you a workshop series focused on R and applications in bioinformatics.\nMondays in even weeks, 09:45 \nCampus Alnarp, Horticum \nor via Zoom (Password: 410 410) \n\n\n\n\n\n\nWe are running a topic-driven discussion series where Adam Flöhr from the Centre for Statistics discusses the statistical magic behind some of the common methods we use, and Lizel Potgieter from SLUBI uses data to show a hands-on example of how to execute the analyses.\n\nAll data and codes of past sessions is available at https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series.\n\n\nProgram\n\n\n\n\n\n\n\n\nSession #\nDate\nTopic\n\n\n\n\nSession 1\n13th Nov 2023\nIntroduction to R\n\n\nSession 2\n27th Nov 2023\nLinux Basics\n\n\nSession 3\n11th Dec 2023\nTheory and practice PCA\n\n\nSession 4\n15th Jan 2024\nIntroduction to Markdown\n\n\nSession 5\n12th Feb 2024\nPopulation Structure\n\n\nSession 6\n26th Feb 2024\nHow to write functions in R\n\n\nSession 7\n11th March 2024\nIntroduction to Python\n\n\nSession 8\n25th Match 2024\nIntroduction to Neural Networks\n\n\nSession 9\n8th April 2024\nIntermedial ggplot in R\n\n\nSession 10\n22nd Apr 2024\nIntroduction to High Performance Computing\n\n\nSession 11\n06th May 2024\nTools and tricks for reproducible research\n\n\nSession 12\n20th May 2024\nIntroduction to git\n\n\nSession 13\n03rd Jun 2024\nProject organization in R\n\n\nSession 14\n17th Jun 2024\nInteractive Data Visualization in R using “shiny”\n\n\n\n We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open:\nPlease fill out this questionnaire to decide what you would like to hear (more) about.\n\n\nSession information\n\n\n\n\n\n\n\n\n\n\nIntroduction to R\n\n\nSession 1 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nNov 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to the command line\n\n\nSession 2 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nNov 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPCA: Theory and Practice\n\n\nSession 3 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nDec 11, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Markdown\n\n\nSession 4 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nJan 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPopulation structure analyses\n\n\nSession 5 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nFeb 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to writing functions in R\n\n\nSession 6 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nFeb 26, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Python\n\n\nSession 7 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nMar 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Neural Networks\n\n\nSession 8 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nMar 25, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntermediate ggplot in R\n\n\nSession 9 in the series Basic Biostatistics and Bioinformatics\n\n\n\nSLUBI\n\n\nApr 8, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "slubi.html",
+    "href": "slubi.html",
+    "title": "SLUBI",
+    "section": "",
+    "text": "Our goal\nOur goal is to provide support and training in bioinformatics for SLU staff, and to build a strong community of bioinformaticians within SLU. Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp. We want to join forces and coordinate teaching activities, common resources (hardware, software).\nWe also serve as a link to the broader bioinformatics community in Sweden, such as the National Bioinformatics Infrastructure Sweden, NBIS, facilitating collaboration and knowledge exchange.\n\n\n\n\n\n\nOur team\nWe are a group of skilled bioinformaticians. Please klick on us to see more about our background.\n\n\n\n\n\n\n\n\n\n\n Amrei Binzer-Panchal, bioinformatician in Ultuna (VH faculty): head of the infrastructure, and expert in analysing RNAseq, methylation data, microarrays, and 10x single cell RNAseq data.\n\n\n\n\n\n\n Nicolas Delhomme, bioinformatician in Umeå (S faculty): head of the UPSC Bioinformatics Facility, expert in expression profiling and anything bioinformatics related.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lizel Potgieter, bioinformatician in Alnarp (LTV faculty): our plant breeding, comparative genomics, population genomics, variant calling, genome assembly and annotation expert.\n\n\n\n\n\n\n Adnan Niazi, bioinformatician in Ultuna (VH faculty): our expert in RNAseq, metabarcoding (16S/18S/ITS), epigenomics (WGBS/RRBS), genome assembly and annotation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Abu Bakar Siddique, bioinformatician in Ultuna (NJ faculty): our expert in metagenomics, DNASeq, shotgun seq, metabarcoding (ITS), WGS analysis, read mapping, genome assembly and annotation. With wetlab experience in DNA, PCR and HTS library prep.",
+    "crumbs": [
+      "About us",
+      "SLUBI"
+    ]
+  },
+  {
+    "objectID": "abu.html",
+    "href": "abu.html",
+    "title": "Abu Bakar Siddique",
+    "section": "",
+    "text": "Bioinformatician (based at NJ in Ultuna)\nMetagenomics, DNASeq, Shotgun Seq, Metabarcoding (ITS), WGS analysis, Read Mapping, Genome assembly and annotation, wetlab: DNA, PCR, HTS library prep."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to SLUBI",
+    "section": "",
+    "text": "Welcome to SLUBI, where our mission is to provide support and training in bioinformatics for researchers, students, and faculty at SLU.  As a hub for bioinformatics expertise within the university, we facilitate the application of computational methods in biological research and strieve to build a strong community of bioinformaticians within SLU.  Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp and available to you in many different ways.\n\n\n\n\n\n\n\n\n\n\n\nServices\n\n We offer a range of bioinformatics services, including data analysis, software support, consultation, and training, tailored to meet the diverse needs of the university community.\nIn addition to our core services, we offer customized solutions and training courses to support researchers at every stage of their bioinformatics projects, from data acquisition to publication.\nMore information on our support here.\n\n\n\n\n\n\n\n\n\nDrop-in\n\nEvery week we arrange a digital drop-in. If you have a question, want to discuss your project, know what tool or analyses fits your data best, join us!\nJoin us every Wednesday from 13:00 to 14:00 on Zoom.\nMore information here.\n\n\nTraining\n\nWe aim to advance bioinformatics expertise at SLU through curated courses, seminars &workshops, and personalized training sessions.\nExplore our current courses or contact us to propose a topic you believe is missing.\n\n\n\n\nSeminar series\n\n\n We are proud to present our collaborative workshop series, Three Bees:\n\nImagine basic statistical concepts and bioinformatics tools explained to you by experts. Informative lessons and hands-on coding exercises on a variety of topics.\nWe make it possible in our collaboration with SLU’s Center for Statistics.\nMore information here.\n\n\n\n\n\n\nCurrent news and events\n\n\n\n\n\n\n\n\n\n\nWorkshop session at Sasuf Week\n\n\nThe South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you.\n\n\n\nSLUBI\n\n\nMay 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Reproducible Research in R\n\n\nOct 21st to Oct 25th, 2024, online via Zoom\n\n\n\nSLUBI\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSwedish Bioinformatics Workshop 2024\n\n\nNovember 4th & 5th, 2024 on Campus Ultuna\n\n\n\nSLUBI\n\n\nNov 4, 2024\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "Welcome to SLUBI"
+    ]
+  },
+  {
+    "objectID": "adnan.html",
+    "href": "adnan.html",
+    "title": "Adnan Nizai",
+    "section": "",
+    "text": "Expert in RNAseq, Metabarcoding (16S/18S/ITS), Epigenomics (WGBS/RRBS), Genome assembly and annotation."
+  },
+  {
     "objectID": "online-resources.html",
     "href": "online-resources.html",
     "title": "Tools and resources",
     "section": "",
     "text": "Tools and Pipelines\n\n\n\n\n\n\n\n\n\n Nf-core - Portable, documented and easy to use workflows based on nextflow.\n\n\n\n\n \n\n\n Git - a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.\n\n\n\n\n\n\nTraining Resources\n\n\n\n\n\n\n\n\n\n\n Software Carprentries - teaching basic coding skills for research computing to researchers worldwide.\n\n\n\n\n \n\n\n Elixir - brings together life science resources from across Europe, including databases, software tools, training materials, cloud storage and supercomputers.\n\n\n\n\n \n\n\n Code Refinery - teaching all the essential tools so everyone can make full use of software, computing, and data.\n\n\n\n\n\n\nComputing Resources\n\n\n\n\n\n\n\n\n\n\n SLUBI computing resources - we have local computing resources at all campuses and strive to coordinate the management of these.\n\n\n\n\n \n\n\n National Academic Infrastructure for Supercomputing in Sweden - organization for high-performance computing, storage, and data services for academic users in Sweden.\n\n\n\n\n \n\n\n UPPMAX - Uppsala Multidisciplinary Center for Advanced Computational Science, HPC computing rescource for Swedish scientists. Apply for free computing projects via NAISS.\n\n\n\n\n\n\n\n Microsoft Azure - SLU has an agreement with Microsoft Azure for cloud computing (including price discounts). You can get more information by contacting the SLU IT-support.\n\n\n\n\n\nSLU support\n\n\n\n\n\n\n\n\n\n\n Center for Statistics - a joint platform for statisticians at SLU to enable exchange of knowledge and to be a resource for the entire university by organizing workshops and providing statistical advice and support for all employees at SLU.\n\n\n\n\n\n\n\n Data Management Support - assists SLU employees with data management - from planning, including data management plans, to publishing, long-term preservation, archiving and the reuse of research and environmental assessment data.\n\n\n\n\n \n\n\n UPSC Bioinformatics Facility - centralises bioinformatics competences in Umeå, offering a range of bioinformatics services as well as local bioinformatics training, international workshops and training programs.\n\n\n\n\n\nSequencing Resources\n\n\n\n\n\n\n \n\n\n National Genomics Infrastructure - NGI Uppsala offers next generation sequencing (NGS) and genotyping services of high quality using the latest technologies to academic researchers in Sweden and abroad.\n\n\n\n\n \n\n\n SNP&SEQ - Part of NGI Sweden, hosted by SciLifeLab, offers genotyping and next generation sequencing services to academic researchers in Sweden.\n\n\n\n\n \n\n\n Uppsala Genome Center - Part of NGI Sweden, hosted by SciLifeLab, provides long read sequencing services, from i.e. PacBio, Ion, Oxford Nanopore.",
     "crumbs": [
-      "Services",
+      "Training",
       "Tools and resources"
     ]
   },
@@ -273,7 +372,7 @@
     "section": "",
     "text": "R\nR is a common coding language used in bioinformatics. R for Data Science (2e) is an excellent place to start your journey into R.\nIf you prefer learning through self-paced courses: Dataquest has a free, self-paced course. CodeAcademy has a free course, but you will have to pay for the certificate.\nAnd, of course, our 3 Bees workshop series!\n\n\nBash\nMost servers run on a Unix build. It is intimidating to start with a new interface, but with these guides things will be a lot smoother!\nData Carpentry’s Intro to the shell is a great place to start when you are a new user of Linux. As is the The Unix Shell, a self paced introduction to the unix shell and command line operations, provided by the Software Carpentries.\nIf you don’t have access to a server yet, and would like to practice on your local Windows machine, download MobaXterm and run a shell session on your Windows machine. If you are using a Mac, you will be able to follow the tutorial from the terminal that comes with your operating system.\n\n\nVisual Studio Code\nTraditionally, Windows users had to connect to servers using PuTTy or a similar interface. We recommend making use of VSCode that comes with your Windows operating system (it can also be installed on machines that run Linux builds and MacOS).\nWith VSCode, you can connect to servers using ssh, install extensions supporting a variety of coding languages, write and render markdown documents, and more. VSCode makes working on servers much easier as you can have a text editor open to edit your scripts to save them directly on the server you are working on, have a file manager open for a more traditional view of the file tree, as well as having multiple terminals open simultaneously.\n\nConnecting to Uppmax servers with VSCode\n\nOpen VSCode\nctrl+shift+p\nRemote-SSH: Add new SSH Host\nFollow login instructions on Uppmax support\nAdd the info to the first .ssh file prompted\nctrl+shift+p\nRemote-SSH: Connect to Host",
     "crumbs": [
-      "Services",
+      "Training",
       "Self learning"
     ]
   },

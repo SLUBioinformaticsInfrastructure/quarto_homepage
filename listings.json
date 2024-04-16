@@ -32,11 +32,12 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/workshops.html",
     "items": [
-      "/newsposts/events/future_events/20240514_sasuf/index.html",
-      "/newsposts/events/future_events/20241021_course_ReproducibleResInR/index.html",
-      "/newsposts/events/future_events/20241104_SBW24/index.html"
+      "/newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html",
+      "/newsposts/seminars_workshops/20231113_3bees/index.html",
+      "/newsposts/seminars_workshops/20210827_seminar_statistics/index.html",
+      "/newsposts/seminars_workshops/20180924_R_workshop/index.html"
     ]
   },
   {
@@ -54,12 +55,11 @@
     ]
   },
   {
-    "listing": "/workshops.html",
+    "listing": "/index.html",
     "items": [
-      "/newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html",
-      "/newsposts/seminars_workshops/20231113_3bees/index.html",
-      "/newsposts/seminars_workshops/20210827_seminar_statistics/index.html",
-      "/newsposts/seminars_workshops/20180924_R_workshop/index.html"
+      "/newsposts/events/future_events/20240514_sasuf/index.html",
+      "/newsposts/events/future_events/20241021_course_ReproducibleResInR/index.html",
+      "/newsposts/events/future_events/20241104_SBW24/index.html"
     ]
   },
   {
