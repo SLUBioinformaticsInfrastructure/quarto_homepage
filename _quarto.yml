@@ -26,12 +26,13 @@ website:
         contents:
           - support_what.qmd
           - dropin.qmd
-          - learning-resources.qmd
-          - online-resources.qmd
       - section: "Training"
         contents:
           - courses.qmd
           - workshops.qmd
+          - learning-resources.qmd
+          - online-resources.qmd
+          - uppmax.qmd
       - section: "Events"
         contents: 
           - events.qmd
