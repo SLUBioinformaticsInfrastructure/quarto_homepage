@@ -280,8 +280,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#rackham-end-of-life" id="toc-rackham-end-of-life" class="nav-link active" data-scroll-target="#rackham-end-of-life">Rackham End of Life</a></li>
   <li><a href="#uppmax-training" id="toc-uppmax-training" class="nav-link" data-scroll-target="#uppmax-training">UPPMAX Training</a></li>
-  <li><a href="#applying-for-an-account" id="toc-applying-for-an-account" class="nav-link" data-scroll-target="#applying-for-an-account">Applying for an account</a></li>
-  <li><a href="#appyling-for-projects" id="toc-appyling-for-projects" class="nav-link" data-scroll-target="#appyling-for-projects">Appyling for projects</a>
+  <li><a href="#applying-for-an-account-at-naiss-supr" id="toc-applying-for-an-account-at-naiss-supr" class="nav-link" data-scroll-target="#applying-for-an-account-at-naiss-supr">Applying for an account at NAISS SUPR</a></li>
+  <li><a href="#appyling-for-projects-at-uppmax" id="toc-appyling-for-projects-at-uppmax" class="nav-link" data-scroll-target="#appyling-for-projects-at-uppmax">Appyling for projects at UPPMAX</a>
   <ul class="collapse">
   <li><a href="#computing-projects" id="toc-computing-projects" class="nav-link" data-scroll-target="#computing-projects">Computing Projects</a></li>
   <li><a href="#storage-projects" id="toc-storage-projects" class="nav-link" data-scroll-target="#storage-projects">Storage Projects</a></li>
@@ -329,17 +329,18 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="uppmax-training">UPPMAX Training</h2>
 <p>UPPMAX offers regular training. For a regularly updated list, please see <a href="https://www.uppmax.uu.se/support/courses-and-workshops/">here</a>.</p>
 </section>
-<section id="applying-for-an-account" class="level2">
-<h2 class="anchored" data-anchor-id="applying-for-an-account">Applying for an account</h2>
-<p>In order to log in to the cluster, you need to apply for an account. You can register a new account <a href="https://supr.naiss.se/login/">here</a>. You will also use this page to log on when registering projects.</p>
+<section id="applying-for-an-account-at-naiss-supr" class="level2">
+<h2 class="anchored" data-anchor-id="applying-for-an-account-at-naiss-supr">Applying for an account at NAISS SUPR</h2>
+<p>In order use the resources at Uppmax, you need to apply for an account. You need to apply for an account at <a href="https://supr.naiss.se/login/">NAISS SUPR</a>.</p>
+<p>You will also use this page to log on when appying for projects.</p>
 </section>
-<section id="appyling-for-projects" class="level2">
-<h2 class="anchored" data-anchor-id="appyling-for-projects">Appyling for projects</h2>
-<p>For an extensive guide of how to start with UPPMAX have a look <a href="https://www.uppmax.uu.se/support/getting-started/">here</a>.</p>
+<section id="appyling-for-projects-at-uppmax" class="level2">
+<h2 class="anchored" data-anchor-id="appyling-for-projects-at-uppmax">Appyling for projects at UPPMAX</h2>
+<p>For an extensive guide of how to start with UPPMAX have a look at their <a href="https://www.uppmax.uu.se/support/getting-started/">getting started guide</a>.</p>
 <p>The following is a small rundown of this information based on our experience.</p>
 <p>More often than not, small compute and small storage projects are enough for the bioinformatics projects we see at SLU. You must apply for a storage project alongside a compute project if you are planning to do any analyses.</p>
 <p>The administrators at NAISS approve projects at least once a month, but often more frequently.</p>
-<p>When you have <a href="https://supr.naiss.se/login/">logged in</a>, there will be a list of options in the panel on the left, select ‘Proposals’ to see your <a href="https://supr.naiss.se/proposal/">proposals</a>, scroll down to ‘Rounds and ’Resources’, and click on ‘Go to Rounds’ to get to the <a href="https://supr.naiss.se/round/?">application</a>.</p>
+<p>When you have <a href="https://supr.naiss.se/login/">logged in to SUPR</a>, there will be a list of options in the panel on the left, select ‘Proposals’ to see your <a href="https://supr.naiss.se/proposal/">proposals</a>, scroll down to ‘Rounds and ’Resources’, and click on ‘Go to Rounds’ to get to the <a href="https://supr.naiss.se/round/?">application</a>.</p>
 <p>From here you can apply for computing and storage projects.</p>
 <section id="computing-projects" class="level3">
 <h3 class="anchored" data-anchor-id="computing-projects">Computing Projects</h3>
@@ -351,7 +352,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="storage-projects">Storage Projects</h3>
 <p>Select <code>Go to Storage Rounds</code> followed by <code>NAISS Small Storage</code></p>
 <p>Here you will have to request the size of the project folder as well as the number of files you will be storing.</p>
-<p>As a general rule of thumb</p>
+<p>As a general rule of thumb:</p>
 <ul>
 <li><p><strong>For folder size</strong>: multiply the size of the data you are uploading by 5-7, depending on the analysis you will be doing. If the size of your files decreases with each step of your pipeline (and you remove large intermediate files during your workflow) as with variant calling for example, a factor of 5 is usually more than enough. If you are performing multiple genome alignments from <em>de novo</em> assemblies, for example, your file sizes don’t decrease significantly between each step of the pipeline, then you should multiply by a higher factor of 7 (or higher, depending on what you will be doing).</p></li>
 <li><p><strong>For number of files</strong>: multiply the number of files you are starting out with by 1000. If you are using Nextflow workflows, this number may have to be a bit higher (but should not exceed 5000) as the number of intermediate files produced here is higher due to parallelisation.</p></li>
@@ -364,7 +365,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="logging-in-for-the-first-time" class="level2">
 <h2 class="anchored" data-anchor-id="logging-in-for-the-first-time">Logging in for the first time</h2>
-<p>Please see our <a href="https://www.slubi.se/learning-resources.html">guide</a> or a more <a href="https://www.uppmax.uu.se/support/user-guides/guide--first-login-to-uppmax/">comprehensive version</a></p>
+<p>Please see our <a href="https://www.slubi.se/learning-resources.html">guide</a> or a more <a href="https://www.uppmax.uu.se/support/user-guides/guide--first-login-to-uppmax/">comprehensive version from the staff of Uppmax</a></p>
 </section>
 <section id="loading-modules" class="level2">
 <h2 class="anchored" data-anchor-id="loading-modules">Loading modules</h2>
@@ -376,19 +377,19 @@ ul.task-list li input[type="checkbox"] {
 <li>A good habit to get into is to run <code>module load bioinfo-tools</code> the moment you log on to ensure that all modules contained within <code>bioinfo-tools</code> is available to load</li>
 <li>You can load multiple modules at once by simply listing them, e.g.: <code>module load bioinfo-tools blast/2.14.1+</code></li>
 </ul>
-<p>For a list of installed software, please see <a href="https://www.uppmax.uu.se/resources/software/installed-software/">here</a>.</p>
+<p>Uppmax is providing a <a href="https://www.uppmax.uu.se/resources/software/installed-software/">list of installed software</a>.</p>
 <p>To learn more about the module system, have a look at the guide on <a href="https://www.uppmax.uu.se/resources/software/module-system/">UPPMAX</a></p>
 </section>
 <section id="slurm" class="level2">
 <h2 class="anchored" data-anchor-id="slurm">Slurm</h2>
-<p>UPPMAX uses a job manager called <a href="https://slurm.schedmd.com/documentation.html">Slurm</a>. Please be sure to read their <a href="https://www.uppmax.uu.se/support/user-guides/slurm-user-guide/">guide</a> before you start working on UPPMAX! This is simply a short overview of the most commonly used functions by SLUBI, and not an exhaustive list.</p>
+<p>UPPMAX uses a job manager called <a href="https://slurm.schedmd.com/documentation.html">Slurm</a>. Please be sure to read their <a href="https://www.uppmax.uu.se/support/user-guides/slurm-user-guide/">SLURM user guide</a> before you start working on UPPMAX! The following is simply a short overview of the most commonly used functions by SLUBI, and not an exhaustive list:</p>
 <p>To use Slurm, your project number from the <strong>compute</strong> project is used for the <strong>-A</strong> flag. Your storage project number is just the place you store data. Here, the / and spaces in the name are replaced by - as you can see below</p>
 <ul>
-<li>Time flags are in the format of HH:MM:SS</li>
-<li>To run an interactive session use <code>interactive -A naiss202x-xy-xyz -t 2:00:00</code> to launch an interactive session of 2 hours. Time can be changed according to your needs</li>
-<li>If you need to run a batch script, set it up so that the information in the UPPMAX guide is in the header with your project number. You submit your script with the <code>sbatch script.sh</code> command</li>
-<li>To view the jobs active for your user <code>jobinfo -u your_username</code></li>
-<li>To cancel a job <code>scancel jobnumber</code>. You can get the jobnumber from the <code>jobinfo</code> command above</li>
+<li>Time flags are in the format of HH:MM:SS.</li>
+<li>To run an interactive session use <code>interactive -A naiss202x-xy-xyz -t 2:00:00</code> to launch an interactive session of 2 hours. Time can be changed according to your needs.</li>
+<li>If you need to run a batch script, set it up so that the information in the UPPMAX guide is in the header with your project number. You submit your script with the <code>sbatch script.sh</code> command.</li>
+<li>To view the jobs active for your user <code>jobinfo -u your_username</code>.</li>
+<li>To cancel a job <code>scancel jobnumber</code>. You can get the jobnumber from the <code>jobinfo</code> command above.</li>
 </ul>
 </section>
 <section id="uppmax-in-a-can" class="level2">
