@@ -13,12 +13,14 @@ Unfortunately Rackham's end of life has been [announced](https://www.uppmax.uu.s
 ## UPPMAX Training
 UPPMAX offers regular training. For a regularly updated list, please see [here](https://www.uppmax.uu.se/support/courses-and-workshops/).
 
-## Applying for an account
-In order to log in to the cluster, you need to apply for an account. You can register a new account [here](https://supr.naiss.se/login/).
-You will also use this page to log on when registering projects.
+## Applying for an account at NAISS SUPR
 
-## Appyling for projects
-For an extensive guide of how to start with UPPMAX have a look [here](https://www.uppmax.uu.se/support/getting-started/). 
+In order use the resources at Uppmax, you need to apply for an account. You need to apply for an account at [NAISS SUPR](https://supr.naiss.se/login/).
+
+You will also use this page to log on when appying for projects.
+
+## Appyling for projects at UPPMAX
+For an extensive guide of how to start with UPPMAX have a look at their [getting started guide](https://www.uppmax.uu.se/support/getting-started/). 
 
 The following  is a small rundown of this information based on our experience.
 
@@ -26,7 +28,7 @@ More often than not, small compute and small storage projects are enough for the
 
 The administrators at NAISS approve projects at least once a month, but often more frequently.
 
-When you have [logged in](https://supr.naiss.se/login/), there will be a list of options in the panel on the left, select 'Proposals' to see your [proposals](https://supr.naiss.se/proposal/), scroll down to 'Rounds and 'Resources', and click on 'Go to Rounds' to get to the [application](https://supr.naiss.se/round/?).
+When you have [logged in to SUPR](https://supr.naiss.se/login/), there will be a list of options in the panel on the left, select 'Proposals' to see your [proposals](https://supr.naiss.se/proposal/), scroll down to 'Rounds and 'Resources', and click on 'Go to Rounds' to get to the [application](https://supr.naiss.se/round/?).
 
 From here you can apply for computing and storage projects.
 
@@ -43,10 +45,9 @@ Select ```Go to Storage Rounds``` followed by ```NAISS Small Storage```
 
 Here you will have to request the size of the project folder as well as the number of files you will be storing.
 
-As a general rule of thumb
+As a general rule of thumb:
 
-* **For folder size**: multiply the size of the data you are uploading by 5-7, depending on the analysis you will be doing. 
-If the size of your files decreases with each step of your pipeline (and you remove large intermediate files during your workflow) as with variant calling for example, a factor of 5 is usually more than enough. If you are performing multiple genome alignments from *de novo* assemblies, for example, your file sizes don't decrease significantly between each step of the pipeline, then you should multiply by a higher factor of 7 (or higher, depending on what you will be doing).
+* **For folder size**: multiply the size of the data you are uploading by 5-7, depending on the analysis you will be doing. If the size of your files decreases with each step of your pipeline (and you remove large intermediate files during your workflow) as with variant calling for example, a factor of 5 is usually more than enough. If you are performing multiple genome alignments from *de novo* assemblies, for example, your file sizes don't decrease significantly between each step of the pipeline, then you should multiply by a higher factor of 7 (or higher, depending on what you will be doing).
 
 * **For number of files**: multiply the number of files you are starting out with by 1000. If you are using Nextflow workflows, this number may have to be a bit higher (but should not exceed 5000) as the number of intermediate files produced here is higher due to parallelisation.
 
@@ -60,7 +61,7 @@ Your approved projects will be located under ```/proj/naiss202x_xy_xyz``` where 
 After your storage and compute projects have been approved, you can navigate to your folder in the ```/proj/``` directory and upload your data in your **storage** project folder. **DO NOT** upload your data to your user home directory as that directory is only intended for things you will use for every project and space is limited.
 
 ## Logging in for the first time
-Please see our [guide](https://www.slubi.se/learning-resources.html) or a more [comprehensive version](https://www.uppmax.uu.se/support/user-guides/guide--first-login-to-uppmax/)
+Please see our [guide](https://www.slubi.se/learning-resources.html) or a more [comprehensive version from the staff of Uppmax](https://www.uppmax.uu.se/support/user-guides/guide--first-login-to-uppmax/)
 
 ## Loading modules
 Rackham uses modules. This ensures that the path is not flooded, and allows for multiple versions of software to be installed simultaneously. 
@@ -72,20 +73,20 @@ Rackham uses modules. This ensures that the path is not flooded, and allows for 
 * You can load multiple modules at once by simply listing them, e.g.: ```module load bioinfo-tools blast/2.14.1+```
 
 
-For a list of installed software, please see [here](https://www.uppmax.uu.se/resources/software/installed-software/). 
+Uppmax is providing a [list of installed software](https://www.uppmax.uu.se/resources/software/installed-software/). 
 
 To learn more about the module system, have a look at the guide on [UPPMAX](https://www.uppmax.uu.se/resources/software/module-system/)
 
 ##  Slurm
-UPPMAX uses a job manager called [Slurm](https://slurm.schedmd.com/documentation.html). Please be sure to read their [guide](https://www.uppmax.uu.se/support/user-guides/slurm-user-guide/) before you start working on UPPMAX! This is simply a short overview of the most commonly used functions by SLUBI, and not an exhaustive list.
+UPPMAX uses a job manager called [Slurm](https://slurm.schedmd.com/documentation.html). Please be sure to read their [SLURM user guide](https://www.uppmax.uu.se/support/user-guides/slurm-user-guide/) before you start working on UPPMAX! The following is simply a short overview of the most commonly used functions by SLUBI, and not an exhaustive list:
 
 To use Slurm, your project number from the **compute** project is used for the **-A** flag. Your storage project number is just the place you store data. Here, the / and spaces in the name are replaced by - as you can see below
 
-* Time flags are in the format of HH:MM:SS
-* To run an interactive session use ```interactive -A naiss202x-xy-xyz -t 2:00:00``` to launch an interactive session of 2 hours. Time can be changed according to your needs
-* If you need to run a batch script, set it up so that the information in the UPPMAX guide is in the header with your project number. You submit your script with the ```sbatch script.sh``` command
-* To view the jobs active for your user ```jobinfo -u your_username```
-* To cancel a job ```scancel jobnumber```. You can get the jobnumber from the ```jobinfo``` command above
+* Time flags are in the format of HH:MM:SS.
+* To run an interactive session use ```interactive -A naiss202x-xy-xyz -t 2:00:00``` to launch an interactive session of 2 hours. Time can be changed according to your needs.
+* If you need to run a batch script, set it up so that the information in the UPPMAX guide is in the header with your project number. You submit your script with the ```sbatch script.sh``` command.
+* To view the jobs active for your user ```jobinfo -u your_username```.
+* To cancel a job ```scancel jobnumber```. You can get the jobnumber from the ```jobinfo``` command above.
 
 ## UPPMAX in a can
 
