@@ -320,10 +320,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="https://www.uppmax.uu.se/">UPPMAX</a> (Uppsala Multidisciplinary Center for Advanced Computational Science) is Uppsala University’s resource of high-performance computers, large-scale storage and know-how of high-performance computing (HPC). They provide resources for the Swedish Research Community. Their server for non-human data is called Rackham.</p>
+<p><a href="https://www.uppmax.uu.se/">UPPMAX</a> (Uppsala Multidisciplinary Center for Advanced Computational Science) is Uppsala University’s resource of high-performance computers, large-scale storage and know-how of high-performance computing (HPC). They provide resources for the Swedish Research Community. Their server for non-sensitive data is called Rackham.</p>
 <section id="rackham-end-of-life" class="level2">
 <h2 class="anchored" data-anchor-id="rackham-end-of-life">Rackham End of Life</h2>
-<p>Unfortunately Rackham’s end of life has been <a href="https://www.uppmax.uu.se/uppmax-news/?tarContentId=1069594">announced</a>. While researchers can still use this amazing resource, we have to prepare ourselves for a big change. Fortunately, we expect that what you learn from this guide will still be applicable to <a href="https://www.pdc.kth.se/hpc-services/computing-systems/dardel-1.1043529">Dardel</a> in 2025.</p>
+<p>Unfortunately Rackham’s end of life has been <a href="https://www.uppmax.uu.se/uppmax-news/?tarContentId=1069594">announced</a>. While researchers can still use this amazing resource until the end of 2024, we have to prepare ourselves for a big change. Fortunately, we expect that what you learn from this guide will still be applicable to its recommended replacement, <a href="https://www.pdc.kth.se/hpc-services/computing-systems/dardel-1.1043529">Dardel</a> in 2025.</p>
 </section>
 <section id="uppmax-training" class="level2">
 <h2 class="anchored" data-anchor-id="uppmax-training">UPPMAX Training</h2>
@@ -365,31 +365,32 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="logging-in-for-the-first-time" class="level2">
 <h2 class="anchored" data-anchor-id="logging-in-for-the-first-time">Logging in for the first time</h2>
-<p>Please see our <a href="https://www.slubi.se/learning-resources.html">guide</a> or a more <a href="https://www.uppmax.uu.se/support/user-guides/guide--first-login-to-uppmax/">comprehensive version from the staff of Uppmax</a></p>
+<p>Please see our <a href="https://www.slubi.se/learning-resources.html">guide</a> or a more <a href="https://www.uppmax.uu.se/support/user-guides/guide--first-login-to-uppmax/">comprehensive version from the staff of Uppmax</a>.</p>
 </section>
 <section id="loading-modules" class="level2">
 <h2 class="anchored" data-anchor-id="loading-modules">Loading modules</h2>
 <p>Rackham uses modules. This ensures that the path is not flooded, and allows for multiple versions of software to be installed simultaneously.</p>
 <ul>
 <li>To see all available modules type <code>module avail</code></li>
-<li>If you want to see the modules that match your search term <code>module spider tool_name</code>. This is not case specific, so you could search “fastqc” to see all modules that match the string “fastqc” (without the inverted commas!)</li>
-<li>To load a module <code>module load tool_name</code> from the <code>module spider</code> results. This is case specific, so be sure to include version numbers, capital letters, and any punctuation present.</li>
-<li>A good habit to get into is to run <code>module load bioinfo-tools</code> the moment you log on to ensure that all modules contained within <code>bioinfo-tools</code> is available to load</li>
+<li>If you want to see the modules that match your search term type <code>module spider tool_name</code>. This is not case specific, so you could search “fastqc” to see all modules that match the string “fastqc” (without the inverted commas!)</li>
+<li>To load a module type <code>module load tool_name</code> from the <code>module spider</code> results. This is case specific, so be sure to include version numbers, capital letters, and any punctuation present.</li>
+<li>A good habit to get into is to run <code>module load bioinfo-tools</code> the moment you log on to ensure that all modules contained within <code>bioinfo-tools</code> are available to load</li>
 <li>You can load multiple modules at once by simply listing them, e.g.: <code>module load bioinfo-tools blast/2.14.1+</code></li>
 </ul>
-<p>Uppmax is providing a <a href="https://www.uppmax.uu.se/resources/software/installed-software/">list of installed software</a>.</p>
-<p>To learn more about the module system, have a look at the guide on <a href="https://www.uppmax.uu.se/resources/software/module-system/">UPPMAX</a></p>
+<p>Check out the list of <a href="https://www.uppmax.uu.se/resources/software/installed-software/">list of software installed on Uppmax</a>.</p>
+<p>To learn more about the module system, have a look at the guide on <a href="https://www.uppmax.uu.se/resources/software/module-system/">UPPMAX</a>.</p>
 </section>
 <section id="slurm" class="level2">
 <h2 class="anchored" data-anchor-id="slurm">Slurm</h2>
 <p>UPPMAX uses a job manager called <a href="https://slurm.schedmd.com/documentation.html">Slurm</a>. Please be sure to read their <a href="https://www.uppmax.uu.se/support/user-guides/slurm-user-guide/">SLURM user guide</a> before you start working on UPPMAX! The following is simply a short overview of the most commonly used functions by SLUBI, and not an exhaustive list:</p>
-<p>To use Slurm, your project number from the <strong>compute</strong> project is used for the <strong>-A</strong> flag. Your storage project number is just the place you store data. Here, the / and spaces in the name are replaced by - as you can see below</p>
+<p>To use Slurm, the project ID from your <strong>compute</strong> project is used for the <strong>-A</strong> flag. Your storage project ID is where you store data. Here, the / and spaces in the name are replaced by - as you can see below.</p>
+<p>More usefull flags and options:</p>
 <ul>
-<li>Time flags are in the format of HH:MM:SS.</li>
-<li>To run an interactive session use <code>interactive -A naiss202x-xy-xyz -t 2:00:00</code> to launch an interactive session of 2 hours. Time can be changed according to your needs.</li>
-<li>If you need to run a batch script, set it up so that the information in the UPPMAX guide is in the header with your project number. You submit your script with the <code>sbatch script.sh</code> command.</li>
-<li>To view the jobs active for your user <code>jobinfo -u your_username</code>.</li>
-<li>To cancel a job <code>scancel jobnumber</code>. You can get the jobnumber from the <code>jobinfo</code> command above.</li>
+<li>Time flags are in the format of HH:MM:SS</li>
+<li>To run an interactive session use <code>interactive -A naiss202x-xy-xyz -t 2:00:00</code> to launch an interactive session of 2 hours. Time can be changed according to your needs</li>
+<li>If you need to run a batch script, set it up so that the information in the UPPMAX guide is in the header with your project number. You submit your script with the <code>sbatch script.sh</code> command</li>
+<li>To view the jobs active for your user <code>jobinfo -u your_username</code></li>
+<li>To cancel a job <code>scancel jobnumber</code>. You can get the jobnumber from the <code>jobinfo</code> command above</li>
 </ul>
 </section>
 <section id="uppmax-in-a-can" class="level2">
