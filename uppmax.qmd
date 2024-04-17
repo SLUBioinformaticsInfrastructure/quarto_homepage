@@ -3,10 +3,10 @@ title: "How to: Uppmax"
 description: starting off with Uppmax and Rackham
 ---
 
-[UPPMAX](https://www.uppmax.uu.se/) (Uppsala Multidisciplinary Center for Advanced Computational Science) is Uppsala University's resource of high-performance computers, large-scale storage and know-how of high-performance computing (HPC). They provide resources for the Swedish Research Community. Their server for non-human data is called Rackham. 
+[UPPMAX](https://www.uppmax.uu.se/) (Uppsala Multidisciplinary Center for Advanced Computational Science) is Uppsala University's resource of high-performance computers, large-scale storage and know-how of high-performance computing (HPC). They provide resources for the Swedish Research Community. Their server for non-sensitive data is called Rackham. 
 
 ## Rackham End of Life
-Unfortunately Rackham's end of life has been [announced](https://www.uppmax.uu.se/uppmax-news/?tarContentId=1069594). While researchers can still use this amazing resource, we have to prepare ourselves for a big change. Fortunately, we expect that what you learn from this guide will still be applicable to [Dardel](https://www.pdc.kth.se/hpc-services/computing-systems/dardel-1.1043529) in 2025.
+Unfortunately Rackham's end of life has been [announced](https://www.uppmax.uu.se/uppmax-news/?tarContentId=1069594). While researchers can still use this amazing resource until the end of 2024, we have to prepare ourselves for a big change. Fortunately, we expect that what you learn from this guide will still be applicable to its recommended replacement, [Dardel](https://www.pdc.kth.se/hpc-services/computing-systems/dardel-1.1043529) in 2025.
 
 
 
@@ -61,32 +61,34 @@ Your approved projects will be located under ```/proj/naiss202x_xy_xyz``` where 
 After your storage and compute projects have been approved, you can navigate to your folder in the ```/proj/``` directory and upload your data in your **storage** project folder. **DO NOT** upload your data to your user home directory as that directory is only intended for things you will use for every project and space is limited.
 
 ## Logging in for the first time
-Please see our [guide](https://www.slubi.se/learning-resources.html) or a more [comprehensive version from the staff of Uppmax](https://www.uppmax.uu.se/support/user-guides/guide--first-login-to-uppmax/)
+Please see our [guide](https://www.slubi.se/learning-resources.html) or a more [comprehensive version from the staff of Uppmax](https://www.uppmax.uu.se/support/user-guides/guide--first-login-to-uppmax/).
 
 ## Loading modules
 Rackham uses modules. This ensures that the path is not flooded, and allows for multiple versions of software to be installed simultaneously. 
 
 * To see all available modules type ```module avail``` 
-* If you want to see the modules that match your search term ```module spider tool_name```. This is not case specific, so you could search "fastqc" to see all modules that match the string "fastqc" (without the inverted commas!)
-* To load a module ```module load tool_name``` from the ```module spider``` results. This is case specific, so be sure to include version numbers, capital letters, and any punctuation present.
-* A good habit to get into is to run ```module load bioinfo-tools``` the moment you log on to ensure that all modules contained within ```bioinfo-tools``` is available to load
+* If you want to see the modules that match your search term type ```module spider tool_name```. This is not case specific, so you could search "fastqc" to see all modules that match the string "fastqc" (without the inverted commas!)
+* To load a module type ```module load tool_name``` from the ```module spider``` results. This is case specific, so be sure to include version numbers, capital letters, and any punctuation present.
+* A good habit to get into is to run ```module load bioinfo-tools``` the moment you log on to ensure that all modules contained within ```bioinfo-tools``` are available to load
 * You can load multiple modules at once by simply listing them, e.g.: ```module load bioinfo-tools blast/2.14.1+```
 
 
-Uppmax is providing a [list of installed software](https://www.uppmax.uu.se/resources/software/installed-software/). 
+Check out the list of [list of software installed on Uppmax](https://www.uppmax.uu.se/resources/software/installed-software/). 
 
-To learn more about the module system, have a look at the guide on [UPPMAX](https://www.uppmax.uu.se/resources/software/module-system/)
+To learn more about the module system, have a look at the guide on [UPPMAX](https://www.uppmax.uu.se/resources/software/module-system/).
 
 ##  Slurm
 UPPMAX uses a job manager called [Slurm](https://slurm.schedmd.com/documentation.html). Please be sure to read their [SLURM user guide](https://www.uppmax.uu.se/support/user-guides/slurm-user-guide/) before you start working on UPPMAX! The following is simply a short overview of the most commonly used functions by SLUBI, and not an exhaustive list:
 
-To use Slurm, your project number from the **compute** project is used for the **-A** flag. Your storage project number is just the place you store data. Here, the / and spaces in the name are replaced by - as you can see below
+To use Slurm, the project ID from your **compute** project is used for the **-A** flag. Your storage project ID is where you store data. Here, the / and spaces in the name are replaced by - as you can see below.
 
-* Time flags are in the format of HH:MM:SS.
-* To run an interactive session use ```interactive -A naiss202x-xy-xyz -t 2:00:00``` to launch an interactive session of 2 hours. Time can be changed according to your needs.
-* If you need to run a batch script, set it up so that the information in the UPPMAX guide is in the header with your project number. You submit your script with the ```sbatch script.sh``` command.
-* To view the jobs active for your user ```jobinfo -u your_username```.
-* To cancel a job ```scancel jobnumber```. You can get the jobnumber from the ```jobinfo``` command above.
+More usefull flags and options:
+
+* Time flags are in the format of HH:MM:SS
+* To run an interactive session use ```interactive -A naiss202x-xy-xyz -t 2:00:00``` to launch an interactive session of 2 hours. Time can be changed according to your needs
+* If you need to run a batch script, set it up so that the information in the UPPMAX guide is in the header with your project number. You submit your script with the ```sbatch script.sh``` command
+* To view the jobs active for your user ```jobinfo -u your_username```
+* To cancel a job ```scancel jobnumber```. You can get the jobnumber from the ```jobinfo``` command above
 
 ## UPPMAX in a can
 
