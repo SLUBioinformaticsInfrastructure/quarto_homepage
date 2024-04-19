@@ -44,11 +44,12 @@ All data and codes of past sessions is available at https://github.com/SLUBioinf
 | Session 7 | 11th March 2024 | Introduction to Python  |
 | Session 8 | 25th Match 2024   | Introduction to Neural Networks   |
 | Session 9 | 8th April 2024 | Intermedial ggplot in R   |
-| Session 10 | 22nd Apr 2024 | Introduction to High Performance Computing  |
-| Session 11 | 06th May 2024 | Tools and tricks for reproducible research  |
-| Session 12 | 20th May 2024 | Introduction to git   |
-| Session 13 | 03rd Jun 2024 | Project organization in R  |
-| Session 14 | 17th Jun 2024 | Interactive Data Visualization in R using "shiny"  |
+| Session 10 | 22nd Apr 2024 | <span style="color:red;">postponed due to illness</span>  |
+| Session 10 | 06th May 2024 | Introduction to High Performance Computing  |
+| Session 11 | 20th May 2024 | Tools and tricks for reproducible research  |
+| Session 12 | 03rd Jun 2024 | Introduction to git   |
+| Session 13 | 17th Jun 2024 | Project organization in R  |
+| Session 14 | 1st Jul 2024 | Interactive Data Visualization in R using "shiny"  |
 
 
 : {.striped .hover}
