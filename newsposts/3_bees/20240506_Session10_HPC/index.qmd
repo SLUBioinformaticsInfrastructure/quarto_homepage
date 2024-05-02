@@ -1,0 +1,28 @@
+---
+title: "Introduction to High performance Computing (HPC)"
+description: "Session 10 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "05-06-2024"
+categories:
+  - workshop
+  - education
+  - statistics
+image: 3bees_session10.png
+---
+
+Join us to learn the basics of high performance computing. We will have a brief overview of HPC facilities in Sweden, how to log in, and how to use the job queuing system, Slurm. We will also have a quick look at how to apply for projects on these clusters.
+
+After a short lecture, we will show how to access Rackham from UPPMAX with Visual Studio Code. If you are new to using clusters, this session is for you! 
+ 
+ 
+**Preparation:** If you would like to follow along, please ensure that you have VSCode installed.
+ 
+
+**When:** Monday May 6th, 09:45 \
+**Where:** Campus ALNARP, Pisum\
+or via **[Zoom](https://slu-se.zoom.us/j/69486568642)** (Password: 410 410)
+
+The lecture will be  available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series) after the session.
+
+<center>
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}
