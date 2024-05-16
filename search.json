@@ -159,25 +159,25 @@
     "text": "Monday, 25th of September 2023, 09:00 - 15:00\nCampus Ultuna, in person, VHC, plan 2, sal Särimner\nCampus Alnarp, remotely, Horticum, sal Triticum\nor via Zoom\n\n Registration is now closed!\nThank-you for everybody who attended and made the day as successful as it was.\n\n Program\n\n\n\n\n\n\n\n\n\nStart\nSpeaker\nTitle\n\n\n\n\n09:00\nintroduction\n\n\n\n09:15\nGabriella Lindgren\nAn endothelial regulatory module links blood pressure regulation with elite athletic performance\n\n\n09:30\nGöran Andersson\nBioinformatics analyses of genomics, epigenomics and transcriptomics data of complex diseases\n\n\n09:45\nJan Ingemar Ohlsson\nBioinformatics R-ABCD: Research Acceleration with Big Cow Data in Gigacow\n\n\n10:00\nMicael Landi\nUtilizing cassava genomes for genomics-assisted breeding\n\n\n10:15\nbreak\n\n\n\n10:45\nAlvaro Martinez Barrio\n20 years of computational biology: where the road has taken us and the highway is leading\n\n\n11:30\nOlga Vinnere Pettersson\nGenomics for agriculture - two cases\n\n\n11:45\nGirma Gebresenbet\nDigitalization in agricultural practices\n\n\n12:00\nlunch\n\n\n\n13:00\ndiscussion\nBioinformatics in Agricultural Sciences\n\n\n13:30\nSara Hallin\nMicrobes driving nitrogen losses and retention in soils\n\n\n13:45\nShrikant Sharma\nGenome editing in potatoes\n\n\n14:00\nbreak\n\n\n\n14:15\nSalme Timmusk\nPlant-root microbiome interactions\n\n\n14:30\nMoritz Buck\nMicrobial diversity and nutrient cycling in the central arctic ocean\n\n\n14:45\nAnna Szekely\nEnvironmental virus sequencing and genotyping as a tool of epidemiological monitoring\n\n\n15:00\nclosing and fika"
   },
   {
-    "objectID": "newsposts/events/20180604_SLUBI_day/index.html",
-    "href": "newsposts/events/20180604_SLUBI_day/index.html",
-    "title": "SLUBI day 2018",
-    "section": "",
-    "text": "The day was divided into 2 parts: the morning was dedicated to presentations by SLUBI experts about the support they are providing or could provide. Everyone was welcome to this meeting. In the afternoon, we had an internal meeting where we invited personnel from the IT-department to discuss with them about cloud computing solutions and long-term storage."
-  },
-  {
-    "objectID": "newsposts/events/20240314_nadas/index.html",
-    "href": "newsposts/events/20240314_nadas/index.html",
-    "title": "Nordic Network of Agricultural Data Scientists",
-    "section": "",
-    "text": "Technological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed. A number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.\nMore information on NADAS and its activities here."
-  },
-  {
-    "objectID": "newsposts/events/future_events/20240514_sasuf/index.html",
-    "href": "newsposts/events/future_events/20240514_sasuf/index.html",
+    "objectID": "newsposts/events/20240514_sasuf/index.html",
+    "href": "newsposts/events/20240514_sasuf/index.html",
     "title": "Workshop session at Sasuf Week",
     "section": "",
-    "text": "Join us on the 14th of May to discover how open source tools can be used in process of describing plant-pathogen interactions. We will use browser and R-based tools to annotate genomes, perform functional annotation, and select genes that are important in both the process of a fungal pathogen infecting the plant, and the plant launching an immune response. We will use Cercospora and sugar beet as a model system, but the tools we will show can be applied to any plant-fungal patho-system.\nWe will also have a session in the afternoon with industry representatives where we will discuss how students and researchers can prepare themselves for a career move into industry, as well as how university-industry collaborations can be established and maintained.\nOur session will be hosted in Alnarp, and you are welcome to join via Zoom. No prior bioinformatics knowledge is required for this workshop.\nPlease sign up here: https://sasufevents2024.sched.com/event/c2a46acf1ef8613a5282f827b85cc8d4"
+    "text": "Join us on the 14th of May to discover how open source tools can be used in process of describing plant-pathogen interactions. We will use browser and R-based tools to annotate genomes, perform functional annotation, and select genes that are important in both the process of a fungal pathogen infecting the plant, and the plant launching an immune response.\nWe will use Cercospora and sugar beet as a model system, but the tools we will show can be applied to any plant-fungal patho-system.\nWe will also have a session in the afternoon with industry representatives where we will discuss how students and researchers can prepare themselves for a career move into industry, as well as how university-industry collaborations can be established and maintained.\nOur session will be hosted in Alnarp, and you are welcome to join via Zoom. No prior bioinformatics knowledge is required for this workshop.\nPlease sign up here: https://sasufevents2024.sched.com/event/c2a46acf1ef8613a5282f827b85cc8d4"
+  },
+  {
+    "objectID": "newsposts/events/20171027_kickoff/index.html",
+    "href": "newsposts/events/20171027_kickoff/index.html",
+    "title": "SLUBI kickoff meeting",
+    "section": "",
+    "text": "Everyone interested in Bioinformatics was welcome to this meeting. We had short introductions from all participants when they presented briefly their field and what they were expecting from a Bioinformatics Infrastructure at SLU. The rest of the day was dedicated to brainstorming in groups and the participants discussed - Teaching/training activities - Organisation of the support - Activities for the bioinformatics community - Technical infrastructure organisation\nAll participants were invited to discuss at least 2 themes within an hour."
+  },
+  {
+    "objectID": "newsposts/events/future_events/20241104_SBW24/index.html",
+    "href": "newsposts/events/future_events/20241104_SBW24/index.html",
+    "title": "Swedish Bioinformatics Workshop 2024",
+    "section": "",
+    "text": "We are excited to plan this year’s edition of the Swedish Bioinformatics Workshop here at SLU, together with an enthusiastic group of young researchers from all over Uppsala.\nStay tuned for more information!"
   },
   {
     "objectID": "newsposts/events/20230923_SciFest/index.html",
@@ -294,7 +294,7 @@
     "href": "index.html",
     "title": "Welcome to SLUBI",
     "section": "",
-    "text": "Welcome to SLUBI, where our mission is to provide support and training in bioinformatics for researchers, students, and faculty at SLU.  As a hub for bioinformatics expertise within the university, we facilitate the application of computational methods in biological research and strieve to build a strong community of bioinformaticians within SLU.  Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp and available to you in many different ways.\n\n\n\n\n\n\n\n\n\n\n\nServices\n\n We offer a range of bioinformatics services, including data analysis, software support, consultation, and training, tailored to meet the diverse needs of the university community.\nIn addition to our core services, we offer customized solutions and training courses to support researchers at every stage of their bioinformatics projects, from data acquisition to publication.\nMore information on our support here.\n\n\n\n\n\n\n\n\n\nDrop-in\n\nEvery week we arrange a digital drop-in. If you have a question, want to discuss your project, know what tool or analyses fits your data best, join us!\nJoin us every Wednesday from 13:00 to 14:00 on Zoom.\nMore information here.\n\n\nTraining\n\nWe aim to advance bioinformatics expertise at SLU through curated courses, seminars &workshops, and personalized training sessions.\nExplore our current courses or contact us to propose a topic you believe is missing.\n\n\n\n\nSeminar series\n\n\n We are proud to present our collaborative workshop series, Three Bees:\n\nImagine basic statistical concepts and bioinformatics tools explained to you by experts. Informative lessons and hands-on coding exercises on a variety of topics.\nWe make it possible in our collaboration with SLU’s Center for Statistics.\nMore information here.\n\n\n\n\n\n\nCurrent news and events\n\n\n\n\n\n\n\n\n\n\nWorkshop session at Sasuf Week\n\n\nThe South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you.\n\n\n\nSLUBI\n\n\nMay 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCourse: Reproducible Research in R\n\n\nOct 21st to Oct 25th, 2024, online via Zoom\n\n\n\nSLUBI\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSwedish Bioinformatics Workshop 2024\n\n\nNovember 4th & 5th, 2024 on Campus Ultuna\n\n\n\nSLUBI\n\n\nNov 4, 2024\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Welcome to SLUBI, where our mission is to provide support and training in bioinformatics for researchers, students, and faculty at SLU.  As a hub for bioinformatics expertise within the university, we facilitate the application of computational methods in biological research and strieve to build a strong community of bioinformaticians within SLU.  Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp and available to you in many different ways.\n\n\n\n\n\n\n\n\n\n\n\nServices\n\n We offer a range of bioinformatics services, including data analysis, software support, consultation, and training, tailored to meet the diverse needs of the university community.\nIn addition to our core services, we offer customized solutions and training courses to support researchers at every stage of their bioinformatics projects, from data acquisition to publication.\nMore information on our support here.\n\n\n\n\n\n\n\n\n\nDrop-in\n\nEvery week we arrange a digital drop-in. If you have a question, want to discuss your project, know what tool or analyses fits your data best, join us!\nJoin us every Wednesday from 13:00 to 14:00 on Zoom.\nMore information here.\n\n\nTraining\n\nWe aim to advance bioinformatics expertise at SLU through curated courses, seminars &workshops, and personalized training sessions.\nExplore our current courses or contact us to propose a topic you believe is missing.\n\n\n\n\nSeminar series\n\n\n We are proud to present our collaborative workshop series, Three Bees:\n\nImagine basic statistical concepts and bioinformatics tools explained to you by experts. Informative lessons and hands-on coding exercises on a variety of topics.\nWe make it possible in our collaboration with SLU’s Center for Statistics.\nMore information here.\n\n\n\n\n\n\nCurrent news and events\n\n\n\n\n\n\n\n\n\n\nCourse: Reproducible Research in R\n\n\nOct 21st to Oct 25th, 2024, online via Zoom\n\n\n\nSLUBI\n\n\nOct 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSwedish Bioinformatics Workshop 2024\n\n\nNovember 4th & 5th, 2024 on Campus Ultuna\n\n\n\nSLUBI\n\n\nNov 4, 2024\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home",
       "Welcome to SLUBI"
@@ -469,18 +469,18 @@
     "text": "The course will define reproducibility and explain why it is important in scientific practice, publication, and funding. It will introduce basic concepts and tools for ensuring reproducibility in data analysis using R while using public databases for data access and storage. Through presentations, exercises, and discussions participants will learn to increase the reproducibility of their research in the future.\nStay tuned for more information!"
   },
   {
-    "objectID": "newsposts/events/future_events/20241104_SBW24/index.html",
-    "href": "newsposts/events/future_events/20241104_SBW24/index.html",
-    "title": "Swedish Bioinformatics Workshop 2024",
+    "objectID": "newsposts/events/20240314_nadas/index.html",
+    "href": "newsposts/events/20240314_nadas/index.html",
+    "title": "Nordic Network of Agricultural Data Scientists",
     "section": "",
-    "text": "We are excited to plan this year’s edition of the Swedish Bioinformatics Workshop here at SLU, together with an enthusiastic group of young researchers from all over Uppsala.\nStay tuned for more information!"
+    "text": "Technological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed. A number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.\nMore information on NADAS and its activities here."
   },
   {
-    "objectID": "newsposts/events/20171027_kickoff/index.html",
-    "href": "newsposts/events/20171027_kickoff/index.html",
-    "title": "SLUBI kickoff meeting",
+    "objectID": "newsposts/events/20180604_SLUBI_day/index.html",
+    "href": "newsposts/events/20180604_SLUBI_day/index.html",
+    "title": "SLUBI day 2018",
     "section": "",
-    "text": "Everyone interested in Bioinformatics was welcome to this meeting. We had short introductions from all participants when they presented briefly their field and what they were expecting from a Bioinformatics Infrastructure at SLU. The rest of the day was dedicated to brainstorming in groups and the participants discussed - Teaching/training activities - Organisation of the support - Activities for the bioinformatics community - Technical infrastructure organisation\nAll participants were invited to discuss at least 2 themes within an hour."
+    "text": "The day was divided into 2 parts: the morning was dedicated to presentations by SLUBI experts about the support they are providing or could provide. Everyone was welcome to this meeting. In the afternoon, we had an internal meeting where we invited personnel from the IT-department to discuss with them about cloud computing solutions and long-term storage."
   },
   {
     "objectID": "newsposts/events/20230227_SLUBI_day/index.html",

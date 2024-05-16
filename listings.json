@@ -4,7 +4,7 @@
     "items": [
       "/newsposts/events/future_events/20241104_SBW24/index.html",
       "/newsposts/events/future_events/20241021_course_ReproducibleResInR/index.html",
-      "/newsposts/events/future_events/20240514_sasuf/index.html",
+      "/newsposts/events/20240514_sasuf/index.html",
       "/newsposts/events/20240314_nadas/index.html",
       "/newsposts/events/20231109_AMRI/index.html",
       "/newsposts/events/20230929_DayOfBioinformatics/index.html",
@@ -34,7 +34,6 @@
   {
     "listing": "/index.html",
     "items": [
-      "/newsposts/events/future_events/20240514_sasuf/index.html",
       "/newsposts/events/future_events/20241021_course_ReproducibleResInR/index.html",
       "/newsposts/events/future_events/20241104_SBW24/index.html"
     ]
@@ -70,7 +69,7 @@
       "/newsposts/events/future_events/20241104_SBW24/index.html",
       "/newsposts/events/future_events/20241021_course_ReproducibleResInR/index.html",
       "/newsposts/3_bees/20240520_Session11_repResearch/index.html",
-      "/newsposts/events/future_events/20240514_sasuf/index.html",
+      "/newsposts/events/20240514_sasuf/index.html",
       "/newsposts/3_bees/20240506_Session10_HPC/index.html",
       "/newsposts/3_bees/20240408_Session9_ggplot/index.html",
       "/newsposts/3_bees/20240325_Session8_neural/index.html",
