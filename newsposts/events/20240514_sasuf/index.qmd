@@ -6,10 +6,12 @@ date: "05-14-2024"
 categories:
   - workshop
   - meeting
-image: sasuf_2024.png
+image: sasuf-logo.png
 ---
 
-Join us on the 14th of May to discover how open source tools can be used in process of describing plant-pathogen interactions. We will use browser and R-based tools to annotate genomes, perform functional annotation, and select genes that are important in both the process of a fungal pathogen infecting the plant, and the plant launching an immune response. We will use Cercospora and sugar beet as a model system, but the tools we will show can be applied to any plant-fungal patho-system.
+Join us on the 14th of May to discover how open source tools can be used in process of describing plant-pathogen interactions. We will use browser and R-based tools to annotate genomes, perform functional annotation, and select genes that are important in both the process of a fungal pathogen infecting the plant, and the plant launching an immune response. 
+
+We will use Cercospora and sugar beet as a model system, but the tools we will show can be applied to any plant-fungal patho-system.
 
 We will also have a session in the afternoon with industry representatives where we will discuss how students and researchers can prepare themselves for a career move into industry, as well as how university-industry collaborations can be established and maintained.
 
