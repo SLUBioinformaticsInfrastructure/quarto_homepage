@@ -1,0 +1,27 @@
+---
+title: "Tools and tricks for reproducible research"
+description: "Session 11 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "05-20-2024"
+categories:
+  - workshop
+  - education
+  - statistics
+image: 3bees_session11.png
+---
+
+Hear about useful tools and considerations, and get the answer why reproducible research does not only benefit others, but first and foremost yourself. 
+
+This session we will give a presentation and introduce the concept of reproducible research together with a variety of different tools that can help you gettting started. 
+ 
+**Preparation:** No preparations needed. Come, listen, and take notes!
+ 
+
+**When:** Monday May 20th, 09:45 \
+**Where:** Campus ULTUNA, VHC, floor 5, room Tanngrisner 1\
+or via **[Zoom](https://slu-se.zoom.us/j/69486568642)** (Password: 410 410)
+
+The lecture will be  available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series) after the session.
+
+<center>
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}
