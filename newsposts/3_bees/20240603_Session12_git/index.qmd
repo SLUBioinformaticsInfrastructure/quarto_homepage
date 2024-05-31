@@ -1,0 +1,29 @@
+---
+title: "Introduction to git and Github"
+description: "Session 12 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "06-03-2024"
+categories:
+  - workshop
+  - education
+  - statistics
+image: 3bees_session12.png
+---
+
+In this 3 Bees session we continue with our tips and tricks for reproducible research with a look at git and GitHub. Git is a useful tool to track the development of your work, to collaborate with others, and to share analyses with the world.
+ 
+We give an introduction to git using the interface in RStudio and show how one can link local work to an online repository. GitHub is not just useful in R, but across all forms of science.
+ 
+This includes a short presentation followed by some interactive exercises.
+ 
+**Preparation:** If  you want to follow along the exercises, please download git from https://git-scm.com/ and get an account on github.com. Otherwise just come and listen in!
+ 
+
+**When:** Monday June 3rd, 09:45 \
+**Where:** Campus ALNARP, Triticum (Horticum)\
+or via **[Zoom](https://slu-se.zoom.us/j/69486568642)** (Password: 410 410)
+
+The lecture and exercises will be  available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series) after the session.
+
+<center>
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}
