@@ -4,7 +4,6 @@
     "items": [
       "/newsposts/events/future_events/20241104_SBW24/index.html",
       "/newsposts/events/future_events/20241021_course_ReproducibleResInR/index.html",
-      "/newsposts/events/future_events/20240527_MedBioInfo/index.html",
       "/newsposts/events/20240514_sasuf/index.html",
       "/newsposts/events/20240314_nadas/index.html",
       "/newsposts/events/20231109_AMRI/index.html",
@@ -19,6 +18,7 @@
   {
     "listing": "/courses.html",
     "items": [
+      "/newsposts/courses/20240527_MedBioInfo/index.html",
       "/newsposts/courses/20231124_course_IntroToBioinf/index.html",
       "/newsposts/courses/20231113_course_breeding/index.html",
       "/newsposts/courses/20231023_course_RNAseq/index.html",
@@ -35,7 +35,6 @@
   {
     "listing": "/index.html",
     "items": [
-      "/newsposts/events/future_events/20240527_MedBioInfo/index.html",
       "/newsposts/events/future_events/20241021_course_ReproducibleResInR/index.html",
       "/newsposts/events/future_events/20241104_SBW24/index.html"
     ]
@@ -72,7 +71,7 @@
       "/newsposts/events/future_events/20241104_SBW24/index.html",
       "/newsposts/events/future_events/20241021_course_ReproducibleResInR/index.html",
       "/newsposts/3_bees/20240603_Session12_git/index.html",
-      "/newsposts/events/future_events/20240527_MedBioInfo/index.html",
+      "/newsposts/courses/20240527_MedBioInfo/index.html",
       "/newsposts/3_bees/20240520_Session11_repResearch/index.html",
       "/newsposts/events/20240514_sasuf/index.html",
       "/newsposts/3_bees/20240506_Session10_HPC/index.html",
