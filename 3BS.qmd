@@ -57,7 +57,7 @@ All data and codes of past sessions is available at https://github.com/SLUBioinf
 <br>
 We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open: 
 
-Please fill out [this questionnaire](https://forms.gle/4juDXf3tK8dSxmpe8) to decide what you would like to hear (more) about. 
+Please fill out [this questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSfojHf02MqnsVTgKK_tE403ogGI1Pfi9vLg1A407w4SrQbIIw/viewform) to decide what you would like to hear (more) about. 
 
 # Session information
 ::: {#3bs}
