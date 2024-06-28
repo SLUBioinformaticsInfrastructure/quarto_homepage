@@ -1,0 +1,24 @@
+---
+title: "Shiny - interactive data visualization in R"
+description: "Session 14 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "07-01-2024"
+categories:
+  - workshop
+  - education
+  - statistics
+image: 3bees_session14.png
+---
+
+For this last session before the summer we will have a quick look at using Shiny to create interactive data visualisations. Come and make your come to life!
+ 
+**Preparation:**  If you would like to prepare something in advance, have a look at https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html. 
+As always, you are more than welcome to come listen and learn without any preparation. 
+ 
+**When:** Monday July 1st, 09:45 \
+**Where:** online via **[Zoom](https://slu-se.zoom.us/j/69486568642)** (Password: 410 410)
+
+The material will be available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series) after the session.
+
+<center>
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}
