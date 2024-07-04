@@ -9,7 +9,7 @@ categories:
 image: SBW2024_logo_pink_final.png
 ---
 
-Welcome to the 2024 edition of the Swedish Bioinformatics Workshop, proudly hosted at SLU Ultuna this year. 
+Welcome to the 2024 edition of the Swedish Bioinformatics Workshop, proudly hosted at SLU Ultuna and sponsored by SLUBI. 
 
 For more information, and to register, please visit: www.sbw2024.org
 
