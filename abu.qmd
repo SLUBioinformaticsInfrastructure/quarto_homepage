@@ -6,12 +6,12 @@ about:
   links:
     - icon: ORCID
       text: ORCID
-      url: "https://orcid.org/0000-0002-0472-0609"
+      url: "https://orcid.org/0000-0002-3178-523X"
     - icon: github
       text: Github
-      href: https://github.com/amrei-bp
+      href: https://github.com/abu85
 ---
  
 Bioinformatician (based at NJ in Ultuna)
 
-Metagenomics, DNASeq, Shotgun Seq, Metabarcoding (ITS), WGS analysis, Read Mapping, Genome assembly and annotation, wetlab: DNA, PCR, HTS library prep.
+Metagenomics, metatranscriptomics, RNASeq analysis, Metabarcoding (ITS/ITS/28S), wetlab: DNA, PCR, HTS library prep.
