@@ -9,7 +9,7 @@ about:
       url: "https://orcid.org/0000-0002-3178-523X"
     - icon: github
       text: Github
-      href: https://github.com/abu85
+      href: "https://github.com/abu85"
 ---
  
 Bioinformatician (based at NJ in Ultuna)
