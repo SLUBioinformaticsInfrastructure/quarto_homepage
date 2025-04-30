@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="SLUBI">
+<meta name="dcterms.date" content="2024-10-07">
+<meta name="description" content="Session 16 in the series Basic Biostatistics and Bioinformatics">
 
-<title>Seminars and Workshops – SLU bioinformatics infrastructure</title>
+<title>Introduction to the Dardel Supercomputer – SLU bioinformatics infrastructure</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ac00d576ba893a0aabaa75c54ecb8ec1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-ac00d576ba893a0aabaa75c54ecb8ec1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,67 +70,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -139,10 +82,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/SLUBI_logo.png" alt="" class="navbar-logo">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/SLUBI_logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">SLU bioinformatics infrastructure</span>
     </a>
   </div>
@@ -166,14 +109,14 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./courses.html">Training</a></li><li class="breadcrumb-item"><a href="./workshops.html">Seminars and Workshops</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Introduction to the Dardel Supercomputer</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
@@ -189,7 +132,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome to SLUBI</span></a>
   </div>
 </li>
@@ -206,13 +149,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./support_what.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../support_what.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Support</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./dropin.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../dropin.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Drop-in</span></a>
   </div>
 </li>
@@ -229,31 +172,31 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./courses.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../courses.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Courses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./workshops.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../workshops.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Seminars and Workshops</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./learning-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../learning-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Self learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./online-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../online-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tools and resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uppmax.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../uppmax.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to: Uppmax</span></a>
   </div>
 </li>
@@ -270,13 +213,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./events.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../events.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Events</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./social.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../social.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fika</span></a>
   </div>
 </li>
@@ -293,19 +236,19 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slubi.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../slubi.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SLUBI</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./contact.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../contact.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Contact</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./board.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../board.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Board</span></a>
   </div>
 </li>
@@ -322,7 +265,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./news.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../news.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">News and Events</span></a>
   </div>
 </li>
@@ -333,22 +276,44 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZWR1Y2F0aW9u">education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV4dGZsb3c=">nextflow <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2VtaW5hcg==">seminar <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c3RhdGlzdGljcw==">statistics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="d29ya3Nob3A=">workshop <span class="quarto-category-count">(3)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./courses.html">Training</a></li><li class="breadcrumb-item"><a href="./workshops.html">Seminars and Workshops</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Seminars and Workshops</h1>
+<h1 class="title">Introduction to the Dardel Supercomputer</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">workshop</div>
+    <div class="quarto-category">HPC/ NAISS</div>
+    <div class="quarto-category">command line</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Session 16 in the series Basic Biostatistics and Bioinformatics
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-body">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>SLUBI </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 7, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -358,149 +323,20 @@ window.Quarto = {
 </header>
 
 
+<p>We are thrilled to have Henric Zazzi join us for this session, where he will provide an introduction to the ”new” Dardel supercomputer, which will replace Uppmax for many of us in the coming year. Henric will give us an introduction to the system and walk us through how to log in and start using it, making this an excellent opportunity for anyone interested in high-performance computing or planning to work with Dardel in the future.</p>
+<p><strong>Topic:</strong> Introduction to the Dardel Supercomputer<br>
+<strong>Guest speaker:</strong> Henric Zazzi, Head of Support for Dardel<br>
+<strong>When:</strong> Monday, 7th of October, 10:00 (approximately an hour)<br>
+and via <strong><a href="https://slu-se.zoom.us/j/69486568642">Zoom</a></strong>(Password: 410 410)</p>
+<p><strong>Preparation:</strong> To get the most out of the session, please make sure you have a PDC account set up beforehand. You can read about creating one here: https://www.pdc.kth.se/support/documents/getting_access/get_access.html.</p>
+<p>If you’re just curious and want to listen in, that’s also perfectly fine!</p>
+<p>The material will be available on <a href="https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series">Github</a> after the session.</p>
+<center>
+<p><img src="../../../images/3bees_fulltext_ampersand2.png" class="class img-fluid" style="width:40.0%"></p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="c2VtaW5hciUyQ25leHRmbG93JTJDZWR1Y2F0aW9uJTJDd29ya3Nob3A=" data-listing-date-sort="1700092800000" data-listing-file-modified-sort="1746023389954" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
-<div class="thumbnail"><a href="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/nf_umea.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html" class="no-external">Bioinformatics in Umeå Workshop Series</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2VtaW5hcg=='); return false;">seminar</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV4dGZsb3c='); return false;">nextflow</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html" class="no-external">
-<p>The first instance of the new bioinformatics workshop series. Learn about Nextflow and how to write your own pipeline.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html" class="no-external">
-<div class="listing-date">
-Nov 16, 2023
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="c2VtaW5hciUyQ3dvcmtzaG9wJTJDc3RhdGlzdGljcw==" data-listing-date-sort="1699833600000" data-listing-file-modified-sort="1746023389954" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
-<div class="thumbnail"><a href="./newsposts/seminars_workshops/20231113_3bees/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/seminars_workshops/20231113_3bees/3bees_fulltext.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/seminars_workshops/20231113_3bees/index.html" class="no-external">3B’s: Basic Biostatistics &amp; Bioinformatics</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2VtaW5hcg=='); return false;">seminar</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/seminars_workshops/20231113_3bees/index.html" class="no-external">
-<p>Today we finally launch our long awaited collaboration with SLU’s Center for Statistics.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/seminars_workshops/20231113_3bees/index.html" class="no-external">
-<div class="listing-date">
-Nov 13, 2023
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="c2VtaW5hciUyQ3N0YXRpc3RpY3M=" data-listing-date-sort="1630022400000" data-listing-file-modified-sort="1746023389947" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<div class="thumbnail"><a href="./newsposts/seminars_workshops/20210827_seminar_statistics/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/seminars_workshops/20210827_seminar_statistics/Statistics_Seminar_screenshot.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/seminars_workshops/20210827_seminar_statistics/index.html" class="no-external">Statistics seminar series</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2VtaW5hcg=='); return false;">seminar</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/seminars_workshops/20210827_seminar_statistics/index.html" class="no-external">
-<p>The 2021 edition of the seminar series of SLU’s Center for Statistics, this year on environmental statistics</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/seminars_workshops/20210827_seminar_statistics/index.html" class="no-external">
-<div class="listing-date">
-Aug 27, 2021
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="ZWR1Y2F0aW9uJTJDd29ya3Nob3A=" data-listing-date-sort="1537747200000" data-listing-file-modified-sort="1746023389944" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./newsposts/seminars_workshops/20180924_R_workshop/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/seminars_workshops/20180924_R_workshop/workshop_R_2018_sept.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/seminars_workshops/20180924_R_workshop/index.html" class="no-external">Workshop for supervisors: Introduction to, and visualisation in R</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/seminars_workshops/20180924_R_workshop/index.html" class="no-external">
-<p>Training day to get to know the possibilities of R</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/seminars_workshops/20180924_R_workshop/index.html" class="no-external">
-<div class="listing-date">
-Sep 24, 2018
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</center></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

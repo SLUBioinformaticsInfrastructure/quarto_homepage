@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-description','listing-author','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -340,7 +340,6 @@ window.Quarto = {
    
   <ul>
   <li><a href="#program" id="toc-program" class="nav-link active" data-scroll-target="#program">Program</a></li>
-  <li><a href="#session-information" id="toc-session-information" class="nav-link" data-scroll-target="#session-information">Session information</a></li>
   </ul>
 </nav>
     </div>
@@ -390,443 +389,525 @@ window.Quarto = {
 <p><br></p>
 <section id="program" class="level1">
 <h1>Program</h1>
-<table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 21%">
-<col style="width: 21%">
-<col style="width: 56%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Session #</th>
-<th>Date</th>
-<th>Topic</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Session 1</td>
-<td>13th Nov 2023</td>
-<td>Introduction to R</td>
-</tr>
-<tr class="even">
-<td>Session 2</td>
-<td>27th Nov 2023</td>
-<td>Linux Basics</td>
-</tr>
-<tr class="odd">
-<td>Session 3</td>
-<td>11th Dec 2023</td>
-<td>Theory and practice PCA</td>
-</tr>
-<tr class="even">
-<td>Session 4</td>
-<td>15th Jan 2024</td>
-<td>Introduction to Markdown</td>
-</tr>
-<tr class="odd">
-<td>Session 5</td>
-<td>12th Feb 2024</td>
-<td>Population Structure</td>
-</tr>
-<tr class="even">
-<td>Session 6</td>
-<td>26th Feb 2024</td>
-<td>How to write functions in R</td>
-</tr>
-<tr class="odd">
-<td>Session 7</td>
-<td>11th March 2024</td>
-<td>Introduction to Python</td>
-</tr>
-<tr class="even">
-<td>Session 8</td>
-<td>25th Match 2024</td>
-<td>Introduction to Neural Networks</td>
-</tr>
-<tr class="odd">
-<td>Session 9</td>
-<td>8th April 2024</td>
-<td>Intermedial ggplot in R</td>
-</tr>
-<tr class="even">
-<td>Session 10</td>
-<td>22nd Apr 2024</td>
-<td><span style="color:red;">postponed due to illness</span></td>
-</tr>
-<tr class="odd">
-<td>Session 10</td>
-<td>06th May 2024</td>
-<td>Introduction to High Performance Computing</td>
-</tr>
-<tr class="even">
-<td>Session 11</td>
-<td>20th May 2024</td>
-<td>Tools and tricks for reproducible research</td>
-</tr>
-<tr class="odd">
-<td>Session 12</td>
-<td>03rd Jun 2024</td>
-<td>Introduction to git</td>
-</tr>
-<tr class="even">
-<td>Session 13</td>
-<td>17th Jun 2024</td>
-<td>Project organization in R</td>
-</tr>
-<tr class="odd">
-<td>Session 14</td>
-<td>1st Jul 2024</td>
-<td>Interactive Data Visualization in R using “shiny”</td>
-</tr>
-</tbody>
-</table>
-<p><br> We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open:</p>
-<p>Please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSfojHf02MqnsVTgKK_tE403ogGI1Pfi9vLg1A407w4SrQbIIw/viewform">this questionnaire</a> to decide what you would like to hear (more) about.</p>
-</section>
-<section id="session-information" class="level1">
-<h1>Session information</h1>
-<div id="listing-3bs" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1699920000000" data-listing-file-modified-sort="1746020998384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
-<a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20231114_Session1_R/3bees_session1.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title" data-anchor-id="session-information">
-Introduction to R
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 1 in the series Basic Biostatistics and Bioinformatics</p>
+<div id="listing-3bs" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="d29ya3Nob3AlMkNIUEMlMkYlMjBOQUlTUyUyQ2NvbW1hbmQlMjBsaW5l" data-listing-date-sort="1728259200000" data-listing-file-modified-sort="1746023389800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
+<div class="body">
+<h3 class="no-anchor listing-title" data-anchor-id="program">
+<a href="./newsposts/3_bees/20241007_Session16_dardel/index.html" class="no-external">Introduction to the Dardel Supercomputer</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20241007_Session16_dardel/index.html" class="no-external"></a>
 </div>
-<div class="card-attribution card-text-small justify">
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SFBDJTJGJTIwTkFJU1M='); return false;">HPC/ NAISS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29tbWFuZCUyMGxpbmU='); return false;">command line</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20241007_Session16_dardel/index.html" class="no-external">
+<p>Session 16 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20241007_Session16_dardel/index.html" class="no-external">
+<div class="listing-date">
+Oct 7, 2024
+</div>
 <div class="listing-author">
 SLUBI
 </div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNjb21tYW5kJTIwbGluZQ==" data-listing-date-sort="1727049600000" data-listing-file-modified-sort="1746023389800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="279">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20240923_Session15_command_line/index.html" class="no-external">Introduction to the command line</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20240923_Session15_command_line/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29tbWFuZCUyMGxpbmU='); return false;">command line</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20240923_Session15_command_line/index.html" class="no-external">
+<p>Session 15 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20240923_Session15_command_line/index.html" class="no-external">
 <div class="listing-date">
-Nov 14, 2023
+Sep 23, 2024
 </div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1701043200000" data-listing-file-modified-sort="1746020998394" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="179">
-<a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20231127_Session2_linux/3bees_session2.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to the command line
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 2 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 SLUBI
 </div>
-<div class="listing-date">
-Nov 27, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1702252800000" data-listing-file-modified-sort="1746020998403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
-<a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20231211_Session3_PCA/3bees_session3.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-PCA: Theory and Practice
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 3 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Dec 11, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1705276800000" data-listing-file-modified-sort="1746020998413" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
-<a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240115_Session4_MD/3bees_session4.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to Markdown
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 4 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Jan 15, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1707696000000" data-listing-file-modified-sort="1746020998425" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
-<a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240212_Session5_Pop/3bees_session5.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Population structure analyses
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 5 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Feb 12, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1708905600000" data-listing-file-modified-sort="1746020998436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
-<a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240226_Session6_Rfunctions/3bees_session6.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to writing functions in R
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 6 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Feb 26, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1710115200000" data-listing-file-modified-sort="1746020998446" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
-<a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240311_Session7_python/3bees_session7.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to Python
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 7 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Mar 11, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1711324800000" data-listing-file-modified-sort="1746020998455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
-<a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240325_Session8_neural/3bees_session8.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to Neural Networks
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 8 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Mar 25, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1712534400000" data-listing-file-modified-sort="1746020998464" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
-<a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240408_Session9_ggplot/3bees_session9.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Intermediate ggplot in R
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 9 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Apr 8, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1714953600000" data-listing-file-modified-sort="1746020998473" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
-<a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240506_Session10_HPC/3bees_session10.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to High performance Computing (HPC)
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 10 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-May 6, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1716163200000" data-listing-file-modified-sort="1746020998482" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
-<a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240520_Session11_repResearch/3bees_session11.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tools and tricks for reproducible research
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 11 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-May 20, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1717372800000" data-listing-file-modified-sort="1746020998491" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
-<a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240603_Session12_git/3bees_session12.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to git and Github
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 12 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Jun 3, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="12" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1718582400000" data-listing-file-modified-sort="1746020998500" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
-<a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240617_Session13_projMan/3bees_session13.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Project organization in R
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 13 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Jun 17, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="13" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1719792000000" data-listing-file-modified-sort="1746020998509" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
-<a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240701_Session14_shiny/3bees_session14.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Shiny - interactive data visualization in R
-</h5>
-<div class="card-text listing-description delink">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNS" data-listing-date-sort="1719792000000" data-listing-file-modified-sort="1746023389799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="no-external">Shiny - interactive data visualization in R</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="no-external">
 <p>Session 14 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="no-external">
 <div class="listing-date">
 Jul 1, 2024
 </div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
 </div>
 </div>
-</div></a>
+<div class="quarto-post image-right" data-index="3" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1718582400000" data-listing-file-modified-sort="1746023389791" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="no-external">Project organization in R</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="no-external">
+<p>Session 13 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="no-external">
+<div class="listing-date">
+Jun 17, 2024
+</div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1717372800000" data-listing-file-modified-sort="1746023389782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="no-external">Introduction to git and Github</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="no-external">
+<p>Session 12 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="no-external">
+<div class="listing-date">
+Jun 3, 2024
+</div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1716163200000" data-listing-file-modified-sort="1746023389773" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="no-external">Tools and tricks for reproducible research</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="no-external">
+<p>Session 11 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="no-external">
+<div class="listing-date">
+May 20, 2024
+</div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1714953600000" data-listing-file-modified-sort="1746023389764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="no-external">Introduction to High performance Computing (HPC)</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="no-external">
+<p>Session 10 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="no-external">
+<div class="listing-date">
+May 6, 2024
+</div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1712534400000" data-listing-file-modified-sort="1746023389754" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="no-external">Intermediate ggplot in R</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="no-external">
+<p>Session 9 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="no-external">
+<div class="listing-date">
+Apr 8, 2024
+</div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1711324800000" data-listing-file-modified-sort="1746023389744" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="no-external">Introduction to Neural Networks</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="no-external">
+<p>Session 8 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="no-external">
+<div class="listing-date">
+Mar 25, 2024
+</div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1710115200000" data-listing-file-modified-sort="1746023389732" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="no-external">Introduction to Python</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="no-external">
+<p>Session 7 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="no-external">
+<div class="listing-date">
+Mar 11, 2024
+</div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1708905600000" data-listing-file-modified-sort="1746023389719" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="no-external">Introduction to writing functions in R</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="no-external">
+<p>Session 6 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="no-external">
+<div class="listing-date">
+Feb 26, 2024
+</div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1707696000000" data-listing-file-modified-sort="1746023389708" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="no-external">Population structure analyses</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="no-external">
+<p>Session 5 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="no-external">
+<div class="listing-date">
+Feb 12, 2024
+</div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1705276800000" data-listing-file-modified-sort="1746023389697" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="no-external">Introduction to Markdown</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="no-external">
+<p>Session 4 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="no-external">
+<div class="listing-date">
+Jan 15, 2024
+</div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1702252800000" data-listing-file-modified-sort="1746023389686" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="no-external">PCA: Theory and Practice</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="no-external">
+<p>Session 3 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="no-external">
+<div class="listing-date">
+Dec 11, 2023
+</div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1701043200000" data-listing-file-modified-sort="1746023389677" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="179">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="no-external">Introduction to the command line</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="no-external">
+<p>Session 2 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="no-external">
+<div class="listing-date">
+Nov 27, 2023
+</div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1699920000000" data-listing-file-modified-sort="1746023389667" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="no-external">Introduction to R</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="no-external">
+<p>Session 1 in the series Basic Biostatistics and Bioinformatics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="no-external">
+<div class="listing-date">
+Nov 14, 2023
+</div>
+<div class="listing-author">
+SLUBI
+</div>
+</a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+<p><br> We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open:</p>
+<p>Please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSfojHf02MqnsVTgKK_tE403ogGI1Pfi9vLg1A407w4SrQbIIw/viewform">this questionnaire</a> to decide what you would like to hear (more) about.</p>
 
 
 
