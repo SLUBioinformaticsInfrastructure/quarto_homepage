@@ -24,9 +24,9 @@ SLUBI and the SLU Centre for Statistics are bringing you a workshop series focus
 ![](images/3bees_opaque.png){.class width=80%}
 :::
 
-We are running a topic-driven discussion series where Adam Flöhr from the Centre for Statistics discusses the statistical magic behind some of the common methods we use, and Lizel Potgieter from SLUBI uses data to show a hands-on example of how to execute the analyses. \
+We are running a topic-driven discussion series where Adam Flöhr from the Centre for Statistics discusses the statistical magic behind some of the common methods we use, and bioinformaticians from SLUBI use data to show a hands-on example of how to execute the analyses. \
 
-All data and codes of past sessions is available at https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series.
+All data and codes of past sessions is available at our [github page](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series).
 
 <br>
 
