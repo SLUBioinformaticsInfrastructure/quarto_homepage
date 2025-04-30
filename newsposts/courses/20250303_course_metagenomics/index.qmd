@@ -1,0 +1,24 @@
+---
+title: "Course: Multi-omics analyses of the microbial community"
+description: "Everything you ever wanted to know about metagenomics."
+author: "SLUBI"
+date: "03-03-2025"
+categories:
+  - course
+  - training
+  - metagenomics
+image: trends.png
+---
+
+
+This course focuses on multi-omics analyses of microbial communities, covering a range of topics from the history of OMICS to advanced techniques like metagenomics, metatranscriptomics, and single-cell methods. It includes interactive sessions, flipped classrooms, and research visits to facilities like the National Genomics Infrastructure. 
+
+We were happy to be part of this advanced course on all things metagenomics. 
+
+<center>
+![](trends.png){ .class width=60%}
+
+Image: 
+What is microbial dormancy?
+McDonald, Mark D. et al.
+Trends in Microbiology, Volume 32, Issue 2, 142 - 150

@@ -1,0 +1,16 @@
+---
+title: "Course: Analysis of High Throughput Sequencing RNA-Seq Data"
+description: "The history of RNA sequencing, and modern ways to analyse the data."
+author: "SLUBI"
+date: "10-07-2024"
+categories:
+  - course
+  - training
+  - nextflow
+image: code.png
+---
+
+This course introduces participants to the analysis of high-throughput sequencing (HTS) RNA-Seq data, focusing exclusively on Next-Generation Sequencing, specifically Illumina-generated data. Biologists will gain the ability to communicate with bioinformaticians, direct analyses, and interpret results, while bioinformaticians will acquire the basics to work with HTS data and perform analyses. The course aims to provide an overview rather than expert-level proficiency.
+
+<center>
+![](code.png){.class width=60%}

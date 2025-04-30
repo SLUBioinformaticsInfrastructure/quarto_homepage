@@ -1,0 +1,22 @@
+---
+title: "Course: Data handling and high-quality illustrations for publications"
+description: "A course on how to handle data and create appropriate illustrations for your project."
+author: "SLUBI"
+date: "01-20-2025"
+categories:
+  - course
+  - training
+  - git 
+  - reproducibility
+  - quarto
+image: ggplot.png
+---
+
+This course teaches participants how to assess and visualize data using R, including creating suitable graphs and multi-panel figures for publications and presentations. It also covers the use of GIS software to map data points with geographical and cultural elements. Additionally, the course includes merging and updating datasets in R and planning for code and raw data submission.
+
+We were happy to be part of this GS-VMAS course, lead by [Peter Halvarsson](https://www.slu.se/en/ew-cv/peter-halvarsson/). 
+
+<center>
+![](ggplot.png){ .class width=60%}
+
+Image from: https://metricsf20.classes.ryansafner.com/slides/1.3-slides#19

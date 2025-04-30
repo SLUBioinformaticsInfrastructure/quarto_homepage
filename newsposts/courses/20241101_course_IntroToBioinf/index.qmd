@@ -1,0 +1,18 @@
+---
+title: "Course: Introduction to Bioinformatics"
+description: "A course together with SLU’s Graduate School for Veterinary Medicine and Animal Science."
+author: "SLUBI"
+date: "11-01-2024"
+categories:
+  - course
+  - training
+  - NGS
+  - reproducibility
+  - RNAseq
+image: code.png
+---
+
+This course provides a solid foundation in basic bioinformatics methods, covering theories, algorithms, and practical applications for analyzing DNA sequences and protein structures. Topics include biological databases, homology analysis, sequence analysis using EMBOSS and UGENE, statistics with R, web-based tools, the Unix operating system, phylogeny, comparative genomics, functional genomics, and Next Generation Sequencing (NGS). The course combines lectures, interactive computer exercises, and web-based tutorials.
+
+<center>
+![](code.png){.class width=60%}
