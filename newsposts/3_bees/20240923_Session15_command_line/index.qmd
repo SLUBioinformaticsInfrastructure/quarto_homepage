@@ -1,0 +1,33 @@
+---
+title: "Introduction to the command line"
+description: "Session 15 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "09-23-2024"
+categories:
+  - workshop
+  - education
+  - command line
+---
+Welcome back after the summer, and welcome to a new round of the 3 bees: basic biostatistics and bioinformatics.
+ 
+As a short recap:
+The 3 bees is a series of lectures and hands-on tutorials that introduce a variety of topics and methods that can help you in your research projects – especially, but not only, if they are bioinformatics related. The series is a collaboration between SLU’s Center for Statistics and SLU’s bioinformatics infrastructure, SLUBI.
+ 
+With that out of the way, let me invite you to the first instance of the 3 bees in this fall semester.
+ 
+**Topic:** Introduction to the command line/ Linux \
+**When:** Monday 23rd of September, 09:45 (approximately an hour) \
+**Where:** Campus Ultuna, VHC, floor 5, room Yggdrasil \
+and via **[Zoom](https://slu-se.zoom.us/j/69486568642)**(Password: 410 410) \
+ 
+We will work on some Linux basics that you will need when you start working on any cluster, whether it is Rackham on Uppmax, a departmental cluster, or any online server. We are going to cover all of the basics from what the command line is, to how to navigate using the command line, make and edit files, and a whole bunch of other nifty tricks!
+ 
+This session is geared towards everyone that has never used the command line before, and for everyone that would like to refresh their memory.
+ 
+**Preparation:** You are welcome to just come and listen. However, if you would like to practice your skills along with the tutorial and you don’t have access to a server or a Linux operating system on your computer, please download MobaXterm in preparation: https://mobaxterm.mobatek.net/download.html Mac users can use the terminal. 
+ 
+ 
+The material will be available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series) after the session.
+
+<center>
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}

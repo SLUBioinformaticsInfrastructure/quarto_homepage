@@ -1,0 +1,28 @@
+---
+title: "Introduction to the Dardel Supercomputer"
+description: "Session 16 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "10-07-2024"
+categories:
+  - workshop
+  - HPC/ NAISS
+  - command line
+---
+
+We are thrilled to have Henric Zazzi join us for this session, where he will provide an introduction to the ”new” Dardel supercomputer, which will replace Uppmax for many of us in the coming year. Henric will give us an introduction to the system and walk us through how to log in and start using it, making this an excellent opportunity for anyone interested in high-performance computing or planning to work with Dardel in the future.
+ 
+**Topic:** Introduction to the Dardel Supercomputer\
+**Guest speaker:** Henric Zazzi, Head of Support for Dardel\
+**When:** Monday, 7th of October, 10:00 (approximately an hour)\
+and via **[Zoom](https://slu-se.zoom.us/j/69486568642)**(Password: 410 410)
+
+**Preparation:**
+To get the most out of the session, please make sure you have a PDC account set up beforehand. You can read about creating one here: https://www.pdc.kth.se/support/documents/getting_access/get_access.html.
+ 
+If you’re just curious and want to listen in, that’s also perfectly fine!
+ 
+
+The material will be available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series) after the session.
+
+<center>
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}
