@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="practical concepts and coding for everyone">
+<meta name="author" content="SLUBI">
+<meta name="dcterms.date" content="2025-03-03">
+<meta name="description" content="Everything you ever wanted to know about metagenomics.">
 
-<title>Basic Biostatistics &amp; Bioinformatics – SLU bioinformatics infrastructure</title>
+<title>Course: Multi-omics analyses of the microbial community – SLU bioinformatics infrastructure</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ac00d576ba893a0aabaa75c54ecb8ec1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-ac00d576ba893a0aabaa75c54ecb8ec1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,67 +70,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-3bs .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-3bs'] = new List('listing-3bs', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -140,10 +82,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/SLUBI_logo.png" alt="" class="navbar-logo">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/SLUBI_logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">SLU bioinformatics infrastructure</span>
     </a>
   </div>
@@ -167,7 +109,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Basic Biostatistics &amp; Bioinformatics</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Course: Multi-omics analyses of the microbial community</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -190,7 +132,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome to SLUBI</span></a>
   </div>
 </li>
@@ -207,13 +149,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./support_what.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../support_what.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Support</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./dropin.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../dropin.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Drop-in</span></a>
   </div>
 </li>
@@ -230,31 +172,31 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./courses.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../courses.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Courses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./workshops.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../workshops.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Seminars and Workshops</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./learning-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../learning-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Self learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./online-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../online-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tools and resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uppmax.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../uppmax.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to: Uppmax</span></a>
   </div>
 </li>
@@ -271,13 +213,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./events.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../events.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Events</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./social.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../social.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fika</span></a>
   </div>
 </li>
@@ -294,19 +236,19 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slubi.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../slubi.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SLUBI</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./contact.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../contact.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Contact</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./board.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../board.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Board</span></a>
   </div>
 </li>
@@ -323,7 +265,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./news.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../news.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">News and Events</span></a>
   </div>
 </li>
@@ -334,34 +276,44 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#program" id="toc-program" class="nav-link active" data-scroll-target="#program">Program</a></li>
-  <li><a href="#session-information" id="toc-session-information" class="nav-link" data-scroll-target="#session-information">Session information</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Basic Biostatistics &amp; Bioinformatics</h1>
-</div>
+<h1 class="title">Course: Multi-omics analyses of the microbial community</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">course</div>
+    <div class="quarto-category">training</div>
+    <div class="quarto-category">metagenomics</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    <p>practical concepts and coding for everyone</p>
+    Everything you ever wanted to know about metagenomics.
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>SLUBI </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 3, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -371,468 +323,15 @@ window.Quarto = {
 </header>
 
 
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p><br> SLUBI and the SLU Centre for Statistics are bringing you a workshop series focused on R and applications in bioinformatics.<br>
-<b>Mondays in even weeks, 09:45 </b><br>
-<b>Campus Alnarp, Horticum </b><br>
-<b>or via <a href="https://slu-se.zoom.us/j/69486568642">Zoom</a> (Password: 410 410) </b></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/3bees_opaque.png" class="class img-fluid"></p>
-</div>
-</div>
-</div>
-<p>We are running a topic-driven discussion series where Adam Flöhr from the Centre for Statistics discusses the statistical magic behind some of the common methods we use, and bioinformaticians from SLUBI use data to show a hands-on example of how to execute the analyses.<br>
-</p>
-<p>All data and codes of past sessions is available at our <a href="https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series">github page</a>.</p>
-<p><br></p>
-<section id="program" class="level1">
-<h1>Program</h1>
-<table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 21%">
-<col style="width: 21%">
-<col style="width: 56%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Session #</th>
-<th>Date</th>
-<th>Topic</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Session 1</td>
-<td>13th Nov 2023</td>
-<td>Introduction to R</td>
-</tr>
-<tr class="even">
-<td>Session 2</td>
-<td>27th Nov 2023</td>
-<td>Linux Basics</td>
-</tr>
-<tr class="odd">
-<td>Session 3</td>
-<td>11th Dec 2023</td>
-<td>Theory and practice PCA</td>
-</tr>
-<tr class="even">
-<td>Session 4</td>
-<td>15th Jan 2024</td>
-<td>Introduction to Markdown</td>
-</tr>
-<tr class="odd">
-<td>Session 5</td>
-<td>12th Feb 2024</td>
-<td>Population Structure</td>
-</tr>
-<tr class="even">
-<td>Session 6</td>
-<td>26th Feb 2024</td>
-<td>How to write functions in R</td>
-</tr>
-<tr class="odd">
-<td>Session 7</td>
-<td>11th March 2024</td>
-<td>Introduction to Python</td>
-</tr>
-<tr class="even">
-<td>Session 8</td>
-<td>25th Match 2024</td>
-<td>Introduction to Neural Networks</td>
-</tr>
-<tr class="odd">
-<td>Session 9</td>
-<td>8th April 2024</td>
-<td>Intermedial ggplot in R</td>
-</tr>
-<tr class="even">
-<td>Session 10</td>
-<td>22nd Apr 2024</td>
-<td><span style="color:red;">postponed due to illness</span></td>
-</tr>
-<tr class="odd">
-<td>Session 10</td>
-<td>06th May 2024</td>
-<td>Introduction to High Performance Computing</td>
-</tr>
-<tr class="even">
-<td>Session 11</td>
-<td>20th May 2024</td>
-<td>Tools and tricks for reproducible research</td>
-</tr>
-<tr class="odd">
-<td>Session 12</td>
-<td>03rd Jun 2024</td>
-<td>Introduction to git</td>
-</tr>
-<tr class="even">
-<td>Session 13</td>
-<td>17th Jun 2024</td>
-<td>Project organization in R</td>
-</tr>
-<tr class="odd">
-<td>Session 14</td>
-<td>1st Jul 2024</td>
-<td>Interactive Data Visualization in R using “shiny”</td>
-</tr>
-</tbody>
-</table>
-<p><br> We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open:</p>
-<p>Please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSfojHf02MqnsVTgKK_tE403ogGI1Pfi9vLg1A407w4SrQbIIw/viewform">this questionnaire</a> to decide what you would like to hear (more) about.</p>
-</section>
-<section id="session-information" class="level1">
-<h1>Session information</h1>
-<div id="listing-3bs" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1699920000000" data-listing-file-modified-sort="1746020998384" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
-<a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20231114_Session1_R/3bees_session1.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title" data-anchor-id="session-information">
-Introduction to R
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 1 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Nov 14, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1701043200000" data-listing-file-modified-sort="1746020998394" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="179">
-<a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20231127_Session2_linux/3bees_session2.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to the command line
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 2 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Nov 27, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1702252800000" data-listing-file-modified-sort="1746020998403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
-<a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20231211_Session3_PCA/3bees_session3.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-PCA: Theory and Practice
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 3 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Dec 11, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1705276800000" data-listing-file-modified-sort="1746020998413" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
-<a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240115_Session4_MD/3bees_session4.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to Markdown
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 4 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Jan 15, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1707696000000" data-listing-file-modified-sort="1746020998425" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
-<a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240212_Session5_Pop/3bees_session5.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Population structure analyses
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 5 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Feb 12, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1708905600000" data-listing-file-modified-sort="1746020998436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
-<a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240226_Session6_Rfunctions/3bees_session6.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to writing functions in R
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 6 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Feb 26, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1710115200000" data-listing-file-modified-sort="1746020998446" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
-<a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240311_Session7_python/3bees_session7.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to Python
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 7 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Mar 11, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1711324800000" data-listing-file-modified-sort="1746020998455" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
-<a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240325_Session8_neural/3bees_session8.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to Neural Networks
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 8 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Mar 25, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1712534400000" data-listing-file-modified-sort="1746020998464" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
-<a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240408_Session9_ggplot/3bees_session9.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Intermediate ggplot in R
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 9 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Apr 8, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1714953600000" data-listing-file-modified-sort="1746020998473" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
-<a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240506_Session10_HPC/3bees_session10.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to High performance Computing (HPC)
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 10 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-May 6, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1716163200000" data-listing-file-modified-sort="1746020998482" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
-<a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240520_Session11_repResearch/3bees_session11.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tools and tricks for reproducible research
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 11 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-May 20, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1717372800000" data-listing-file-modified-sort="1746020998491" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
-<a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240603_Session12_git/3bees_session12.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to git and Github
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 12 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Jun 3, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="12" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1718582400000" data-listing-file-modified-sort="1746020998500" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
-<a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240617_Session13_projMan/3bees_session13.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Project organization in R
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 13 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Jun 17, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="13" data-categories="d29ya3Nob3AlMkNlZHVjYXRpb24lMkNzdGF0aXN0aWNz" data-listing-date-sort="1719792000000" data-listing-file-modified-sort="1746020998509" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
-<a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/3_bees/20240701_Session14_shiny/3bees_session14.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Shiny - interactive data visualization in R
-</h5>
-<div class="card-text listing-description delink">
-<p>Session 14 in the series Basic Biostatistics and Bioinformatics</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Jul 1, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<p>This course focuses on multi-omics analyses of microbial communities, covering a range of topics from the history of OMICS to advanced techniques like metagenomics, metatranscriptomics, and single-cell methods. It includes interactive sessions, flipped classrooms, and research visits to facilities like the National Genomics Infrastructure.</p>
+<p>We were happy to be part of this advanced course on all things metagenomics.</p>
+<center>
+<p><img src="trends.png" class="class img-fluid" style="width:60.0%"></p>
+<p>Image: What is microbial dormancy? McDonald, Mark D. et al. Trends in Microbiology, Volume 32, Issue 2, 142 - 150</p>
 
 
 
-</section>
-
-</main> <!-- /main -->
+</center></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

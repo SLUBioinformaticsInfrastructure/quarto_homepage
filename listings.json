@@ -2,6 +2,12 @@
   {
     "listing": "/courses.html",
     "items": [
+      "/newsposts/courses/20250303_course_metagenomics/index.html",
+      "/newsposts/courses/20250120_course_plant_breeding/index.html",
+      "/newsposts/courses/20250120_course_illustrations/index.html",
+      "/newsposts/courses/20241101_course_IntroToBioinf/index.html",
+      "/newsposts/courses/20241021_course_reproducible/index.html",
+      "/newsposts/courses/20241007_course_RNAseq/index.html",
       "/newsposts/courses/20240527_MedBioInfo/index.html",
       "/newsposts/courses/20231124_course_IntroToBioinf/index.html",
       "/newsposts/courses/20231113_course_breeding/index.html",
@@ -54,8 +60,14 @@
   {
     "listing": "/news.html",
     "items": [
+      "/newsposts/courses/20250303_course_metagenomics/index.html",
+      "/newsposts/courses/20250120_course_plant_breeding/index.html",
+      "/newsposts/courses/20250120_course_illustrations/index.html",
       "/newsposts/events/future_events/20241104_SBW24/index.html",
+      "/newsposts/courses/20241101_course_IntroToBioinf/index.html",
+      "/newsposts/courses/20241021_course_reproducible/index.html",
       "/newsposts/events/future_events/20241021_course_ReproducibleResInR/index.html",
+      "/newsposts/courses/20241007_course_RNAseq/index.html",
       "/newsposts/3_bees/20240701_Session14_shiny/index.html",
       "/newsposts/3_bees/20240617_Session13_projMan/index.html",
       "/newsposts/3_bees/20240603_Session12_git/index.html",
