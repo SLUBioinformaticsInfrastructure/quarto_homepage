@@ -5,7 +5,7 @@ resources:
   - CNAME
 
 website: 
-  title: "SLU bioinformatics infrastructure"
+  title: "SLU Bioinformatics Infrastructure"
   description: Slubi homepage
   navbar:
     logo: images/SLUBI_logo.png
