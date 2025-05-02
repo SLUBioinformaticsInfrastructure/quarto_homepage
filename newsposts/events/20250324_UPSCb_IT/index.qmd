@@ -1,0 +1,20 @@
+---
+title: "Kubernetes and nextflow"
+description: "A collaborative workshop to explore possible use cases of kubernetes in bioinformatics applications"
+author: "SLUBI"
+date: "03-24-2025"
+categories:
+  - workshop
+  - training
+  - kubernetes
+  - nextflow
+image: Kubernetes.png
+---
+
+This meeting brings together different teams, including SLU Central IT, SLU Bioinformatics Infrastructure (SLUBI), and our colleagues from the [Umeå Plant Science Centre (UPSC) Bioinformatics Facility](https://www.upsc.se/platforms/upsc-bioinformatics-facility.html). 
+
+The goal is to learn how to use a tool called Kubernetes for managing computer resources and to see if SLU's current systems can handle the computing needs of SLUBI. By working together, we want to to improve our bioinformatics services and support.
+
+<br><br>
+<center>
+![](Kubernetes.png){.class width=40%}
