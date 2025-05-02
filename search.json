@@ -123,7 +123,7 @@
     "href": "newsposts/events/20250324_UPSCb_IT/index.html",
     "title": "Kubernetes and nextflow",
     "section": "",
-    "text": "This meeting brings together different teams, including SLU Central IT, SLU Bioinformatics Infrastructure (SLUBI), and our colleagues from the Umeå Plant Science Centre (UPSC) Bioinformatics Facility.\nThe goal is to learn how to use a tool called Kubernetes for managing computer resources and to see if SLU’s current systems can handle the computing needs of SLUBI. By working together, we want to to improve our bioinformatics services and support."
+    "text": "This meeting brings together different teams, including SLU Central IT, SLU Bioinformatics Infrastructure (SLUBI), and our colleagues from the Umeå Plant Science Centre (UPSC) Bioinformatics Facility.\nThe goal is to learn how to use a tool called Kubernetes for managing computer resources and running nextflow pipelines. By working together, we want to to improve our bioinformatics services and support."
   },
   {
     "objectID": "newsposts/events/20171027_kickoff/index.html",
