@@ -54,7 +54,7 @@ Join us every Wednesday from 13:00 to 14:00 on Zoom.
 :::: {.card}
 <br>
 
-We aim to advance bioinformatics expertise at SLU through curated [courses](courses.qmd), [seminars &workshops](worskhops.qmd), and personalized training sessions. 
+We aim to advance bioinformatics expertise at SLU through curated [courses](courses.qmd), [seminars &workshops](workshops.qmd), and personalized training sessions. 
 
 Explore our current courses or [contact us](contact.qmd) to propose a topic you believe is missing. 
 ::::
