@@ -1,0 +1,24 @@
+---
+title: "Data Management Resources at SLU"
+description: "Session 23 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "03-24-2025"
+categories:
+  - workshop
+  - data management
+  - reproducibility
+---
+
+For our next instance we welcome Hanna Östholm, Kajsa Svensson and Mikaela Asplund from SLU’s Data Management Support. They will talk about the data management support available at SLU, the Swedish laws (including the open data directive and GDPR), and the SLU Environmental Data Catalogue as a resource.   
+
+**Topic:** Data Management Resources at SLU \
+**When:** Monday, 24th of March, 09:45 \
+**Where:** online only session: **[Zoom](https://slu-se.zoom.us/j/69486568642)**  (Password: 410 410)
+
+**Preparation:**
+No preparations required – but you are welcome to bring all the data management questions that have been burning on your mind.  (o:
+
+The material will be available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series) after the session.
+
+<center>
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}

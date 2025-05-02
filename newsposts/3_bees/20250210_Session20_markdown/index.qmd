@@ -1,0 +1,26 @@
+---
+title: "Reporting with Markdown"
+description: "Session 20 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "02-10-2025"
+categories:
+  - workshop
+  - markdown
+  - reproducibility
+  - code along
+---
+
+This instance of the 3 bees will focus on using the markdown language in your reports. We will go through the basic syntax of the language, how it is implemented in writing reports, and how it can be implemented in R. In R, it is a much smoother way of incorporating your code and discussions of your results than copying and pasting your figures to a word document, and we will show you how to do it!
+
+**Topic:** Introduction to Markdown \
+**When:** Monday, 10th of February, 09:45 \
+**Where:** Campus Alnnarp, Articum
+and via **[Zoom](https://slu-se.zoom.us/j/69486568642)**(Password: 410 410)
+
+**Preparation:**
+As always, you are welcome to come listen and learn. If you would like to try your hand at generating some reports during the session, please have RStudio installed along with the knitr package, as well as Visual Studio Code.
+
+The material will be available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series) after the session.
+
+<center>
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}

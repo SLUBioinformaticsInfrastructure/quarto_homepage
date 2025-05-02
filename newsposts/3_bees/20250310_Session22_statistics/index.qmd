@@ -1,0 +1,24 @@
+---
+title: "Common statistical tests"
+description: "Session 22 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "03-10-2025"
+categories:
+  - workshop
+  - statistics
+  - code along
+---
+
+Null hypothesis significance testing is the most commonly used tool for statistical inference. Depending on the type of data and data collection, the exact test will differ and being able to select the correct test for a given situation is an essential scientific skill. In this presentation we will discuss identification of a suitable test and show how many of the common tests relate to each other in that they are specific cases of linear models.
+
+**Topic:** Common statistical tests \
+**When:** Monday, 10th of March, 09:45 \
+**Where:** online only session: **[Zoom](https://slu-se.zoom.us/j/69486568642)**  (Password: 410 410)
+
+**Preparation:**
+As always, you are welcome to come listen and learn. We will illustrate some basic R code, so an R and RStudio installation may be useful.
+
+The material will be available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series) after the session.
+
+<center>
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}

@@ -1,0 +1,27 @@
+---
+title: "Make reports, presentations and hompages in Quarto"
+description: "Session 21 in the series Basic Biostatistics and Bioinformatics"
+author: "SLUBI"
+date: "02-24-2025"
+categories:
+  - workshop
+  - quarto
+  - reproducibility
+  - code along
+---
+
+Quarto is a useful and versatile program to combine your code, its results, and your notes. Quarto documents are fully reproducible and support dozens of output formats, like PDFs, Word files, presentations, and more. You can even make you own homepage with Quarto. On Monday, we will go through the basics and get you started.
+ 
+
+**Topic:** Introduction to Quarto \
+**When:** Monday, 24th of February, 09:45 \
+**Where:** Campus Ultuna, Tangrisner
+and via **[Zoom](https://slu-se.zoom.us/j/69486568642)**(Password: 410 410)
+
+**Preparation:**
+As always, you are welcome to come listen and learn. If you would like to try your hand at generating some reports during the session, please install Tthe Quarto command line interface (https://quarto.org/docs/get-started/), as well as Visual Studio Code (https://code.visualstudio.com/download).
+
+The material will be available on [Github](https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series) after the session.
+
+<center>
+![](../../../images/3bees_fulltext_ampersand2.png){.class width=40%}
