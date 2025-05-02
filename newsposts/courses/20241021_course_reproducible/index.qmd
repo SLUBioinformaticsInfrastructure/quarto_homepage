@@ -13,3 +13,9 @@ image: trends.png
 ---
 
 This course explores the importance of reproducibility in scientific research, covering definitions, good scientific practices, and the requirements of publication and funding bodies. Participants will learn basic concepts and tools to ensure reproducibility, including data analysis with R and the use of public databases. Through presentations, exercises, and discussions, the course equips participants with the skills to make their research results reproducible.
+
+Find more information [here](https://personalkurser.slu.se/kurser/kurs.cfm?KursID=PVG0038&oid=10). 
+
+<br>
+<center>
+[![](Rlogo.svg){.class width=40%}](https://www.r-project.org/about.html)

@@ -3,7 +3,9 @@ title: "Welcome to SLUBI"
 description: |
   SLU's bioinformatics infrastructure
 listing:
-  contents: newsposts/events/future_events
+  contents: 
+  - newsposts/3_bees/20250505_Session25_pdc
+  - newsposts/courses/2025_course_RNAseq
   id: future_events
   sort: "date asc"
   type: grid
@@ -66,13 +68,13 @@ Explore our current courses or [contact us](contact.qmd) to propose a topic you 
 
 <center>
 <br>
-We are proud to present our collaborative workshop series, Three Bees: 
+We are proud to present our collaborative workshop series, the Three Bees: 
 
 ![](images/3bees_fulltext_ampersand2.png){#id .class width=70%}
 
-Imagine basic statistical concepts and bioinformatics tools explained to you by experts. Informative lessons and hands-on coding exercises on a variety of topics. 
+Statistical concepts and bioinformatics tools explained to you by experts. Informative lessons and hands-on coding exercises on a variety of topics. 
 
-We make it possible in our collaboration with SLU's Center for Statistics. 
+All of this and more in our collaboration with SLU's Center for Statistics. 
 
 More information [here](3BS.html).
 </center>
