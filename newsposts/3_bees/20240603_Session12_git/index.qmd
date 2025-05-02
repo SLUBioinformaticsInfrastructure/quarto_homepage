@@ -5,8 +5,9 @@ author: "SLUBI"
 date: "06-03-2024"
 categories:
   - workshop
-  - education
-  - statistics
+  - git
+  - GitHub
+  - reproducibility
 image: 3bees_session12.png
 ---
 

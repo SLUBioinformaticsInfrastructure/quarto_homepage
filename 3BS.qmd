@@ -24,9 +24,9 @@ listing:
 ::: {layout-ncol=2}
 <br>
 SLUBI and the SLU Centre for Statistics are bringing you a workshop series focused on R and applications in bioinformatics.\
-  <b>Mondays in even weeks, 09:45 </b>\
-  <b>Campus Alnarp, Horticum </b>\
-  <b>or via [Zoom](https://slu-se.zoom.us/j/69486568642) (Password: 410 410) </b>
+<b>Mondays in even weeks, 09:45 </b>\
+<b>Campus Alnarp or Ultuna </b>\
+<b>and always via [Zoom](https://slu-se.zoom.us/j/69486568642) (Password: 410 410) </b>
 
 ![](images/3bees_opaque.png){.class width=80%}
 :::

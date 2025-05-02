@@ -5,8 +5,8 @@ author: "SLUBI"
 date: "06-17-2024"
 categories:
   - workshop
-  - education
-  - statistics
+  - reproducibility
+  - R
 image: 3bees_session13.png
 ---
 

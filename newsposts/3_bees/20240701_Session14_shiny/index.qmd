@@ -5,7 +5,7 @@ author: "SLUBI"
 date: "07-01-2024"
 categories:
   - workshop
-  - education
+  - code along
   - R
 image: 3bees_session14.png
 ---

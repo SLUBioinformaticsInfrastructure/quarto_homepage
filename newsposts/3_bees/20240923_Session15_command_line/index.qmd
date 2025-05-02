@@ -5,7 +5,7 @@ author: "SLUBI"
 date: "09-23-2024"
 categories:
   - workshop
-  - education
+  - code along
   - command line
 ---
 Welcome back after the summer, and welcome to a new round of the 3 bees: basic biostatistics and bioinformatics.

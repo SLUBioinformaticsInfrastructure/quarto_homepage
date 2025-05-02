@@ -5,8 +5,9 @@ author: "SLUBI"
 date: "03-25-2024"
 categories:
   - workshop
-  - education
-  - statistics
+  - python
+  - neural networks
+  - code along
 image: 3bees_session8.png
 ---
 

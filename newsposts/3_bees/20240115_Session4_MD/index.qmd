@@ -5,8 +5,9 @@ author: "SLUBI"
 date: "01-15-2024"
 categories:
   - workshop
-  - education
-  - statistics
+  - code along
+  - reproducibility
+  - markdown
 image: 3bees_session4.png
 ---
 

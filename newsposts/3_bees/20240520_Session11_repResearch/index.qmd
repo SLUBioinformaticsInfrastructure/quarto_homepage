@@ -5,8 +5,9 @@ author: "SLUBI"
 date: "05-20-2024"
 categories:
   - workshop
-  - education
-  - statistics
+  - reproducibility
+  - git
+  - quarto
 image: 3bees_session11.png
 ---
 

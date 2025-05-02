@@ -5,8 +5,8 @@ author: "SLUBI"
 date: "05-06-2024"
 categories:
   - workshop
-  - education
-  - statistics
+  - high performance computing
+  - slurm
 image: 3bees_session10.png
 ---
 
