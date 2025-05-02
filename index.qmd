@@ -61,7 +61,7 @@ Every Wednesday from 13:00 to 14:00 on Zoom. More information [here](dropin.qmd)
 
 We offer curated [courses](courses.qmd), [seminars & workshops](workshops.qmd), and personalized training sessions to advance bioinformatics expertise at SLU.
 
-Explore our current courses or [contact us](contact.qmd) to propose new and interesting topics.
+Explore our current courses or [contact us](contact.qmd) to propose new topics to us.
 ::::
 
 :::
