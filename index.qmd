@@ -39,28 +39,36 @@ More information on our support [here](support_what.qmd).
 
 <br>
 
-::: {layout-ncol=2}
+::::: {.grid}
 
-#  Drop-in
-:::: {.card}
+::: {.g-col-6}
+
+:::: {.callout-note appearance="minimal"}
+## Drop-in
 <br>
 
-Every week we arrange a digital drop-in. If you have a question, want to discuss your project, know what tool or analyses fits your data best, join us!
+Join our weekly digital drop-in sessions to ask questions, discuss your project, or find the best tools and analyses for your data.
 
-Join us every Wednesday from 13:00 to 14:00 on Zoom.
-
- More information [here](dropin.qmd).
+Every Wednesday from 13:00 to 14:00 on Zoom. More information [here](dropin.qmd).
 ::::
 
-# Training
-:::: {.card}
-<br>
-
-We aim to advance bioinformatics expertise at SLU through curated [courses](courses.qmd), [seminars &workshops](workshops.qmd), and personalized training sessions. 
-
-Explore our current courses or [contact us](contact.qmd) to propose a topic you believe is missing. 
-::::
 :::
+
+::: {.g-col-6}
+
+
+:::: {.callout-note appearance="minimal"}
+## Training
+<br>
+
+We offer curated [courses](courses.qmd), [seminars & workshops](workshops.qmd), and personalized training sessions to advance bioinformatics expertise at SLU.
+
+Explore our current courses or [contact us](contact.qmd) to propose new and interesting topics.
+::::
+
+:::
+
+:::::
 
 
 # Seminar series
