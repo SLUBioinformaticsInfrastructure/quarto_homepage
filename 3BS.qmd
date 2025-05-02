@@ -7,7 +7,7 @@ listing:
   id: 3bs
   sort: "date desc"
   type: default
-  categories: false
+  categories: true
   sort-ui: false
   filter-ui: false
   grid-columns: 2
