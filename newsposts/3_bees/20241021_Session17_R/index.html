@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="SLUBI">
+<meta name="dcterms.date" content="2024-10-21">
+<meta name="description" content="Session 17 in the series Basic Biostatistics and Bioinformatics">
 
-<title>Events – SLU bioinformatics infrastructure</title>
+<title>Introduction to R – SLU bioinformatics infrastructure</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ac00d576ba893a0aabaa75c54ecb8ec1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-ac00d576ba893a0aabaa75c54ecb8ec1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,67 +70,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -139,10 +82,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/SLUBI_logo.png" alt="" class="navbar-logo">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/SLUBI_logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">SLU bioinformatics infrastructure</span>
     </a>
   </div>
@@ -166,14 +109,14 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./events.html">Events</a></li><li class="breadcrumb-item"><a href="./events.html">Events</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Introduction to R</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
@@ -189,7 +132,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome to SLUBI</span></a>
   </div>
 </li>
@@ -206,13 +149,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./support_what.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../support_what.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Support</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./dropin.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../dropin.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Drop-in</span></a>
   </div>
 </li>
@@ -229,31 +172,31 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./courses.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../courses.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Courses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./workshops.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../workshops.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Seminars and Workshops</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./learning-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../learning-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Self learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./online-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../online-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tools and resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uppmax.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../uppmax.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to: Uppmax</span></a>
   </div>
 </li>
@@ -270,13 +213,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./events.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../events.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Events</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./social.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../social.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fika</span></a>
   </div>
 </li>
@@ -293,19 +236,19 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slubi.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../slubi.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SLUBI</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./contact.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../contact.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Contact</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./board.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../board.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Board</span></a>
   </div>
 </li>
@@ -322,7 +265,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./news.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../news.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">News and Events</span></a>
   </div>
 </li>
@@ -333,22 +276,44 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Y291cnNl">course <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWR1Y2F0aW9u">education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bWVldGluZw==">meeting <span class="quarto-category-count">(6)</span></div><div class="category" data-category="bmV0d29yaw==">network <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(2)</span></div><div class="category" data-category="b3V0cmVhY2g=">outreach <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cmVwcm9kdWNpYmlsaXR5">reproducibility <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3ltcG9zaXVt">symposium <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJhaW5pbmc=">training <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d29ya3Nob3A=">workshop <span class="quarto-category-count">(3)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./events.html">Events</a></li><li class="breadcrumb-item"><a href="./events.html">Events</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Events</h1>
+<h1 class="title">Introduction to R</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">workshop</div>
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">code along</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Session 17 in the series Basic Biostatistics and Bioinformatics
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-body">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>SLUBI </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 21, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -358,367 +323,19 @@ window.Quarto = {
 </header>
 
 
+<p>In this instance, we will give a short introduction to R. We will work on some R basics that you will need for data manipulation and visualization. The session is geared towards everyone that has never used R before, and for everyone that would like to refresh their memory.</p>
+<p><strong>Topic:</strong> Introduction to R<br>
+<strong>When:</strong> Monday, 21st of October, 09:45<br>
+<strong>Where:</strong> Campus Alnarp, Triticum and via <strong><a href="https://slu-se.zoom.us/j/69486568642">Zoom</a></strong>(Password: 410 410)</p>
+<p><strong>Preparation:</strong> You are welcome to just come and listen. If you want to code along please bring your own laptop with R and R-studio installed.</p>
+<p>If you’re just curious and want to listen in, that’s also perfectly fine!</p>
+<p>The material will be available on <a href="https://github.com/SLUBioinformaticsInfrastructure/Three_Bees_Workshop_Series">Github</a> after the session.</p>
+<center>
+<p><img src="../../../images/3bees_fulltext_ampersand2.png" class="class img-fluid" style="width:40.0%"></p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="d29ya3Nob3AlMkNvdXRyZWFjaA==" data-listing-date-sort="1730678400000" data-listing-file-modified-sort="1746168859443" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
-<div class="thumbnail"><a href="./newsposts/events/future_events/20241104_SBW24/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/events/future_events/20241104_SBW24/SBW2024_logo_pink_final.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/events/future_events/20241104_SBW24/index.html" class="no-external">Swedish Bioinformatics Workshop 2024</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3V0cmVhY2g='); return false;">outreach</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/events/future_events/20241104_SBW24/index.html" class="no-external">
-<p>November 4th &amp; 5th, 2024 on Campus Ultuna</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/events/future_events/20241104_SBW24/index.html" class="no-external">
-<div class="listing-date">
-Nov 4, 2024
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Y291cnNlJTJDcmVwcm9kdWNpYmlsaXR5" data-listing-date-sort="1729468800000" data-listing-file-modified-sort="1746168859415" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
-<div class="thumbnail"><a href="./newsposts/events/future_events/20241021_course_ReproducibleResInR/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/events/future_events/20241021_course_ReproducibleResInR/Rlogo.svg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/events/future_events/20241021_course_ReproducibleResInR/index.html" class="no-external">Course: Reproducibility in Research with a focus on data analysis using R</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y291cnNl'); return false;">course</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmlsaXR5'); return false;">reproducibility</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/events/future_events/20241021_course_ReproducibleResInR/index.html" class="no-external">
-<p>Oct 21st to Oct 25th, 2024, online via Zoom</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/events/future_events/20241021_course_ReproducibleResInR/index.html" class="no-external">
-<div class="listing-date">
-Oct 21, 2024
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="d29ya3Nob3AlMkNtZWV0aW5n" data-listing-date-sort="1715644800000" data-listing-file-modified-sort="1746168859409" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
-<div class="thumbnail"><a href="./newsposts/events/20240514_sasuf/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/events/20240514_sasuf/sasuf-logo.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/events/20240514_sasuf/index.html" class="no-external">Workshop session at Sasuf Week</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWVldGluZw=='); return false;">meeting</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/events/20240514_sasuf/index.html" class="no-external">
-<p>The South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/events/20240514_sasuf/index.html" class="no-external">
-<div class="listing-date">
-May 14, 2024
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="bmV0d29yayUyQ3RyYWluaW5n" data-listing-date-sort="1710460800000" data-listing-file-modified-sort="1746168859407" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="110">
-<div class="thumbnail"><a href="./newsposts/events/20240314_nadas/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/events/20240314_nadas/Logo_hands.web_cleaned_final.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/events/20240314_nadas/index.html" class="no-external">Nordic Network of Agricultural Data Scientists</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV0d29yaw=='); return false;">network</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dHJhaW5pbmc='); return false;">training</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/events/20240314_nadas/index.html" class="no-external">
-<p>A new collaboration together with colleagues from other Nordic countries, exchange ideas and develop training materials.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/events/20240314_nadas/index.html" class="no-external">
-<div class="listing-date">
-Mar 15, 2024
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="b3V0cmVhY2glMkNyZXByb2R1Y2liaWxpdHklMkNlZHVjYXRpb24=" data-listing-date-sort="1699488000000" data-listing-file-modified-sort="1746168859407" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
-<div class="thumbnail"><a href="./newsposts/events/20231109_AMRI/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/events/20231109_AMRI/amri.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/events/20231109_AMRI/index.html" class="no-external">Presentation: Practical considerations and available tools for big data science</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3V0cmVhY2g='); return false;">outreach</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmlsaXR5'); return false;">reproducibility</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/events/20231109_AMRI/index.html" class="no-external">
-<p>Talking reproducible science at the Microbiome Research Initiative Meeting 2023.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/events/20231109_AMRI/index.html" class="no-external">
-<div class="listing-date">
-Nov 9, 2023
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="c3ltcG9zaXVtJTJDbWVldGluZw==" data-listing-date-sort="1695945600000" data-listing-file-modified-sort="1746168859401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
-<div class="thumbnail"><a href="./newsposts/events/20230929_DayOfBioinformatics/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/events/20230929_DayOfBioinformatics/SDB.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/events/20230929_DayOfBioinformatics/index.html" class="no-external">SLU’s Day of Bioinformatics</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c3ltcG9zaXVt'); return false;">symposium</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWVldGluZw=='); return false;">meeting</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/events/20230929_DayOfBioinformatics/index.html" class="no-external">
-<p>Terrestrial and aquatic communities, breeding, crop production, animal health, automatization – bioinformatics can also be for you! Listen to exciting SLU projects and be inspired.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/events/20230929_DayOfBioinformatics/index.html" class="no-external">
-<div class="listing-date">
-Sep 29, 2023
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="b3V0cmVhY2glMkNlZHVjYXRpb24=" data-listing-date-sort="1695427200000" data-listing-file-modified-sort="1746168859395" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
-<div class="thumbnail"><a href="./newsposts/events/20230923_SciFest/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/events/20230923_SciFest/SciFest.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/events/20230923_SciFest/index.html" class="no-external">SciFest 2023</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3V0cmVhY2g='); return false;">outreach</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZWR1Y2F0aW9u'); return false;">education</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/events/20230923_SciFest/index.html" class="no-external">
-<p>We had a lot of fun at Uppsala’s Science Festival this year, talking about viruses, sequencing and metagenomics.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/events/20230923_SciFest/index.html" class="no-external">
-<div class="listing-date">
-Sep 23, 2023
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="bmV3cyUyQ21lZXRpbmc=" data-listing-date-sort="1677456000000" data-listing-file-modified-sort="1746168859391" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail"><a href="./newsposts/events/20230227_SLUBI_day/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/events/20230227_SLUBI_day/IMG_8241.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/events/20230227_SLUBI_day/index.html" class="no-external">SLUBI day 2023</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWVldGluZw=='); return false;">meeting</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/events/20230227_SLUBI_day/index.html" class="no-external">
-<p>A day filled with bioinformatics</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/events/20230227_SLUBI_day/index.html" class="no-external">
-<div class="listing-date">
-Feb 27, 2023
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="d29ya3Nob3AlMkNtZWV0aW5n" data-listing-date-sort="1557273600000" data-listing-file-modified-sort="1746168859383" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./newsposts/events/201903_Uppmax_meeting/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/events/201903_Uppmax_meeting/uppmax.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/events/201903_Uppmax_meeting/index.html" class="no-external">Uppmax meeting</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWVldGluZw=='); return false;">meeting</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/events/201903_Uppmax_meeting/index.html" class="no-external">
-<p>Discuss existing computing solutions and future possibilities.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/events/201903_Uppmax_meeting/index.html" class="no-external">
-<div class="listing-date">
-May 8, 2019
-</div>
-<div class="listing-author">
-SASUF
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="bmV3cyUyQ21lZXRpbmc=" data-listing-date-sort="1528070400000" data-listing-file-modified-sort="1746168859383" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
-<div class="thumbnail"><a href="./newsposts/events/20180604_SLUBI_day/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/events/20180604_SLUBI_day/20180604_SLUBI_day_flyer_1A4.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/events/20180604_SLUBI_day/index.html" class="no-external">SLUBI day 2018</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWVldGluZw=='); return false;">meeting</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/events/20180604_SLUBI_day/index.html" class="no-external">
-<p>Showcasing SLUBI support and discussing long-term plans.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/events/20180604_SLUBI_day/index.html" class="no-external">
-<div class="listing-date">
-Jun 4, 2018
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-categories="bWVldGluZw==" data-listing-date-sort="1509062400000" data-listing-file-modified-sort="1746168859382" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
-<div class="thumbnail"><a href="./newsposts/events/20171027_kickoff/index.html" class="no-external">
-
-<img loading="lazy" src="./newsposts/events/20171027_kickoff/group_pic.jpeg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./newsposts/events/20171027_kickoff/index.html" class="no-external">SLUBI kickoff meeting</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWVldGluZw=='); return false;">meeting</div>
-
-</div>
-<div class="delink listing-description"><a href="./newsposts/events/20171027_kickoff/index.html" class="no-external">
-<p>We are kicking off SLUBI with a celebration of bioinformatics.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./newsposts/events/20171027_kickoff/index.html" class="no-external">
-<div class="listing-date">
-Oct 27, 2017
-</div>
-<div class="listing-author">
-SLUBI
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</center></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
