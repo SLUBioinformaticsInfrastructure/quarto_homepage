@@ -12,7 +12,7 @@ image: SLU_210608_2847_spring_barley.jpg
 
 This Master's level course explores the role of genetic resources in plant breeding and their importance for sustainable agriculture. Students will learn to evaluate and utilize genetic resources, understand intellectual property issues, and apply modern breeding technologies. 
 
-The course covers genetic variation, international aspects of genetic resources, and the design of breeding strategies. Through projects, excursions, and laboratory practicals, students will gain hands-on experience and discuss the pros and cons of various breeding methods. By the end of the course, students will be able to independently apply modern technologies and design effective breeding strategies.
+The course covers genetic variation, international aspects of genetic resources, and the design of breeding strategies. There will be hands-on projects, excursions, and laboratory practicals, and discussions of the pros and cons of various breeding methods. By the end of the course, students will be able to independently apply modern technologies and design effective breeding strategies.
 
 We are happy to participate in this course, which is organized by the Department of Plant Breeding. More information [here](https://student.slu.se/en/studies/courses-and-programmes/course-search/course/BI1407/20053.2324/Advanced-Plant-Breeding-and-Genetic-Resources/). 
 

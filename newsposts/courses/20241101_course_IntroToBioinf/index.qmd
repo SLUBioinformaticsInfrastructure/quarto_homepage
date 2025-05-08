@@ -9,6 +9,7 @@ categories:
   - NGS
   - reproducibility
   - RNAseq
+  - gs-vmas
 image: code.png
 ---
 

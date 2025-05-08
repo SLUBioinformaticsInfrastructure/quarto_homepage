@@ -1,6 +1,5 @@
 ---
-title: "Course: Reproducibility in Research with a focus on
-data analysis using the program R"
+title: "Course: Reproducibility in Research with a focus on data analysis using the program R"
 description: "Tips, tricks and tools for making your research more reproducible."
 author: "SLUBI"
 date: "10-21-2024"
@@ -9,10 +8,11 @@ categories:
   - training
   - git 
   - reproducibility
+  -  gs-vmas
 image: trends.png
 ---
 
-This course explores the importance of reproducibility in scientific research, covering definitions, good scientific practices, and the requirements of publication and funding bodies. Participants will learn basic concepts and tools to ensure reproducibility, including data analysis with R and the use of public databases. Through presentations, exercises, and discussions, the course equips participants with the skills to make their research results reproducible.
+This course teaches the importance of reproducibility in scientific research, covering definitions, good scientific practices, and the requirements of publication and funding bodies. Participants will learn basic concepts and tools to ensure reproducibility, including data analysis with R and the use of public databases.
 
 Find more information [here](https://personalkurser.slu.se/kurser/kurs.cfm?KursID=PVG0038&oid=10). 
 

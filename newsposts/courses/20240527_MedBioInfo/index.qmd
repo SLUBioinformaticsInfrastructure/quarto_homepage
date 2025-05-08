@@ -10,7 +10,7 @@ categories:
 image: sam.jpg
 ---
 
-The [Swedish National Graduate School in Medical Bioinformatics (MedBioInfo)](https://www.medbioinfo.se/) invited us to teach an introduction to Nextflow as part of their PhD course. We're happy to help the course underway for the second year in a row. 
+The [Swedish National Graduate School in Medical Bioinformatics (MedBioInfo)](https://www.medbioinfo.se/) invited us to teach an introduction to Nextflow as part of their PhD course. We're happy to help the course and meet it's students for the second year in a row. 
 
 <center>
 ![](sam.jpg){ .class width=60%}

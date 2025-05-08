@@ -10,7 +10,7 @@ categories:
 image: code.png
 ---
 
-This course introduces participants to the analysis of high-throughput sequencing (HTS) RNA-Seq data, focusing exclusively on Next-Generation Sequencing, specifically Illumina-generated data. Biologists will gain the ability to communicate with bioinformaticians, direct analyses, and interpret results, while bioinformaticians will acquire the basics to work with HTS data and perform analyses. The course aims to provide an overview rather than expert-level proficiency.
+In this course, we teach how to analyze RNA-Seq data from Next-Generation Sequencing, specifically Illumina data. Biologists will learn to communicate with bioinformaticians, perform analyses, and understand the results. Bioinformaticians will gain basic skills to work with this data. The course provides an overview, not expert-level training. 
 
 <center>
 ![](code.png){.class width=60%}
