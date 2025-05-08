@@ -1,0 +1,23 @@
+---
+title: "SLU Breeding Network meeting"
+description: "Breeding 360: Collaboration across disciplines"
+author: "SLUBI"
+date: "05-06-2025"
+categories:
+  - networking
+  - breeding
+  - presentation
+image: breeding-eng.webp
+---
+
+We are happy to present out work at this year's meeting of SLU's Breeding Network. Thanks for having us!
+
+From their homepage: 
+
+Under the theme “Breeding 360: Collaboration across disciplines,” this year’s meeting highlights the synergies between plant, tree, and animal breeding. We will also explore the future direction of breeding research, addressing emerging challenges and innovative approaches shaping the next generation of breeding. 
+
+More information [here](https://internt.slu.se/en/calendar-originals/2025/5/slu-breeding-network-meeting/). 
+
+<br><br>
+<center>
+![](breeding-eng.webp){.class width=40%}
