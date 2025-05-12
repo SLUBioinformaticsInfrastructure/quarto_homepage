@@ -7,11 +7,12 @@ listing:
   type: default
   fields: 
     - title
-    - subtitle
+    - image
     - description
     - author
     - date
     - categories
+  image-align: left
   sort-ui: false
   filter-ui: false
 page-layout: full
