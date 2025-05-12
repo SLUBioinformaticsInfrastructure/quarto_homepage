@@ -9,7 +9,7 @@ categories:
   - git 
   - reproducibility
   -  gs-vmas
-image: trends.png
+image: Rlogo.svg
 ---
 
 This course teaches the importance of reproducibility in scientific research, covering definitions, good scientific practices, and the requirements of publication and funding bodies. Participants will learn basic concepts and tools to ensure reproducibility, including data analysis with R and the use of public databases.
