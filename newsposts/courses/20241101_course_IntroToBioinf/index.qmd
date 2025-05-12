@@ -1,5 +1,5 @@
 ---
-title: "Course: Introduction to Bioinformatics"
+title: "Introduction to Bioinformatics"
 description: "A course together with SLU’s Graduate School for Veterinary Medicine and Animal Science."
 author: "SLUBI"
 date: "11-01-2024"

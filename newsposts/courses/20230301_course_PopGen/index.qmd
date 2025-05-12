@@ -1,5 +1,5 @@
 ---
-title: "Course: Applied population genetics in plant disease epidemiology,"
+title: "Applied population genetics in plant disease epidemiology,"
 description: "We are happy to teach the bioinformatics of population genetics in this masters course."
 author: "SLUBI"
 date: "03-01-2023"

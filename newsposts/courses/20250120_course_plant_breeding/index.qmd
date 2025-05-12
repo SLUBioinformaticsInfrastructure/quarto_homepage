@@ -1,5 +1,5 @@
 ---
-title: "Course: Plant Biology for Breeding and Protection"
+title: "Plant Biology for Breeding and Protection"
 description: "and how bioinformatics can help you and your plants!"
 author: "SLUBI"
 date: "03-03-2025"

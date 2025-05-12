@@ -1,5 +1,5 @@
 ---
-title: "Course: Genome-wide predictions in breeding: genotype-phenotype associations and genomic selection"
+title: "Genome-wide predictions in breeding: genotype-phenotype associations and genomic selection"
 description: "An introduction to R and large data handling"
 author: "SLUBI"
 date: "11-13-2023"

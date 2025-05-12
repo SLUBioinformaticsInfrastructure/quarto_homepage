@@ -1,5 +1,5 @@
 ---
-title: "Course: Multi-omics analyses of the microbial community"
+title: "Multi-omics analyses of the microbial community"
 description: "Everything you ever wanted to know about metagenomics."
 author: "SLUBI"
 date: "03-03-2025"

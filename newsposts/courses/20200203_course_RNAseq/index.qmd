@@ -1,5 +1,5 @@
 ---
-title: "Workshop: High Throughput Sequencing Data Analysis Workshop"
+title: "High Throughput Sequencing Data Analysis Workshop"
 description: ""
 author: "SLUBI"
 date: "03-02-2020"

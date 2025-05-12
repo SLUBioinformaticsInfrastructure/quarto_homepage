@@ -1,5 +1,5 @@
 ---
-title: "Course: Data handling and high-quality illustrations for publications"
+title: "Data handling and high-quality illustrations for publications"
 description: "A course on how to handle data and create appropriate illustrations for your project."
 author: "SLUBI"
 date: "01-20-2025"

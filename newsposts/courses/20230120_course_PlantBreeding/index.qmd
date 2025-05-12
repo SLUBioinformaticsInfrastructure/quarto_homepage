@@ -1,5 +1,5 @@
 ---
-title: "Course: Plant Biology for Breeding and Protection"
+title: "Plant Biology for Breeding and Protection"
 description: "MSc course held in Alnarp, Ultuna and online."
 author: "SLUBI"
 date: "01-20-2023"

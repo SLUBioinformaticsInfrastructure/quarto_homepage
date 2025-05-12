@@ -1,5 +1,5 @@
 ---
-title: "Course: Reproducibility in Research with a focus on data analysis using the program R"
+title: "Reproducibility in Research with a focus on data analysis using the program R"
 description: "Tips, tricks and tools for making your research more reproducible."
 author: "SLUBI"
 date: "10-21-2024"

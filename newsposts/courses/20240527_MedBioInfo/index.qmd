@@ -1,5 +1,5 @@
 ---
-title: "Course: Applied Bioinformatics"
+title: "Applied Bioinformatics"
 description: "Teaching an introduction to Nextflow to a diverse group of students from all over Sweden."
 author: "SLUBI"
 date: "05-27-2024"

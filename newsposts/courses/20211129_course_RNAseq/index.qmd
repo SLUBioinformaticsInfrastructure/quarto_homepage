@@ -1,5 +1,5 @@
 ---
-title: "Course: Analysis of High Throughput Sequencing RNA-Seq Data"
+title: "Analysis of High Throughput Sequencing RNA-Seq Data"
 description: "SLUBI's very own course on analysing RNA-sequencing data."
 author: "SLUBI"
 date: "11-29-2021"

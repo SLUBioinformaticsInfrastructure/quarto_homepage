@@ -1,5 +1,5 @@
 ---
-title: "Course: Analysis of High Throughput Sequencing RNA-Seq Data"
+title: "Analysis of High Throughput Sequencing RNA-Seq Data"
 description: "The history of RNA sequencing, and modern ways to analyse the data."
 author: "SLUBI"
 date: "10-07-2024"
