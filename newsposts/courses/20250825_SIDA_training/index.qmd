@@ -1,0 +1,18 @@
+---
+title: "SIDA training"
+description: "Reproducible bioinformatics, best practices, Nextflow and nf-core"
+author: "SLUBI"
+date: "08-25-2025"
+categories:
+  - course
+  - training
+  - nextflow
+image: sida.png
+---
+<br>
+
+Funded by the Swedish International Development Cooperation Agency (SIDA), we will be giving a course on reproducible practices in bioinformatics, Nextflow and nf-core in person in Alnarp. 
+
+
+<center>
+![](sida.png){.class width=60%}
