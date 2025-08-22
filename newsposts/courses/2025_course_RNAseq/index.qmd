@@ -1,8 +1,8 @@
 ---
 title: "Analysis of High Throughput Sequencing RNA-Seq Data"
-description: "The history of RNA sequencing, and modern ways to analyse the data - autumn 2025"
+description: "registration is open now - course dates: October 13th-24th , October 31st, 2025"
 author: "SLUBI"
-date: "05-02-2025"
+date: "08-01-2025"
 categories:
   - course
   - training
@@ -10,9 +10,38 @@ categories:
 image: code.png
 ---
 
-Here, we introduce participants to the analysis of high-throughput sequencing (HTS) RNA-Seq data, focusing exclusively on Next-Generation Sequencing, specifically Illumina-generated data. Biologists will gain the ability to communicate with bioinformaticians, direct analyses, and interpret results, while bioinformaticians will acquire the basics to work with HTS data and perform analyses. The course aims to provide an overview rather than expert-level proficiency.
+Organism Biology research school courses
 
-We are currently planning the newest instance of the course, stay tuned for more information. 
+Analysis of High Throughput Sequencing RNA-Seq Data I and II (6th edition)
+
+October 13th-24th , October 31st
+
+
+High Throughput Sequencing (HTS) technologies and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies. 
+
+The SLU Bioinformatics Infrastructure (SLUBI) is organizing two back-to-back courses for the Organism Biology Research School, aimed primarily at PhD students, that has the objective to help addressing this problem by (i) helping participants critically assess the challenges faced in the HTS field, (ii) developing efficient communication skill with bioinformatician, and (iii) training students in analyzing HTS data. For detailed info about the courses, please see the syllabus and preliminary schedule attached.
+
+The aims of the courses are to:
+
+- familiarize the participants with advanced RNA-Seq data analysis methodologies and how biological knowledge can be gained from these by illustrating different analyses approaches
+
+- allow the participants to acquire computational competences about latest RNA-Seq analytical approaches and related statistical methods
+
+- expose the participants to modern computing technologies, as the computer hands-on of the course will be performed using cloud computing resources
+
+- develop the participants’ awareness to critically reflect onto RNA-Seq analysis strengths and weaknesses
+
+- enable participants to perform the analysis of their own data (in stance of the exemplary dataset otherwise available) (course II)
+
+The second course is a follow-up for attendees to apply the knowledge gained from the first course on their own data. 
+
+The courses will be conducted online only. However, if students wish so, they can organise themselves in groups and join using one of the teaching facilities available at SLU.
+
+The maximum number of participants is 20. PhD students will be prioritised, but admission will be on a first-come, first-served basis, provided that the minimal requirements are met. Application deadline: September 13th. 
+
+To register, follow this [link](https://forms.gle/Ha6GJjo2FHZk1HbbA).
+
+If you have any question, please contact the course leaders (nicolas.delhomme@slu.se, amrei.binzer.panchal@slu.se) or the slack channel `#organism-biology-research-school-rna-seq-course` of the `slubi-workspace.slack.com` workspace.
 
 <center>
 ![](code.png){.class width=60%}c
