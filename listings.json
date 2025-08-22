@@ -1,5 +1,55 @@
 [
   {
+    "listing": "/courses.html",
+    "items": [
+      "/newsposts/courses/2025_course_breeding/index.html",
+      "/newsposts/courses/2025_course_RNAseq/index.html",
+      "/newsposts/courses/20250120_course_plant_breeding/index.html",
+      "/newsposts/courses/20250303_course_metagenomics/index.html",
+      "/newsposts/courses/20250120_course_illustrations/index.html",
+      "/newsposts/courses/20241101_course_IntroToBioinf/index.html",
+      "/newsposts/courses/20241021_course_reproducible/index.html",
+      "/newsposts/courses/20241007_course_RNAseq/index.html",
+      "/newsposts/courses/20240527_MedBioInfo/index.html",
+      "/newsposts/courses/20231124_course_IntroToBioinf/index.html",
+      "/newsposts/courses/20231113_course_breeding/index.html",
+      "/newsposts/courses/20231023_course_RNAseq/index.html",
+      "/newsposts/courses/20230512_course_MedBioInfo/index.html",
+      "/newsposts/courses/20230301_course_PopGen/index.html",
+      "/newsposts/courses/20230120_course_PlantBreeding/index.html",
+      "/newsposts/courses/20221112_course_RNAseq/index.html",
+      "/newsposts/courses/20221012_course_IntroToBioinf/index.html",
+      "/newsposts/courses/20211129_course_RNAseq/index.html",
+      "/newsposts/courses/20211004_course_IntroToBioinf/index.html",
+      "/newsposts/courses/20200203_course_RNAseq/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/newsposts/courses/2025_course_breeding/index.html",
+      "/newsposts/events/20250506_breeding_network/index.html",
+      "/newsposts/courses/2025_course_RNAseq/index.html"
+    ]
+  },
+  {
+    "listing": "/events.html",
+    "items": [
+      "/newsposts/events/20250506_breeding_network/index.html",
+      "/newsposts/events/20250324_UPSCb_IT/index.html",
+      "/newsposts/events/20241104_SBW24/index.html",
+      "/newsposts/events/20240514_sasuf/index.html",
+      "/newsposts/events/20240314_nadas/index.html",
+      "/newsposts/events/20231109_AMRI/index.html",
+      "/newsposts/events/20230929_DayOfBioinformatics/index.html",
+      "/newsposts/events/20230923_SciFest/index.html",
+      "/newsposts/events/20230227_SLUBI_day/index.html",
+      "/newsposts/events/201903_Uppmax_meeting/index.html",
+      "/newsposts/events/20180604_SLUBI_day/index.html",
+      "/newsposts/events/20171027_kickoff/index.html"
+    ]
+  },
+  {
     "listing": "/3BS.html",
     "items": [
       "/newsposts/3_bees/20250505_Session25_pdc/index.html",
@@ -64,48 +114,6 @@
     ]
   },
   {
-    "listing": "/courses.html",
-    "items": [
-      "/newsposts/courses/2025_course_breeding/index.html",
-      "/newsposts/courses/2025_course_RNAseq/index.html",
-      "/newsposts/courses/20250303_course_metagenomics/index.html",
-      "/newsposts/courses/20250120_course_plant_breeding/index.html",
-      "/newsposts/courses/20250120_course_illustrations/index.html",
-      "/newsposts/courses/20241101_course_IntroToBioinf/index.html",
-      "/newsposts/courses/20241021_course_reproducible/index.html",
-      "/newsposts/courses/20241007_course_RNAseq/index.html",
-      "/newsposts/courses/20240527_MedBioInfo/index.html",
-      "/newsposts/courses/20231124_course_IntroToBioinf/index.html",
-      "/newsposts/courses/20231113_course_breeding/index.html",
-      "/newsposts/courses/20231023_course_RNAseq/index.html",
-      "/newsposts/courses/20230512_course_MedBioInfo/index.html",
-      "/newsposts/courses/20230301_course_PopGen/index.html",
-      "/newsposts/courses/20230120_course_PlantBreeding/index.html",
-      "/newsposts/courses/20221112_course_RNAseq/index.html",
-      "/newsposts/courses/20221012_course_IntroToBioinf/index.html",
-      "/newsposts/courses/20211129_course_RNAseq/index.html",
-      "/newsposts/courses/20211004_course_IntroToBioinf/index.html",
-      "/newsposts/courses/20200203_course_RNAseq/index.html"
-    ]
-  },
-  {
-    "listing": "/events.html",
-    "items": [
-      "/newsposts/events/20250506_breeding_network/index.html",
-      "/newsposts/events/20250324_UPSCb_IT/index.html",
-      "/newsposts/events/20241104_SBW24/index.html",
-      "/newsposts/events/20240514_sasuf/index.html",
-      "/newsposts/events/20240314_nadas/index.html",
-      "/newsposts/events/20231109_AMRI/index.html",
-      "/newsposts/events/20230929_DayOfBioinformatics/index.html",
-      "/newsposts/events/20230923_SciFest/index.html",
-      "/newsposts/events/20230227_SLUBI_day/index.html",
-      "/newsposts/events/201903_Uppmax_meeting/index.html",
-      "/newsposts/events/20180604_SLUBI_day/index.html",
-      "/newsposts/events/20171027_kickoff/index.html"
-    ]
-  },
-  {
     "listing": "/news.html",
     "items": [
       "/newsposts/courses/2025_course_breeding/index.html",
@@ -116,8 +124,8 @@
       "/newsposts/events/20250324_UPSCb_IT/index.html",
       "/newsposts/3_bees/20250324_Session23_dms/index.html",
       "/newsposts/3_bees/20250310_Session22_statistics/index.html",
-      "/newsposts/courses/20250303_course_metagenomics/index.html",
       "/newsposts/courses/20250120_course_plant_breeding/index.html",
+      "/newsposts/courses/20250303_course_metagenomics/index.html",
       "/newsposts/3_bees/20250224_Session21_quarto/index.html",
       "/newsposts/3_bees/20250210_Session20_markdown/index.html",
       "/newsposts/courses/20250120_course_illustrations/index.html",
@@ -169,14 +177,6 @@
       "/newsposts/seminars_workshops/20180924_R_workshop/index.html",
       "/newsposts/events/20180604_SLUBI_day/index.html",
       "/newsposts/events/20171027_kickoff/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/newsposts/courses/2025_course_breeding/index.html",
-      "/newsposts/events/20250506_breeding_network/index.html",
-      "/newsposts/courses/2025_course_RNAseq/index.html"
     ]
   }
 ]

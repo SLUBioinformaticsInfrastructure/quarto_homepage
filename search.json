@@ -1,101 +1,68 @@
 [
   {
-    "objectID": "newsposts/3_bees/20240603_Session12_git/index.html",
-    "href": "newsposts/3_bees/20240603_Session12_git/index.html",
-    "title": "Introduction to git and Github",
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
     "section": "",
-    "text": "In this 3 Bees session we continue with our tips and tricks for reproducible research with a look at git and GitHub. Git is a useful tool to track the development of your work, to collaborate with others, and to share analyses with the world.\nWe give an introduction to git using the interface in RStudio and show how one can link local work to an online repository. GitHub is not just useful in R, but across all forms of science.\nThis includes a short presentation followed by some interactive exercises.\nPreparation: If you want to follow along the exercises, please download git from https://git-scm.com/ and get an account on github.com. Otherwise just come and listen in!\nWhen: Monday June 3rd, 09:45\nWhere: Campus ALNARP, Triticum (Horticum)\nor via Zoom (Password: 410 410)\nThe lecture and exercises will be available on Github after the session."
+    "text": "Our bioinformatics courses provide training in a variety of methods for analyzing biological data, covering topics such as sequence analysis, population genetics and reproducible research.\nDesigned for both beginners and seasoned researchers, our courses blend theoretical foundations with practical applications, training participants in the skills needed to tackle complex biological questions.\nWe also arrange private courses. If you are interested in a topic you can’t find in our list, please contact us. \n\n\n\n\n\n\n\n\n\n\nAdvanced Plant Breeding and Genetic Resources\n\n\n\ncourse\n\nMsc\n\nbreeding\n\n\n\nGenetic Variation and Breeding Strategies for Sustainable Agriculture - autumn 2025\n\n\n\n\n\nMay 8, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nThe history of RNA sequencing, and modern ways to analyse the data - autumn 2025\n\n\n\n\n\nMay 2, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPlant Biology for Breeding and Protection\n\n\n\ncourse\n\ntraining\n\nplants\n\nbreeding\n\n\n\nand how bioinformatics can help you and your plants!\n\n\n\n\n\nMar 3, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-omics analyses of the microbial community\n\n\n\ncourse\n\ntraining\n\nmetagenomics\n\n\n\nEverything you ever wanted to know about metagenomics.\n\n\n\n\n\nMar 3, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nData handling and high-quality illustrations for publications\n\n\n\ncourse\n\ntraining\n\ngit\n\nreproducibility\n\nquarto\n\ngs-vmas\n\n\n\nA course on how to handle data and create appropriate illustrations for your project.\n\n\n\n\n\nJan 20, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\nNGS\n\nreproducibility\n\nRNAseq\n\ngs-vmas\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nNov 1, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nReproducibility in Research with a focus on data analysis using the program R\n\n\n\ncourse\n\ntraining\n\ngit\n\nreproducibility\n\ngs-vmas\n\n\n\nTips, tricks and tools for making your research more reproducible.\n\n\n\n\n\nOct 21, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nThe history of RNA sequencing, and modern ways to analyse the data.\n\n\n\n\n\nOct 7, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nTeaching an introduction to Nextflow to a diverse group of students from all over Sweden.\n\n\n\n\n\nMay 27, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science\n\n\n\n\n\nNov 24, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nGenome-wide predictions in breeding: genotype-phenotype associations and genomic selection\n\n\n\ncourse\n\ntraining\n\n\n\nAn introduction to R and large data handling\n\n\n\n\n\nNov 13, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\n\n\nThe 2023 edition of our popular course - learn about the ins and outs of working with RNA-sequencing data.\n\n\n\n\n\nOct 23, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nTeaching an introduction to Nextflow to a diverse group of students from all over Sweden.\n\n\n\n\n\nMay 12, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nApplied population genetics in plant disease epidemiology,\n\n\n\ncourse\n\nmeeting\n\neducation\n\n\n\nWe are happy to teach the bioinformatics of population genetics in this masters course.\n\n\n\n\n\nMar 1, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPlant Biology for Breeding and Protection\n\n\n\ncourse\n\nbreeding\n\n\n\nMSc course held in Alnarp, Ultuna and online.\n\n\n\n\n\nJan 20, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\n\n\nSLUBI’s very own course on RNA-sequencing data, held for the Research School Organism Biology.\n\n\n\n\n\nNov 12, 2022\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nOct 12, 2022\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\n\n\nSLUBI’s very own course on analysing RNA-sequencing data.\n\n\n\n\n\nNov 29, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nOct 4, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nHigh Throughput Sequencing Data Analysis Workshop\n\n\n\nworkshop\n\neducation\n\n\n\n\n\n\n\n\n\nMar 2, 2020\n\n\nSLUBI\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Training",
+      "Courses"
+    ]
   },
   {
-    "objectID": "newsposts/3_bees/20240115_Session4_MD/index.html",
-    "href": "newsposts/3_bees/20240115_Session4_MD/index.html",
-    "title": "Introduction to Markdown",
+    "objectID": "organigram.html",
+    "href": "organigram.html",
+    "title": "SLUBI’s structure",
     "section": "",
-    "text": "We wish you all a happy continuation of the new year!\nFor the fourth session of the 3 B’s series, we cover some of the basics of Markdown.\nMarkdown is a reporting language with several applications in scientific communication. With this, you are able to seamlessly render reproducible reports in PDF and HTML formats to include text, code and figures in an aesthetically pleasing way.\nWe will address basic syntax, applications in R and VSCode, and a new iteration of markdown in the form of Quarto.\nPreparation: If you would like to prepare in advance, have a look at this guide.\nAs always, you are most welcome to drop by and listen without participating.\nWhen: Monday Jan 15th, 09:45\nWhere: Campus Alnarp, Horticum, sal Triticum\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
+    "text": "We are located at 3 SLU campuses, Alnarp, Ultuna and Umeå, and provide support to researchers from all 4 faculties: LTV (Faculty of Landscape Architecture, Horticulture and Crop Production Science), NJ (Faculty of Natural Resources and Agricultural Sciences ), S (Faculty of Forest Sciences) and VH (Faculty of Veterinary Medicine and Animal Science)."
   },
   {
-    "objectID": "newsposts/3_bees/20240520_Session11_repResearch/index.html",
-    "href": "newsposts/3_bees/20240520_Session11_repResearch/index.html",
-    "title": "Tools and tricks for reproducible research",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to SLUBI",
     "section": "",
-    "text": "Hear about useful tools and considerations, and get the answer why reproducible research does not only benefit others, but first and foremost yourself.\nThis session we will give a presentation and introduce the concept of reproducible research together with a variety of different tools that can help you gettting started.\nPreparation: No preparations needed. Come, listen, and take notes!\nWhen: Monday May 20th, 09:45\nWhere: Campus ULTUNA, VHC, floor 5, room Tanngrisner 1\nor via Zoom (Password: 410 410)\nThe lecture will be available on Github after the session."
+    "text": "Welcome to SLUBI, where our mission is to provide support and training in bioinformatics for researchers, students, and faculty at SLU.  As a hub for bioinformatics expertise within the university, we facilitate the application of computational methods in biological research and strieve to build a strong community of bioinformaticians within SLU.  Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp and available to you in many different ways.\n\n\n\n\n\n\n\n\n\n\n\nServices\n\n We offer a range of bioinformatics services, including data analysis, software support, consultation, and training, tailored to meet the diverse needs of the university community.\nIn addition to our core services, we offer customized solutions and training courses to support researchers at every stage of their bioinformatics projects, from data acquisition to publication.\nMore information on our support here.\n\n\n\n\n\nDrop-in\n\n\n\n\n\n\nJoin our weekly digital drop-in sessions to ask questions, discuss your project, or find the best tools and analyses for your data.\nEvery Wednesday from 13:00 to 14:00 on Zoom. More information here.\n\n\n\n\n\nTraining\n\n\n\n\n\n\nWe offer curated courses, seminars & workshops, and personalized training sessions to advance bioinformatics expertise at SLU.\nExplore our current courses or contact us to propose new topics to us.\n\n\n\n\n\n\nSeminar series\n\n\n We are proud to present our collaborative workshop series, the Three Bees:\n\nStatistical concepts and bioinformatics tools explained to you by experts. Informative lessons and hands-on coding exercises on a variety of topics.\nAll of this and more in our collaboration with SLU’s Center for Statistics.\nMore information here.\n\n\n\n\n\n\nCurrent news and events\n\n\n\n\n\n\n\n\n\n\nAdvanced Plant Breeding and Genetic Resources\n\n\nGenetic Variation and Breeding Strategies for Sustainable Agriculture - autumn 2025\n\n\n\nSLUBI\n\n\nMay 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSLU Breeding Network meeting\n\n\nBreeding 360: Collaboration across disciplines\n\n\n\nSLUBI\n\n\nMay 6, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\nThe history of RNA sequencing, and modern ways to analyse the data - autumn 2025\n\n\n\nSLUBI\n\n\nMay 2, 2025\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home",
+      "Welcome to SLUBI"
+    ]
   },
   {
-    "objectID": "newsposts/3_bees/20250407_Session24_ggplot/index.html",
-    "href": "newsposts/3_bees/20250407_Session24_ggplot/index.html",
-    "title": "Make pretty graphics - learn to ggplot in R",
+    "objectID": "renaud.html",
+    "href": "renaud.html",
+    "title": "Renaud Van Damme",
     "section": "",
-    "text": "In this session you can learn more about R’s data visualization package ggplot. The workshop will answer the following questions:\n\nWhy ggplot (difference between base plot and ggplot2)?\nHow do you make plots using ggplot2 in R?\nHow do you customize and modify plots?\n\nWhat to Expect:\n\nLearn Grammar of the graphics & synatx\nBuild a graph (data visualization) from the scratch\nDescribe Geometric components of a graph\nProduce different kinds of plot (scatter plots, boxplots, barplots etc) using ggplot.\nDescribe what faceting is and apply faceting in ggplot.\nModify the aesthetics of an existing ggplot plot (including theme, axis labels, stats and color etc).\nCombine and save plots as publishable figures.\n\nTopic: Introduction to ggplot in R\nWhen: Monday, 7th of April, 09:45\nWhere: Camput Ultuna, Tangrisner and online via Zoom (Password: 410 410)\nPreparation: Please have R and RStudio installed on your computer. Install ggplot2 by typing install.packages(\"ggplot2\") into the console of your RStudio.\nThis session uses the publicly available Penguins data set. You can install the data with: install.packages(\"palmerpenguins\").\nThe material will be available on Github after the session."
+    "text": "System administrator and bioinformatician.\nHPC administration, metagenomics, pipeline development."
   },
   {
-    "objectID": "newsposts/3_bees/20240212_Session5_Pop/index.html",
-    "href": "newsposts/3_bees/20240212_Session5_Pop/index.html",
-    "title": "Population structure analyses",
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
     "section": "",
-    "text": "For the fifth session of the 3 B’s series, we cover some of the basics of population structure analyses in R. This will not be a lecture on the theory of population genetics, but rather how you can use R to create plots and make them ready for your publication.\nPreparation: If you would like to prepare in advance, please have a look at this vignette.\nAs always, you are most welcome to drop by and listen without participating.\nWhen: Monday Feb 12, 09:45\nWhere: Campus Alnarp, Pisum (different room from the usual for Alnarp attendees)\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
+    "text": "SLU Breeding Network meeting\n\n\n\nnetworking\n\nbreeding\n\npresentation\n\n\n\nBreeding 360: Collaboration across disciplines\n\n\n\n\n\nMay 6, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nKubernetes and nextflow\n\n\n\nworkshop\n\ntraining\n\nkubernetes\n\nnextflow\n\n\n\nA collaborative workshop to explore possible use cases of kubernetes in bioinformatics applications\n\n\n\n\n\nMar 24, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSwedish Bioinformatics Workshop 2024\n\n\n\nworkshop\n\noutreach\n\n\n\nNovember 4th & 5th, 2024 on Campus Ultuna\n\n\n\n\n\nNov 4, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop session at Sasuf Week\n\n\n\nworkshop\n\nmeeting\n\n\n\nThe South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you.\n\n\n\n\n\nMay 14, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nNordic Network of Agricultural Data Scientists\n\n\n\nnetwork\n\ntraining\n\n\n\nA new collaboration together with colleagues from other Nordic countries, exchange ideas and develop training materials.\n\n\n\n\n\nMar 15, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation: Practical considerations and available tools for big data science\n\n\n\noutreach\n\nreproducibility\n\neducation\n\n\n\nTalking reproducible science at the Microbiome Research Initiative Meeting 2023.\n\n\n\n\n\nNov 9, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLU’s Day of Bioinformatics\n\n\n\nsymposium\n\nmeeting\n\n\n\nTerrestrial and aquatic communities, breeding, crop production, animal health, automatization – bioinformatics can also be for you! Listen to exciting SLU projects and be inspired.\n\n\n\n\n\nSep 29, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSciFest 2023\n\n\n\noutreach\n\neducation\n\n\n\nWe had a lot of fun at Uppsala’s Science Festival this year, talking about viruses, sequencing and metagenomics.\n\n\n\n\n\nSep 23, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI day 2023\n\n\n\nnews\n\nmeeting\n\n\n\nA day filled with bioinformatics\n\n\n\n\n\nFeb 27, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nUppmax meeting\n\n\n\nworkshop\n\nmeeting\n\n\n\nDiscuss existing computing solutions and future possibilities.\n\n\n\n\n\nMay 8, 2019\n\n\nSASUF\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI day 2018\n\n\n\nnews\n\nmeeting\n\n\n\nShowcasing SLUBI support and discussing long-term plans.\n\n\n\n\n\nJun 4, 2018\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI kickoff meeting\n\n\n\nmeeting\n\n\n\nWe are kicking off SLUBI with a celebration of bioinformatics.\n\n\n\n\n\nOct 27, 2017\n\n\nSLUBI\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Events",
+      "Events"
+    ]
   },
   {
-    "objectID": "newsposts/3_bees/20240617_Session13_projMan/index.html",
-    "href": "newsposts/3_bees/20240617_Session13_projMan/index.html",
-    "title": "Project organization in R",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "This 3 Bees session is again filled with tips and tricks for reproducible research, covering how to work with projects in RStudio. We will give some helpful tips on how to structure files, scripts and code. We will also take a quick look at some specific packages such as renv and targets.\nThis session will be presentation only, so come, enjoy and take notes!\nPreparation: No preparation needed.\nWhen: Monday June 17th, 09:45\nWhere: online via Zoom (Password: 410 410)\nThe lecture will be available on Github after the session."
+    "text": "Whether you’re a seasoned researcher or a newcomer to bioinformatics, we welcome all inquiries and look forward to supporting your journey in computational biology and genomics.\nYou have several possibilities to get in touch with us:\n\nWrite an email to slubi@slu.se.\nGet in contact with us during an online drop-in session.\nJoin our Slack workspace and chat with us.\nStop us in the corridor, or find us in our offices - there is a bioinformatician near you!\n\n We suggest that researchers contact SLUBI at an early stage to discuss the planned project, experimental design and what kind of support will be needed. Initial consultation is free. Subsequent SLUBI support and bioinformatics analyses cost 800 SEK/h.",
+    "crumbs": [
+      "About us",
+      "Contact"
+    ]
   },
   {
-    "objectID": "newsposts/3_bees/20231211_Session3_PCA/index.html",
-    "href": "newsposts/3_bees/20231211_Session3_PCA/index.html",
-    "title": "PCA: Theory and Practice",
+    "objectID": "3BS.html",
+    "href": "3BS.html",
+    "title": "Basic Biostatistics & Bioinformatics",
     "section": "",
-    "text": "It is time for the third installment of the 3 Bee’s workshop series from SLUBI and the SLU Centre for Statistics.\nThis time we will learn more about PCA’s!\nAdam will presents a short lecture on the theory behind PCA’s and what we can learn from them, and Lizel shows some commonly used R tools used to compute PCA’s on different kinds of data with an emphasis on data from an RNA sequencing project.\nWhen: Monday Dec 11th, 09:30\nWhere: Campus Alnarp, Horticum, sal Triticum\nor via Zoom (Password: 410 410)\nPreparation: You are welcome to just come and listen. If you would like to participate, please ensure that you have a working RStudio installed on your computer. Please install the following libraries in R with these easy commands:\nif (!requireNamespace('BiocManager', quietly = TRUE))   install.packages('BiocManager') BiocManager::install('PCAtools') BiocManager::install(\"airway\") BiocManager::install(\"org.Hs.eg.db\") BiocManager::install(\"DESeq2\") install.packages(\"tidyverse\") install.packages(\"magrittr\")\nMaterial: This time, we follow this tutorial where we focus on using a PCA on RNASeq data. The methods we show here are applicable for all kinds of data- not just RNASeq.\nAll materials are available on Github."
-  },
-  {
-    "objectID": "newsposts/3_bees/20241007_Session16_dardel/index.html",
-    "href": "newsposts/3_bees/20241007_Session16_dardel/index.html",
-    "title": "Introduction to the Dardel Supercomputer",
-    "section": "",
-    "text": "We are thrilled to have Henric Zazzi join us for this session, where he will provide an introduction to the ”new” Dardel supercomputer, which will replace Uppmax for many of us in the coming year. Henric will give us an introduction to the system and walk us through how to log in and start using it, making this an excellent opportunity for anyone interested in high-performance computing or planning to work with Dardel in the future.\nTopic: Introduction to the Dardel Supercomputer\nGuest speaker: Henric Zazzi, Head of Support for Dardel\nWhen: Monday, 7th of October, 10:00 (approximately an hour)\nand via Zoom(Password: 410 410)\nPreparation: To get the most out of the session, please make sure you have a PDC account set up beforehand. You can read about creating one here: https://www.pdc.kth.se/support/documents/getting_access/get_access.html.\nIf you’re just curious and want to listen in, that’s also perfectly fine!\nThe material will be available on Github after the session."
-  },
-  {
-    "objectID": "newsposts/3_bees/20240226_Session6_Rfunctions/index.html",
-    "href": "newsposts/3_bees/20240226_Session6_Rfunctions/index.html",
-    "title": "Introduction to writing functions in R",
-    "section": "",
-    "text": "For the sixth session of the 3 B’s series, we talk about how to write your own functions in R. Very handy of you want to wrap code you are using over and over again into a re-usable function!\nPreparation: If you would like to prepare in advance, please have a look at this tutorial, and see here for additional content.\nAs always, you are most welcome to drop by and listen without participating.\nWhen: Monday Feb 26, 09:45\nWhere: Campuse Alnarp, Vegetum, Red room (different room from the usual for Alnarp attendees)\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
-  },
-  {
-    "objectID": "newsposts/3_bees/20240325_Session8_neural/index.html",
-    "href": "newsposts/3_bees/20240325_Session8_neural/index.html",
-    "title": "Introduction to Neural Networks",
-    "section": "",
-    "text": "In this session where we will go through theory and practice of neural network training. Several steps of the lecture will be illustrated on Google Colab notebooks in order for them to be easily reproducible by participants during the class.\nPreparation: To follow the course and the exercises please have a google account ready! This session build on Session 7 - Introduction to Python.\nHowever, as always, you are most welcome to drop by and listen without participating!\nWhen: Monday March 25th, 09:45\nWhere: Campus ULTUNA, VHC, plan 5, room Tanngrisner\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
-  },
-  {
-    "objectID": "newsposts/3_bees/20240506_Session10_HPC/index.html",
-    "href": "newsposts/3_bees/20240506_Session10_HPC/index.html",
-    "title": "Introduction to High performance Computing (HPC)",
-    "section": "",
-    "text": "Join us to learn the basics of high performance computing. We will have a brief overview of HPC facilities in Sweden, how to log in, and how to use the job queuing system, Slurm. We will also have a quick look at how to apply for projects on these clusters.\nAfter a short lecture, we will show how to access Rackham from UPPMAX with Visual Studio Code. If you are new to using clusters, this session is for you!\nPreparation: If you would like to follow along, please ensure that you have VSCode installed.\nWhen: Monday May 6th, 09:45\nWhere: Campus ALNARP, Pisum\nor via Zoom (Password: 410 410)\nThe lecture will be available on Github after the session."
-  },
-  {
-    "objectID": "newsposts/3_bees/20250224_Session21_quarto/index.html",
-    "href": "newsposts/3_bees/20250224_Session21_quarto/index.html",
-    "title": "Make reports, presentations and hompages in Quarto",
-    "section": "",
-    "text": "Quarto is a useful and versatile program to combine your code, its results, and your notes. Quarto documents are fully reproducible and support dozens of output formats, like PDFs, Word files, presentations, and more. You can even make you own homepage with Quarto. On Monday, we will go through the basics and get you started.\nTopic: Introduction to Quarto\nWhen: Monday, 24th of February, 09:45\nWhere: Campus Ultuna, Tangrisner and via Zoom(Password: 410 410)\nPreparation: As always, you are welcome to come listen and learn. If you would like to try your hand at generating some reports during the session, please install Tthe Quarto command line interface (https://quarto.org/docs/get-started/), as well as Visual Studio Code (https://code.visualstudio.com/download).\nThe material will be available on Github after the session."
-  },
-  {
-    "objectID": "newsposts/3_bees/20240408_Session9_ggplot/index.html",
-    "href": "newsposts/3_bees/20240408_Session9_ggplot/index.html",
-    "title": "Intermediate ggplot in R",
-    "section": "",
-    "text": "In this session you can learn more about R’s data visualization package ggplot. The workshop will answer the following questions:\n\nWhy ggplot (difference between base plot and ggplot2)?\nHow do you make plots using ggplot2 in R?\nHow do you customize and modify plots?\n\nWhat to Expect:\n\nLearn Grammar of the graphics & synatx\nBuild a graph (data visualization) from the scratch\nDescribe Geometric components of a graph\nProduce different kinds of plot (scatter plots, boxplots, barplots etc) using ggplot.\nDescribe what faceting is and apply faceting in ggplot.\nModify the aesthetics of an existing ggplot plot (including theme, axis labels, stats and color etc).\nCombine and save plots as publishable figures.\n\nPreparation: Please have R and RStudio installed on your computer. Install ggplot2 by typing install.packages(\"ggplot2\") into the console of your RStudio.\nThis session uses the publicly available Penguins data set. You can install the data with: install.packages(\"palmerpenguins\").\nWhen: Monday April 8th, 09:45\nWhere: Campus ULTUNA, VHC, floor 5, room Tanngrisner\nor via Zoom (Password: 410 410)\nAll materials are available on Github after the session."
-  },
-  {
-    "objectID": "newsposts/seminars_workshops/20210827_seminar_statistics/index.html",
-    "href": "newsposts/seminars_workshops/20210827_seminar_statistics/index.html",
-    "title": "Statistics seminar series",
-    "section": "",
-    "text": "Follow this year’s seminar series and learn about different aspects of environmental statistics.\nMore information (also on past instances) here."
+    "text": "SLUBI and the SLU Centre for Statistics are bringing you a workshop series focused on R and applications in bioinformatics.\nMondays in even weeks, 09:45 \nCampus Alnarp or Ultuna \nand always via Zoom (Password: 410 410) \n\n\n\n\n\n\nWe are running a topic-driven discussion series where Adam Flöhr from the Centre for Statistics discusses the statistical magic behind some of the common methods we use, and bioinformaticians from SLUBI use data to show a hands-on example of how to execute the analyses.\n\nAll data and codes of past sessions is available at our github page.\n\n\nProgram\n\n\n\n\n\nQ&A on Dardel, with HPC support staff\n\n\n\n\n\n\nworkshop\n\nhigh performance computing\n\nNAISS\n\nDardel\n\n\n\nSession 25 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMay 5, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nMake pretty graphics - learn to ggplot in R\n\n\n\n\n\n\nworkshop\n\ncode along\n\nreproducibility\n\nR\n\nggplot\n\n\n\nSession 24 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nApr 7, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nData Management Resources at SLU\n\n\n\n\n\n\nworkshop\n\ndata management\n\nreproducibility\n\n\n\nSession 23 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 24, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nCommon statistical tests\n\n\n\n\n\n\nworkshop\n\nstatistics\n\ncode along\n\n\n\nSession 22 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 10, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nMake reports, presentations and hompages in Quarto\n\n\n\n\n\n\nworkshop\n\nquarto\n\nreproducibility\n\ncode along\n\n\n\nSession 21 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 24, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nReporting with Markdown\n\n\n\n\n\n\nworkshop\n\nmarkdown\n\nreproducibility\n\ncode along\n\n\n\nSession 20 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 10, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to Python\n\n\n\n\n\n\nworkshop\n\npython\n\nreproducibility\n\ncode along\n\n\n\nSession 19 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJan 15, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nPCA - Theory and Practice\n\n\n\n\n\n\nworkshop\n\nPCA\n\nstatistics\n\ncode along\n\n\n\nSession 18 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nDec 2, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to R\n\n\n\n\n\n\nworkshop\n\nR\n\ncode along\n\n\n\nSession 17 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nOct 21, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to the Dardel Supercomputer\n\n\n\n\n\n\nworkshop\n\nHPC/ NAISS\n\ndardel\n\nhigh performance computing\n\n\n\nSession 16 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nOct 7, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to the command line\n\n\n\n\n\n\nworkshop\n\ncode along\n\ncommand line\n\n\n\nSession 15 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nSep 23, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nShiny - interactive data visualization in R\n\n\n\n\n\n\nworkshop\n\ncode along\n\nR\n\n\n\nSession 14 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJul 1, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nProject organization in R\n\n\n\n\n\n\nworkshop\n\nreproducibility\n\nR\n\n\n\nSession 13 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJun 17, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to git and Github\n\n\n\n\n\n\nworkshop\n\ngit\n\nGitHub\n\nreproducibility\n\n\n\nSession 12 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJun 3, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nTools and tricks for reproducible research\n\n\n\n\n\n\nworkshop\n\nreproducibility\n\ngit\n\nquarto\n\n\n\nSession 11 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMay 20, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to High performance Computing (HPC)\n\n\n\n\n\n\nworkshop\n\nhigh performance computing\n\nslurm\n\n\n\nSession 10 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMay 6, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntermediate ggplot in R\n\n\n\n\n\n\nworkshop\n\nR\n\nggplot\n\ncode along\n\n\n\nSession 9 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nApr 8, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to Neural Networks\n\n\n\n\n\n\nworkshop\n\npython\n\nneural networks\n\ncode along\n\n\n\nSession 8 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 25, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to Python\n\n\n\n\n\n\nworkshop\n\npython\n\ncode along\n\n\n\nSession 7 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 11, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to writing functions in R\n\n\n\n\n\n\nworkshop\n\ncode along\n\nreproducibility\n\nR\n\n\n\nSession 6 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 26, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nPopulation structure analyses\n\n\n\n\n\n\nworkshop\n\ncode along\n\nR\n\n\n\nSession 5 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 12, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to Markdown\n\n\n\n\n\n\nworkshop\n\ncode along\n\nreproducibility\n\nmarkdown\n\n\n\nSession 4 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJan 15, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nPCA: Theory and Practice\n\n\n\n\n\n\nworkshop\n\nPCA\n\nstatistics\n\ncode along\n\n\n\nSession 3 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nDec 11, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to the command line\n\n\n\n\n\n\nworkshop\n\ncode along\n\ncommand line\n\n\n\nSession 2 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nNov 27, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to R\n\n\n\n\n\n\nworkshop\n\nR\n\ncode along\n\n\n\nSession 1 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nNov 14, 2023\n\n\nSLUBI\n\n\n\n\n\nNo matching items\n\n We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open:\nPlease fill out this questionnaire to decide what you would like to hear (more) about."
   },
   {
     "objectID": "newsposts/seminars_workshops/20231113_3bees/index.html",
@@ -105,11 +72,102 @@
     "text": "We are starting a topic-driven discussion series where Adam Flöhr from the Centre for Statistics will discuss the statistical magic behind some of the common methods we use, and Lizel Potgieter from SLUBI will use data to show a hands-on example of how to execute the analyses.\nMore information here."
   },
   {
-    "objectID": "newsposts/events/20171027_kickoff/index.html",
-    "href": "newsposts/events/20171027_kickoff/index.html",
-    "title": "SLUBI kickoff meeting",
+    "objectID": "newsposts/seminars_workshops/20180924_R_workshop/index.html",
+    "href": "newsposts/seminars_workshops/20180924_R_workshop/index.html",
+    "title": "Workshop for supervisors: Introduction to, and visualisation in R",
     "section": "",
-    "text": "Everyone interested in Bioinformatics was welcome to this meeting. We had short introductions from all participants when they presented briefly their field and what they were expecting from a Bioinformatics Infrastructure at SLU. The rest of the day was dedicated to brainstorming in groups and the participants discussed - Teaching/training activities - Organisation of the support - Activities for the bioinformatics community - Technical infrastructure organisation\nAll participants were invited to discuss at least 2 themes within an hour."
+    "text": "We organised a training day in R for supervisors. This was jointly organised with the Graduate School VMAS. The teacher Hadrien Gourlé is a Software Carpentry instructor."
+  },
+  {
+    "objectID": "newsposts/3_bees/20231211_Session3_PCA/index.html",
+    "href": "newsposts/3_bees/20231211_Session3_PCA/index.html",
+    "title": "PCA: Theory and Practice",
+    "section": "",
+    "text": "It is time for the third installment of the 3 Bee’s workshop series from SLUBI and the SLU Centre for Statistics.\nThis time we will learn more about PCA’s!\nAdam will presents a short lecture on the theory behind PCA’s and what we can learn from them, and Lizel shows some commonly used R tools used to compute PCA’s on different kinds of data with an emphasis on data from an RNA sequencing project.\nWhen: Monday Dec 11th, 09:30\nWhere: Campus Alnarp, Horticum, sal Triticum\nor via Zoom (Password: 410 410)\nPreparation: You are welcome to just come and listen. If you would like to participate, please ensure that you have a working RStudio installed on your computer. Please install the following libraries in R with these easy commands:\nif (!requireNamespace('BiocManager', quietly = TRUE))   install.packages('BiocManager') BiocManager::install('PCAtools') BiocManager::install(\"airway\") BiocManager::install(\"org.Hs.eg.db\") BiocManager::install(\"DESeq2\") install.packages(\"tidyverse\") install.packages(\"magrittr\")\nMaterial: This time, we follow this tutorial where we focus on using a PCA on RNASeq data. The methods we show here are applicable for all kinds of data- not just RNASeq.\nAll materials are available on Github."
+  },
+  {
+    "objectID": "newsposts/3_bees/20240311_Session7_python/index.html",
+    "href": "newsposts/3_bees/20240311_Session7_python/index.html",
+    "title": "Introduction to Python",
+    "section": "",
+    "text": "Following popular demand, our next two sessions of the 3’B’s series will be building on top of each other, but can also be enjoyed individually.\n!! Please note that the following workshops will be held in-person in ULTUNA, with remote participation via Zoom!!\nPart I, on Monday the 11th of March, will give you an Introduction to Python:\nIn this programming workshop we start from the most basic elements of the Python3 syntax and we will see how such commands will come together to actually solve a simple problem like sorting. This base knowledge will lead to introducing two extremely useful libraries, NumPy and Matplotlib which are extremely effective in efficient manipulation and visualization of numerical data.\nPart II, on Monday the 25th of March, will have you use Python to start Training Neural Networks:\nPart I is the basis for the numerical manipulation necessary in the next workshop where we will go through theory and practice of neural network training. Several steps of the lecture will be illustrated on Google Colab notebooks in order for them to be easily reproducible by participants during the class.\nPreparation: To follow the course and the exercises please have a google account ready!\nHowever, as always, you are most welcome to drop by and listen without participating!\nWhen: Monday March 11th, 09:45\nWhere: Campus ULTUNA, VHC, plan 4, room Ulv\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
+  },
+  {
+    "objectID": "newsposts/3_bees/20231114_Session1_R/index.html",
+    "href": "newsposts/3_bees/20231114_Session1_R/index.html",
+    "title": "Introduction to R",
+    "section": "",
+    "text": "A warm welcome to our new mini-workshop series “Basic Biostatistics & Bioinformatics”, where SLUBI and SLU’s Center for Statistics collaborate to bring you a mix of theoretical background and practical coding on a variety of topics.\nThis session we start the series with an Introduction to R.\nIf you want to code along please bring your own laptop with R and R-studio installed.\nWhen: Monday Nov 13th, 09:30\nWhere: Campus Alnarp, Horticum, sal Triticum\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
+  },
+  {
+    "objectID": "newsposts/3_bees/20240115_Session4_MD/index.html",
+    "href": "newsposts/3_bees/20240115_Session4_MD/index.html",
+    "title": "Introduction to Markdown",
+    "section": "",
+    "text": "We wish you all a happy continuation of the new year!\nFor the fourth session of the 3 B’s series, we cover some of the basics of Markdown.\nMarkdown is a reporting language with several applications in scientific communication. With this, you are able to seamlessly render reproducible reports in PDF and HTML formats to include text, code and figures in an aesthetically pleasing way.\nWe will address basic syntax, applications in R and VSCode, and a new iteration of markdown in the form of Quarto.\nPreparation: If you would like to prepare in advance, have a look at this guide.\nAs always, you are most welcome to drop by and listen without participating.\nWhen: Monday Jan 15th, 09:45\nWhere: Campus Alnarp, Horticum, sal Triticum\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
+  },
+  {
+    "objectID": "newsposts/3_bees/20240325_Session8_neural/index.html",
+    "href": "newsposts/3_bees/20240325_Session8_neural/index.html",
+    "title": "Introduction to Neural Networks",
+    "section": "",
+    "text": "In this session where we will go through theory and practice of neural network training. Several steps of the lecture will be illustrated on Google Colab notebooks in order for them to be easily reproducible by participants during the class.\nPreparation: To follow the course and the exercises please have a google account ready! This session build on Session 7 - Introduction to Python.\nHowever, as always, you are most welcome to drop by and listen without participating!\nWhen: Monday March 25th, 09:45\nWhere: Campus ULTUNA, VHC, plan 5, room Tanngrisner\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
+  },
+  {
+    "objectID": "newsposts/3_bees/20240603_Session12_git/index.html",
+    "href": "newsposts/3_bees/20240603_Session12_git/index.html",
+    "title": "Introduction to git and Github",
+    "section": "",
+    "text": "In this 3 Bees session we continue with our tips and tricks for reproducible research with a look at git and GitHub. Git is a useful tool to track the development of your work, to collaborate with others, and to share analyses with the world.\nWe give an introduction to git using the interface in RStudio and show how one can link local work to an online repository. GitHub is not just useful in R, but across all forms of science.\nThis includes a short presentation followed by some interactive exercises.\nPreparation: If you want to follow along the exercises, please download git from https://git-scm.com/ and get an account on github.com. Otherwise just come and listen in!\nWhen: Monday June 3rd, 09:45\nWhere: Campus ALNARP, Triticum (Horticum)\nor via Zoom (Password: 410 410)\nThe lecture and exercises will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20241202_Session18_PCA/index.html",
+    "href": "newsposts/3_bees/20241202_Session18_PCA/index.html",
+    "title": "PCA - Theory and Practice",
+    "section": "",
+    "text": "This instance we present a short lecture on the theory behind PCA and what we can learn from them, and then show some commonly used R tools used to perform PCA on different kinds of data with an emphasis on data from a RNA sequencing project.\nTopic: PCA - Theory and Practice\nWhen: Monday, 02nd of December, 09:45\nWhere: Campus Alnarp, Triticum and via Zoom(Password: 410 410)\nPreparation: You are welcome to sit in and listen. However, if you would like to follow the practical part, please bring your computer with Rstudio installed.\nThe material will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20240923_Session15_command_line/index.html",
+    "href": "newsposts/3_bees/20240923_Session15_command_line/index.html",
+    "title": "Introduction to the command line",
+    "section": "",
+    "text": "Welcome back after the summer, and welcome to a new round of the 3 bees: basic biostatistics and bioinformatics.\nAs a short recap: The 3 bees is a series of lectures and hands-on tutorials that introduce a variety of topics and methods that can help you in your research projects – especially, but not only, if they are bioinformatics related. The series is a collaboration between SLU’s Center for Statistics and SLU’s bioinformatics infrastructure, SLUBI.\nWith that out of the way, let me invite you to the first instance of the 3 bees in this fall semester.\nTopic: Introduction to the command line/ Linux\nWhen: Monday 23rd of September, 09:45 (approximately an hour)\nWhere: Campus Ultuna, VHC, floor 5, room Yggdrasil\nand via Zoom(Password: 410 410)\n\nWe will work on some Linux basics that you will need when you start working on any cluster, whether it is Rackham on Uppmax, a departmental cluster, or any online server. We are going to cover all of the basics from what the command line is, to how to navigate using the command line, make and edit files, and a whole bunch of other nifty tricks!\nThis session is geared towards everyone that has never used the command line before, and for everyone that would like to refresh their memory.\nPreparation: You are welcome to just come and listen. However, if you would like to practice your skills along with the tutorial and you don’t have access to a server or a Linux operating system on your computer, please download MobaXterm in preparation: https://mobaxterm.mobatek.net/download.html Mac users can use the terminal.\nThe material will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20250115_Session19_python/index.html",
+    "href": "newsposts/3_bees/20250115_Session19_python/index.html",
+    "title": "Introduction to Python",
+    "section": "",
+    "text": "In this programming workshop we will start from the most basic elements of the Python3 syntax and we will see how such commands will come together to actually solve simple problems, like translating a DNA string into the corresponding protein sequence. We will show you how to use python in R through a package called reticulate https://rstudio.github.io/reticulate/ but all of the principles can be used in any python environment.\nTopic: Introduction to Python\nWhen: Monday, 15th of January, 09:45\nWhere: Campus Uppsala, Sleipner and via Zoom(Password: 410 410)\nPreparation: Before the session, please have R and RStudio installed, along with reticulate (https://rstudio.github.io/reticulate/). If you have encountered any problems with it, we will help you to solve them in the session! However, as always, you are most welcome to drop by and listen without participating!\nThe material will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20250210_Session20_markdown/index.html",
+    "href": "newsposts/3_bees/20250210_Session20_markdown/index.html",
+    "title": "Reporting with Markdown",
+    "section": "",
+    "text": "This instance of the 3 bees will focus on using the markdown language in your reports. We will go through the basic syntax of the language, how it is implemented in writing reports, and how it can be implemented in R. In R, it is a much smoother way of incorporating your code and discussions of your results than copying and pasting your figures to a word document, and we will show you how to do it!\nTopic: Introduction to Markdown\nWhen: Monday, 10th of February, 09:45\nWhere: Campus Alnnarp, Articum and via Zoom(Password: 410 410)\nPreparation: As always, you are welcome to come listen and learn. If you would like to try your hand at generating some reports during the session, please have RStudio installed along with the knitr package, as well as Visual Studio Code.\nThe material will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20231127_Session2_linux/index.html",
+    "href": "newsposts/3_bees/20231127_Session2_linux/index.html",
+    "title": "Introduction to the command line",
+    "section": "",
+    "text": "It is time for the second instalment in the 3 Bee’s workshop series. Thank-you to everyone that attended the first session!\nThis time, we work on some Linux basics that you need when you start working on any cluster, whether it is Rackham on Uppmax, a departmental cluster, or any online server. We cover all of the basics from what the command line is, to how to navigate using the command line, make and edit files, and a whole bunch of other nifty tricks!\nThe session is geared towards everyone that has never used the command line before, and for everyone that would like to refresh their memory.\nPreparation: You are welcome to just come and listen. However, if you would like to practice your skills along with the tutorial and you don’t have access to a server or a Linux operating system on your computer, please download MobaXterm in preparation. Mac users can use the terminal.\nWhen: Monday Nov 27th, 09:30\nWhere: Campus Alnarp, Horticum, sal Triticum\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
+  },
+  {
+    "objectID": "newsposts/3_bees/20240701_Session14_shiny/index.html",
+    "href": "newsposts/3_bees/20240701_Session14_shiny/index.html",
+    "title": "Shiny - interactive data visualization in R",
+    "section": "",
+    "text": "For this last session before the summer we will have a quick look at using Shiny to create interactive data visualisations. Come and make your come to life!\nPreparation: If you would like to prepare something in advance, have a look at https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html. As always, you are more than welcome to come listen and learn without any preparation.\nWhen: Monday July 1st, 09:45\nWhere: online via Zoom (Password: 410 410)\nThe material will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20241007_Session16_dardel/index.html",
+    "href": "newsposts/3_bees/20241007_Session16_dardel/index.html",
+    "title": "Introduction to the Dardel Supercomputer",
+    "section": "",
+    "text": "We are thrilled to have Henric Zazzi join us for this session, where he will provide an introduction to the ”new” Dardel supercomputer, which will replace Uppmax for many of us in the coming year. Henric will give us an introduction to the system and walk us through how to log in and start using it, making this an excellent opportunity for anyone interested in high-performance computing or planning to work with Dardel in the future.\nTopic: Introduction to the Dardel Supercomputer\nGuest speaker: Henric Zazzi, Head of Support for Dardel\nWhen: Monday, 7th of October, 10:00 (approximately an hour)\nand via Zoom(Password: 410 410)\nPreparation: To get the most out of the session, please make sure you have a PDC account set up beforehand. You can read about creating one here: https://www.pdc.kth.se/support/documents/getting_access/get_access.html.\nIf you’re just curious and want to listen in, that’s also perfectly fine!\nThe material will be available on Github after the session."
   },
   {
     "objectID": "newsposts/events/20250506_breeding_network/index.html",
@@ -119,25 +177,25 @@
     "text": "We are happy to present out work at this year’s meeting of SLU’s Breeding Network. Thanks for having us!\nFrom their homepage:\nUnder the theme “Breeding 360: Collaboration across disciplines,” this year’s meeting highlights the synergies between plant, tree, and animal breeding. We will also explore the future direction of breeding research, addressing emerging challenges and innovative approaches shaping the next generation of breeding.\nMore information here."
   },
   {
-    "objectID": "newsposts/events/20250324_UPSCb_IT/index.html",
-    "href": "newsposts/events/20250324_UPSCb_IT/index.html",
-    "title": "Kubernetes and nextflow",
+    "objectID": "newsposts/events/201903_Uppmax_meeting/index.html",
+    "href": "newsposts/events/201903_Uppmax_meeting/index.html",
+    "title": "Uppmax meeting",
     "section": "",
-    "text": "This meeting brings together different teams, including SLU Central IT, SLU Bioinformatics Infrastructure (SLUBI), and our colleagues from the Umeå Plant Science Centre (UPSC) Bioinformatics Facility.\nThe goal is to learn how to use a tool called Kubernetes for managing computer resources and running nextflow pipelines. By working together, we want to to improve our bioinformatics services and support."
+    "text": "We discussed computing solutions by SNIC and UPPMAX with seven UPPMAX experts and learned tips and trick on how to run code on a high performance computer."
   },
   {
-    "objectID": "newsposts/events/20240314_nadas/index.html",
-    "href": "newsposts/events/20240314_nadas/index.html",
-    "title": "Nordic Network of Agricultural Data Scientists",
+    "objectID": "newsposts/events/20240514_sasuf/index.html",
+    "href": "newsposts/events/20240514_sasuf/index.html",
+    "title": "Workshop session at Sasuf Week",
     "section": "",
-    "text": "Technological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed. A number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.\nMore information on NADAS and its activities here."
+    "text": "Join us on the 14th of May to discover how open source tools can be used in process of describing plant-pathogen interactions. We will use browser and R-based tools to annotate genomes, perform functional annotation, and select genes that are important in both the process of a fungal pathogen infecting the plant, and the plant launching an immune response.\nWe will use Cercospora and sugar beet as a model system, but the tools we will show can be applied to any plant-fungal patho-system.\nWe will also have a session in the afternoon with industry representatives where we will discuss how students and researchers can prepare themselves for a career move into industry, as well as how university-industry collaborations can be established and maintained.\nOur session will be hosted in Alnarp, and you are welcome to join via Zoom. No prior bioinformatics knowledge is required for this workshop.\nPlease sign up here: https://sasufevents2024.sched.com/event/c2a46acf1ef8613a5282f827b85cc8d4"
   },
   {
-    "objectID": "newsposts/events/20230929_DayOfBioinformatics/index.html",
-    "href": "newsposts/events/20230929_DayOfBioinformatics/index.html",
-    "title": "SLU’s Day of Bioinformatics",
+    "objectID": "newsposts/events/20241104_SBW24/index.html",
+    "href": "newsposts/events/20241104_SBW24/index.html",
+    "title": "Swedish Bioinformatics Workshop 2024",
     "section": "",
-    "text": "Monday, 25th of September 2023, 09:00 - 15:00\nCampus Ultuna, in person, VHC, plan 2, sal Särimner\nCampus Alnarp, remotely, Horticum, sal Triticum\nor via Zoom\n\n Registration is now closed!\nThank-you for everybody who attended and made the day as successful as it was.\n\n Program\n\n\n\n\n\n\n\n\n\nStart\nSpeaker\nTitle\n\n\n\n\n09:00\nintroduction\n\n\n\n09:15\nGabriella Lindgren\nAn endothelial regulatory module links blood pressure regulation with elite athletic performance\n\n\n09:30\nGöran Andersson\nBioinformatics analyses of genomics, epigenomics and transcriptomics data of complex diseases\n\n\n09:45\nJan Ingemar Ohlsson\nBioinformatics R-ABCD: Research Acceleration with Big Cow Data in Gigacow\n\n\n10:00\nMicael Landi\nUtilizing cassava genomes for genomics-assisted breeding\n\n\n10:15\nbreak\n\n\n\n10:45\nAlvaro Martinez Barrio\n20 years of computational biology: where the road has taken us and the highway is leading\n\n\n11:30\nOlga Vinnere Pettersson\nGenomics for agriculture - two cases\n\n\n11:45\nGirma Gebresenbet\nDigitalization in agricultural practices\n\n\n12:00\nlunch\n\n\n\n13:00\ndiscussion\nBioinformatics in Agricultural Sciences\n\n\n13:30\nSara Hallin\nMicrobes driving nitrogen losses and retention in soils\n\n\n13:45\nShrikant Sharma\nGenome editing in potatoes\n\n\n14:00\nbreak\n\n\n\n14:15\nSalme Timmusk\nPlant-root microbiome interactions\n\n\n14:30\nMoritz Buck\nMicrobial diversity and nutrient cycling in the central arctic ocean\n\n\n14:45\nAnna Szekely\nEnvironmental virus sequencing and genotyping as a tool of epidemiological monitoring\n\n\n15:00\nclosing and fika"
+    "text": "Welcome to the 2024 edition of the Swedish Bioinformatics Workshop, proudly hosted at SLU Ultuna and sponsored by SLUBI.\nFor more information, and to register, please visit: www.sbw2024.org"
   },
   {
     "objectID": "newsposts/events/20231109_AMRI/index.html",
@@ -147,46 +205,11 @@
     "text": "SLUBI representing SLU bioinformatics and talking about tools for reproducible research.\nThank you for the invitation, and for the inspiring environment!\nHave a look at the presentation here.\nAnd read here more about the meeting and the initiative."
   },
   {
-    "objectID": "newsposts/courses/20241101_course_IntroToBioinf/index.html",
-    "href": "newsposts/courses/20241101_course_IntroToBioinf/index.html",
-    "title": "Introduction to Bioinformatics",
+    "objectID": "newsposts/events/20180604_SLUBI_day/index.html",
+    "href": "newsposts/events/20180604_SLUBI_day/index.html",
+    "title": "SLUBI day 2018",
     "section": "",
-    "text": "This course provides a solid foundation in basic bioinformatics methods, covering theories, algorithms, and practical applications for analyzing DNA sequences and protein structures. Topics include biological databases, homology analysis, sequence analysis using EMBOSS and UGENE, statistics with R, web-based tools, the Unix operating system, phylogeny, comparative genomics, functional genomics, and Next Generation Sequencing (NGS). The course combines lectures, interactive computer exercises, and web-based tutorials."
-  },
-  {
-    "objectID": "newsposts/courses/20250120_course_plant_breeding/index.html",
-    "href": "newsposts/courses/20250120_course_plant_breeding/index.html",
-    "title": "Plant Biology for Breeding and Protection",
-    "section": "",
-    "text": "This course focuses on plant breeding and plant protection, emphasizing their global significance and the role of bioinformatics in analyzing -omics data. It covers a wide range of topics, including genetics, plant-pathogen interactions, modern breeding methods like GM and gene editing, and ethical considerations. The course features lectures from industry experts and academics, including perspectives from Sweden, Europe, and Africa, and combines theoretical knowledge with practical exercises and seminars.\nSLUBI was teaching the bioinformatics part of the course, in hybrid lectures both in Alnarp and in Ultuna, as well as an exercise on bioinformatics analyses.\n\n\nImage: Sajeevan Radha Sivarajan"
-  },
-  {
-    "objectID": "newsposts/courses/20211129_course_RNAseq/index.html",
-    "href": "newsposts/courses/20211129_course_RNAseq/index.html",
-    "title": "Analysis of High Throughput Sequencing RNA-Seq Data",
-    "section": "",
-    "text": "Developed from last year’s workshop, held for the Research School Organism Biology.\nHigh Throughput Sequencing (HTS) and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies. This course, aimed at advanced students, has the objective to help addressing this problem by (i) helping participants critically assess the challenges faced in the HTS field, (ii) developing efficient communication skill with bioinformatician, and (iii) training students in analyzing HTS data."
-  },
-  {
-    "objectID": "newsposts/courses/20230512_course_MedBioInfo/index.html",
-    "href": "newsposts/courses/20230512_course_MedBioInfo/index.html",
-    "title": "Applied Bioinformatics",
-    "section": "",
-    "text": "The Swedish National Graduate School in Medical Bioinformatics (MedBioInfo) invited us to teach an introduction to Nextflow as part of their PhD course."
-  },
-  {
-    "objectID": "newsposts/courses/20231113_course_breeding/index.html",
-    "href": "newsposts/courses/20231113_course_breeding/index.html",
-    "title": "Genome-wide predictions in breeding: genotype-phenotype associations and genomic selection",
-    "section": "",
-    "text": "This course has been designed for PhD students registered in the Organismal Biology Research School, in collaboration with the SLU breeding network. Experts in the plant and animal breeding areas at our university collaborate to answer common questions: (1) how to associate phenotypes and genotypes and (2) how to accelerate marker-assisted selection in the era of high throughput genome sequencing. While plant and animal populations are intrinsically different, quantitative genetics principles and association mapping methods rely on the same theoretical basis. Along the three weeks of this course, students from all the faculties across campuses will be able to review basic principles of association mapping, study in detail the bioinformatic methods today available, and do extensive hands-on work both on pre-designed examples or using their own data sets.\nMore information here."
-  },
-  {
-    "objectID": "newsposts/courses/20221112_course_RNAseq/index.html",
-    "href": "newsposts/courses/20221112_course_RNAseq/index.html",
-    "title": "Analysis of High Throughput Sequencing RNA-Seq Data",
-    "section": "",
-    "text": "High Throughput Sequencing (HTS) and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies. This course, aimed at advanced students, has the objective to help addressing this problem by (i) helping participants critically assess the challenges faced in the HTS field, (ii) developing efficient communication skill with bioinformatician, and (iii) training students in analyzing HTS data."
+    "text": "The day was divided into 2 parts: the morning was dedicated to presentations by SLUBI experts about the support they are providing or could provide. Everyone was welcome to this meeting. In the afternoon, we had an internal meeting where we invited personnel from the IT-department to discuss with them about cloud computing solutions and long-term storage."
   },
   {
     "objectID": "newsposts/courses/2025_course_RNAseq/index.html",
@@ -196,13 +219,6 @@
     "text": "Here, we introduce participants to the analysis of high-throughput sequencing (HTS) RNA-Seq data, focusing exclusively on Next-Generation Sequencing, specifically Illumina-generated data. Biologists will gain the ability to communicate with bioinformaticians, direct analyses, and interpret results, while bioinformaticians will acquire the basics to work with HTS data and perform analyses. The course aims to provide an overview rather than expert-level proficiency.\nWe are currently planning the newest instance of the course, stay tuned for more information.\n\nc"
   },
   {
-    "objectID": "newsposts/courses/20241007_course_RNAseq/index.html",
-    "href": "newsposts/courses/20241007_course_RNAseq/index.html",
-    "title": "Analysis of High Throughput Sequencing RNA-Seq Data",
-    "section": "",
-    "text": "In this course, we teach how to analyze RNA-Seq data from Next-Generation Sequencing, specifically Illumina data. Biologists will learn to communicate with bioinformaticians, perform analyses, and understand the results. Bioinformaticians will gain basic skills to work with this data. The course provides an overview, not expert-level training."
-  },
-  {
     "objectID": "newsposts/courses/20250303_course_metagenomics/index.html",
     "href": "newsposts/courses/20250303_course_metagenomics/index.html",
     "title": "Multi-omics analyses of the microbial community",
@@ -210,18 +226,85 @@
     "text": "The course focuses on multi-omics analyses of microbial communities, covering a range of topics from the history of OMICS to advanced techniques like metagenomics, metatranscriptomics, and single-cell methods. It includes interactive sessions, flipped classrooms, and research visits to facilities like the National Genomics Infrastructure.\nWe were happy to be part of this advanced course on all things metagenomics.\n\n\nImage: What is microbial dormancy? McDonald, Mark D. et al. Trends in Microbiology, Volume 32, Issue 2, 142 - 150"
   },
   {
-    "objectID": "newsposts/courses/20231124_course_IntroToBioinf/index.html",
-    "href": "newsposts/courses/20231124_course_IntroToBioinf/index.html",
-    "title": "Introduction to Bioinformatics",
+    "objectID": "newsposts/courses/20250120_course_plant_breeding/index.html",
+    "href": "newsposts/courses/20250120_course_plant_breeding/index.html",
+    "title": "Plant Biology for Breeding and Protection",
     "section": "",
-    "text": "We are happy to be teaching in this introductory course for PhD and Masters students.\nThis year SLUBI taught the Introduction to Next Generation Sequencing, as well as RNA-sequencing.\nMore information here."
+    "text": "This course focuses on plant breeding and plant protection, emphasizing their global significance and the role of bioinformatics in analyzing -omics data. It covers a wide range of topics, including genetics, plant-pathogen interactions, modern breeding methods like GM and gene editing, and ethical considerations. The course features lectures from industry experts and academics, including perspectives from Sweden, Europe, and Africa, and combines theoretical knowledge with practical exercises and seminars.\nSLUBI was teaching the bioinformatics part of the course, in hybrid lectures both in Alnarp and in Ultuna, as well as an exercise on bioinformatics analyses.\n\n\nImage: Sajeevan Radha Sivarajan"
   },
   {
-    "objectID": "3BS.html",
-    "href": "3BS.html",
-    "title": "Basic Biostatistics & Bioinformatics",
+    "objectID": "newsposts/courses/20230301_course_PopGen/index.html",
+    "href": "newsposts/courses/20230301_course_PopGen/index.html",
+    "title": "Applied population genetics in plant disease epidemiology,",
     "section": "",
-    "text": "SLUBI and the SLU Centre for Statistics are bringing you a workshop series focused on R and applications in bioinformatics.\nMondays in even weeks, 09:45 \nCampus Alnarp or Ultuna \nand always via Zoom (Password: 410 410) \n\n\n\n\n\n\nWe are running a topic-driven discussion series where Adam Flöhr from the Centre for Statistics discusses the statistical magic behind some of the common methods we use, and bioinformaticians from SLUBI use data to show a hands-on example of how to execute the analyses.\n\nAll data and codes of past sessions is available at our github page.\n\n\nProgram\n\n\n\n\n\nQ&A on Dardel, with HPC support staff\n\n\n\n\n\n\nworkshop\n\nhigh performance computing\n\nNAISS\n\nDardel\n\n\n\nSession 25 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMay 5, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nMake pretty graphics - learn to ggplot in R\n\n\n\n\n\n\nworkshop\n\ncode along\n\nreproducibility\n\nR\n\nggplot\n\n\n\nSession 24 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nApr 7, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nData Management Resources at SLU\n\n\n\n\n\n\nworkshop\n\ndata management\n\nreproducibility\n\n\n\nSession 23 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 24, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nCommon statistical tests\n\n\n\n\n\n\nworkshop\n\nstatistics\n\ncode along\n\n\n\nSession 22 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 10, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nMake reports, presentations and hompages in Quarto\n\n\n\n\n\n\nworkshop\n\nquarto\n\nreproducibility\n\ncode along\n\n\n\nSession 21 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 24, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nReporting with Markdown\n\n\n\n\n\n\nworkshop\n\nmarkdown\n\nreproducibility\n\ncode along\n\n\n\nSession 20 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 10, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to Python\n\n\n\n\n\n\nworkshop\n\npython\n\nreproducibility\n\ncode along\n\n\n\nSession 19 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJan 15, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\nPCA - Theory and Practice\n\n\n\n\n\n\nworkshop\n\nPCA\n\nstatistics\n\ncode along\n\n\n\nSession 18 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nDec 2, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to R\n\n\n\n\n\n\nworkshop\n\nR\n\ncode along\n\n\n\nSession 17 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nOct 21, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to the Dardel Supercomputer\n\n\n\n\n\n\nworkshop\n\nHPC/ NAISS\n\ndardel\n\nhigh performance computing\n\n\n\nSession 16 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nOct 7, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to the command line\n\n\n\n\n\n\nworkshop\n\ncode along\n\ncommand line\n\n\n\nSession 15 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nSep 23, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nShiny - interactive data visualization in R\n\n\n\n\n\n\nworkshop\n\ncode along\n\nR\n\n\n\nSession 14 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJul 1, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nProject organization in R\n\n\n\n\n\n\nworkshop\n\nreproducibility\n\nR\n\n\n\nSession 13 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJun 17, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to git and Github\n\n\n\n\n\n\nworkshop\n\ngit\n\nGitHub\n\nreproducibility\n\n\n\nSession 12 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJun 3, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nTools and tricks for reproducible research\n\n\n\n\n\n\nworkshop\n\nreproducibility\n\ngit\n\nquarto\n\n\n\nSession 11 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMay 20, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to High performance Computing (HPC)\n\n\n\n\n\n\nworkshop\n\nhigh performance computing\n\nslurm\n\n\n\nSession 10 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMay 6, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntermediate ggplot in R\n\n\n\n\n\n\nworkshop\n\nR\n\nggplot\n\ncode along\n\n\n\nSession 9 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nApr 8, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to Neural Networks\n\n\n\n\n\n\nworkshop\n\npython\n\nneural networks\n\ncode along\n\n\n\nSession 8 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 25, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to Python\n\n\n\n\n\n\nworkshop\n\npython\n\ncode along\n\n\n\nSession 7 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 11, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to writing functions in R\n\n\n\n\n\n\nworkshop\n\ncode along\n\nreproducibility\n\nR\n\n\n\nSession 6 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 26, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nPopulation structure analyses\n\n\n\n\n\n\nworkshop\n\ncode along\n\nR\n\n\n\nSession 5 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 12, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to Markdown\n\n\n\n\n\n\nworkshop\n\ncode along\n\nreproducibility\n\nmarkdown\n\n\n\nSession 4 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJan 15, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\nPCA: Theory and Practice\n\n\n\n\n\n\nworkshop\n\nPCA\n\nstatistics\n\ncode along\n\n\n\nSession 3 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nDec 11, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to the command line\n\n\n\n\n\n\nworkshop\n\ncode along\n\ncommand line\n\n\n\nSession 2 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nNov 27, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\nIntroduction to R\n\n\n\n\n\n\nworkshop\n\nR\n\ncode along\n\n\n\nSession 1 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nNov 14, 2023\n\n\nSLUBI\n\n\n\n\n\nNo matching items\n\n We want to serve the SLU bioinformatics communities, so the floor to topic suggestions is open:\nPlease fill out this questionnaire to decide what you would like to hear (more) about."
+    "text": "A course held in collaboration with the Research School Organism Biology in Ultuna.\nPopulation genetics is an important tool to understand the life cycles of microorganisms causing diseases in plants and is an important part of plant disease epidemiology. The aim of this course is to equip students with knowledge and tools to carry out a population genetic study in any pathosystem.\nAfter this course, the you will be able to: • Discuss population genetic theory and how it can be applied when studying disease causing organisms. • Design sampling strategies to address a given problem and set up an experiment for molecularbased population biological analysis to answer epidemiological questions. • Apply methods and analytical tools available in population genetics."
+  },
+  {
+    "objectID": "newsposts/courses/20211004_course_IntroToBioinf/index.html",
+    "href": "newsposts/courses/20211004_course_IntroToBioinf/index.html",
+    "title": "Introduction to Bioinformatics",
+    "section": "",
+    "text": "This year SLUBI was teaching Epigenetics, as well as an Introduction to RNA-sequencing.\nThanks to the incredible team of teachers!\nMore information about the course here."
+  },
+  {
+    "objectID": "newsposts/courses/2025_course_breeding/index.html",
+    "href": "newsposts/courses/2025_course_breeding/index.html",
+    "title": "Advanced Plant Breeding and Genetic Resources",
+    "section": "",
+    "text": "This Master’s level course explores the role of genetic resources in plant breeding and their importance for sustainable agriculture. Students will learn to evaluate and utilize genetic resources, understand intellectual property issues, and apply modern breeding technologies.\nThe course covers genetic variation, international aspects of genetic resources, and the design of breeding strategies. There will be hands-on projects, excursions, and laboratory practicals, and discussions of the pros and cons of various breeding methods. By the end of the course, students will be able to independently apply modern technologies and design effective breeding strategies.\nWe are happy to participate in this course, which is organized by the Department of Plant Breeding. More information here.\n\n\nFotographer: Reija Danielsson, SLU"
+  },
+  {
+    "objectID": "newsposts/courses/20221112_course_RNAseq/index.html",
+    "href": "newsposts/courses/20221112_course_RNAseq/index.html",
+    "title": "Analysis of High Throughput Sequencing RNA-Seq Data",
+    "section": "",
+    "text": "High Throughput Sequencing (HTS) and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies. This course, aimed at advanced students, has the objective to help addressing this problem by (i) helping participants critically assess the challenges faced in the HTS field, (ii) developing efficient communication skill with bioinformatician, and (iii) training students in analyzing HTS data."
+  },
+  {
+    "objectID": "newsposts/courses/20221012_course_IntroToBioinf/index.html",
+    "href": "newsposts/courses/20221012_course_IntroToBioinf/index.html",
+    "title": "Introduction to Bioinformatics",
+    "section": "",
+    "text": "On this year’s edition of the popular course SLUBI has contributed with an Introduction to RNA Sequencing Data Analysis."
+  },
+  {
+    "objectID": "newsposts/courses/20241021_course_reproducible/index.html",
+    "href": "newsposts/courses/20241021_course_reproducible/index.html",
+    "title": "Reproducibility in Research with a focus on data analysis using the program R",
+    "section": "",
+    "text": "This course teaches the importance of reproducibility in scientific research, covering definitions, good scientific practices, and the requirements of publication and funding bodies. Participants will learn basic concepts and tools to ensure reproducibility, including data analysis with R and the use of public databases.\nFind more information here."
+  },
+  {
+    "objectID": "newsposts/courses/20200203_course_RNAseq/index.html",
+    "href": "newsposts/courses/20200203_course_RNAseq/index.html",
+    "title": "High Throughput Sequencing Data Analysis Workshop",
+    "section": "",
+    "text": "A workshop organised and sponsored by the UPSCb, as part of SLUBI.\nTwo days of workshop, offered both in-person and online."
+  },
+  {
+    "objectID": "adnan.html",
+    "href": "adnan.html",
+    "title": "Adnan Nizai",
+    "section": "",
+    "text": "Expert in RNAseq, Metabarcoding (16S/18S/ITS), Epigenomics (WGBS/RRBS), Genome assembly and annotation."
+  },
+  {
+    "objectID": "dropin.html",
+    "href": "dropin.html",
+    "title": "Drop-in",
+    "section": "",
+    "text": "Meet us in our drop-in Zoom room (Password: 410 410).\nBefore the pandemic, SLUBI organised bioinformatics drop-in sessions at all 3 SLU campuses for answering various bioinformatics questions around a fika.\nNow the drop-in is online: all campuses at the same place and time! Come and join us with your questions or take the opportunity to gather and exchange experiences with other bioinformaticians.\nAround once per month we join forces with SLU’s Centre for Statistics and offer a joint drop-in.\nDuring the time leading up to the VR and Formas grant application deadline we are offering additional drop-ins, together with the Centre for Statistics and the Data Management Support.",
+    "crumbs": [
+      "Services",
+      "Drop-in"
+    ]
+  },
+  {
+    "objectID": "lizel.html",
+    "href": "lizel.html",
+    "title": "Lizel Potgieter",
+    "section": "",
+    "text": "I am a trained molecular biologist turned bioinformatician, based at LTV in Alnarp\nComparative genomics, population genomics, variant calling, genome assembly and annotation."
   },
   {
     "objectID": "support_what.html",
@@ -235,22 +318,15 @@
     ]
   },
   {
-    "objectID": "learning-resources.html",
-    "href": "learning-resources.html",
-    "title": "Self learning",
+    "objectID": "online-resources.html",
+    "href": "online-resources.html",
+    "title": "Tools and resources",
     "section": "",
-    "text": "R\nR is a common coding language used in bioinformatics. R for Data Science (2e) is an excellent place to start your journey into R.\nIf you prefer learning through self-paced courses: Dataquest has a free, self-paced course. CodeAcademy has a free course, but you will have to pay for the certificate.\nAnd, of course, our 3 Bees workshop series!\n\n\nBash\nMost servers run on a Unix build. It is intimidating to start with a new interface, but with these guides things will be a lot smoother!\nData Carpentry’s Intro to the shell is a great place to start when you are a new user of Linux. As is the The Unix Shell, a self paced introduction to the unix shell and command line operations, provided by the Software Carpentries.\nIf you don’t have access to a server yet, and would like to practice on your local Windows machine, download MobaXterm and run a shell session on your Windows machine. If you are using a Mac, you will be able to follow the tutorial from the terminal that comes with your operating system.\n\n\nVisual Studio Code\nTraditionally, Windows users had to connect to servers using PuTTy or a similar interface. We recommend making use of VSCode that comes with your Windows operating system (it can also be installed on machines that run Linux builds and MacOS).\nWith VSCode, you can connect to servers using ssh, install extensions supporting a variety of coding languages, write and render markdown documents, and more. VSCode makes working on servers much easier as you can have a text editor open to edit your scripts to save them directly on the server you are working on, have a file manager open for a more traditional view of the file tree, as well as having multiple terminals open simultaneously.\n\nConnecting to Uppmax servers with VSCode\n\nOpen VSCode\nctrl+shift+p\nRemote-SSH: Add new SSH Host\nFollow login instructions on Uppmax support\nAdd the info to the first .ssh file prompted\nctrl+shift+p\nRemote-SSH: Connect to Host",
+    "text": "Tools and Pipelines\n\n\n\n\n\n\n Nf-core - Portable, documented and easy to use workflows based on nextflow.\n\n\n\n\n \n\n\n Git - a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.\n\n\n\n\n\n\nTraining Resources\n\n\n\n\n\n\n\n Software Carprentries - teaching basic coding skills for research computing to researchers worldwide.\n\n\n\n\n \n\n\n Elixir - brings together life science resources from across Europe, including databases, software tools, training materials, cloud storage and supercomputers.\n\n\n\n\n \n\n\n Code Refinery - teaching all the essential tools so everyone can make full use of software, computing, and data.\n\n\n\n\n\n\nComputing Resources\n\n\n\n\n\n\n\n SLUBI computing resources - we have local computing resources at all campuses and strive to coordinate the management of these.\n\n\n\n\n \n\n\n National Academic Infrastructure for Supercomputing in Sweden - organization for high-performance computing, storage, and data services for academic users in Sweden.\n\n\n\n\n \n\n\n UPPMAX - Uppsala Multidisciplinary Center for Advanced Computational Science, HPC computing rescource for Swedish scientists. Apply for free computing projects via NAISS.\n\n\n\n\n\n\n\n Microsoft Azure - SLU has an agreement with Microsoft Azure for cloud computing (including price discounts). You can get more information by contacting the SLU IT-support.\n\n\n\n\n\nSLU support\n\n\n\n\n\n\n\n Center for Statistics - a joint platform for statisticians at SLU to enable exchange of knowledge and to be a resource for the entire university by organizing workshops and providing statistical advice and support for all employees at SLU.\n\n\n\n\n\n\n\n Data Management Support - assists SLU employees with data management - from planning, including data management plans, to publishing, long-term preservation, archiving and the reuse of research and environmental assessment data.\n\n\n\n\n \n\n\n UPSC Bioinformatics Facility - centralises bioinformatics competences in Umeå, offering a range of bioinformatics services as well as local bioinformatics training, international workshops and training programs.\n\n\n\n\n\nSequencing Resources\n\n\n\n \n\n\n National Genomics Infrastructure - NGI Uppsala offers next generation sequencing (NGS) and genotyping services of high quality using the latest technologies to academic researchers in Sweden and abroad.\n\n\n\n\n \n\n\n SNP&SEQ - Part of NGI Sweden, hosted by SciLifeLab, offers genotyping and next generation sequencing services to academic researchers in Sweden.\n\n\n\n\n \n\n\n Uppsala Genome Center - Part of NGI Sweden, hosted by SciLifeLab, provides long read sequencing services, from i.e. PacBio, Ion, Oxford Nanopore.",
     "crumbs": [
       "Training",
-      "Self learning"
+      "Tools and resources"
     ]
-  },
-  {
-    "objectID": "amrei.html",
-    "href": "amrei.html",
-    "title": "Amrei Binzer-Panchal",
-    "section": "",
-    "text": "Biologist, bioinformatician and director of SLU’s bioinformatics infrastructure.\nI am a trained biologist and theoretical ecologist. My bioinformatics expertise is in analysing RNAseq, methylation data, microarrays, and 10x single cell RNAseq data. I enjoy training and connecting people."
   },
   {
     "objectID": "workshops.html",
@@ -264,36 +340,14 @@
     ]
   },
   {
-    "objectID": "slubi.html",
-    "href": "slubi.html",
-    "title": "SLUBI",
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News and Events",
     "section": "",
-    "text": "Our goal\nOur goal is to provide support and training in bioinformatics for SLU staff, and to build a strong community of bioinformaticians within SLU. Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp. We want to join forces and coordinate teaching activities, common resources (hardware, software).\nWe also serve as a link to the broader bioinformatics community in Sweden, such as the National Bioinformatics Infrastructure Sweden, NBIS, facilitating collaboration and knowledge exchange.\n\n\n\n\n\n\nOur team\nWe are a group of skilled bioinformaticians. Please klick on us to see more about our background.\n\n\n\n\n\n\n\n Amrei Binzer-Panchal, bioinformatician in Ultuna (VH faculty): head of the infrastructure, and expert in analysing RNAseq, methylation data, microarrays, and 10x single cell RNAseq data.\n\n\n\n\n\n\n Nicolas Delhomme, bioinformatician in Umeå (S faculty): head of the UPSC Bioinformatics Facility, expert in expression profiling and anything bioinformatics related.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lizel Potgieter, bioinformatician in Alnarp (LTV faculty): our plant breeding, comparative genomics, population genomics, variant calling, genome assembly and annotation expert.\n\n\n\n\n\n\n Adnan Niazi, bioinformatician in Ultuna (VH faculty): our expert in RNAseq, metabarcoding (16S/18S/ITS), epigenomics (WGBS/RRBS), genome assembly and annotation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Abu Bakar Siddique, bioinformatician in Ultuna (NJ faculty): our expert in metagenomics, DNASeq, shotgun seq, metabarcoding (ITS), WGS analysis, read mapping, genome assembly and annotation. With wetlab experience in DNA, PCR and HTS library prep.",
+    "text": "Advanced Plant Breeding and Genetic Resources\n\n\n\ncourse\n\nMsc\n\nbreeding\n\n\n\nGenetic Variation and Breeding Strategies for Sustainable Agriculture - autumn 2025\n\n\n\n\n\nMay 8, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLU Breeding Network meeting\n\n\n\nnetworking\n\nbreeding\n\npresentation\n\n\n\nBreeding 360: Collaboration across disciplines\n\n\n\n\n\nMay 6, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nQ&A on Dardel, with HPC support staff\n\n\n\nworkshop\n\nhigh performance computing\n\nNAISS\n\nDardel\n\n\n\nSession 25 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMay 5, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nThe history of RNA sequencing, and modern ways to analyse the data - autumn 2025\n\n\n\n\n\nMay 2, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nMake pretty graphics - learn to ggplot in R\n\n\n\nworkshop\n\ncode along\n\nreproducibility\n\nR\n\nggplot\n\n\n\nSession 24 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nApr 7, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nKubernetes and nextflow\n\n\n\nworkshop\n\ntraining\n\nkubernetes\n\nnextflow\n\n\n\nA collaborative workshop to explore possible use cases of kubernetes in bioinformatics applications\n\n\n\n\n\nMar 24, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nData Management Resources at SLU\n\n\n\nworkshop\n\ndata management\n\nreproducibility\n\n\n\nSession 23 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 24, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCommon statistical tests\n\n\n\nworkshop\n\nstatistics\n\ncode along\n\n\n\nSession 22 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 10, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPlant Biology for Breeding and Protection\n\n\n\ncourse\n\ntraining\n\nplants\n\nbreeding\n\n\n\nand how bioinformatics can help you and your plants!\n\n\n\n\n\nMar 3, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-omics analyses of the microbial community\n\n\n\ncourse\n\ntraining\n\nmetagenomics\n\n\n\nEverything you ever wanted to know about metagenomics.\n\n\n\n\n\nMar 3, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nMake reports, presentations and hompages in Quarto\n\n\n\nworkshop\n\nquarto\n\nreproducibility\n\ncode along\n\n\n\nSession 21 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 24, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nReporting with Markdown\n\n\n\nworkshop\n\nmarkdown\n\nreproducibility\n\ncode along\n\n\n\nSession 20 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 10, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nData handling and high-quality illustrations for publications\n\n\n\ncourse\n\ntraining\n\ngit\n\nreproducibility\n\nquarto\n\ngs-vmas\n\n\n\nA course on how to handle data and create appropriate illustrations for your project.\n\n\n\n\n\nJan 20, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Python\n\n\n\nworkshop\n\npython\n\nreproducibility\n\ncode along\n\n\n\nSession 19 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJan 15, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPCA - Theory and Practice\n\n\n\nworkshop\n\nPCA\n\nstatistics\n\ncode along\n\n\n\nSession 18 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nDec 2, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSwedish Bioinformatics Workshop 2024\n\n\n\nworkshop\n\noutreach\n\n\n\nNovember 4th & 5th, 2024 on Campus Ultuna\n\n\n\n\n\nNov 4, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\nNGS\n\nreproducibility\n\nRNAseq\n\ngs-vmas\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nNov 1, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nReproducibility in Research with a focus on data analysis using the program R\n\n\n\ncourse\n\ntraining\n\ngit\n\nreproducibility\n\ngs-vmas\n\n\n\nTips, tricks and tools for making your research more reproducible.\n\n\n\n\n\nOct 21, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to R\n\n\n\nworkshop\n\nR\n\ncode along\n\n\n\nSession 17 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nOct 21, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nThe history of RNA sequencing, and modern ways to analyse the data.\n\n\n\n\n\nOct 7, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to the Dardel Supercomputer\n\n\n\nworkshop\n\nHPC/ NAISS\n\ndardel\n\nhigh performance computing\n\n\n\nSession 16 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nOct 7, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to the command line\n\n\n\nworkshop\n\ncode along\n\ncommand line\n\n\n\nSession 15 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nSep 23, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nShiny - interactive data visualization in R\n\n\n\nworkshop\n\ncode along\n\nR\n\n\n\nSession 14 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJul 1, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nProject organization in R\n\n\n\nworkshop\n\nreproducibility\n\nR\n\n\n\nSession 13 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJun 17, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to git and Github\n\n\n\nworkshop\n\ngit\n\nGitHub\n\nreproducibility\n\n\n\nSession 12 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJun 3, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nTeaching an introduction to Nextflow to a diverse group of students from all over Sweden.\n\n\n\n\n\nMay 27, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nTools and tricks for reproducible research\n\n\n\nworkshop\n\nreproducibility\n\ngit\n\nquarto\n\n\n\nSession 11 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMay 20, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop session at Sasuf Week\n\n\n\nworkshop\n\nmeeting\n\n\n\nThe South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you.\n\n\n\n\n\nMay 14, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to High performance Computing (HPC)\n\n\n\nworkshop\n\nhigh performance computing\n\nslurm\n\n\n\nSession 10 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMay 6, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntermediate ggplot in R\n\n\n\nworkshop\n\nR\n\nggplot\n\ncode along\n\n\n\nSession 9 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nApr 8, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Neural Networks\n\n\n\nworkshop\n\npython\n\nneural networks\n\ncode along\n\n\n\nSession 8 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 25, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nNordic Network of Agricultural Data Scientists\n\n\n\nnetwork\n\ntraining\n\n\n\nA new collaboration together with colleagues from other Nordic countries, exchange ideas and develop training materials.\n\n\n\n\n\nMar 15, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Python\n\n\n\nworkshop\n\npython\n\ncode along\n\n\n\nSession 7 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 11, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to writing functions in R\n\n\n\nworkshop\n\ncode along\n\nreproducibility\n\nR\n\n\n\nSession 6 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 26, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPopulation structure analyses\n\n\n\nworkshop\n\ncode along\n\nR\n\n\n\nSession 5 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 12, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Markdown\n\n\n\nworkshop\n\ncode along\n\nreproducibility\n\nmarkdown\n\n\n\nSession 4 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJan 15, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPCA: Theory and Practice\n\n\n\nworkshop\n\nPCA\n\nstatistics\n\ncode along\n\n\n\nSession 3 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nDec 11, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to the command line\n\n\n\nworkshop\n\ncode along\n\ncommand line\n\n\n\nSession 2 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nNov 27, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science\n\n\n\n\n\nNov 24, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatics in Umeå Workshop Series\n\n\n\nseminar\n\nnextflow\n\neducation\n\nworkshop\n\n\n\nThe first instance of the new bioinformatics workshop series. Learn about Nextflow and how to write your own pipeline.\n\n\n\n\n\nNov 16, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to R\n\n\n\nworkshop\n\nR\n\ncode along\n\n\n\nSession 1 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nNov 14, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nGenome-wide predictions in breeding: genotype-phenotype associations and genomic selection\n\n\n\ncourse\n\ntraining\n\n\n\nAn introduction to R and large data handling\n\n\n\n\n\nNov 13, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\n3B’s: Basic Biostatistics & Bioinformatics\n\n\n\nseminar\n\nworkshop\n\nstatistics\n\n\n\nToday we finally launch our long awaited collaboration with SLU’s Center for Statistics.\n\n\n\n\n\nNov 13, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation: Practical considerations and available tools for big data science\n\n\n\noutreach\n\nreproducibility\n\neducation\n\n\n\nTalking reproducible science at the Microbiome Research Initiative Meeting 2023.\n\n\n\n\n\nNov 9, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\n\n\nThe 2023 edition of our popular course - learn about the ins and outs of working with RNA-sequencing data.\n\n\n\n\n\nOct 23, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLU’s Day of Bioinformatics\n\n\n\nsymposium\n\nmeeting\n\n\n\nTerrestrial and aquatic communities, breeding, crop production, animal health, automatization – bioinformatics can also be for you! Listen to exciting SLU projects and be inspired.\n\n\n\n\n\nSep 29, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSciFest 2023\n\n\n\noutreach\n\neducation\n\n\n\nWe had a lot of fun at Uppsala’s Science Festival this year, talking about viruses, sequencing and metagenomics.\n\n\n\n\n\nSep 23, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nTeaching an introduction to Nextflow to a diverse group of students from all over Sweden.\n\n\n\n\n\nMay 12, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nApplied population genetics in plant disease epidemiology,\n\n\n\ncourse\n\nmeeting\n\neducation\n\n\n\nWe are happy to teach the bioinformatics of population genetics in this masters course.\n\n\n\n\n\nMar 1, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI day 2023\n\n\n\nnews\n\nmeeting\n\n\n\nA day filled with bioinformatics\n\n\n\n\n\nFeb 27, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPlant Biology for Breeding and Protection\n\n\n\ncourse\n\nbreeding\n\n\n\nMSc course held in Alnarp, Ultuna and online.\n\n\n\n\n\nJan 20, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\n\n\nSLUBI’s very own course on RNA-sequencing data, held for the Research School Organism Biology.\n\n\n\n\n\nNov 12, 2022\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nOct 12, 2022\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\n\n\nSLUBI’s very own course on analysing RNA-sequencing data.\n\n\n\n\n\nNov 29, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nOct 4, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics seminar series\n\n\n\nseminar\n\nstatistics\n\n\n\nThe 2021 edition of the seminar series of SLU’s Center for Statistics, this year on environmental statistics\n\n\n\n\n\nAug 27, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nHigh Throughput Sequencing Data Analysis Workshop\n\n\n\nworkshop\n\neducation\n\n\n\n\n\n\n\n\n\nMar 2, 2020\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nUppmax meeting\n\n\n\nworkshop\n\nmeeting\n\n\n\nDiscuss existing computing solutions and future possibilities.\n\n\n\n\n\nMay 8, 2019\n\n\nSASUF\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop for supervisors: Introduction to, and visualisation in R\n\n\n\neducation\n\nworkshop\n\n\n\nTraining day to get to know the possibilities of R\n\n\n\n\n\nSep 24, 2018\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI day 2018\n\n\n\nnews\n\nmeeting\n\n\n\nShowcasing SLUBI support and discussing long-term plans.\n\n\n\n\n\nJun 4, 2018\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI kickoff meeting\n\n\n\nmeeting\n\n\n\nWe are kicking off SLUBI with a celebration of bioinformatics.\n\n\n\n\n\nOct 27, 2017\n\n\nSLUBI\n\n\n\n\n\nNo matching items",
     "crumbs": [
-      "About us",
-      "SLUBI"
-    ]
-  },
-  {
-    "objectID": "courses.html",
-    "href": "courses.html",
-    "title": "Courses",
-    "section": "",
-    "text": "Our bioinformatics courses provide training in a variety of methods for analyzing biological data, covering topics such as sequence analysis, population genetics and reproducible research.\nDesigned for both beginners and seasoned researchers, our courses blend theoretical foundations with practical applications, training participants in the skills needed to tackle complex biological questions.\nWe also arrange private courses. If you are interested in a topic you can’t find in our list, please contact us. \n\n\n\n\n\n\n\n\n\n\nAdvanced Plant Breeding and Genetic Resources\n\n\n\ncourse\n\nMsc\n\nbreeding\n\n\n\nGenetic Variation and Breeding Strategies for Sustainable Agriculture - autumn 2025\n\n\n\n\n\nMay 8, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nThe history of RNA sequencing, and modern ways to analyse the data - autumn 2025\n\n\n\n\n\nMay 2, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-omics analyses of the microbial community\n\n\n\ncourse\n\ntraining\n\nmetagenomics\n\n\n\nEverything you ever wanted to know about metagenomics.\n\n\n\n\n\nMar 3, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPlant Biology for Breeding and Protection\n\n\n\ncourse\n\ntraining\n\nplants\n\nbreeding\n\n\n\nand how bioinformatics can help you and your plants!\n\n\n\n\n\nMar 3, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nData handling and high-quality illustrations for publications\n\n\n\ncourse\n\ntraining\n\ngit\n\nreproducibility\n\nquarto\n\ngs-vmas\n\n\n\nA course on how to handle data and create appropriate illustrations for your project.\n\n\n\n\n\nJan 20, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\nNGS\n\nreproducibility\n\nRNAseq\n\ngs-vmas\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nNov 1, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nReproducibility in Research with a focus on data analysis using the program R\n\n\n\ncourse\n\ntraining\n\ngit\n\nreproducibility\n\ngs-vmas\n\n\n\nTips, tricks and tools for making your research more reproducible.\n\n\n\n\n\nOct 21, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nThe history of RNA sequencing, and modern ways to analyse the data.\n\n\n\n\n\nOct 7, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nTeaching an introduction to Nextflow to a diverse group of students from all over Sweden.\n\n\n\n\n\nMay 27, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science\n\n\n\n\n\nNov 24, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nGenome-wide predictions in breeding: genotype-phenotype associations and genomic selection\n\n\n\ncourse\n\ntraining\n\n\n\nAn introduction to R and large data handling\n\n\n\n\n\nNov 13, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\n\n\nThe 2023 edition of our popular course - learn about the ins and outs of working with RNA-sequencing data.\n\n\n\n\n\nOct 23, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nTeaching an introduction to Nextflow to a diverse group of students from all over Sweden.\n\n\n\n\n\nMay 12, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nApplied population genetics in plant disease epidemiology,\n\n\n\ncourse\n\nmeeting\n\neducation\n\n\n\nWe are happy to teach the bioinformatics of population genetics in this masters course.\n\n\n\n\n\nMar 1, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPlant Biology for Breeding and Protection\n\n\n\ncourse\n\nbreeding\n\n\n\nMSc course held in Alnarp, Ultuna and online.\n\n\n\n\n\nJan 20, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\n\n\nSLUBI’s very own course on RNA-sequencing data, held for the Research School Organism Biology.\n\n\n\n\n\nNov 12, 2022\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nOct 12, 2022\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\n\n\nSLUBI’s very own course on analysing RNA-sequencing data.\n\n\n\n\n\nNov 29, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nOct 4, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nHigh Throughput Sequencing Data Analysis Workshop\n\n\n\nworkshop\n\neducation\n\n\n\n\n\n\n\n\n\nMar 2, 2020\n\n\nSLUBI\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Training",
-      "Courses"
-    ]
-  },
-  {
-    "objectID": "social.html",
-    "href": "social.html",
-    "title": "Fika",
-    "section": "",
-    "text": "Meet us and other bioinformaticians for an informal fika to chat about projects, new tools or life in general.\nWe meet in front of the IT service center in Ulls hus. Dates and times are announced via e-mail. If you do not receive them sign up for updates via slubi@slu.se.",
-    "crumbs": [
-      "Events",
-      "Fika"
+      "Archive",
+      "News and Events"
     ]
   },
   {
@@ -396,11 +450,232 @@
     ]
   },
   {
-    "objectID": "nicolas.html",
-    "href": "nicolas.html",
-    "title": "Nicolas Delhomme",
+    "objectID": "newsposts/courses/20241007_course_RNAseq/index.html",
+    "href": "newsposts/courses/20241007_course_RNAseq/index.html",
+    "title": "Analysis of High Throughput Sequencing RNA-Seq Data",
     "section": "",
-    "text": "Geneticist by training, bioinformatician/biostatistician in practice, interested in gene regulation in a systems biology context, expert in expression profiling. Researcher, bioinformatician and UPSC Bioinformatics Facility Manager in Umeå."
+    "text": "In this course, we teach how to analyze RNA-Seq data from Next-Generation Sequencing, specifically Illumina data. Biologists will learn to communicate with bioinformaticians, perform analyses, and understand the results. Bioinformaticians will gain basic skills to work with this data. The course provides an overview, not expert-level training."
+  },
+  {
+    "objectID": "newsposts/courses/20250120_course_illustrations/index.html",
+    "href": "newsposts/courses/20250120_course_illustrations/index.html",
+    "title": "Data handling and high-quality illustrations for publications",
+    "section": "",
+    "text": "A course on how to assess and visualize data using R, including creating suitable graphs and multi-panel figures for publications and presentations. We cover the use of GIS software to map data points with geographical and cultural elements. Additionally, the course includes merging and updating datasets in R and planning for code and raw data submission.\nWe were happy to be part of this GS-VMAS course, lead by Peter Halvarsson.\n\n\nImage from: https://metricsf20.classes.ryansafner.com/slides/1.3-slides#19"
+  },
+  {
+    "objectID": "newsposts/courses/20230512_course_MedBioInfo/index.html",
+    "href": "newsposts/courses/20230512_course_MedBioInfo/index.html",
+    "title": "Applied Bioinformatics",
+    "section": "",
+    "text": "The Swedish National Graduate School in Medical Bioinformatics (MedBioInfo) invited us to teach an introduction to Nextflow as part of their PhD course."
+  },
+  {
+    "objectID": "newsposts/courses/20211129_course_RNAseq/index.html",
+    "href": "newsposts/courses/20211129_course_RNAseq/index.html",
+    "title": "Analysis of High Throughput Sequencing RNA-Seq Data",
+    "section": "",
+    "text": "Developed from last year’s workshop, held for the Research School Organism Biology.\nHigh Throughput Sequencing (HTS) and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies. This course, aimed at advanced students, has the objective to help addressing this problem by (i) helping participants critically assess the challenges faced in the HTS field, (ii) developing efficient communication skill with bioinformatician, and (iii) training students in analyzing HTS data."
+  },
+  {
+    "objectID": "newsposts/courses/20231124_course_IntroToBioinf/index.html",
+    "href": "newsposts/courses/20231124_course_IntroToBioinf/index.html",
+    "title": "Introduction to Bioinformatics",
+    "section": "",
+    "text": "We are happy to be teaching in this introductory course for PhD and Masters students.\nThis year SLUBI taught the Introduction to Next Generation Sequencing, as well as RNA-sequencing.\nMore information here."
+  },
+  {
+    "objectID": "newsposts/courses/20231113_course_breeding/index.html",
+    "href": "newsposts/courses/20231113_course_breeding/index.html",
+    "title": "Genome-wide predictions in breeding: genotype-phenotype associations and genomic selection",
+    "section": "",
+    "text": "This course has been designed for PhD students registered in the Organismal Biology Research School, in collaboration with the SLU breeding network. Experts in the plant and animal breeding areas at our university collaborate to answer common questions: (1) how to associate phenotypes and genotypes and (2) how to accelerate marker-assisted selection in the era of high throughput genome sequencing. While plant and animal populations are intrinsically different, quantitative genetics principles and association mapping methods rely on the same theoretical basis. Along the three weeks of this course, students from all the faculties across campuses will be able to review basic principles of association mapping, study in detail the bioinformatic methods today available, and do extensive hands-on work both on pre-designed examples or using their own data sets.\nMore information here."
+  },
+  {
+    "objectID": "newsposts/courses/20241101_course_IntroToBioinf/index.html",
+    "href": "newsposts/courses/20241101_course_IntroToBioinf/index.html",
+    "title": "Introduction to Bioinformatics",
+    "section": "",
+    "text": "This course provides a solid foundation in basic bioinformatics methods, covering theories, algorithms, and practical applications for analyzing DNA sequences and protein structures. Topics include biological databases, homology analysis, sequence analysis using EMBOSS and UGENE, statistics with R, web-based tools, the Unix operating system, phylogeny, comparative genomics, functional genomics, and Next Generation Sequencing (NGS). The course combines lectures, interactive computer exercises, and web-based tutorials."
+  },
+  {
+    "objectID": "newsposts/courses/20240527_MedBioInfo/index.html",
+    "href": "newsposts/courses/20240527_MedBioInfo/index.html",
+    "title": "Applied Bioinformatics",
+    "section": "",
+    "text": "The Swedish National Graduate School in Medical Bioinformatics (MedBioInfo) invited us to teach an introduction to Nextflow as part of their PhD course. We’re happy to help the course and meet it’s students for the second year in a row."
+  },
+  {
+    "objectID": "newsposts/courses/20231023_course_RNAseq/index.html",
+    "href": "newsposts/courses/20231023_course_RNAseq/index.html",
+    "title": "Analysis of High Throughput Sequencing RNA-Seq Data",
+    "section": "",
+    "text": "High Throughput Sequencing (HTS) and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies. This course, aimed at advanced students, has the objective to help addressing this problem by (i) helping participants critically assess the challenges faced in the HTS field, (ii) developing efficient communication skill with bioinformatician, and (iii) training students in analyzing HTS data."
+  },
+  {
+    "objectID": "newsposts/courses/20230120_course_PlantBreeding/index.html",
+    "href": "newsposts/courses/20230120_course_PlantBreeding/index.html",
+    "title": "Plant Biology for Breeding and Protection",
+    "section": "",
+    "text": "Course together with the Department of Plant Biology for Breeding and Protection.\nMore information on the course, its content and the next instance it will be run."
+  },
+  {
+    "objectID": "newsposts/events/20230227_SLUBI_day/index.html",
+    "href": "newsposts/events/20230227_SLUBI_day/index.html",
+    "title": "SLUBI day 2023",
+    "section": "",
+    "text": "We had a nice fika with bioinformaticians all over Ultuna, discussed with experts from UPPMAX, visited the servers halls and met with NBIS bioinformaticians to discuss bioinformatics services for researchers."
+  },
+  {
+    "objectID": "newsposts/events/20171027_kickoff/index.html",
+    "href": "newsposts/events/20171027_kickoff/index.html",
+    "title": "SLUBI kickoff meeting",
+    "section": "",
+    "text": "Everyone interested in Bioinformatics was welcome to this meeting. We had short introductions from all participants when they presented briefly their field and what they were expecting from a Bioinformatics Infrastructure at SLU. The rest of the day was dedicated to brainstorming in groups and the participants discussed - Teaching/training activities - Organisation of the support - Activities for the bioinformatics community - Technical infrastructure organisation\nAll participants were invited to discuss at least 2 themes within an hour."
+  },
+  {
+    "objectID": "newsposts/events/20240314_nadas/index.html",
+    "href": "newsposts/events/20240314_nadas/index.html",
+    "title": "Nordic Network of Agricultural Data Scientists",
+    "section": "",
+    "text": "Technological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed. A number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.\nMore information on NADAS and its activities here."
+  },
+  {
+    "objectID": "newsposts/events/20250324_UPSCb_IT/index.html",
+    "href": "newsposts/events/20250324_UPSCb_IT/index.html",
+    "title": "Kubernetes and nextflow",
+    "section": "",
+    "text": "This meeting brings together different teams, including SLU Central IT, SLU Bioinformatics Infrastructure (SLUBI), and our colleagues from the Umeå Plant Science Centre (UPSC) Bioinformatics Facility.\nThe goal is to learn how to use a tool called Kubernetes for managing computer resources and running nextflow pipelines. By working together, we want to to improve our bioinformatics services and support."
+  },
+  {
+    "objectID": "newsposts/events/20230923_SciFest/index.html",
+    "href": "newsposts/events/20230923_SciFest/index.html",
+    "title": "SciFest 2023",
+    "section": "",
+    "text": "SciFest is a science festival with a wide range of workshops, shows, competitions, researcher meet and greets, and lectures. Since 2020, the festival is co-organised by Uppsala University and the Swedish University of Agricultural Sciences.\nMore information here."
+  },
+  {
+    "objectID": "newsposts/events/20230929_DayOfBioinformatics/index.html",
+    "href": "newsposts/events/20230929_DayOfBioinformatics/index.html",
+    "title": "SLU’s Day of Bioinformatics",
+    "section": "",
+    "text": "Monday, 25th of September 2023, 09:00 - 15:00\nCampus Ultuna, in person, VHC, plan 2, sal Särimner\nCampus Alnarp, remotely, Horticum, sal Triticum\nor via Zoom\n\n Registration is now closed!\nThank-you for everybody who attended and made the day as successful as it was.\n\n Program\n\n\n\n\n\n\n\n\n\nStart\nSpeaker\nTitle\n\n\n\n\n09:00\nintroduction\n\n\n\n09:15\nGabriella Lindgren\nAn endothelial regulatory module links blood pressure regulation with elite athletic performance\n\n\n09:30\nGöran Andersson\nBioinformatics analyses of genomics, epigenomics and transcriptomics data of complex diseases\n\n\n09:45\nJan Ingemar Ohlsson\nBioinformatics R-ABCD: Research Acceleration with Big Cow Data in Gigacow\n\n\n10:00\nMicael Landi\nUtilizing cassava genomes for genomics-assisted breeding\n\n\n10:15\nbreak\n\n\n\n10:45\nAlvaro Martinez Barrio\n20 years of computational biology: where the road has taken us and the highway is leading\n\n\n11:30\nOlga Vinnere Pettersson\nGenomics for agriculture - two cases\n\n\n11:45\nGirma Gebresenbet\nDigitalization in agricultural practices\n\n\n12:00\nlunch\n\n\n\n13:00\ndiscussion\nBioinformatics in Agricultural Sciences\n\n\n13:30\nSara Hallin\nMicrobes driving nitrogen losses and retention in soils\n\n\n13:45\nShrikant Sharma\nGenome editing in potatoes\n\n\n14:00\nbreak\n\n\n\n14:15\nSalme Timmusk\nPlant-root microbiome interactions\n\n\n14:30\nMoritz Buck\nMicrobial diversity and nutrient cycling in the central arctic ocean\n\n\n14:45\nAnna Szekely\nEnvironmental virus sequencing and genotyping as a tool of epidemiological monitoring\n\n\n15:00\nclosing and fika"
+  },
+  {
+    "objectID": "newsposts/3_bees/20240520_Session11_repResearch/index.html",
+    "href": "newsposts/3_bees/20240520_Session11_repResearch/index.html",
+    "title": "Tools and tricks for reproducible research",
+    "section": "",
+    "text": "Hear about useful tools and considerations, and get the answer why reproducible research does not only benefit others, but first and foremost yourself.\nThis session we will give a presentation and introduce the concept of reproducible research together with a variety of different tools that can help you gettting started.\nPreparation: No preparations needed. Come, listen, and take notes!\nWhen: Monday May 20th, 09:45\nWhere: Campus ULTUNA, VHC, floor 5, room Tanngrisner 1\nor via Zoom (Password: 410 410)\nThe lecture will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20240617_Session13_projMan/index.html",
+    "href": "newsposts/3_bees/20240617_Session13_projMan/index.html",
+    "title": "Project organization in R",
+    "section": "",
+    "text": "This 3 Bees session is again filled with tips and tricks for reproducible research, covering how to work with projects in RStudio. We will give some helpful tips on how to structure files, scripts and code. We will also take a quick look at some specific packages such as renv and targets.\nThis session will be presentation only, so come, enjoy and take notes!\nPreparation: No preparation needed.\nWhen: Monday June 17th, 09:45\nWhere: online via Zoom (Password: 410 410)\nThe lecture will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20241021_Session17_R/index.html",
+    "href": "newsposts/3_bees/20241021_Session17_R/index.html",
+    "title": "Introduction to R",
+    "section": "",
+    "text": "In this instance, we will give a short introduction to R. We will work on some R basics that you will need for data manipulation and visualization. The session is geared towards everyone that has never used R before, and for everyone that would like to refresh their memory.\nTopic: Introduction to R\nWhen: Monday, 21st of October, 09:45\nWhere: Campus Alnarp, Triticum and via Zoom(Password: 410 410)\nPreparation: You are welcome to just come and listen. If you want to code along please bring your own laptop with R and R-studio installed.\nIf you’re just curious and want to listen in, that’s also perfectly fine!\nThe material will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20240506_Session10_HPC/index.html",
+    "href": "newsposts/3_bees/20240506_Session10_HPC/index.html",
+    "title": "Introduction to High performance Computing (HPC)",
+    "section": "",
+    "text": "Join us to learn the basics of high performance computing. We will have a brief overview of HPC facilities in Sweden, how to log in, and how to use the job queuing system, Slurm. We will also have a quick look at how to apply for projects on these clusters.\nAfter a short lecture, we will show how to access Rackham from UPPMAX with Visual Studio Code. If you are new to using clusters, this session is for you!\nPreparation: If you would like to follow along, please ensure that you have VSCode installed.\nWhen: Monday May 6th, 09:45\nWhere: Campus ALNARP, Pisum\nor via Zoom (Password: 410 410)\nThe lecture will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20240408_Session9_ggplot/index.html",
+    "href": "newsposts/3_bees/20240408_Session9_ggplot/index.html",
+    "title": "Intermediate ggplot in R",
+    "section": "",
+    "text": "In this session you can learn more about R’s data visualization package ggplot. The workshop will answer the following questions:\n\nWhy ggplot (difference between base plot and ggplot2)?\nHow do you make plots using ggplot2 in R?\nHow do you customize and modify plots?\n\nWhat to Expect:\n\nLearn Grammar of the graphics & synatx\nBuild a graph (data visualization) from the scratch\nDescribe Geometric components of a graph\nProduce different kinds of plot (scatter plots, boxplots, barplots etc) using ggplot.\nDescribe what faceting is and apply faceting in ggplot.\nModify the aesthetics of an existing ggplot plot (including theme, axis labels, stats and color etc).\nCombine and save plots as publishable figures.\n\nPreparation: Please have R and RStudio installed on your computer. Install ggplot2 by typing install.packages(\"ggplot2\") into the console of your RStudio.\nThis session uses the publicly available Penguins data set. You can install the data with: install.packages(\"palmerpenguins\").\nWhen: Monday April 8th, 09:45\nWhere: Campus ULTUNA, VHC, floor 5, room Tanngrisner\nor via Zoom (Password: 410 410)\nAll materials are available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20250324_Session23_dms/index.html",
+    "href": "newsposts/3_bees/20250324_Session23_dms/index.html",
+    "title": "Data Management Resources at SLU",
+    "section": "",
+    "text": "For our next instance we welcome Hanna Östholm, Kajsa Svensson and Mikaela Asplund from SLU’s Data Management Support. They will talk about the data management support available at SLU, the Swedish laws (including the open data directive and GDPR), and the SLU Environmental Data Catalogue as a resource.\nTopic: Data Management Resources at SLU\nWhen: Monday, 24th of March, 09:45\nWhere: online only session: Zoom (Password: 410 410)\nPreparation: No preparations required – but you are welcome to bring all the data management questions that have been burning on your mind. (o:\nThe material will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20250310_Session22_statistics/index.html",
+    "href": "newsposts/3_bees/20250310_Session22_statistics/index.html",
+    "title": "Common statistical tests",
+    "section": "",
+    "text": "Null hypothesis significance testing is the most commonly used tool for statistical inference. Depending on the type of data and data collection, the exact test will differ and being able to select the correct test for a given situation is an essential scientific skill. In this presentation we will discuss identification of a suitable test and show how many of the common tests relate to each other in that they are specific cases of linear models.\nTopic: Common statistical tests\nWhen: Monday, 10th of March, 09:45\nWhere: online only session: Zoom (Password: 410 410)\nPreparation: As always, you are welcome to come listen and learn. We will illustrate some basic R code, so an R and RStudio installation may be useful.\nThe material will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20240226_Session6_Rfunctions/index.html",
+    "href": "newsposts/3_bees/20240226_Session6_Rfunctions/index.html",
+    "title": "Introduction to writing functions in R",
+    "section": "",
+    "text": "For the sixth session of the 3 B’s series, we talk about how to write your own functions in R. Very handy of you want to wrap code you are using over and over again into a re-usable function!\nPreparation: If you would like to prepare in advance, please have a look at this tutorial, and see here for additional content.\nAs always, you are most welcome to drop by and listen without participating.\nWhen: Monday Feb 26, 09:45\nWhere: Campuse Alnarp, Vegetum, Red room (different room from the usual for Alnarp attendees)\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
+  },
+  {
+    "objectID": "newsposts/3_bees/20250505_Session25_pdc/index.html",
+    "href": "newsposts/3_bees/20250505_Session25_pdc/index.html",
+    "title": "Q&A on Dardel, with HPC support staff",
+    "section": "",
+    "text": "We are happy to announce that support staff from the HPC cluster Dardel will be coming to our next 3 bees session.\nDardel is a high performance cluster that is part of the National Academic Infrastructure for Supercomputing in Sweden (NAISS), a resource free and open to anyone within Sweden.\nThis coming session is for everyone who works on Dardel, or who is planning on using the system soon. After an introduction to the system and how to use it there will be time for questions and for feedback from current users. So please come with your comments and questions!\nTopic: Introduction to Dardel and question time\nWhen: Monday, 5th of May, 10:00\nWhere: Camput Ultuna, Månegarm and online via Zoom (Password: 410 410)\nPreparation: No preparation needed, but you are welcome to come with any questions and issues you came across while working with Dardel.\nThe material will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20240212_Session5_Pop/index.html",
+    "href": "newsposts/3_bees/20240212_Session5_Pop/index.html",
+    "title": "Population structure analyses",
+    "section": "",
+    "text": "For the fifth session of the 3 B’s series, we cover some of the basics of population structure analyses in R. This will not be a lecture on the theory of population genetics, but rather how you can use R to create plots and make them ready for your publication.\nPreparation: If you would like to prepare in advance, please have a look at this vignette.\nAs always, you are most welcome to drop by and listen without participating.\nWhen: Monday Feb 12, 09:45\nWhere: Campus Alnarp, Pisum (different room from the usual for Alnarp attendees)\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
+  },
+  {
+    "objectID": "newsposts/3_bees/20250224_Session21_quarto/index.html",
+    "href": "newsposts/3_bees/20250224_Session21_quarto/index.html",
+    "title": "Make reports, presentations and hompages in Quarto",
+    "section": "",
+    "text": "Quarto is a useful and versatile program to combine your code, its results, and your notes. Quarto documents are fully reproducible and support dozens of output formats, like PDFs, Word files, presentations, and more. You can even make you own homepage with Quarto. On Monday, we will go through the basics and get you started.\nTopic: Introduction to Quarto\nWhen: Monday, 24th of February, 09:45\nWhere: Campus Ultuna, Tangrisner and via Zoom(Password: 410 410)\nPreparation: As always, you are welcome to come listen and learn. If you would like to try your hand at generating some reports during the session, please install Tthe Quarto command line interface (https://quarto.org/docs/get-started/), as well as Visual Studio Code (https://code.visualstudio.com/download).\nThe material will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/3_bees/20250407_Session24_ggplot/index.html",
+    "href": "newsposts/3_bees/20250407_Session24_ggplot/index.html",
+    "title": "Make pretty graphics - learn to ggplot in R",
+    "section": "",
+    "text": "In this session you can learn more about R’s data visualization package ggplot. The workshop will answer the following questions:\n\nWhy ggplot (difference between base plot and ggplot2)?\nHow do you make plots using ggplot2 in R?\nHow do you customize and modify plots?\n\nWhat to Expect:\n\nLearn Grammar of the graphics & synatx\nBuild a graph (data visualization) from the scratch\nDescribe Geometric components of a graph\nProduce different kinds of plot (scatter plots, boxplots, barplots etc) using ggplot.\nDescribe what faceting is and apply faceting in ggplot.\nModify the aesthetics of an existing ggplot plot (including theme, axis labels, stats and color etc).\nCombine and save plots as publishable figures.\n\nTopic: Introduction to ggplot in R\nWhen: Monday, 7th of April, 09:45\nWhere: Camput Ultuna, Tangrisner and online via Zoom (Password: 410 410)\nPreparation: Please have R and RStudio installed on your computer. Install ggplot2 by typing install.packages(\"ggplot2\") into the console of your RStudio.\nThis session uses the publicly available Penguins data set. You can install the data with: install.packages(\"palmerpenguins\").\nThe material will be available on Github after the session."
+  },
+  {
+    "objectID": "newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html",
+    "href": "newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html",
+    "title": "Bioinformatics in Umeå Workshop Series",
+    "section": "",
+    "text": "This is the fist in a series of workshop that aims to bring to Umeå experts from academia or the industry to deliver high quality workshops. A secondary aspect of these workshops will be to bring the Umeå bioinformatics crowd together to build a thriving community.\nNextflow is a widely adopted workflow system for running high-throughput, data-intensive applications across cloud and on-premise infrastructure. It has quickly become one of the primary technology platforms for computational workloads in life sciences. Its framework allows scientists to write code in any scripting language, define software dependencies with containers, connect tasks with the event-driven dataflow programming DSL and then deploy anywhere: local machines, grid computing systems or public cloud infrastructure.\nMore information here."
+  },
+  {
+    "objectID": "newsposts/seminars_workshops/20210827_seminar_statistics/index.html",
+    "href": "newsposts/seminars_workshops/20210827_seminar_statistics/index.html",
+    "title": "Statistics seminar series",
+    "section": "",
+    "text": "Follow this year’s seminar series and learn about different aspects of environmental statistics.\nMore information (also on past instances) here."
+  },
+  {
+    "objectID": "slubi.html",
+    "href": "slubi.html",
+    "title": "SLUBI",
+    "section": "",
+    "text": "Our goal\nOur goal is to provide support and training in bioinformatics for SLU staff, and to build a strong community of bioinformaticians within SLU. Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp. We want to join forces and coordinate teaching activities, common resources (hardware, software).\nWe also serve as a link to the broader bioinformatics community in Sweden, such as the National Bioinformatics Infrastructure Sweden, NBIS, facilitating collaboration and knowledge exchange.\n\n\n\n\n\n\nOur team\nWe are a group of skilled bioinformaticians. Please klick on us to see more about our background.\n\n\n\n\n\n\n\n Amrei Binzer-Panchal, bioinformatician in Ultuna (VH faculty): head of the infrastructure, and expert in analysing RNAseq, methylation data, microarrays, and 10x single cell RNAseq data.\n\n\n\n\n\n\n Nicolas Delhomme, bioinformatician in Umeå (S faculty): head of the UPSC Bioinformatics Facility, expert in expression profiling and anything bioinformatics related.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lizel Potgieter, bioinformatician in Alnarp (LTV faculty): our plant breeding, comparative genomics, population genomics, variant calling, genome assembly and annotation expert.\n\n\n\n\n\n\n Adnan Niazi, bioinformatician in Ultuna (VH faculty): our expert in RNAseq, metabarcoding (16S/18S/ITS), epigenomics (WGBS/RRBS), genome assembly and annotation.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Abu Bakar Siddique, bioinformatician in Ultuna (NJ faculty): our expert in metagenomics, DNASeq, shotgun seq, metabarcoding (ITS), WGS analysis, read mapping, genome assembly and annotation. With wetlab experience in DNA, PCR and HTS library prep.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Renaud Van Damme, system administrator and bioinformatician (VH faculty): our system administrator for the local High Performance Computing cluster, pipeline developer and expert in metagenomics.",
+    "crumbs": [
+      "About us",
+      "SLUBI"
+    ]
+  },
+  {
+    "objectID": "amrei.html",
+    "href": "amrei.html",
+    "title": "Amrei Binzer-Panchal",
+    "section": "",
+    "text": "Biologist, bioinformatician and director of SLU’s bioinformatics infrastructure.\nI am a trained biologist and theoretical ecologist. My bioinformatics expertise is in analysing RNAseq, methylation data, microarrays, and 10x single cell RNAseq data. I enjoy training and connecting people."
   },
   {
     "objectID": "abu.html",
@@ -408,6 +683,17 @@
     "title": "Abu Bakar Siddique",
     "section": "",
     "text": "Bioinformatician (based at NJ in Ultuna)\nMetagenomics, metatranscriptomics, RNASeq analysis, Metabarcoding (ITS/ITS/28S), wetlab: DNA, PCR, HTS library prep."
+  },
+  {
+    "objectID": "social.html",
+    "href": "social.html",
+    "title": "Fika",
+    "section": "",
+    "text": "Meet us and other bioinformaticians for an informal fika to chat about projects, new tools or life in general.\nWe meet in front of the IT service center in Ulls hus. Dates and times are announced via e-mail. If you do not receive them sign up for updates via slubi@slu.se.",
+    "crumbs": [
+      "Events",
+      "Fika"
+    ]
   },
   {
     "objectID": "board.html",
@@ -421,300 +707,21 @@
     ]
   },
   {
-    "objectID": "adnan.html",
-    "href": "adnan.html",
-    "title": "Adnan Nizai",
+    "objectID": "learning-resources.html",
+    "href": "learning-resources.html",
+    "title": "Self learning",
     "section": "",
-    "text": "Expert in RNAseq, Metabarcoding (16S/18S/ITS), Epigenomics (WGBS/RRBS), Genome assembly and annotation."
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events",
-    "section": "",
-    "text": "SLU Breeding Network meeting\n\n\n\nnetworking\n\nbreeding\n\npresentation\n\n\n\nBreeding 360: Collaboration across disciplines\n\n\n\n\n\nMay 6, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nKubernetes and nextflow\n\n\n\nworkshop\n\ntraining\n\nkubernetes\n\nnextflow\n\n\n\nA collaborative workshop to explore possible use cases of kubernetes in bioinformatics applications\n\n\n\n\n\nMar 24, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSwedish Bioinformatics Workshop 2024\n\n\n\nworkshop\n\noutreach\n\n\n\nNovember 4th & 5th, 2024 on Campus Ultuna\n\n\n\n\n\nNov 4, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop session at Sasuf Week\n\n\n\nworkshop\n\nmeeting\n\n\n\nThe South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you.\n\n\n\n\n\nMay 14, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nNordic Network of Agricultural Data Scientists\n\n\n\nnetwork\n\ntraining\n\n\n\nA new collaboration together with colleagues from other Nordic countries, exchange ideas and develop training materials.\n\n\n\n\n\nMar 15, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation: Practical considerations and available tools for big data science\n\n\n\noutreach\n\nreproducibility\n\neducation\n\n\n\nTalking reproducible science at the Microbiome Research Initiative Meeting 2023.\n\n\n\n\n\nNov 9, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLU’s Day of Bioinformatics\n\n\n\nsymposium\n\nmeeting\n\n\n\nTerrestrial and aquatic communities, breeding, crop production, animal health, automatization – bioinformatics can also be for you! Listen to exciting SLU projects and be inspired.\n\n\n\n\n\nSep 29, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSciFest 2023\n\n\n\noutreach\n\neducation\n\n\n\nWe had a lot of fun at Uppsala’s Science Festival this year, talking about viruses, sequencing and metagenomics.\n\n\n\n\n\nSep 23, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI day 2023\n\n\n\nnews\n\nmeeting\n\n\n\nA day filled with bioinformatics\n\n\n\n\n\nFeb 27, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nUppmax meeting\n\n\n\nworkshop\n\nmeeting\n\n\n\nDiscuss existing computing solutions and future possibilities.\n\n\n\n\n\nMay 8, 2019\n\n\nSASUF\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI day 2018\n\n\n\nnews\n\nmeeting\n\n\n\nShowcasing SLUBI support and discussing long-term plans.\n\n\n\n\n\nJun 4, 2018\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI kickoff meeting\n\n\n\nmeeting\n\n\n\nWe are kicking off SLUBI with a celebration of bioinformatics.\n\n\n\n\n\nOct 27, 2017\n\n\nSLUBI\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Events",
-      "Events"
-    ]
-  },
-  {
-    "objectID": "dropin.html",
-    "href": "dropin.html",
-    "title": "Drop-in",
-    "section": "",
-    "text": "Meet us in our drop-in Zoom room (Password: 410 410).\nBefore the pandemic, SLUBI organised bioinformatics drop-in sessions at all 3 SLU campuses for answering various bioinformatics questions around a fika.\nNow the drop-in is online: all campuses at the same place and time! Come and join us with your questions or take the opportunity to gather and exchange experiences with other bioinformaticians.\nAround once per month we join forces with SLU’s Centre for Statistics and offer a joint drop-in.\nDuring the time leading up to the VR and Formas grant application deadline we are offering additional drop-ins, together with the Centre for Statistics and the Data Management Support.",
-    "crumbs": [
-      "Services",
-      "Drop-in"
-    ]
-  },
-  {
-    "objectID": "organigram.html",
-    "href": "organigram.html",
-    "title": "SLUBI’s structure",
-    "section": "",
-    "text": "We are located at 3 SLU campuses, Alnarp, Ultuna and Umeå, and provide support to researchers from all 4 faculties: LTV (Faculty of Landscape Architecture, Horticulture and Crop Production Science), NJ (Faculty of Natural Resources and Agricultural Sciences ), S (Faculty of Forest Sciences) and VH (Faculty of Veterinary Medicine and Animal Science)."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Whether you’re a seasoned researcher or a newcomer to bioinformatics, we welcome all inquiries and look forward to supporting your journey in computational biology and genomics.\nYou have several possibilities to get in touch with us:\n\nWrite an email to slubi@slu.se.\nGet in contact with us during an online drop-in session.\nJoin our Slack workspace and chat with us.\nStop us in the corridor, or find us in our offices - there is a bioinformatician near you!\n\n We suggest that researchers contact SLUBI at an early stage to discuss the planned project, experimental design and what kind of support will be needed. Initial consultation is free. Subsequent SLUBI support and bioinformatics analyses cost 800 SEK/h.",
-    "crumbs": [
-      "About us",
-      "Contact"
-    ]
-  },
-  {
-    "objectID": "lizel.html",
-    "href": "lizel.html",
-    "title": "Lizel Potgieter",
-    "section": "",
-    "text": "I am a trained molecular biologist turned bioinformatician, based at LTV in Alnarp\nComparative genomics, population genomics, variant calling, genome assembly and annotation."
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News and Events",
-    "section": "",
-    "text": "Advanced Plant Breeding and Genetic Resources\n\n\n\ncourse\n\nMsc\n\nbreeding\n\n\n\nGenetic Variation and Breeding Strategies for Sustainable Agriculture - autumn 2025\n\n\n\n\n\nMay 8, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLU Breeding Network meeting\n\n\n\nnetworking\n\nbreeding\n\npresentation\n\n\n\nBreeding 360: Collaboration across disciplines\n\n\n\n\n\nMay 6, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nQ&A on Dardel, with HPC support staff\n\n\n\nworkshop\n\nhigh performance computing\n\nNAISS\n\nDardel\n\n\n\nSession 25 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMay 5, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nThe history of RNA sequencing, and modern ways to analyse the data - autumn 2025\n\n\n\n\n\nMay 2, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nMake pretty graphics - learn to ggplot in R\n\n\n\nworkshop\n\ncode along\n\nreproducibility\n\nR\n\nggplot\n\n\n\nSession 24 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nApr 7, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nKubernetes and nextflow\n\n\n\nworkshop\n\ntraining\n\nkubernetes\n\nnextflow\n\n\n\nA collaborative workshop to explore possible use cases of kubernetes in bioinformatics applications\n\n\n\n\n\nMar 24, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nData Management Resources at SLU\n\n\n\nworkshop\n\ndata management\n\nreproducibility\n\n\n\nSession 23 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 24, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nCommon statistical tests\n\n\n\nworkshop\n\nstatistics\n\ncode along\n\n\n\nSession 22 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 10, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-omics analyses of the microbial community\n\n\n\ncourse\n\ntraining\n\nmetagenomics\n\n\n\nEverything you ever wanted to know about metagenomics.\n\n\n\n\n\nMar 3, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPlant Biology for Breeding and Protection\n\n\n\ncourse\n\ntraining\n\nplants\n\nbreeding\n\n\n\nand how bioinformatics can help you and your plants!\n\n\n\n\n\nMar 3, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nMake reports, presentations and hompages in Quarto\n\n\n\nworkshop\n\nquarto\n\nreproducibility\n\ncode along\n\n\n\nSession 21 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 24, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nReporting with Markdown\n\n\n\nworkshop\n\nmarkdown\n\nreproducibility\n\ncode along\n\n\n\nSession 20 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 10, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nData handling and high-quality illustrations for publications\n\n\n\ncourse\n\ntraining\n\ngit\n\nreproducibility\n\nquarto\n\ngs-vmas\n\n\n\nA course on how to handle data and create appropriate illustrations for your project.\n\n\n\n\n\nJan 20, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Python\n\n\n\nworkshop\n\npython\n\nreproducibility\n\ncode along\n\n\n\nSession 19 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJan 15, 2025\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPCA - Theory and Practice\n\n\n\nworkshop\n\nPCA\n\nstatistics\n\ncode along\n\n\n\nSession 18 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nDec 2, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSwedish Bioinformatics Workshop 2024\n\n\n\nworkshop\n\noutreach\n\n\n\nNovember 4th & 5th, 2024 on Campus Ultuna\n\n\n\n\n\nNov 4, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\nNGS\n\nreproducibility\n\nRNAseq\n\ngs-vmas\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nNov 1, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nReproducibility in Research with a focus on data analysis using the program R\n\n\n\ncourse\n\ntraining\n\ngit\n\nreproducibility\n\ngs-vmas\n\n\n\nTips, tricks and tools for making your research more reproducible.\n\n\n\n\n\nOct 21, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to R\n\n\n\nworkshop\n\nR\n\ncode along\n\n\n\nSession 17 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nOct 21, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nThe history of RNA sequencing, and modern ways to analyse the data.\n\n\n\n\n\nOct 7, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to the Dardel Supercomputer\n\n\n\nworkshop\n\nHPC/ NAISS\n\ndardel\n\nhigh performance computing\n\n\n\nSession 16 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nOct 7, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to the command line\n\n\n\nworkshop\n\ncode along\n\ncommand line\n\n\n\nSession 15 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nSep 23, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nShiny - interactive data visualization in R\n\n\n\nworkshop\n\ncode along\n\nR\n\n\n\nSession 14 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJul 1, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nProject organization in R\n\n\n\nworkshop\n\nreproducibility\n\nR\n\n\n\nSession 13 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJun 17, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to git and Github\n\n\n\nworkshop\n\ngit\n\nGitHub\n\nreproducibility\n\n\n\nSession 12 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJun 3, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nTeaching an introduction to Nextflow to a diverse group of students from all over Sweden.\n\n\n\n\n\nMay 27, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nTools and tricks for reproducible research\n\n\n\nworkshop\n\nreproducibility\n\ngit\n\nquarto\n\n\n\nSession 11 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMay 20, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop session at Sasuf Week\n\n\n\nworkshop\n\nmeeting\n\n\n\nThe South Africa Sweden University Forum (SASUF) is organizing their annual Research and Innovation Week and we are offering a workshop for you.\n\n\n\n\n\nMay 14, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to High performance Computing (HPC)\n\n\n\nworkshop\n\nhigh performance computing\n\nslurm\n\n\n\nSession 10 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMay 6, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntermediate ggplot in R\n\n\n\nworkshop\n\nR\n\nggplot\n\ncode along\n\n\n\nSession 9 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nApr 8, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Neural Networks\n\n\n\nworkshop\n\npython\n\nneural networks\n\ncode along\n\n\n\nSession 8 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 25, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nNordic Network of Agricultural Data Scientists\n\n\n\nnetwork\n\ntraining\n\n\n\nA new collaboration together with colleagues from other Nordic countries, exchange ideas and develop training materials.\n\n\n\n\n\nMar 15, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Python\n\n\n\nworkshop\n\npython\n\ncode along\n\n\n\nSession 7 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nMar 11, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to writing functions in R\n\n\n\nworkshop\n\ncode along\n\nreproducibility\n\nR\n\n\n\nSession 6 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 26, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPopulation structure analyses\n\n\n\nworkshop\n\ncode along\n\nR\n\n\n\nSession 5 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nFeb 12, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Markdown\n\n\n\nworkshop\n\ncode along\n\nreproducibility\n\nmarkdown\n\n\n\nSession 4 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nJan 15, 2024\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPCA: Theory and Practice\n\n\n\nworkshop\n\nPCA\n\nstatistics\n\ncode along\n\n\n\nSession 3 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nDec 11, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to the command line\n\n\n\nworkshop\n\ncode along\n\ncommand line\n\n\n\nSession 2 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nNov 27, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science\n\n\n\n\n\nNov 24, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatics in Umeå Workshop Series\n\n\n\nseminar\n\nnextflow\n\neducation\n\nworkshop\n\n\n\nThe first instance of the new bioinformatics workshop series. Learn about Nextflow and how to write your own pipeline.\n\n\n\n\n\nNov 16, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to R\n\n\n\nworkshop\n\nR\n\ncode along\n\n\n\nSession 1 in the series Basic Biostatistics and Bioinformatics\n\n\n\n\n\nNov 14, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nGenome-wide predictions in breeding: genotype-phenotype associations and genomic selection\n\n\n\ncourse\n\ntraining\n\n\n\nAn introduction to R and large data handling\n\n\n\n\n\nNov 13, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\n3B’s: Basic Biostatistics & Bioinformatics\n\n\n\nseminar\n\nworkshop\n\nstatistics\n\n\n\nToday we finally launch our long awaited collaboration with SLU’s Center for Statistics.\n\n\n\n\n\nNov 13, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPresentation: Practical considerations and available tools for big data science\n\n\n\noutreach\n\nreproducibility\n\neducation\n\n\n\nTalking reproducible science at the Microbiome Research Initiative Meeting 2023.\n\n\n\n\n\nNov 9, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\n\n\nThe 2023 edition of our popular course - learn about the ins and outs of working with RNA-sequencing data.\n\n\n\n\n\nOct 23, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLU’s Day of Bioinformatics\n\n\n\nsymposium\n\nmeeting\n\n\n\nTerrestrial and aquatic communities, breeding, crop production, animal health, automatization – bioinformatics can also be for you! Listen to exciting SLU projects and be inspired.\n\n\n\n\n\nSep 29, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSciFest 2023\n\n\n\noutreach\n\neducation\n\n\n\nWe had a lot of fun at Uppsala’s Science Festival this year, talking about viruses, sequencing and metagenomics.\n\n\n\n\n\nSep 23, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nApplied Bioinformatics\n\n\n\ncourse\n\ntraining\n\nnextflow\n\n\n\nTeaching an introduction to Nextflow to a diverse group of students from all over Sweden.\n\n\n\n\n\nMay 12, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nApplied population genetics in plant disease epidemiology,\n\n\n\ncourse\n\nmeeting\n\neducation\n\n\n\nWe are happy to teach the bioinformatics of population genetics in this masters course.\n\n\n\n\n\nMar 1, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI day 2023\n\n\n\nnews\n\nmeeting\n\n\n\nA day filled with bioinformatics\n\n\n\n\n\nFeb 27, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nPlant Biology for Breeding and Protection\n\n\n\ncourse\n\nbreeding\n\n\n\nMSc course held in Alnarp, Ultuna and online.\n\n\n\n\n\nJan 20, 2023\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\n\n\nSLUBI’s very own course on RNA-sequencing data, held for the Research School Organism Biology.\n\n\n\n\n\nNov 12, 2022\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nOct 12, 2022\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\n\ncourse\n\ntraining\n\n\n\nSLUBI’s very own course on analysing RNA-sequencing data.\n\n\n\n\n\nNov 29, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Bioinformatics\n\n\n\ncourse\n\ntraining\n\n\n\nA course together with SLU’s Graduate School for Veterinary Medicine and Animal Science.\n\n\n\n\n\nOct 4, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nStatistics seminar series\n\n\n\nseminar\n\nstatistics\n\n\n\nThe 2021 edition of the seminar series of SLU’s Center for Statistics, this year on environmental statistics\n\n\n\n\n\nAug 27, 2021\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nHigh Throughput Sequencing Data Analysis Workshop\n\n\n\nworkshop\n\neducation\n\n\n\n\n\n\n\n\n\nMar 2, 2020\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nUppmax meeting\n\n\n\nworkshop\n\nmeeting\n\n\n\nDiscuss existing computing solutions and future possibilities.\n\n\n\n\n\nMay 8, 2019\n\n\nSASUF\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop for supervisors: Introduction to, and visualisation in R\n\n\n\neducation\n\nworkshop\n\n\n\nTraining day to get to know the possibilities of R\n\n\n\n\n\nSep 24, 2018\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI day 2018\n\n\n\nnews\n\nmeeting\n\n\n\nShowcasing SLUBI support and discussing long-term plans.\n\n\n\n\n\nJun 4, 2018\n\n\nSLUBI\n\n\n\n\n\n\n\n\n\n\n\n\nSLUBI kickoff meeting\n\n\n\nmeeting\n\n\n\nWe are kicking off SLUBI with a celebration of bioinformatics.\n\n\n\n\n\nOct 27, 2017\n\n\nSLUBI\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Archive",
-      "News and Events"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to SLUBI",
-    "section": "",
-    "text": "Welcome to SLUBI, where our mission is to provide support and training in bioinformatics for researchers, students, and faculty at SLU.  As a hub for bioinformatics expertise within the university, we facilitate the application of computational methods in biological research and strieve to build a strong community of bioinformaticians within SLU.  Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp and available to you in many different ways.\n\n\n\n\n\n\n\n\n\n\n\nServices\n\n We offer a range of bioinformatics services, including data analysis, software support, consultation, and training, tailored to meet the diverse needs of the university community.\nIn addition to our core services, we offer customized solutions and training courses to support researchers at every stage of their bioinformatics projects, from data acquisition to publication.\nMore information on our support here.\n\n\n\n\n\nDrop-in\n\n\n\n\n\n\nJoin our weekly digital drop-in sessions to ask questions, discuss your project, or find the best tools and analyses for your data.\nEvery Wednesday from 13:00 to 14:00 on Zoom. More information here.\n\n\n\n\n\nTraining\n\n\n\n\n\n\nWe offer curated courses, seminars & workshops, and personalized training sessions to advance bioinformatics expertise at SLU.\nExplore our current courses or contact us to propose new topics to us.\n\n\n\n\n\n\nSeminar series\n\n\n We are proud to present our collaborative workshop series, the Three Bees:\n\nStatistical concepts and bioinformatics tools explained to you by experts. Informative lessons and hands-on coding exercises on a variety of topics.\nAll of this and more in our collaboration with SLU’s Center for Statistics.\nMore information here.\n\n\n\n\n\n\nCurrent news and events\n\n\n\n\n\n\n\n\n\n\nAdvanced Plant Breeding and Genetic Resources\n\n\nGenetic Variation and Breeding Strategies for Sustainable Agriculture - autumn 2025\n\n\n\nSLUBI\n\n\nMay 8, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSLU Breeding Network meeting\n\n\nBreeding 360: Collaboration across disciplines\n\n\n\nSLUBI\n\n\nMay 6, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis of High Throughput Sequencing RNA-Seq Data\n\n\nThe history of RNA sequencing, and modern ways to analyse the data - autumn 2025\n\n\n\nSLUBI\n\n\nMay 2, 2025\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "Welcome to SLUBI"
-    ]
-  },
-  {
-    "objectID": "online-resources.html",
-    "href": "online-resources.html",
-    "title": "Tools and resources",
-    "section": "",
-    "text": "Tools and Pipelines\n\n\n\n\n\n\n Nf-core - Portable, documented and easy to use workflows based on nextflow.\n\n\n\n\n \n\n\n Git - a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.\n\n\n\n\n\n\nTraining Resources\n\n\n\n\n\n\n\n Software Carprentries - teaching basic coding skills for research computing to researchers worldwide.\n\n\n\n\n \n\n\n Elixir - brings together life science resources from across Europe, including databases, software tools, training materials, cloud storage and supercomputers.\n\n\n\n\n \n\n\n Code Refinery - teaching all the essential tools so everyone can make full use of software, computing, and data.\n\n\n\n\n\n\nComputing Resources\n\n\n\n\n\n\n\n SLUBI computing resources - we have local computing resources at all campuses and strive to coordinate the management of these.\n\n\n\n\n \n\n\n National Academic Infrastructure for Supercomputing in Sweden - organization for high-performance computing, storage, and data services for academic users in Sweden.\n\n\n\n\n \n\n\n UPPMAX - Uppsala Multidisciplinary Center for Advanced Computational Science, HPC computing rescource for Swedish scientists. Apply for free computing projects via NAISS.\n\n\n\n\n\n\n\n Microsoft Azure - SLU has an agreement with Microsoft Azure for cloud computing (including price discounts). You can get more information by contacting the SLU IT-support.\n\n\n\n\n\nSLU support\n\n\n\n\n\n\n\n Center for Statistics - a joint platform for statisticians at SLU to enable exchange of knowledge and to be a resource for the entire university by organizing workshops and providing statistical advice and support for all employees at SLU.\n\n\n\n\n\n\n\n Data Management Support - assists SLU employees with data management - from planning, including data management plans, to publishing, long-term preservation, archiving and the reuse of research and environmental assessment data.\n\n\n\n\n \n\n\n UPSC Bioinformatics Facility - centralises bioinformatics competences in Umeå, offering a range of bioinformatics services as well as local bioinformatics training, international workshops and training programs.\n\n\n\n\n\nSequencing Resources\n\n\n\n \n\n\n National Genomics Infrastructure - NGI Uppsala offers next generation sequencing (NGS) and genotyping services of high quality using the latest technologies to academic researchers in Sweden and abroad.\n\n\n\n\n \n\n\n SNP&SEQ - Part of NGI Sweden, hosted by SciLifeLab, offers genotyping and next generation sequencing services to academic researchers in Sweden.\n\n\n\n\n \n\n\n Uppsala Genome Center - Part of NGI Sweden, hosted by SciLifeLab, provides long read sequencing services, from i.e. PacBio, Ion, Oxford Nanopore.",
+    "text": "R\nR is a common coding language used in bioinformatics. R for Data Science (2e) is an excellent place to start your journey into R.\nIf you prefer learning through self-paced courses: Dataquest has a free, self-paced course. CodeAcademy has a free course, but you will have to pay for the certificate.\nAnd, of course, our 3 Bees workshop series!\n\n\nBash\nMost servers run on a Unix build. It is intimidating to start with a new interface, but with these guides things will be a lot smoother!\nData Carpentry’s Intro to the shell is a great place to start when you are a new user of Linux. As is the The Unix Shell, a self paced introduction to the unix shell and command line operations, provided by the Software Carpentries.\nIf you don’t have access to a server yet, and would like to practice on your local Windows machine, download MobaXterm and run a shell session on your Windows machine. If you are using a Mac, you will be able to follow the tutorial from the terminal that comes with your operating system.\n\n\nVisual Studio Code\nTraditionally, Windows users had to connect to servers using PuTTy or a similar interface. We recommend making use of VSCode that comes with your Windows operating system (it can also be installed on machines that run Linux builds and MacOS).\nWith VSCode, you can connect to servers using ssh, install extensions supporting a variety of coding languages, write and render markdown documents, and more. VSCode makes working on servers much easier as you can have a text editor open to edit your scripts to save them directly on the server you are working on, have a file manager open for a more traditional view of the file tree, as well as having multiple terminals open simultaneously.\n\nConnecting to Uppmax servers with VSCode\n\nOpen VSCode\nctrl+shift+p\nRemote-SSH: Add new SSH Host\nFollow login instructions on Uppmax support\nAdd the info to the first .ssh file prompted\nctrl+shift+p\nRemote-SSH: Connect to Host",
     "crumbs": [
       "Training",
-      "Tools and resources"
+      "Self learning"
     ]
   },
   {
-    "objectID": "newsposts/courses/20250120_course_illustrations/index.html",
-    "href": "newsposts/courses/20250120_course_illustrations/index.html",
-    "title": "Data handling and high-quality illustrations for publications",
+    "objectID": "nicolas.html",
+    "href": "nicolas.html",
+    "title": "Nicolas Delhomme",
     "section": "",
-    "text": "A course on how to assess and visualize data using R, including creating suitable graphs and multi-panel figures for publications and presentations. We cover the use of GIS software to map data points with geographical and cultural elements. Additionally, the course includes merging and updating datasets in R and planning for code and raw data submission.\nWe were happy to be part of this GS-VMAS course, lead by Peter Halvarsson.\n\n\nImage from: https://metricsf20.classes.ryansafner.com/slides/1.3-slides#19"
-  },
-  {
-    "objectID": "newsposts/courses/2025_course_breeding/index.html",
-    "href": "newsposts/courses/2025_course_breeding/index.html",
-    "title": "Advanced Plant Breeding and Genetic Resources",
-    "section": "",
-    "text": "This Master’s level course explores the role of genetic resources in plant breeding and their importance for sustainable agriculture. Students will learn to evaluate and utilize genetic resources, understand intellectual property issues, and apply modern breeding technologies.\nThe course covers genetic variation, international aspects of genetic resources, and the design of breeding strategies. There will be hands-on projects, excursions, and laboratory practicals, and discussions of the pros and cons of various breeding methods. By the end of the course, students will be able to independently apply modern technologies and design effective breeding strategies.\nWe are happy to participate in this course, which is organized by the Department of Plant Breeding. More information here.\n\n\nFotographer: Reija Danielsson, SLU"
-  },
-  {
-    "objectID": "newsposts/courses/20230120_course_PlantBreeding/index.html",
-    "href": "newsposts/courses/20230120_course_PlantBreeding/index.html",
-    "title": "Plant Biology for Breeding and Protection",
-    "section": "",
-    "text": "Course together with the Department of Plant Biology for Breeding and Protection.\nMore information on the course, its content and the next instance it will be run."
-  },
-  {
-    "objectID": "newsposts/courses/20221012_course_IntroToBioinf/index.html",
-    "href": "newsposts/courses/20221012_course_IntroToBioinf/index.html",
-    "title": "Introduction to Bioinformatics",
-    "section": "",
-    "text": "On this year’s edition of the popular course SLUBI has contributed with an Introduction to RNA Sequencing Data Analysis."
-  },
-  {
-    "objectID": "newsposts/courses/20240527_MedBioInfo/index.html",
-    "href": "newsposts/courses/20240527_MedBioInfo/index.html",
-    "title": "Applied Bioinformatics",
-    "section": "",
-    "text": "The Swedish National Graduate School in Medical Bioinformatics (MedBioInfo) invited us to teach an introduction to Nextflow as part of their PhD course. We’re happy to help the course and meet it’s students for the second year in a row."
-  },
-  {
-    "objectID": "newsposts/courses/20211004_course_IntroToBioinf/index.html",
-    "href": "newsposts/courses/20211004_course_IntroToBioinf/index.html",
-    "title": "Introduction to Bioinformatics",
-    "section": "",
-    "text": "This year SLUBI was teaching Epigenetics, as well as an Introduction to RNA-sequencing.\nThanks to the incredible team of teachers!\nMore information about the course here."
-  },
-  {
-    "objectID": "newsposts/courses/20230301_course_PopGen/index.html",
-    "href": "newsposts/courses/20230301_course_PopGen/index.html",
-    "title": "Applied population genetics in plant disease epidemiology,",
-    "section": "",
-    "text": "A course held in collaboration with the Research School Organism Biology in Ultuna.\nPopulation genetics is an important tool to understand the life cycles of microorganisms causing diseases in plants and is an important part of plant disease epidemiology. The aim of this course is to equip students with knowledge and tools to carry out a population genetic study in any pathosystem.\nAfter this course, the you will be able to: • Discuss population genetic theory and how it can be applied when studying disease causing organisms. • Design sampling strategies to address a given problem and set up an experiment for molecularbased population biological analysis to answer epidemiological questions. • Apply methods and analytical tools available in population genetics."
-  },
-  {
-    "objectID": "newsposts/courses/20200203_course_RNAseq/index.html",
-    "href": "newsposts/courses/20200203_course_RNAseq/index.html",
-    "title": "High Throughput Sequencing Data Analysis Workshop",
-    "section": "",
-    "text": "A workshop organised and sponsored by the UPSCb, as part of SLUBI.\nTwo days of workshop, offered both in-person and online."
-  },
-  {
-    "objectID": "newsposts/courses/20231023_course_RNAseq/index.html",
-    "href": "newsposts/courses/20231023_course_RNAseq/index.html",
-    "title": "Analysis of High Throughput Sequencing RNA-Seq Data",
-    "section": "",
-    "text": "High Throughput Sequencing (HTS) and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies. This course, aimed at advanced students, has the objective to help addressing this problem by (i) helping participants critically assess the challenges faced in the HTS field, (ii) developing efficient communication skill with bioinformatician, and (iii) training students in analyzing HTS data."
-  },
-  {
-    "objectID": "newsposts/courses/20241021_course_reproducible/index.html",
-    "href": "newsposts/courses/20241021_course_reproducible/index.html",
-    "title": "Reproducibility in Research with a focus on data analysis using the program R",
-    "section": "",
-    "text": "This course teaches the importance of reproducibility in scientific research, covering definitions, good scientific practices, and the requirements of publication and funding bodies. Participants will learn basic concepts and tools to ensure reproducibility, including data analysis with R and the use of public databases.\nFind more information here."
-  },
-  {
-    "objectID": "newsposts/events/201903_Uppmax_meeting/index.html",
-    "href": "newsposts/events/201903_Uppmax_meeting/index.html",
-    "title": "Uppmax meeting",
-    "section": "",
-    "text": "We discussed computing solutions by SNIC and UPPMAX with seven UPPMAX experts and learned tips and trick on how to run code on a high performance computer."
-  },
-  {
-    "objectID": "newsposts/events/20180604_SLUBI_day/index.html",
-    "href": "newsposts/events/20180604_SLUBI_day/index.html",
-    "title": "SLUBI day 2018",
-    "section": "",
-    "text": "The day was divided into 2 parts: the morning was dedicated to presentations by SLUBI experts about the support they are providing or could provide. Everyone was welcome to this meeting. In the afternoon, we had an internal meeting where we invited personnel from the IT-department to discuss with them about cloud computing solutions and long-term storage."
-  },
-  {
-    "objectID": "newsposts/events/20230923_SciFest/index.html",
-    "href": "newsposts/events/20230923_SciFest/index.html",
-    "title": "SciFest 2023",
-    "section": "",
-    "text": "SciFest is a science festival with a wide range of workshops, shows, competitions, researcher meet and greets, and lectures. Since 2020, the festival is co-organised by Uppsala University and the Swedish University of Agricultural Sciences.\nMore information here."
-  },
-  {
-    "objectID": "newsposts/events/20240514_sasuf/index.html",
-    "href": "newsposts/events/20240514_sasuf/index.html",
-    "title": "Workshop session at Sasuf Week",
-    "section": "",
-    "text": "Join us on the 14th of May to discover how open source tools can be used in process of describing plant-pathogen interactions. We will use browser and R-based tools to annotate genomes, perform functional annotation, and select genes that are important in both the process of a fungal pathogen infecting the plant, and the plant launching an immune response.\nWe will use Cercospora and sugar beet as a model system, but the tools we will show can be applied to any plant-fungal patho-system.\nWe will also have a session in the afternoon with industry representatives where we will discuss how students and researchers can prepare themselves for a career move into industry, as well as how university-industry collaborations can be established and maintained.\nOur session will be hosted in Alnarp, and you are welcome to join via Zoom. No prior bioinformatics knowledge is required for this workshop.\nPlease sign up here: https://sasufevents2024.sched.com/event/c2a46acf1ef8613a5282f827b85cc8d4"
-  },
-  {
-    "objectID": "newsposts/events/20241104_SBW24/index.html",
-    "href": "newsposts/events/20241104_SBW24/index.html",
-    "title": "Swedish Bioinformatics Workshop 2024",
-    "section": "",
-    "text": "Welcome to the 2024 edition of the Swedish Bioinformatics Workshop, proudly hosted at SLU Ultuna and sponsored by SLUBI.\nFor more information, and to register, please visit: www.sbw2024.org"
-  },
-  {
-    "objectID": "newsposts/events/20230227_SLUBI_day/index.html",
-    "href": "newsposts/events/20230227_SLUBI_day/index.html",
-    "title": "SLUBI day 2023",
-    "section": "",
-    "text": "We had a nice fika with bioinformaticians all over Ultuna, discussed with experts from UPPMAX, visited the servers halls and met with NBIS bioinformaticians to discuss bioinformatics services for researchers."
-  },
-  {
-    "objectID": "newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html",
-    "href": "newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html",
-    "title": "Bioinformatics in Umeå Workshop Series",
-    "section": "",
-    "text": "This is the fist in a series of workshop that aims to bring to Umeå experts from academia or the industry to deliver high quality workshops. A secondary aspect of these workshops will be to bring the Umeå bioinformatics crowd together to build a thriving community.\nNextflow is a widely adopted workflow system for running high-throughput, data-intensive applications across cloud and on-premise infrastructure. It has quickly become one of the primary technology platforms for computational workloads in life sciences. Its framework allows scientists to write code in any scripting language, define software dependencies with containers, connect tasks with the event-driven dataflow programming DSL and then deploy anywhere: local machines, grid computing systems or public cloud infrastructure.\nMore information here."
-  },
-  {
-    "objectID": "newsposts/seminars_workshops/20180924_R_workshop/index.html",
-    "href": "newsposts/seminars_workshops/20180924_R_workshop/index.html",
-    "title": "Workshop for supervisors: Introduction to, and visualisation in R",
-    "section": "",
-    "text": "We organised a training day in R for supervisors. This was jointly organised with the Graduate School VMAS. The teacher Hadrien Gourlé is a Software Carpentry instructor."
-  },
-  {
-    "objectID": "newsposts/3_bees/20250310_Session22_statistics/index.html",
-    "href": "newsposts/3_bees/20250310_Session22_statistics/index.html",
-    "title": "Common statistical tests",
-    "section": "",
-    "text": "Null hypothesis significance testing is the most commonly used tool for statistical inference. Depending on the type of data and data collection, the exact test will differ and being able to select the correct test for a given situation is an essential scientific skill. In this presentation we will discuss identification of a suitable test and show how many of the common tests relate to each other in that they are specific cases of linear models.\nTopic: Common statistical tests\nWhen: Monday, 10th of March, 09:45\nWhere: online only session: Zoom (Password: 410 410)\nPreparation: As always, you are welcome to come listen and learn. We will illustrate some basic R code, so an R and RStudio installation may be useful.\nThe material will be available on Github after the session."
-  },
-  {
-    "objectID": "newsposts/3_bees/20250505_Session25_pdc/index.html",
-    "href": "newsposts/3_bees/20250505_Session25_pdc/index.html",
-    "title": "Q&A on Dardel, with HPC support staff",
-    "section": "",
-    "text": "We are happy to announce that support staff from the HPC cluster Dardel will be coming to our next 3 bees session.\nDardel is a high performance cluster that is part of the National Academic Infrastructure for Supercomputing in Sweden (NAISS), a resource free and open to anyone within Sweden.\nThis coming session is for everyone who works on Dardel, or who is planning on using the system soon. After an introduction to the system and how to use it there will be time for questions and for feedback from current users. So please come with your comments and questions!\nTopic: Introduction to Dardel and question time\nWhen: Monday, 5th of May, 10:00\nWhere: Camput Ultuna, Månegarm and online via Zoom (Password: 410 410)\nPreparation: No preparation needed, but you are welcome to come with any questions and issues you came across while working with Dardel.\nThe material will be available on Github after the session."
-  },
-  {
-    "objectID": "newsposts/3_bees/20241202_Session18_PCA/index.html",
-    "href": "newsposts/3_bees/20241202_Session18_PCA/index.html",
-    "title": "PCA - Theory and Practice",
-    "section": "",
-    "text": "This instance we present a short lecture on the theory behind PCA and what we can learn from them, and then show some commonly used R tools used to perform PCA on different kinds of data with an emphasis on data from a RNA sequencing project.\nTopic: PCA - Theory and Practice\nWhen: Monday, 02nd of December, 09:45\nWhere: Campus Alnarp, Triticum and via Zoom(Password: 410 410)\nPreparation: You are welcome to sit in and listen. However, if you would like to follow the practical part, please bring your computer with Rstudio installed.\nThe material will be available on Github after the session."
-  },
-  {
-    "objectID": "newsposts/3_bees/20231127_Session2_linux/index.html",
-    "href": "newsposts/3_bees/20231127_Session2_linux/index.html",
-    "title": "Introduction to the command line",
-    "section": "",
-    "text": "It is time for the second instalment in the 3 Bee’s workshop series. Thank-you to everyone that attended the first session!\nThis time, we work on some Linux basics that you need when you start working on any cluster, whether it is Rackham on Uppmax, a departmental cluster, or any online server. We cover all of the basics from what the command line is, to how to navigate using the command line, make and edit files, and a whole bunch of other nifty tricks!\nThe session is geared towards everyone that has never used the command line before, and for everyone that would like to refresh their memory.\nPreparation: You are welcome to just come and listen. However, if you would like to practice your skills along with the tutorial and you don’t have access to a server or a Linux operating system on your computer, please download MobaXterm in preparation. Mac users can use the terminal.\nWhen: Monday Nov 27th, 09:30\nWhere: Campus Alnarp, Horticum, sal Triticum\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
-  },
-  {
-    "objectID": "newsposts/3_bees/20250115_Session19_python/index.html",
-    "href": "newsposts/3_bees/20250115_Session19_python/index.html",
-    "title": "Introduction to Python",
-    "section": "",
-    "text": "In this programming workshop we will start from the most basic elements of the Python3 syntax and we will see how such commands will come together to actually solve simple problems, like translating a DNA string into the corresponding protein sequence. We will show you how to use python in R through a package called reticulate https://rstudio.github.io/reticulate/ but all of the principles can be used in any python environment.\nTopic: Introduction to Python\nWhen: Monday, 15th of January, 09:45\nWhere: Campus Uppsala, Sleipner and via Zoom(Password: 410 410)\nPreparation: Before the session, please have R and RStudio installed, along with reticulate (https://rstudio.github.io/reticulate/). If you have encountered any problems with it, we will help you to solve them in the session! However, as always, you are most welcome to drop by and listen without participating!\nThe material will be available on Github after the session."
-  },
-  {
-    "objectID": "newsposts/3_bees/20250324_Session23_dms/index.html",
-    "href": "newsposts/3_bees/20250324_Session23_dms/index.html",
-    "title": "Data Management Resources at SLU",
-    "section": "",
-    "text": "For our next instance we welcome Hanna Östholm, Kajsa Svensson and Mikaela Asplund from SLU’s Data Management Support. They will talk about the data management support available at SLU, the Swedish laws (including the open data directive and GDPR), and the SLU Environmental Data Catalogue as a resource.\nTopic: Data Management Resources at SLU\nWhen: Monday, 24th of March, 09:45\nWhere: online only session: Zoom (Password: 410 410)\nPreparation: No preparations required – but you are welcome to bring all the data management questions that have been burning on your mind. (o:\nThe material will be available on Github after the session."
-  },
-  {
-    "objectID": "newsposts/3_bees/20240923_Session15_command_line/index.html",
-    "href": "newsposts/3_bees/20240923_Session15_command_line/index.html",
-    "title": "Introduction to the command line",
-    "section": "",
-    "text": "Welcome back after the summer, and welcome to a new round of the 3 bees: basic biostatistics and bioinformatics.\nAs a short recap: The 3 bees is a series of lectures and hands-on tutorials that introduce a variety of topics and methods that can help you in your research projects – especially, but not only, if they are bioinformatics related. The series is a collaboration between SLU’s Center for Statistics and SLU’s bioinformatics infrastructure, SLUBI.\nWith that out of the way, let me invite you to the first instance of the 3 bees in this fall semester.\nTopic: Introduction to the command line/ Linux\nWhen: Monday 23rd of September, 09:45 (approximately an hour)\nWhere: Campus Ultuna, VHC, floor 5, room Yggdrasil\nand via Zoom(Password: 410 410)\n\nWe will work on some Linux basics that you will need when you start working on any cluster, whether it is Rackham on Uppmax, a departmental cluster, or any online server. We are going to cover all of the basics from what the command line is, to how to navigate using the command line, make and edit files, and a whole bunch of other nifty tricks!\nThis session is geared towards everyone that has never used the command line before, and for everyone that would like to refresh their memory.\nPreparation: You are welcome to just come and listen. However, if you would like to practice your skills along with the tutorial and you don’t have access to a server or a Linux operating system on your computer, please download MobaXterm in preparation: https://mobaxterm.mobatek.net/download.html Mac users can use the terminal.\nThe material will be available on Github after the session."
-  },
-  {
-    "objectID": "newsposts/3_bees/20231114_Session1_R/index.html",
-    "href": "newsposts/3_bees/20231114_Session1_R/index.html",
-    "title": "Introduction to R",
-    "section": "",
-    "text": "A warm welcome to our new mini-workshop series “Basic Biostatistics & Bioinformatics”, where SLUBI and SLU’s Center for Statistics collaborate to bring you a mix of theoretical background and practical coding on a variety of topics.\nThis session we start the series with an Introduction to R.\nIf you want to code along please bring your own laptop with R and R-studio installed.\nWhen: Monday Nov 13th, 09:30\nWhere: Campus Alnarp, Horticum, sal Triticum\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
-  },
-  {
-    "objectID": "newsposts/3_bees/20240311_Session7_python/index.html",
-    "href": "newsposts/3_bees/20240311_Session7_python/index.html",
-    "title": "Introduction to Python",
-    "section": "",
-    "text": "Following popular demand, our next two sessions of the 3’B’s series will be building on top of each other, but can also be enjoyed individually.\n!! Please note that the following workshops will be held in-person in ULTUNA, with remote participation via Zoom!!\nPart I, on Monday the 11th of March, will give you an Introduction to Python:\nIn this programming workshop we start from the most basic elements of the Python3 syntax and we will see how such commands will come together to actually solve a simple problem like sorting. This base knowledge will lead to introducing two extremely useful libraries, NumPy and Matplotlib which are extremely effective in efficient manipulation and visualization of numerical data.\nPart II, on Monday the 25th of March, will have you use Python to start Training Neural Networks:\nPart I is the basis for the numerical manipulation necessary in the next workshop where we will go through theory and practice of neural network training. Several steps of the lecture will be illustrated on Google Colab notebooks in order for them to be easily reproducible by participants during the class.\nPreparation: To follow the course and the exercises please have a google account ready!\nHowever, as always, you are most welcome to drop by and listen without participating!\nWhen: Monday March 11th, 09:45\nWhere: Campus ULTUNA, VHC, plan 4, room Ulv\nor via Zoom (Password: 410 410)\nAll materials are available on Github."
-  },
-  {
-    "objectID": "newsposts/3_bees/20240701_Session14_shiny/index.html",
-    "href": "newsposts/3_bees/20240701_Session14_shiny/index.html",
-    "title": "Shiny - interactive data visualization in R",
-    "section": "",
-    "text": "For this last session before the summer we will have a quick look at using Shiny to create interactive data visualisations. Come and make your come to life!\nPreparation: If you would like to prepare something in advance, have a look at https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html. As always, you are more than welcome to come listen and learn without any preparation.\nWhen: Monday July 1st, 09:45\nWhere: online via Zoom (Password: 410 410)\nThe material will be available on Github after the session."
-  },
-  {
-    "objectID": "newsposts/3_bees/20241021_Session17_R/index.html",
-    "href": "newsposts/3_bees/20241021_Session17_R/index.html",
-    "title": "Introduction to R",
-    "section": "",
-    "text": "In this instance, we will give a short introduction to R. We will work on some R basics that you will need for data manipulation and visualization. The session is geared towards everyone that has never used R before, and for everyone that would like to refresh their memory.\nTopic: Introduction to R\nWhen: Monday, 21st of October, 09:45\nWhere: Campus Alnarp, Triticum and via Zoom(Password: 410 410)\nPreparation: You are welcome to just come and listen. If you want to code along please bring your own laptop with R and R-studio installed.\nIf you’re just curious and want to listen in, that’s also perfectly fine!\nThe material will be available on Github after the session."
-  },
-  {
-    "objectID": "newsposts/3_bees/20250210_Session20_markdown/index.html",
-    "href": "newsposts/3_bees/20250210_Session20_markdown/index.html",
-    "title": "Reporting with Markdown",
-    "section": "",
-    "text": "This instance of the 3 bees will focus on using the markdown language in your reports. We will go through the basic syntax of the language, how it is implemented in writing reports, and how it can be implemented in R. In R, it is a much smoother way of incorporating your code and discussions of your results than copying and pasting your figures to a word document, and we will show you how to do it!\nTopic: Introduction to Markdown\nWhen: Monday, 10th of February, 09:45\nWhere: Campus Alnnarp, Articum and via Zoom(Password: 410 410)\nPreparation: As always, you are welcome to come listen and learn. If you would like to try your hand at generating some reports during the session, please have RStudio installed along with the knitr package, as well as Visual Studio Code.\nThe material will be available on Github after the session."
+    "text": "Geneticist by training, bioinformatician/biostatistician in practice, interested in gene regulation in a systems biology context, expert in expression profiling. Researcher, bioinformatician and UPSC Bioinformatics Facility Manager in Umeå."
   }
 ]
