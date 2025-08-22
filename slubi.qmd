@@ -80,10 +80,6 @@ We are a group of skilled bioinformaticians. Please klick on us to see more abou
 [Abu Bakar Siddique, bioinformatician in Ultuna (NJ faculty)](abu.qmd): our expert in metagenomics, DNASeq, shotgun seq, metabarcoding (ITS), WGS analysis, read mapping, genome assembly and annotation. With wetlab experience in DNA, PCR and HTS library prep.
 ::::
 
-<br> 
-
-<br>
-
 :::: {.card}
 <br>
 <center>
