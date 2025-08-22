@@ -1,0 +1,20 @@
+---
+title: "Renaud Van Damme"
+about: 
+  template: jolla
+  image: images/Renaud.jpg
+  links:
+    - icon: ORCID
+      text: ORCID
+      url: "https://orcid.org/0000-0002-7909-4868"
+    - icon: github
+      text: Github
+      href: https://github.com/RVanDamme
+    - icon: linkedin
+      text: LinkedIn
+      url: "https://se.linkedin.com/in/renaud-van-damme?trk=people_directory"
+---
+ 
+System administrator and bioinformatician.
+
+HPC administration, metagenomics, pipeline development.
