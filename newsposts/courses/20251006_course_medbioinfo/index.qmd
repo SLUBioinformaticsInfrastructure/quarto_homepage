@@ -1,0 +1,19 @@
+---
+title: "Applied Bioinformatics"
+description: "Course in cooperation with the Medical Bioinformatics Research School"
+author: "SLUBI"
+date: "10-06-2025"
+categories:
+  - course
+  - training
+  - nextflow
+  - reproducible science
+image: medbioinfo.jpg
+---
+
+The aim of this course is to learn how to use bioinformatics tools in a reproducible and scalable way. We will use environments, containers, and established pipelines so that you can run these analyses on any operating system, as well as on systems that are not high performance computing clusters. And first and foremost: these tools and techniques can be used regardless of which type of bioinformatics you are ultimately working with. 
+
+Have a look at the course homepage [here](https://amrei-bp.github.io/Applied_Bioinformatics_MedBioInfo_2025/).
+
+<center>
+![](medbioinfo.jpg){.class width=60%}c
