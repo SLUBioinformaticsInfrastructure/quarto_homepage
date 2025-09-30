@@ -1,0 +1,20 @@
+---
+title: "NBIS retreat"
+description: "Autumn restreat"
+author: "SLUBI"
+date: "09-30-2025"
+categories:
+  - networking
+  - bioinformatics
+  - presentation
+image: nbis_logo.png
+---
+
+We are happy to be part of this year's autumn retreat of NBIS, and are looking forward to many good discussions, and a continued fruitfull collaboration. 
+
+Thanks for having us!
+
+
+<br><br>
+<center>
+![](nbis_logo.png){.class width=40%}
