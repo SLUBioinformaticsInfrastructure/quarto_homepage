@@ -1,21 +1,14 @@
 ---
 title: "Analysis of High Throughput Sequencing RNA-Seq Data"
-description: "registration is open now - course dates: October 13th-24th , October 31st, 2025"
+description: "registration is closed: welcome to the course! - course dates: October 13th-24th , October 31st, 2025"
 author: "SLUBI"
-date: "08-01-2025"
+date: "10-13-2025"
 categories:
   - course
   - training
   - nextflow
 image: code.png
 ---
-
-Organism Biology research school courses
-
-Analysis of High Throughput Sequencing RNA-Seq Data I and II (6th edition)
-
-October 13th-24th , October 31st
-
 
 High Throughput Sequencing (HTS) technologies and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies. 
 
