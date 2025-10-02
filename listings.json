@@ -2,6 +2,8 @@
   {
     "listing": "/news.html",
     "items": [
+      "/newsposts/courses/20260119_course_illustrations/index.html",
+      "/newsposts/courses/20251103_course_IntroToBioinf/index.html",
       "/newsposts/courses/20251013_course_RNAseq/index.html",
       "/newsposts/courses/20251006_course_medbioinfo/index.html",
       "/newsposts/events/20250930_nbis/index.html",
@@ -119,6 +121,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/newsposts/courses/20260119_course_illustrations/index.html",
+      "/newsposts/courses/20251103_course_IntroToBioinf/index.html",
       "/newsposts/courses/20251013_course_RNAseq/index.html",
       "/newsposts/courses/20251006_course_medbioinfo/index.html",
       "/newsposts/events/20250930_nbis/index.html",
@@ -128,6 +132,8 @@
   {
     "listing": "/courses.html",
     "items": [
+      "/newsposts/courses/20260119_course_illustrations/index.html",
+      "/newsposts/courses/20251103_course_IntroToBioinf/index.html",
       "/newsposts/courses/20251013_course_RNAseq/index.html",
       "/newsposts/courses/20251006_course_medbioinfo/index.html",
       "/newsposts/courses/20250825_SIDA_training/index.html",
