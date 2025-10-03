@@ -5,6 +5,7 @@
       "/newsposts/courses/20260119_course_illustrations/index.html",
       "/newsposts/courses/20251103_course_IntroToBioinf/index.html",
       "/newsposts/courses/20251013_course_RNAseq/index.html",
+      "/newsposts/events/20251006_retreat_umea/index.html",
       "/newsposts/courses/20251006_course_medbioinfo/index.html",
       "/newsposts/events/20250930_nbis/index.html",
       "/newsposts/courses/20250825_SIDA_training/index.html",
@@ -101,8 +102,20 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/newsposts/courses/20260119_course_illustrations/index.html",
+      "/newsposts/courses/20251103_course_IntroToBioinf/index.html",
+      "/newsposts/courses/20251013_course_RNAseq/index.html",
+      "/newsposts/courses/20251006_course_medbioinfo/index.html",
+      "/newsposts/events/20250930_nbis/index.html",
+      "/newsposts/courses/2025_course_breeding/index.html"
+    ]
+  },
+  {
     "listing": "/events.html",
     "items": [
+      "/newsposts/events/20251006_retreat_umea/index.html",
       "/newsposts/events/20250930_nbis/index.html",
       "/newsposts/events/20250506_breeding_network/index.html",
       "/newsposts/events/20250324_UPSCb_IT/index.html",
@@ -116,17 +129,6 @@
       "/newsposts/events/201903_Uppmax_meeting/index.html",
       "/newsposts/events/20180604_SLUBI_day/index.html",
       "/newsposts/events/20171027_kickoff/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/newsposts/courses/20260119_course_illustrations/index.html",
-      "/newsposts/courses/20251103_course_IntroToBioinf/index.html",
-      "/newsposts/courses/20251013_course_RNAseq/index.html",
-      "/newsposts/courses/20251006_course_medbioinfo/index.html",
-      "/newsposts/events/20250930_nbis/index.html",
-      "/newsposts/courses/2025_course_breeding/index.html"
     ]
   },
   {
