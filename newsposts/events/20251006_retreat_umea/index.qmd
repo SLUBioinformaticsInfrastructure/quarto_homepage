@@ -1,0 +1,23 @@
+---
+title: "Umeå Bioinformatics Retreat"
+description: "Skeppsvik Herrgård, Umeå, Oct 6th & 7th"
+author: "SLUBI"
+date: "10-06-2025"
+categories:
+  - networking
+  - bioinformatics
+  - presentation
+image: UPSC+logo.jpg
+---
+
+<br>
+The Umeå Bioinformatics Retreat is a collaboration between SLUBI and the Umeå Plant Science Centre Bioinformatics platform. It will bring together researchers and data scientists from across Umeå for two days of exchange and networking. A total of 28 participants from 12 different units will take part, reflecting the breadth of bioinformatics activities in the region and across Sweden.
+
+The main aim of the retreat is to get to know one another, share expertise, and strengthen collaborations within the local data science community. The program includes presentations, discussions, and informal sessions that encourage interaction across research groups.
+
+The venue, Skeppsvik Herrgård, also offers opportunities for outdoor and social activities, including a sauna and hot bath. Participants are encouraged to bring suitable clothing for these activities.
+
+
+<br><br>
+<center>
+![](UPSC+logo.jpg){.class width=40%}
