@@ -1,1 +1,6 @@
 /* css styles */
+
+
+.quarto-grid-item p.card-img-top > img {
+  object-position: top
+}
