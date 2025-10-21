@@ -1,5 +1,5 @@
 ---
-title: "SIDA training"
+title: "SIDA training: bioinformatics for research leaders "
 description: "Reproducible bioinformatics, best practices, Nextflow and nf-core"
 author: "SLUBI"
 date: "08-25-2025"
@@ -11,7 +11,9 @@ image: sida.png
 ---
 <br>
 
-Funded by the Swedish International Development Cooperation Agency (SIDA), we will be giving a course on reproducible practices in bioinformatics, Nextflow and nf-core in person in Alnarp. 
+Funded by the Swedish International Development Cooperation Agency (SIDA), we gave a course on reproducible practices in bioinformatics, Nextflow and nf-core in person in Alnarp. 
+
+This course is designed to equip participants with hands-on, outcome-oriented skills for running reproducible and scalable bioinformatics analyses. Participants learn to implement and adapt modern analysis pipelines (Nextflow/nf-core), manage environments (with Pixi) and containers (Singularity/Apptainer), and apply best practices in version control and documentation (Git, Quarto). The program emphasizes practical, transferable skills for reproducible data analysis across diverse computing environments, to enable participants to implement tools and pipelines at their home institution regardless of the computing environment.
 
 
 <center>
