@@ -9,8 +9,8 @@ listing:
   - newsposts/courses/20251006_course_medbioinfo
   - newsposts/events/20250930_nbis
   - newsposts/courses/20251103_course_IntroToBioinf
+  - newsposts/courses/20251120_course_NADAS_stats
   - newsposts/courses/20260119_course_illustrations
-  - newsposts/events/20251006_retreat_umea
   id: future_events
   sort: "date desc"
   type: grid

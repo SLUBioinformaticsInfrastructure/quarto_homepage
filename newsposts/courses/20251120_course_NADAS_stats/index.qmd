@@ -6,7 +6,8 @@ date: "11-20-2025"
 categories:
   - course
   - training
-  - nextflow
+  - statistics
+  - breeding
 image: NADAS_logo.png
 ---
 <br>
