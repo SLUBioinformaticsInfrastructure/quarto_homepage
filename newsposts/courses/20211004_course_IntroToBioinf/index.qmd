@@ -7,9 +7,23 @@ categories:
   - course
   - training
 image: IntroBioinf.png
+course:
+  start: Oct 4th, 2021
+  end:  	Jan 16th, 2022
+---
+<br>
+
+::: {.quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta course.start >}} - {{< meta course.end >}}
+::::
+:::
 ---
 
-This year SLUBI was teaching Epigenetics, as well as an Introduction to RNA-sequencing.
+This year SLUBI taught Epigenetics, as well as an Introduction to RNA-sequencing.
 
 Thanks to the incredible team of teachers!
 

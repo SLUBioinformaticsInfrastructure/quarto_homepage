@@ -8,7 +8,21 @@ categories:
   - training
   - nextflow
 image: sida.png
+course:
+  start: "Aug 25th"
+  end: "Aug 29th, 2025" 
 ---
+<br>
+
+::: {.quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta course.start >}} - {{< meta course.end >}}
+::::
+:::
+
 <br>
 
 Funded by the Swedish International Development Cooperation Agency (SIDA), we gave a course on reproducible practices in bioinformatics, Nextflow and nf-core in person in Alnarp. 

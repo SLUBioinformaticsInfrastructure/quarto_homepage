@@ -9,7 +9,22 @@ categories:
   - nextflow
   - reproducible science
 image: medbioinfo.jpg
+course:
+  start: "Oct 6th"
+  end: "Oct 10th, 2025" 
 ---
+<br>
+
+::: {.quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta course.start >}} - {{< meta course.end >}}
+::::
+:::
+
+<br>
 
 The aim of this course is to learn how to use bioinformatics tools in a reproducible and scalable way. We will use environments, containers, and established pipelines so that you can run these analyses on any operating system, as well as on systems that are not high performance computing clusters. And first and foremost: these tools and techniques can be used regardless of which type of bioinformatics you are ultimately working with. 
 

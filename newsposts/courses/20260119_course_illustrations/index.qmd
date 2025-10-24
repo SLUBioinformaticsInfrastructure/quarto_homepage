@@ -3,7 +3,7 @@ title: "Data handling and high-quality illustrations for publications"
 subtitle: "Application is now open"
 description: "A course on how to handle data and create appropriate illustrations for your project."
 author: "SLUBI"
-date: "01-19-2026"
+date: "2025-10-24"
 categories:
 - course
 - training
@@ -12,8 +12,23 @@ categories:
 - quarto
 - gs-vmas
 image: illustrations.png
+course:
+  start: "Jan 19th"
+  end: "Jan 30th, 2026"
 ---
 <br>
+
+::: {.quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta course.start >}} - {{< meta course.end >}}
+::::
+:::
+
+<br>
+
 Learn how to manage, visualize, and share data effectively using R, QGIS, and open science tools. This hands-on course combines theory with practical exercises to help you:
 
 - Organize and update datasets efficiently.
