@@ -4,3 +4,40 @@
 .quarto-grid-item p.card-img-top > img {
   object-position: top
 }
+
+/* Match the title meta grid & typography */
+.quarto-title-meta {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.15em; 
+  margin: 0;
+}
+
+/* Nuke default paragraph margins inside the block */
+.quarto-title-meta :is(p, div) {
+  margin: 0 !important;
+  padding: 0;
+}
+
+.quarto-title-meta-heading {
+  text-transform: uppercase;
+  font-size: .8em;
+  opacity: .8;
+  font-weight: 400;
+  margin-bottom: 0.15em; 
+}
+
+.quarto-title-meta-contents {
+  font-size: .9em;
+  font-family: var(--bs-body-font-family);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+}
+
+/* safety: if anything inside was rendered as code, inherit the body font */
+.quarto-title-meta-contents code {
+  font: inherit;
+  background: none;
+  padding: 0;
+}
+
