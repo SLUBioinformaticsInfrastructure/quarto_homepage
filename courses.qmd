@@ -10,8 +10,9 @@ listing:
     - image
     - description
     - author
-    - date
     - categories
+    - start
+    - end
   image-align: left
   sort-ui: false
   filter-ui: false

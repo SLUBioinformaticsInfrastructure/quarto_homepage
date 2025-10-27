@@ -9,22 +9,18 @@ categories:
   - statistics
   - breeding
 image: NADAS_logo.png
-course:
-  start: "Nov 20th, Dec 4th, 2025"
-  end: "and Feb 16-17th, 2026"
+start: "Nov 20th, Dec 4th, 2025"
+end: "and Feb 16-17th, 2026"
 ---
-<br>
 
-::: {.quarto-title-meta}
+::: {.course-meta-block .quarto-title-meta}
 :::: {.quarto-title-meta-heading}
 Course dates
 ::::
 :::: {.quarto-title-meta-contents}
-{{< meta course.start >}} {{< meta course.end >}}
+{{< meta start >}} {{< meta end >}}
 ::::
 :::
-
-<br>
 
 This course offers a focused introduction to genomic selection and genome-wide association studies (GWAS), combining online seminars with hands-on computational training. Participants will discuss key methods, explore current research applications, and gain practical experience through guided computer exercises.
 

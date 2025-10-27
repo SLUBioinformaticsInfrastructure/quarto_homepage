@@ -11,7 +11,18 @@ categories:
   - RNAseq
   - gs-vmas
 image: code.png
+start: "Nov 01st, 2024 - "
+end: "Jan 19th, 2025" 
 ---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
 
 This course provides a solid foundation in basic bioinformatics methods, covering theories, algorithms, and practical applications for analyzing DNA sequences and protein structures. Topics include biological databases, homology analysis, sequence analysis using EMBOSS and UGENE, statistics with R, web-based tools, the Unix operating system, phylogeny, comparative genomics, functional genomics, and Next Generation Sequencing (NGS). The course combines lectures, interactive computer exercises, and web-based tutorials.
 

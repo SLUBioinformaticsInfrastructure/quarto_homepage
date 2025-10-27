@@ -8,7 +8,18 @@ categories:
   - training
   - nextflow
 image: MedBioINfo_photo-amphitheater.jpeg
+start: "May 29th - "
+end: "Jun 02nd, 2023" 
 ---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
 
 The [Swedish National Graduate School in Medical Bioinformatics (MedBioInfo)](https://www.medbioinfo.se/) invited us to teach an introduction to Nextflow as part of their PhD course.
 

@@ -11,22 +11,19 @@ categories:
   - RNAseq
   - gs-vmas
 image: code.png
-course:
-  start: "Nov 3rd, 2025"
-  end: "Jan 18th, 2026" 
+start: "Nov 3rd, 2025 - "
+end: "Jan 18th, 2026" 
 ---
-<br>
 
-::: {.quarto-title-meta}
+::: {.course-meta-block .quarto-title-meta}
 :::: {.quarto-title-meta-heading}
 Course dates
 ::::
 :::: {.quarto-title-meta-contents}
-{{< meta course.start >}} - {{< meta course.end >}}
+{{< meta start >}} {{< meta end >}}
 ::::
 :::
 
-<br>
 This course provides a solid introduction to bioinformatics, focusing on essential methods and tools for analyzing DNA sequences and protein structures. 
 
 Students will learn how to:

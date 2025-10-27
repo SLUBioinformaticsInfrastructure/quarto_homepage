@@ -8,7 +8,19 @@ categories:
   - training
   - nextflow
 image: code.png
+start: "Oct 7th - "
+end: "Oct 25th, 2024" 
 ---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
+
 
 In this course, we teach how to analyze RNA-Seq data from Next-Generation Sequencing, specifically Illumina data. Biologists will learn to communicate with bioinformaticians, perform analyses, and understand the results. Bioinformaticians will gain basic skills to work with this data. The course provides an overview, not expert-level training. 
 

@@ -8,7 +8,18 @@ categories:
   - training
   - metagenomics
 image: trends.png
+start: "Mar 03rd - "
+end: "Mar 14th, 2025" 
 ---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
 
 The course focuses on multi-omics analyses of microbial communities, covering a range of topics from the history of OMICS to advanced techniques like metagenomics, metatranscriptomics, and single-cell methods. It includes interactive sessions, flipped classrooms, and research visits to facilities like the National Genomics Infrastructure. 
 

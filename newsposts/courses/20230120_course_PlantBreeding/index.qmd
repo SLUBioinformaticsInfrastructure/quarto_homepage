@@ -7,7 +7,18 @@ categories:
   - course
   - breeding
 image: plant_breeding.png
+start: "Jan 16th - "
+end: "Mar 21st, 2023" 
 ---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
 
 Course together with the Department of Plant Biology for Breeding and Protection. 
 

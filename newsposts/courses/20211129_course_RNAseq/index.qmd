@@ -7,7 +7,18 @@ categories:
   - course
   - training
 image: code.png
+start: "Nov 29th - "
+end: "Dec 17th, 2021" 
 ---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
 
 Developed from last year's workshop, held for the Research School Organism Biology. 
 

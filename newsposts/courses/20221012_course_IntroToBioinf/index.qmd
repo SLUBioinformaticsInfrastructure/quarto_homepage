@@ -7,7 +7,18 @@ categories:
   - course
   - training
 image: IntroBioinf.png
+start: "Nov 01st, 2022 - "
+end: "Jan 15th, 2023" 
 ---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
 
 On this year's edition of the popular course SLUBI has contributed with an Introduction to RNA Sequencing Data Analysis. 
 

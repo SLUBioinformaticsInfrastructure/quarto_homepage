@@ -2,12 +2,24 @@
 title: "Introduction to Bioinformatics"
 description: "A course together with SLU's Graduate School for Veterinary Medicine and Animal Science"
 author: "SLUBI"
-date: "11-24-2023"
+date: "10-21-2023"
 categories:
   - course
   - training
 image: IntroBioinf.png
+start: "Oct 31st, 2023 - "
+end: "Jan 14th, 2024" 
 ---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
+
 
 We are happy to be teaching in this introductory course for PhD and Masters students. 
 

@@ -7,21 +7,18 @@ categories:
   - workshop
   - education
 image: code.png
-course:
-  start: "Feb 2nd 2020"
-  end: ""
+start: "Mar 02nd & "
+end: "Mar 03rd, 2020" 
 ---
-<br>
 
-::: {.quarto-title-meta}
+::: {.course-meta-block .quarto-title-meta}
 :::: {.quarto-title-meta-heading}
-Workshop date
+Course dates
 ::::
 :::: {.quarto-title-meta-contents}
-{{< meta course.start >}} {{< meta course.end >}}
+{{< meta start >}} {{< meta end >}}
 ::::
 :::
----
 
 A workshop organised and sponsored by the UPSCb, as part of SLUBI.
 

@@ -10,7 +10,19 @@ categories:
   - reproducibility
   -  gs-vmas
 image: Rlogo.svg
+start: "Oct 21st - "
+end: "Oct 25th, 2024" 
 ---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
+
 
 This course teaches the importance of reproducibility in scientific research, covering definitions, good scientific practices, and the requirements of publication and funding bodies. Participants will learn basic concepts and tools to ensure reproducibility, including data analysis with R and the use of public databases.
 

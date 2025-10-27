@@ -8,7 +8,18 @@ categories:
   - Msc
   - breeding
 image: SLU_210608_2847_spring_barley.jpg
+start: "Nov 3rd, 2025 - "
+end: "Jan 18th, 2026" 
 ---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
 
 This Master's level course explores the role of genetic resources in plant breeding and their importance for sustainable agriculture. Students will learn to evaluate and utilize genetic resources, understand intellectual property issues, and apply modern breeding technologies. 
 

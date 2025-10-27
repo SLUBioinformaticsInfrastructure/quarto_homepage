@@ -1,14 +1,25 @@
 ---
-title: "Applied population genetics in plant disease epidemiology,"
+title: "Applied population genetics in plant disease epidemiology"
 description: "We are happy to teach the bioinformatics of population genetics in this masters course."
 author: "SLUBI"
 date: "03-01-2023"
 categories:
   - course
-  - meeting
+  - population genetics
   - education
 image: popgen.png
+start: "Mar 01st - "
+end: "Mar 17th, 2023" 
 ---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
 
 A course held in collaboration with the Research School Organism Biology in Ultuna. 
 

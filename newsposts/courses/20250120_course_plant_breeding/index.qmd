@@ -9,7 +9,18 @@ categories:
   - plants
   - breeding
 image: image-1.png
+start: "Jan 20th - "
+end: "Mar 21th, 2025" 
 ---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
 
 This course focuses on plant breeding and plant protection, emphasizing their global significance and the role of bioinformatics in analyzing -omics data. It covers a wide range of topics, including genetics, plant-pathogen interactions, modern breeding methods like GM and gene editing, and ethical considerations. The course features lectures from industry experts and academics, including perspectives from Sweden, Europe, and Africa, and combines theoretical knowledge with practical exercises and seminars.
 

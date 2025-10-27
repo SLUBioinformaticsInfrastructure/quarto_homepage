@@ -8,22 +8,18 @@ categories:
   - training
   - nextflow
 image: code.png
-course:
-  start: "Oct 13th"
-  end: "Oct 31st, 2025" 
+start: "Oct 13th - "
+end: "Oct 31st, 2025" 
 ---
-<br>
 
-::: {.quarto-title-meta}
+::: {.course-meta-block .quarto-title-meta}
 :::: {.quarto-title-meta-heading}
 Course dates
 ::::
 :::: {.quarto-title-meta-contents}
-{{< meta course.start >}} - {{< meta course.end >}}
+{{< meta start >}} {{< meta end >}}
 ::::
 :::
-
-<br>
 
 High Throughput Sequencing (HTS) technologies and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies. 
 

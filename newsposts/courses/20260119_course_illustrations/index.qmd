@@ -12,22 +12,18 @@ categories:
 - quarto
 - gs-vmas
 image: illustrations.png
-course:
-  start: "Jan 19th"
-  end: "Jan 30th, 2026"
+start: "Jan 19th - "
+end: "Jan 30th, 2026"
 ---
-<br>
 
-::: {.quarto-title-meta}
+::: {.course-meta-block .quarto-title-meta}
 :::: {.quarto-title-meta-heading}
 Course dates
 ::::
 :::: {.quarto-title-meta-contents}
-{{< meta course.start >}} - {{< meta course.end >}}
+{{< meta start >}} {{< meta end >}}
 ::::
 :::
-
-<br>
 
 Learn how to manage, visualize, and share data effectively using R, QGIS, and open science tools. This hands-on course combines theory with practical exercises to help you:
 
