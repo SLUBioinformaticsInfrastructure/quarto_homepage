@@ -4,10 +4,9 @@ description: |
   SLU's Bioinformatics Infrastructure
 listing:
   contents: 
-  - newsposts/courses/2025_course_breeding
+  - newsposts/courses/20251103_course_breeding
   - newsposts/courses/20251013_course_RNAseq
   - newsposts/courses/20251006_course_medbioinfo
-  - newsposts/events/20250930_nbis
   - newsposts/courses/20251103_course_IntroToBioinf
   - newsposts/courses/20251120_course_NADAS_stats
   - newsposts/courses/20260119_course_illustrations
