@@ -8,7 +8,19 @@ categories:
   - bioinformatics
   - presentation
 image: UPSC+logo.jpg
+start: "Oct 6th & "
+end: "Oct 7th, 2024" 
 ---
+<br>
+
+::: {.quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
 
 <br>
 The Umeå Bioinformatics Retreat is a collaboration between SLUBI and the Umeå Plant Science Centre Bioinformatics platform. It will bring together researchers and data scientists from across Umeå for two days of exchange and networking. A total of 28 participants from 12 different units will take part, reflecting the breadth of bioinformatics activities in the region and across Sweden.
