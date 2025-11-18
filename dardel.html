@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="starting off with Uppmax and Rackham">
+<meta name="description" content="Starting off with PDC and Dardel">
 
-<title>How to: Uppmax – SLU Bioinformatics Infrastructure</title>
+<title>How to: Dardel – SLU Bioinformatics Infrastructure</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -38,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-0c6282e9eda64d97ea9e5255f7a37655.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -109,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./courses.html">Training</a></li><li class="breadcrumb-item"><a href="./uppmax.html">How to: Uppmax</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./courses.html">Training</a></li><li class="breadcrumb-item"><a href="./dardel.html">How to: Dardel</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -119,10 +154,6 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      </a>
-      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -200,8 +231,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./uppmax.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">How to: Uppmax</span></a>
+  <a href="./dardel.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">How to: Dardel</span></a>
   </div>
 </li>
       </ul>
@@ -285,32 +316,36 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#rackham-end-of-life" id="toc-rackham-end-of-life" class="nav-link active" data-scroll-target="#rackham-end-of-life">Rackham End of Life</a></li>
-  <li><a href="#uppmax-training" id="toc-uppmax-training" class="nav-link" data-scroll-target="#uppmax-training">UPPMAX Training</a></li>
-  <li><a href="#applying-for-an-account-at-naiss-supr" id="toc-applying-for-an-account-at-naiss-supr" class="nav-link" data-scroll-target="#applying-for-an-account-at-naiss-supr">Applying for an account at NAISS SUPR</a></li>
-  <li><a href="#appyling-for-projects-at-uppmax" id="toc-appyling-for-projects-at-uppmax" class="nav-link" data-scroll-target="#appyling-for-projects-at-uppmax">Appyling for projects at UPPMAX</a>
+  <li><a href="#dardel-training-drop-in" id="toc-dardel-training-drop-in" class="nav-link active" data-scroll-target="#dardel-training-drop-in">Dardel Training &amp; Drop-in</a></li>
+  <li><a href="#applying-for-an-account-at-supr-naiss" id="toc-applying-for-an-account-at-supr-naiss" class="nav-link" data-scroll-target="#applying-for-an-account-at-supr-naiss">Applying for an account at SUPR NAISS</a></li>
+  <li><a href="#applying-for-projects-at-dardel" id="toc-applying-for-projects-at-dardel" class="nav-link" data-scroll-target="#applying-for-projects-at-dardel">Applying for projects at Dardel</a>
   <ul class="collapse">
   <li><a href="#computing-projects" id="toc-computing-projects" class="nav-link" data-scroll-target="#computing-projects">Computing Projects</a></li>
   <li><a href="#storage-projects" id="toc-storage-projects" class="nav-link" data-scroll-target="#storage-projects">Storage Projects</a></li>
   </ul></li>
-  <li><a href="#logging-in-for-the-first-time" id="toc-logging-in-for-the-first-time" class="nav-link" data-scroll-target="#logging-in-for-the-first-time">Logging in for the first time</a></li>
+  <li><a href="#logging-in-for-the-first-time" id="toc-logging-in-for-the-first-time" class="nav-link" data-scroll-target="#logging-in-for-the-first-time">Logging in for the first time</a>
+  <ul class="collapse">
+  <li><a href="#windows" id="toc-windows" class="nav-link" data-scroll-target="#windows">Windows</a></li>
+  <li><a href="#macos-and-unix" id="toc-macos-and-unix" class="nav-link" data-scroll-target="#macos-and-unix">MacOS and Unix</a></li>
+  </ul></li>
   <li><a href="#loading-modules" id="toc-loading-modules" class="nav-link" data-scroll-target="#loading-modules">Loading modules</a></li>
   <li><a href="#slurm" id="toc-slurm" class="nav-link" data-scroll-target="#slurm">Slurm</a></li>
-  <li><a href="#uppmax-in-a-can" id="toc-uppmax-in-a-can" class="nav-link" data-scroll-target="#uppmax-in-a-can">UPPMAX in a can</a></li>
+  <li><a href="#dardel-miscellaneous" id="toc-dardel-miscellaneous" class="nav-link" data-scroll-target="#dardel-miscellaneous">Dardel Miscellaneous</a></li>
+  <li><a href="#nextflow-on-dardel" id="toc-nextflow-on-dardel" class="nav-link" data-scroll-target="#nextflow-on-dardel">Nextflow on Dardel</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./courses.html">Training</a></li><li class="breadcrumb-item"><a href="./uppmax.html">How to: Uppmax</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./courses.html">Training</a></li><li class="breadcrumb-item"><a href="./dardel.html">How to: Dardel</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">How to: Uppmax</h1>
+<h1 class="title">How to: Dardel</h1>
 </div>
 
 <div>
   <div class="description">
-    starting off with Uppmax and Rackham
+    Starting off with PDC and Dardel
   </div>
 </div>
 
@@ -327,23 +362,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="https://www.uppmax.uu.se/">UPPMAX</a> (Uppsala Multidisciplinary Center for Advanced Computational Science) is Uppsala University’s resource of high-performance computers, large-scale storage and know-how of high-performance computing (HPC). They provide resources for the Swedish Research Community. Their server for non-sensitive data is called Rackham.</p>
-<section id="rackham-end-of-life" class="level2">
-<h2 class="anchored" data-anchor-id="rackham-end-of-life">Rackham End of Life</h2>
-<p>Unfortunately Rackham’s end of life has been <a href="https://www.uppmax.uu.se/uppmax-news/?tarContentId=1069594">announced</a>. While researchers can still use this amazing resource until the end of 2024, we have to prepare ourselves for a big change. Fortunately, we expect that what you learn from this guide will still be applicable to its recommended replacement, <a href="https://www.pdc.kth.se/hpc-services/computing-systems/dardel-1.1043529">Dardel</a> in 2025.</p>
+<p>The <a href="https://www.pdc.kth.se/about/what-does-pdc-do-and-how/introduction-to-pdc-1.736562">PDC Center for High Performance Computing</a> is a high-performance computing resource hosted at the KTH Royal Institute of Technology in Stockholm. It is part of the National Academic Infrastructure for Supercomputing in Sweden (<a href="https://www.naiss.se/">NAISS</a>). As all NAISS infrastructure, it is open to all researchers within Sweden free of charge.</p>
+<section id="dardel-training-drop-in" class="level2">
+<h2 class="anchored" data-anchor-id="dardel-training-drop-in">Dardel Training &amp; Drop-in</h2>
+<p>PDC offers regular training to improve usage of their systems. For a regularly updated list, please see <a href="https://www.pdc.kth.se/training">here</a>.</p>
+<p>Once per month they offer an online <a href="https://www.pdc.kth.se/training/naiss-zoom-ins-1.927311">drop-in</a> to discuss services and help directly with problems.</p>
 </section>
-<section id="uppmax-training" class="level2">
-<h2 class="anchored" data-anchor-id="uppmax-training">UPPMAX Training</h2>
-<p>UPPMAX offers regular training. For a regularly updated list, please see <a href="https://www.uppmax.uu.se/support/courses-and-workshops/">here</a>.</p>
-</section>
-<section id="applying-for-an-account-at-naiss-supr" class="level2">
-<h2 class="anchored" data-anchor-id="applying-for-an-account-at-naiss-supr">Applying for an account at NAISS SUPR</h2>
-<p>In order use the resources at Uppmax, you need to apply for an account. You need to apply for an account at <a href="https://supr.naiss.se/login/">NAISS SUPR</a>.</p>
+<section id="applying-for-an-account-at-supr-naiss" class="level2">
+<h2 class="anchored" data-anchor-id="applying-for-an-account-at-supr-naiss">Applying for an account at SUPR NAISS</h2>
+<p>In order use any NAISS resource, you need to apply for an account at <a href="https://supr.naiss.se/login/">SUPR NAISS</a>.</p>
 <p>You will also use this page to log on when appying for projects.</p>
 </section>
-<section id="appyling-for-projects-at-uppmax" class="level2">
-<h2 class="anchored" data-anchor-id="appyling-for-projects-at-uppmax">Appyling for projects at UPPMAX</h2>
-<p>For an extensive guide of how to start with UPPMAX have a look at their <a href="https://www.uppmax.uu.se/support/getting-started/">getting started guide</a>.</p>
+<section id="applying-for-projects-at-dardel" class="level2">
+<h2 class="anchored" data-anchor-id="applying-for-projects-at-dardel">Applying for projects at Dardel</h2>
+<p>Here is the link to the official documentation on how to <a href="https://support.pdc.kth.se/doc/getting_access/get_access/">get access</a> to Dardel.</p>
 <p>The following is a small rundown of this information based on our experience.</p>
 <p>More often than not, small compute and small storage projects are enough for the bioinformatics projects we see at SLU. You must apply for a storage project alongside a compute project if you are planning to do any analyses.</p>
 <p>The administrators at NAISS approve projects at least once a month, but often more frequently.</p>
@@ -352,7 +384,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="computing-projects" class="level3">
 <h3 class="anchored" data-anchor-id="computing-projects">Computing Projects</h3>
 <p>Select <code>Compute Rounds</code> followed by <code>NAISS Small Compute</code></p>
-<p>You will then select <code>Create New Proposal for NAISS Small Compute 2024</code></p>
+<p>You will then select <code>Create New Proposal for NAISS Small Compute 2025</code></p>
 <p>We generally recommend asking for 2 or 3 x1000 core hours per month. This can always be increased later if you realise that you exceed this boundary, but that is quite rare.</p>
 </section>
 <section id="storage-projects" class="level3">
@@ -366,43 +398,72 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>In short, consider the analyses you will be doing, what kind of data you are producing, and how big the files are. With these two <strong>very</strong> general rules, it should be easier to decide on these parameters when applying for projects!</p>
 <p>When your storage and compute projects have been approved, you will be able to upload data from your computer, or download from data delivery systems. If you are downloading from SciLifeLab, please see their <a href="https://ngisweden.scilifelab.se/resources/data-delivery-dds/">guide</a>.</p>
-<p>Your approved projects will be located under <code>/proj/naiss202x_xy_xyz</code> where xyz are the project identifiers provided to you by UPPMAX. Here it is important to note that your project will be called “NAISS 2024/23-xyz” on the SUPR page, but the projects follow the above naming convention on the server.</p>
-<p>After your storage and compute projects have been approved, you can navigate to your folder in the <code>/proj/</code> directory and upload your data in your <strong>storage</strong> project folder. <strong>DO NOT</strong> upload your data to your user home directory as that directory is only intended for things you will use for every project and space is limited.</p>
+<p>Your approved projects will be located under <code>/cfs/klemming/projects/supr/naiss202x_xy_xyz</code> where xyz are the project identifiers provided to you by NAISS.</p>
+<p>After your storage and compute projects have been approved, you can navigate to your folder in the <code>/cfs/klemming/projects/supr/</code> directory and upload your data in your <strong>storage</strong> project folder. <strong>DO NOT</strong> upload your data to your user home directory as that directory is only intended for things you will use for every project and space is limited.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Dardel has a much stricter attitude towards number of files in your home directory than some other servers. Be very mindful of how many files you have in your home directory!</p>
+</div>
+</div>
 </section>
 </section>
 <section id="logging-in-for-the-first-time" class="level2">
 <h2 class="anchored" data-anchor-id="logging-in-for-the-first-time">Logging in for the first time</h2>
-<p>Please see our <a href="https://www.slubi.se/learning-resources.html">guide</a> or a more <a href="https://www.uppmax.uu.se/support/user-guides/guide--first-login-to-uppmax/">comprehensive version from the staff of Uppmax</a>.</p>
+<p>Please see the <a href="https://support.pdc.kth.se/doc/basics/quickstart/">comprehensive version from the staff of Dardel</a>. You will need to <a href="https://support.pdc.kth.se/doc/login/ssh_keys/">create SSH keys</a> and log them with SUPR.</p>
+<section id="windows" class="level3">
+<h3 class="anchored" data-anchor-id="windows">Windows</h3>
+<p>If you are trying to access Dardel from a Windows machine, you will have to use <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/">PuTTY</a>. This is the same program you will have used to generate the SSH key. Follow these <a href="https://jumpcloud.com/support/manage-ssh-keys-in-putty">instructions</a> on how to manage your SSH keys. Unfortunately the team at Dardel do not offer support for VSCode on Windows machines.</p>
+</section>
+<section id="macos-and-unix" class="level3">
+<h3 class="anchored" data-anchor-id="macos-and-unix">MacOS and Unix</h3>
+<p>You are able to use VSCode or VSCodium to log on to Dardel. When you add Dardel to your list of known hosts, you need to specify the location of the key on your machine in your <code>.shh/config</code> file. Here is an example:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Host</span> dardel</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>   <span class="ex">IdentityFile</span> <span class="va">$path_to_your_key</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>   <span class="ex">HostName</span> dardel.pdc.kth.se</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>   <span class="ex">User</span> <span class="va">$your_username</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>If you log on with VSCode frequently, it will automatically download a number of files for the VSCode interface. At some point, you may not be able to log in with VSCode anymore because the required environment cannot be downloaded. In that case, log in via the terminal with a traditional <code>ssh</code> login, and clear the <code>.vscode-server</code> folder and log in from VSCode again.</p>
+</section>
 </section>
 <section id="loading-modules" class="level2">
 <h2 class="anchored" data-anchor-id="loading-modules">Loading modules</h2>
-<p>Rackham uses modules. This ensures that the path is not flooded, and allows for multiple versions of software to be installed simultaneously.</p>
+<p>Klemming, the storage system on Dardel, uses modules. This ensures that the path is not flooded, and allows for multiple versions of software to be installed simultaneously.</p>
 <ul>
 <li>To see all available modules type <code>module avail</code></li>
 <li>If you want to see the modules that match your search term type <code>module spider tool_name</code>. This is not case specific, so you could search “fastqc” to see all modules that match the string “fastqc” (without the inverted commas!)</li>
-<li>To load a module type <code>module load tool_name</code> from the <code>module spider</code> results. This is case specific, so be sure to include version numbers, capital letters, and any punctuation present.</li>
-<li>A good habit to get into is to run <code>module load bioinfo-tools</code> the moment you log on to ensure that all modules contained within <code>bioinfo-tools</code> are available to load</li>
-<li>You can load multiple modules at once by simply listing them, e.g.: <code>module load bioinfo-tools blast/2.14.1+</code></li>
+<li>To load a module type <code>module load tool_name</code> from the <code>module spider</code> results. This is case specific, so be sure to</li>
 </ul>
-<p>Check out the list of <a href="https://www.uppmax.uu.se/resources/software/installed-software/">list of software installed on Uppmax</a>.</p>
-<p>To learn more about the module system, have a look at the guide on <a href="https://www.uppmax.uu.se/resources/software/module-system/">UPPMAX</a>.</p>
+<p>Check out the list of <a href="https://support.pdc.kth.se/doc/applications/">list of software installed on Dardel</a>.</p>
+<p>To learn more about the module system, have a look at the guide on <a href="https://support.pdc.kth.se/doc/software/module/">Dardel</a>.</p>
 </section>
 <section id="slurm" class="level2">
 <h2 class="anchored" data-anchor-id="slurm">Slurm</h2>
-<p>UPPMAX uses a job manager called <a href="https://slurm.schedmd.com/documentation.html">Slurm</a>. Please be sure to read their <a href="https://www.uppmax.uu.se/support/user-guides/slurm-user-guide/">SLURM user guide</a> before you start working on UPPMAX! The following is simply a short overview of the most commonly used functions by SLUBI, and not an exhaustive list:</p>
+<p>Dardel uses a job manager called <a href="https://slurm.schedmd.com/documentation.html">Slurm</a>, and they have put a <a href="https://support.pdc.kth.se/doc/run_jobs/job_scripts/">how-to onto their homepage</a>. The following is simply a short overview of the most commonly used functions by SLUBI, and not an exhaustive list:</p>
 <p>To use Slurm, the project ID from your <strong>compute</strong> project is used for the <strong>-A</strong> flag. Your storage project ID is where you store data. Here, the / and spaces in the name are replaced by - as you can see below.</p>
 <p>More usefull flags and options:</p>
 <ul>
 <li>Time flags are in the format of HH:MM:SS</li>
 <li>To run an interactive session use <code>interactive -A naiss202x-xy-xyz -t 2:00:00</code> to launch an interactive session of 2 hours. Time can be changed according to your needs</li>
-<li>If you need to run a batch script, set it up so that the information in the UPPMAX guide is in the header with your project number. You submit your script with the <code>sbatch script.sh</code> command</li>
-<li>To view the jobs active for your user <code>jobinfo -u your_username</code></li>
-<li>To cancel a job <code>scancel jobnumber</code>. You can get the jobnumber from the <code>jobinfo</code> command above</li>
+<li>If you need to run a batch script, set it up so that the information in the <a href="https://support.pdc.kth.se/doc/run_jobs/job_scripts_dardel/">Dardel guide</a> is in the header with your project number. You submit your script with the <code>sbatch script.sh</code> command</li>
+<li>To view the jobs active for your user <code>squeue -u your_username</code></li>
+<li>To cancel a job <code>scancel jobnumber</code>. You can get the jobnumber from the <code>squeue</code> command above.</li>
 </ul>
 </section>
-<section id="uppmax-in-a-can" class="level2">
-<h2 class="anchored" data-anchor-id="uppmax-in-a-can">UPPMAX in a can</h2>
-<p><a href="https://github.com/UPPMAX/uppmax_in_a_can">UPPMAX in a can</a> is a wonderful resource produced by the scientists at UPPMAX that allows users to run UPPMAX on their local servers.</p>
+<section id="dardel-miscellaneous" class="level2">
+<h2 class="anchored" data-anchor-id="dardel-miscellaneous">Dardel Miscellaneous</h2>
+<p>We have a GitHub repository where we gather small tips and tricks that make working on Dardel easier:</p>
+<p><a href="https://github.com/SLUBioinformaticsInfrastructure/Dardel_miscellaneous">GitHub: Dardel Miscellaneous</a></p>
+</section>
+<section id="nextflow-on-dardel" class="level2">
+<h2 class="anchored" data-anchor-id="nextflow-on-dardel">Nextflow on Dardel</h2>
+<p>On our GitHub page, we also have a repository with some helpful tips to <a href="https://github.com/SLUBioinformaticsInfrastructure/nf-core_on_dardel">run nf-core pipelines on Dardel</a>. In this repo, we guide you through the process of installing Pixi, an environment and package manager, and running Nextflow and nf-core through there. While Nextflow and nf-core are installed on Dardel, sometimes there are pipelines with different version requirements.</p>
 
 
 </section>
