@@ -32,7 +32,7 @@ website:
           - workshops.qmd
           - learning-resources.qmd
           - online-resources.qmd
-          - uppmax.qmd
+          - dardel.qmd
       - section: "Events"
         contents: 
           - events.qmd
