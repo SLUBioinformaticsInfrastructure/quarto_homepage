@@ -9,7 +9,6 @@ categories:
   - 
 image: celebration-party-hats.jpg
 start: "Dec 1st, 2025"
-end: "" 
 ---
 <br>
 
@@ -18,20 +17,23 @@ end: ""
 Dates
 ::::
 :::: {.quarto-title-meta-contents}
-{{< meta start >}} {{< meta end >}}
+{{< meta start >}}
 ::::
 :::
 
-We are excited to announce that Lizel Potgieter from SLUBI has been nominated for the Supervisor of the Year 2025 award by the ASK/LTV PhD Student Council. This nomination is a wonderful recognition of Lizel's dedication to supporting students and reflects the appreciation her students have for her guidance and support. 
+We are excited to announce that Lizel Potgieter from SLUBI has been nominated for the **Supervisor of the Year 2025 ** award by the ASK/LTV PhD Student Council. This nomination is a wonderful recognition of Lizel's dedication to supporting students and reflects the appreciation her students have for her guidance and support. 
 
-All nominees will be recognised at the upcoming Award for Diligence and Integrity in the Service of the Nation (NoR) ceremony.
+All nominees will be recognised at the upcoming **Award for Diligence and Integrity in the Service of the Nation (NoR)** ceremony.
 
-Event Information
-When: 1 December 2025, at 10:30
-Where: Stora sessionssalen, Alnarp
+If you also want to celebrate:
+
+- **When:** 1 December 2025, at 10:30
+- **Where:** Stora sessionssalen, Alnarp
 
 Hip hip hooray for a well-deserved nomination!
 
 <br><br>
 <center>
 ![](celebration-party-hats.jpg){.class width=40%}
+
+Image: Dawn Hudson
