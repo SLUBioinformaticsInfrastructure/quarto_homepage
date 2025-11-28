@@ -2,22 +2,23 @@
 title: "Supervisor of the Year 2025 Nomination"
 description: "Stora sessionssalen, Alnarp"
 author: "SLUBI"
-date: "11-28-2025"
+date: 2025-11-28
 categories:
   - teaching
   - award nomination
-  - 
+  - celebration
 image: celebration-party-hats.jpg
-start: "Dec 1st, 2025"
+start: "Dec 1st"
+end: "2025" 
 ---
 <br>
 
 ::: {.quarto-title-meta}
 :::: {.quarto-title-meta-heading}
-Dates
+Date
 ::::
 :::: {.quarto-title-meta-contents}
-{{< meta start >}}
+{{< meta start >}} {{< meta end >}}
 ::::
 :::
 
