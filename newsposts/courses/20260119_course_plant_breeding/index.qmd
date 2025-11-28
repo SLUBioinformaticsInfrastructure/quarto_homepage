@@ -1,0 +1,32 @@
+---
+title: "Plant Biology for Breeding and Protection"
+description: "and how bioinformatics can help you and your plants!"
+author: "SLUBI"
+date: "2025-11-05"
+categories:
+  - course
+  - training
+  - plants
+  - breeding
+image: image-1.png
+start: "Jan 19th - "
+end: "Mar 23rd, 2026" 
+---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
+
+This course focuses on plant breeding and plant protection, emphasizing their global significance and the role of bioinformatics in analyzing -omics data. It covers a wide range of topics, including genetics, plant-pathogen interactions, modern breeding methods like GM and gene editing, and ethical considerations. The course features lectures from industry experts and academics, including perspectives from Sweden, Europe, and Africa, and combines theoretical knowledge with practical exercises and seminars.
+
+SLUBI was teaching the bioinformatics part of the course, in hybrid lectures both in Alnarp and in Ultuna, as well as an exercise on bioinformatics analyses. 
+
+<center>
+![](image-1.png){ .class width=70%}
+
+Image: Sajeevan Radha Sivarajan 

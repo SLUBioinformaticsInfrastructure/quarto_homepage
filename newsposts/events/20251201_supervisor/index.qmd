@@ -1,0 +1,37 @@
+---
+title: "Supervisor of the Year 2025 Nomination"
+description: "Stora sessionssalen, Alnarp"
+author: "SLUBI"
+date: "11-28-2025"
+categories:
+  - teaching
+  - award nomination
+  - 
+image: celebration-party-hats.jpg
+start: "Dec 1st, 2025"
+end: "" 
+---
+<br>
+
+::: {.quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
+
+We are excited to announce that Lizel Potgieter from SLUBI has been nominated for the Supervisor of the Year 2025 award by the ASK/LTV PhD Student Council. This nomination is a wonderful recognition of Lizel's dedication to supporting students and reflects the appreciation her students have for her guidance and support. 
+
+All nominees will be recognised at the upcoming Award for Diligence and Integrity in the Service of the Nation (NoR) ceremony.
+
+Event Information
+When: 1 December 2025, at 10:30
+Where: Stora sessionssalen, Alnarp
+
+Hip hip hooray for a well-deserved nomination!
+
+<br><br>
+<center>
+![](celebration-party-hats.jpg){.class width=40%}

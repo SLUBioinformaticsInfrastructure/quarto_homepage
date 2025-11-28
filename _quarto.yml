@@ -33,6 +33,7 @@ website:
           - learning-resources.qmd
           - online-resources.qmd
           - dardel.qmd
+          - hpc2n.qmd
       - section: "Events"
         contents: 
           - events.qmd
