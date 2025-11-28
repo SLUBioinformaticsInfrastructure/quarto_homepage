@@ -6,11 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="SLUBI">
-<meta name="dcterms.date" content="2025-10-13">
-<meta name="description" content="registration is closed: welcome to the course! - course dates: October 13th-24th , October 31st, 2025">
+<meta name="description" content="Starting off with HPC2N">
 
-<title>Analysis of High Throughput Sequencing RNA-Seq Data – SLU Bioinformatics Infrastructure</title>
+<title>How to: HPC2N – SLU Bioinformatics Infrastructure</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,24 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-0c6282e9eda64d97ea9e5255f7a37655.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-0c6282e9eda64d97ea9e5255f7a37655.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -83,11 +81,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../images/SLUBI_logo.png" alt="" class="navbar-logo light-content">
-    <img src="../../../images/SLUBI_logo.png" alt="" class="navbar-logo dark-content">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/SLUBI_logo.png" alt="" class="navbar-logo light-content">
+    <img src="./images/SLUBI_logo.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">SLU Bioinformatics Infrastructure</span>
     </a>
   </div>
@@ -111,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Analysis of High Throughput Sequencing RNA-Seq Data</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./courses.html">Training</a></li><li class="breadcrumb-item"><a href="./hpc2n.html">How to: HPC2N</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -134,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome to SLUBI</span></a>
   </div>
 </li>
@@ -151,13 +149,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../support_what.html" class="sidebar-item-text sidebar-link">
+  <a href="./support_what.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Support</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../dropin.html" class="sidebar-item-text sidebar-link">
+  <a href="./dropin.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Drop-in</span></a>
   </div>
 </li>
@@ -174,37 +172,37 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../courses.html" class="sidebar-item-text sidebar-link">
+  <a href="./courses.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Courses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../workshops.html" class="sidebar-item-text sidebar-link">
+  <a href="./workshops.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Seminars and Workshops</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../learning-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="./learning-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Self learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../online-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="./online-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tools and resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../dardel.html" class="sidebar-item-text sidebar-link">
+  <a href="./dardel.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to: Dardel</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../hpc2n.html" class="sidebar-item-text sidebar-link">
+  <a href="./hpc2n.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">How to: HPC2N</span></a>
   </div>
 </li>
@@ -221,13 +219,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../events.html" class="sidebar-item-text sidebar-link">
+  <a href="./events.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Events</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../social.html" class="sidebar-item-text sidebar-link">
+  <a href="./social.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fika</span></a>
   </div>
 </li>
@@ -244,19 +242,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../slubi.html" class="sidebar-item-text sidebar-link">
+  <a href="./slubi.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SLUBI</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../contact.html" class="sidebar-item-text sidebar-link">
+  <a href="./contact.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Contact</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../board.html" class="sidebar-item-text sidebar-link">
+  <a href="./board.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Board</span></a>
   </div>
 </li>
@@ -273,7 +271,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../news.html" class="sidebar-item-text sidebar-link">
+  <a href="./news.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">News and Events</span></a>
   </div>
 </li>
@@ -284,44 +282,43 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#hpc2n-training-drop-in" id="toc-hpc2n-training-drop-in" class="nav-link active" data-scroll-target="#hpc2n-training-drop-in">HPC2N Training &amp; Drop-in</a></li>
+  <li><a href="#applying-for-an-account-at-supr-naiss" id="toc-applying-for-an-account-at-supr-naiss" class="nav-link" data-scroll-target="#applying-for-an-account-at-supr-naiss">Applying for an account at SUPR NAISS</a></li>
+  <li><a href="#applying-for-projects-at-hpc2n" id="toc-applying-for-projects-at-hpc2n" class="nav-link" data-scroll-target="#applying-for-projects-at-hpc2n">Applying for projects at HPC2N</a>
+  <ul class="collapse">
+  <li><a href="#computing-projects" id="toc-computing-projects" class="nav-link" data-scroll-target="#computing-projects">Computing Projects</a></li>
+  <li><a href="#storage-projects" id="toc-storage-projects" class="nav-link" data-scroll-target="#storage-projects">Storage Projects</a></li>
+  </ul></li>
+  <li><a href="#loading-modules" id="toc-loading-modules" class="nav-link" data-scroll-target="#loading-modules">Loading modules</a></li>
+  <li><a href="#slurm" id="toc-slurm" class="nav-link" data-scroll-target="#slurm">Slurm</a></li>
+  <li><a href="#containers" id="toc-containers" class="nav-link" data-scroll-target="#containers">Containers</a></li>
+  <li><a href="#nextflow" id="toc-nextflow" class="nav-link" data-scroll-target="#nextflow">Nextflow</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./courses.html">Training</a></li><li class="breadcrumb-item"><a href="./hpc2n.html">How to: HPC2N</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Analysis of High Throughput Sequencing RNA-Seq Data</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">course</div>
-    <div class="quarto-category">training</div>
-    <div class="quarto-category">nextflow</div>
-  </div>
-  </div>
+<h1 class="title">How to: HPC2N</h1>
+</div>
 
 <div>
   <div class="description">
-    registration is closed: welcome to the course! - course dates: October 13th-24th , October 31st, 2025
+    Starting off with HPC2N
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>SLUBI </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 13, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -331,35 +328,75 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="course-meta-block quarto-title-meta">
-<div class="quarto-title-meta-heading">
-<p>Course dates</p>
-</div>
-<div class="quarto-title-meta-contents">
-<p>Oct 13th - Oct 31st, 2025</p>
-</div>
-</div>
-<p>High Throughput Sequencing (HTS) technologies and in particular Next Generation Sequencing (NGS) have revolutionized the way we conduct gene expression analysis. In comparison to micro-array-based methods, NGS has unleashed an almost unlimited power to perform gene expression analysis, for a similar price and with faster, more comprehensive, more efficient and more reproducible characteristics. Rapidly, the data generation rate has exceeded the analytical capabilities and data analysis has become the major bottleneck in gene expression studies.</p>
-<p>The SLU Bioinformatics Infrastructure (SLUBI) is organizing two back-to-back courses for the Organism Biology Research School, aimed primarily at PhD students, that has the objective to help addressing this problem by (i) helping participants critically assess the challenges faced in the HTS field, (ii) developing efficient communication skill with bioinformatician, and (iii) training students in analyzing HTS data. For detailed info about the courses, please see the syllabus and preliminary schedule attached.</p>
-<p>The aims of the courses are to:</p>
+<p>The <a href="https://www.hpc2n.umu.se">HPC2N</a> is a high-performance computing resource hosted at the Umeå University. It is part of the National Academic Infrastructure for Supercomputing in Sweden (<a href="https://www.naiss.se/">NAISS</a>). As all NAISS infrastructure, it is open to all researchers within Sweden free of charge. The <a href="https://docs.hpc2n.umu.se/tutorials/clusterguide/">cluster guide</a> will give you a good overview of what the system is.</p>
+<section id="hpc2n-training-drop-in" class="level2">
+<h2 class="anchored" data-anchor-id="hpc2n-training-drop-in">HPC2N Training &amp; Drop-in</h2>
+<p>HPC2N offers regular training to improve usage of their systems. For a regularly updated list, please see <a href="https://www.hpc2n.umu.se/news-and-events">here</a>.</p>
+</section>
+<section id="applying-for-an-account-at-supr-naiss" class="level2">
+<h2 class="anchored" data-anchor-id="applying-for-an-account-at-supr-naiss">Applying for an account at SUPR NAISS</h2>
+<p>In order use any NAISS resource, you need to apply for an account at <a href="https://supr.naiss.se/login/">SUPR NAISS</a>.</p>
+<p>You will also use this page to log on when appying for projects.</p>
+</section>
+<section id="applying-for-projects-at-hpc2n" class="level2">
+<h2 class="anchored" data-anchor-id="applying-for-projects-at-hpc2n">Applying for projects at HPC2N</h2>
+<p>Here is the link to the official documentation on how to <a href="https://docs.hpc2n.umu.se/documentation/access/">get access</a> to HPC2N. If you don’t have an account at HPC2N, you need to be added to an existing project, or apply for a project then request an account.</p>
+<p>The following is a small rundown of this information based on our experience.</p>
+<p>More often than not, small compute and small storage projects are enough for the bioinformatics projects we see at SLU. You must apply for a storage project alongside a compute project if you are planning to do any analyses.</p>
+<p>The administrators at NAISS approve projects at least once a week, but often more frequently.</p>
+<p>When you have <a href="https://supr.naiss.se/login/">logged in to SUPR</a>, there will be a list of options in the panel on the left, select <a href="https://supr.naiss.se/resource/">‘Resources’</a>, scroll down to ‘Kebnekaise’, and click on ‘Go to HPC2N Local Compute 2025’ to get to the <a href="https://supr.naiss.se/round/localhpc2n2025/">application</a>. From there you will ‘Create a New Proposal for HPC2N Compute 2025’.</p>
+<p>From here you can apply for computing and storage projects.</p>
+<section id="computing-projects" class="level3">
+<h3 class="anchored" data-anchor-id="computing-projects">Computing Projects</h3>
+<p>You will be redirected to apply for a compute project based on the above instructions. From there, you can also apply for a small storage project if the linked storage project is not large enough for your project.</p>
+</section>
+<section id="storage-projects" class="level3">
+<h3 class="anchored" data-anchor-id="storage-projects">Storage Projects</h3>
+<p>When applying for a separate storage project, you will have to request the size of the project folder as well as the number of files you will be storing.</p>
+<p>As a general rule of thumb:</p>
 <ul>
-<li><p>familiarize the participants with advanced RNA-Seq data analysis methodologies and how biological knowledge can be gained from these by illustrating different analyses approaches</p></li>
-<li><p>allow the participants to acquire computational competences about latest RNA-Seq analytical approaches and related statistical methods</p></li>
-<li><p>expose the participants to modern computing technologies, as the computer hands-on of the course will be performed using cloud computing resources</p></li>
-<li><p>develop the participants’ awareness to critically reflect onto RNA-Seq analysis strengths and weaknesses</p></li>
-<li><p>enable participants to perform the analysis of their own data (in stance of the exemplary dataset otherwise available) (course II)</p></li>
+<li><p><strong>For folder size</strong>: multiply the size of the data you are uploading by 5-7, depending on the analysis you will be doing. If the size of your files decreases with each step of your pipeline (and you remove large intermediate files during your workflow) as with variant calling for example, a factor of 5 is usually more than enough. If you are performing multiple genome alignments from <em>de novo</em> assemblies, for example, your file sizes don’t decrease significantly between each step of the pipeline, then you should multiply by a higher factor of 7 (or higher, depending on what you will be doing).</p></li>
+<li><p><strong>For number of files</strong>: multiply the number of files you are starting out with by 1000. If you are using Nextflow workflows, this number may have to be a bit higher (but should not exceed 5000) as the number of intermediate files produced here is higher due to parallelisation.</p></li>
 </ul>
-<p>The second course is a follow-up for attendees to apply the knowledge gained from the first course on their own data.</p>
-<p>The courses will be conducted online only. However, if students wish so, they can organise themselves in groups and join using one of the teaching facilities available at SLU.</p>
-<p>The maximum number of participants is 20. PhD students will be prioritised, but admission will be on a first-come, first-served basis, provided that the minimal requirements are met. Application deadline: September 13th.</p>
-<p>To register, follow this <a href="https://forms.gle/Ha6GJjo2FHZk1HbbA">link</a>.</p>
-<p>If you have any question, please contact the course leaders (nicolas.delhomme@slu.se, amrei.binzer.panchal@slu.se) or the slack channel <code>#organism-biology-research-school-rna-seq-course</code> of the <code>slubi-workspace.slack.com</code> workspace.</p>
-<center>
-<p><img src="code.png" class="class img-fluid" style="width:60.0%">c</p>
+<p>In short, consider the analyses you will be doing, what kind of data you are producing, and how big the files are. With these two <strong>very</strong> general rules, it should be easier to decide on these parameters when applying for projects!</p>
+<p>When your storage and compute projects have been approved, you will be able to upload data from your computer, or download from data delivery systems. If you are downloading from SciLifeLab, please see their <a href="https://ngisweden.scilifelab.se/resources/data-delivery-dds/">guide</a>.</p>
+<p>Your approved projects will be located under <code>/proj/nobackup</code> where xyz are the project identifiers provided to you by NAISS, or based on the folder name you selected when applying for the project. Upload your project data into the <strong>storage</strong> project folder. <strong>DO NOT</strong> upload your data to your user home directory as that directory is only intended for things you will use for every project and space is limited.</p>
+</section>
+</section>
+<section id="loading-modules" class="level2">
+<h2 class="anchored" data-anchor-id="loading-modules">Loading modules</h2>
+<p>HPC2N uses <a href="https://docs.hpc2n.umu.se/software/modules/">modules</a>. This ensures that the path is not flooded, and allows for multiple versions of software to be installed simultaneously.</p>
+<ul>
+<li>To see all available modules type <code>module avail</code></li>
+<li>If you want to see the modules that match your search term type <code>module spider tool_name</code>. This is not case specific, so you could search “fastqc” to see all modules that match the string “fastqc” (without the inverted commas!)</li>
+<li>To load a module type <code>module load tool_name</code> from the <code>module spider</code> results. This is case specific, so be sure to</li>
+</ul>
+</section>
+<section id="slurm" class="level2">
+<h2 class="anchored" data-anchor-id="slurm">Slurm</h2>
+<p>Dardel uses a job manager called <a href="https://slurm.schedmd.com/documentation.html">Slurm</a>, and they have put a <a href="https://www.hpc2n.umu.se/quickstart">how-to onto their homepage</a>. The following is simply a short overview of the most commonly used functions by SLUBI, and not an exhaustive list:</p>
+<p>To use Slurm, the project ID from your <strong>compute</strong> project is used for the <strong>-A</strong> flag. Your storage project ID is where you store data. Here, the / and spaces in the name are replaced by - as you can see below.</p>
+<p>More usefull flags and options:</p>
+<ul>
+<li>Time flags are in the format of HH:MM:SS</li>
+<li>To run an interactive session use <code>interactive -A naiss202x-xy-xyz -t 2:00:00</code> to launch an interactive session of 2 hours. Time can be changed according to your needs</li>
+<li>If you need to run a batch script, set it up so that the information in the <a href="https://support.pdc.kth.se/doc/run_jobs/job_scripts_dardel/">HPC2N guide</a> is in the header with your project number. You submit your script with the <code>sbatch script.sh</code> command</li>
+<li>To view the jobs active for your user <code>squeue -u your_username</code></li>
+<li>To cancel a job <code>scancel jobnumber</code>. You can get the jobnumber from the <code>squeue</code> command above.</li>
+</ul>
+</section>
+<section id="containers" class="level2">
+<h2 class="anchored" data-anchor-id="containers">Containers</h2>
+<p>HPC2N readily supports the use of <a href="https://docs.hpc2n.umu.se/software/containers/">containers</a> through the use of apptainer. Please make use of this way to make your research more reproducible and transferable</p>
+</section>
+<section id="nextflow" class="level2">
+<h2 class="anchored" data-anchor-id="nextflow">Nextflow</h2>
+<p>HPC2N supports the use of <a href="https://hpc2n.github.io/intro-course/software/#nextflow">Nextflow</a>.</p>
 
 
+</section>
 
-</center></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
