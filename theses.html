@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="SLUBI">
-<meta name="dcterms.date" content="2025-11-05">
-<meta name="description" content="and how bioinformatics can help you and your plants!">
 
-<title>Plant Biology for Breeding and Protection – SLU Bioinformatics Infrastructure</title>
+<title>Theses – SLU Bioinformatics Infrastructure</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +20,47 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-0c6282e9eda64d97ea9e5255f7a37655.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-0c6282e9eda64d97ea9e5255f7a37655.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -83,11 +100,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../images/SLUBI_logo.png" alt="" class="navbar-logo light-content">
-    <img src="../../../images/SLUBI_logo.png" alt="" class="navbar-logo dark-content">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/SLUBI_logo.png" alt="" class="navbar-logo light-content">
+    <img src="./images/SLUBI_logo.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">SLU Bioinformatics Infrastructure</span>
     </a>
   </div>
@@ -111,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Plant Biology for Breeding and Protection</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./slubi.html">About us</a></li><li class="breadcrumb-item"><a href="./theses.html">Theses</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -134,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome to SLUBI</span></a>
   </div>
 </li>
@@ -151,13 +168,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../support_what.html" class="sidebar-item-text sidebar-link">
+  <a href="./support_what.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Support</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../dropin.html" class="sidebar-item-text sidebar-link">
+  <a href="./dropin.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Drop-in</span></a>
   </div>
 </li>
@@ -174,37 +191,37 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../courses.html" class="sidebar-item-text sidebar-link">
+  <a href="./courses.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Courses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../workshops.html" class="sidebar-item-text sidebar-link">
+  <a href="./workshops.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Seminars and Workshops</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../learning-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="./learning-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Self learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../online-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="./online-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tools and resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../dardel.html" class="sidebar-item-text sidebar-link">
+  <a href="./dardel.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to: Dardel</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../hpc2n.html" class="sidebar-item-text sidebar-link">
+  <a href="./hpc2n.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to: HPC2N</span></a>
   </div>
 </li>
@@ -221,13 +238,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../events.html" class="sidebar-item-text sidebar-link">
+  <a href="./events.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Events</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../social.html" class="sidebar-item-text sidebar-link">
+  <a href="./social.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fika</span></a>
   </div>
 </li>
@@ -244,31 +261,31 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../slubi.html" class="sidebar-item-text sidebar-link">
+  <a href="./slubi.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SLUBI</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../contact.html" class="sidebar-item-text sidebar-link">
+  <a href="./contact.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Contact</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../board.html" class="sidebar-item-text sidebar-link">
+  <a href="./board.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Board</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../publications.html" class="sidebar-item-text sidebar-link">
+  <a href="./publications.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Publications</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../theses.html" class="sidebar-item-text sidebar-link">
+  <a href="./theses.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Theses</span></a>
   </div>
 </li>
@@ -285,7 +302,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../news.html" class="sidebar-item-text sidebar-link">
+  <a href="./news.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">News and Events</span></a>
   </div>
 </li>
@@ -302,39 +319,16 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./slubi.html">About us</a></li><li class="breadcrumb-item"><a href="./theses.html">Theses</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Plant Biology for Breeding and Protection</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">course</div>
-    <div class="quarto-category">training</div>
-    <div class="quarto-category">plants</div>
-    <div class="quarto-category">breeding</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    and how bioinformatics can help you and your plants!
-  </div>
+<h1 class="title">Theses</h1>
 </div>
+
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>SLUBI </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 5, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -344,23 +338,203 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="course-meta-block quarto-title-meta">
-<div class="quarto-title-meta-heading">
-<p>Course dates</p>
-</div>
-<div class="quarto-title-meta-contents">
-<p>Jan 19th - Mar 23rd, 2026</p>
-</div>
-</div>
-<p>This course focuses on plant breeding and plant protection, emphasizing their global significance and the role of bioinformatics in analyzing -omics data. It covers a wide range of topics, including genetics, plant-pathogen interactions, modern breeding methods like GM and gene editing, and ethical considerations. The course features lectures from industry experts and academics, including perspectives from Sweden, Europe, and Africa, and combines theoretical knowledge with practical exercises and seminars.</p>
-<p>SLUBI was teaching the bioinformatics part of the course, in hybrid lectures both in Alnarp and in Ultuna, as well as an exercise on bioinformatics analyses.</p>
-<center>
-<p><img src="image-1.png" class="class img-fluid" style="width:70.0%"></p>
-<p>Image: Sajeevan Radha Sivarajan</p>
+<p>Here is a list of the bachelor, masters and PhD theses we were involved in, be it as collaborators, supervisors, or subject experts:</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<section class="level2">
+<h2 class="anchored" data-anchor-id="">2025</h2>
+<ol type="1">
+<li><div id="ref-Balcerek2025_bachelor" class="csl-entry" role="listitem">
+Balcerek, R. (2025). Interpreting changes in microbial abundance in rumen following nutrishment variations in cattle. Metagenomics study on the microbiome of south african cattle and its season dependency [Bachelor thesis]. <em>SLU and Haute École En Hainaut, Mons, Belgium</em>.
+</div></li>
+<li><div id="ref-Cohen2025_master" class="csl-entry" role="listitem">
+Cohen, R. (2025). Computational studies of DNA viral genome tracing [Master thesis]. <em>SLU and Haute École En Hainaut, Mons, Belgium</em>.
+</div></li>
+<li><div id="ref-diyagu2025silico" class="csl-entry" role="listitem">
+Diyagu Hannadi Jayaweera Patabadige, K. C. (2025). In silico identification and prioritisation of antifilarial drug targets in setaria digitata [Master thesis]. <em>SLU</em>. <a href="https://stud.epsilon.slu.se/21332/">https://stud.epsilon.slu.se/21332/</a>
+</div></li>
+<li><div id="ref-ericson2025comparative" class="csl-entry" role="listitem">
+Ericson, M. (2025). Comparative genomics and population genomics of common bunt - indications of one common bunt species, geographical differentiation and multiple infection [Master thesis]. <em>SLU</em>.
+</div></li>
+<li><div id="ref-king2025ectomycorrhizal" class="csl-entry" role="listitem">
+King, K. (2025). Ectomycorrhizal fungi in boreal forests : Their role in mineral weathering and nitrogen mobilisation [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2025:64</em>. <a href="https://doi.org/10.54612/a.5knsgfb07c">https://doi.org/10.54612/a.5knsgfb07c</a>
+</div></li>
+<li><div id="ref-landi2025identification" class="csl-entry" role="listitem">
+Landi, M. (2025). Identification of epigenetics variations influencing viral resistance in cassava farmers’ field [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2025: 61</em>. <a href="https://doi.org/10.54612/a.1g43ig22a9">https://doi.org/10.54612/a.1g43ig22a9</a>
+</div></li>
+<li><div id="ref-Lup2025_bachelor" class="csl-entry" role="listitem">
+Lup, K. (2025). Genome assembly and bioinformatics analysis of structural variants in african cows of differents breeds [Bachelor thesis]. <em>SLU and Haute École En Hainaut, Mons, Belgium</em>.
+</div></li>
+<li><div id="ref-marcon2025regulation" class="csl-entry" role="listitem">
+Marcon, A. (2025). Regulation of flowering time and phenology in populus trees [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2025:11</em>. <a href="https://doi.org//10.54612/a.3e1a1pjirr">https://doi.org//10.54612/a.3e1a1pjirr</a>
+</div></li>
+<li><div id="ref-niu2025ecological" class="csl-entry" role="listitem">
+Niu, J. (2025). Ecological and evolutionary consequences of ecosystem warming in fish [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2025: 15</em>. <a href="https://doi.org/10.54612/a.5bofv951fm">https://doi.org/10.54612/a.5bofv951fm</a>
+</div></li>
+<li><div id="ref-puthanveed2025virus" class="csl-entry" role="listitem">
+Puthanveed, V. (2025). Virus yellows of sugar beet–exploring pathogen diversity and host resistance [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2025: 2</em>. <a href="https://doi.org/10.54612/a.aru8g37tkj">https://doi.org/10.54612/a.aru8g37tkj</a>
+</div></li>
+<li><div id="ref-sigurdardottir2025exploring" class="csl-entry" role="listitem">
+Sigurðardóttir, H. (2025). Exploring the genetic regulation of ability and quality of gaits in icelandic horses [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2025:1</em>. <a href="https://doi.org/10.54612/a.74nb3gs77n">https://doi.org/10.54612/a.74nb3gs77n</a>
+</div></li>
+<li><div id="ref-vandamme2025seasonal" class="csl-entry" role="listitem">
+Van Damme, R. (2025). Seasonal variability of the rumen microbiome in indigenous african cattle a bioinformatics approach from pasture to pathways [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2025:60</em>. <a href="https://doi.org/10.54612/a.77nq392jvl">https://doi.org/10.54612/a.77nq392jvl</a>
+</div></li>
+<li><div id="ref-xu2025transcriptomic" class="csl-entry" role="listitem">
+XU, K. (2025). Transcriptomic analysis and gene functional identification of wax ester hydrolysis during jojoba seed germination [Master thesis]. <em>SLU</em>.
+</div></li>
+</ol>
+</section>
+<section class="level2">
+<h2 class="anchored" data-anchor-id="">2024</h2>
+<ol start="14" type="1">
+<li><div id="ref-canovi2024tackling" class="csl-entry" role="listitem">
+Canovi, C. (2024). TACKLING a GENOMIC ABYSS: Approaches to link long non-coding RNAs to potential biological function in norway spruce and aspen [Doctoral thesis]. <em>Umeå Universitet</em>. <a href="https://www.diva-portal.org/smash/get/diva2:1900774/FULLTEXT01.pdf">https://www.diva-portal.org/smash/get/diva2:1900774/FULLTEXT01.pdf</a>
+</div></li>
+<li><div id="ref-cheng2024exploration" class="csl-entry" role="listitem">
+Cheng, G. (2024). Exploration of biogas systems to unveil the acetogen community : Who are they and can we find them? [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2024:60</em>. <a href="https://doi.org/10.54612/a.3d1u684bhk">https://doi.org/10.54612/a.3d1u684bhk</a>
+</div></li>
+<li><div id="ref-irani2024biomarker" class="csl-entry" role="listitem">
+Irani Shemirani, M. (2024). Biomarker profiling in sepsis diagnostics [Doctoral thesis]. <em>University of Gothenburg. Sahlgrenska Academy</em>. <a href="https://hdl.handle.net/2077/75202">https://hdl.handle.net/2077/75202</a>
+</div></li>
+<li><div id="ref-kong2024microplatics" class="csl-entry" role="listitem">
+Kong, Z. H. (2024). Microplastics in freshwater ecosystems : Effects and drivers [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2024:63</em>. <a href="https://doi.org/10.54612/a.lm7pgi91kf">https://doi.org/10.54612/a.lm7pgi91kf</a>
+</div></li>
+<li><div id="ref-ying2024modulation" class="csl-entry" role="listitem">
+Liu, Y. (2024). Modulation of the glycoalkaloid biosynthesis pathway in potato (solanum tuberosum l.) and development of CRISPR/Cas9 methodology for tomato (solanum lycopersicum l.) [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2024:20</em>. <a href="https://doi.org/10.54612/a.6u449gh4gk">https://doi.org/10.54612/a.6u449gh4gk</a>
+</div></li>
+<li><div id="ref-nordstrom2024technologies" class="csl-entry" role="listitem">
+Nordström, I. (2024). Technologies for early detection and monitoring of new and emerging pathogens [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2024: 59</em>. <a href="https://doi.org/10.54612/a.3v8m9f4aev">https://doi.org/10.54612/a.3v8m9f4aev</a>
+</div></li>
+<li><div id="ref-perman2024challenges" class="csl-entry" role="listitem">
+Perman, E. (2024). Challenges associated with high-solid anaerobic digestion : Down-scaling, plug-flow behaviour and ammonia inhibition [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2024:41</em>. <a href="https://doi.org/10.54612/a.5tfn12l7h5">https://doi.org/10.54612/a.5tfn12l7h5</a>
+</div></li>
+<li><div id="ref-Tarnauceanu2024_bachelor" class="csl-entry" role="listitem">
+Tärnauceänu, S. (2024). Automatise the process for metagenomics analysis of reads FAIR compliant. Metagenomics analysis of NGS reads from cow rumen [Bachelor thesis]. <em>SLU and Haute École En Hainaut, Mons, Belgium</em>.
+</div></li>
+<li><div id="ref-Vanbelle2024_master" class="csl-entry" role="listitem">
+Vanbelle, A. (2024). Enhancing a metagenomics workflow using nextflow with real test case validation [Master thesis]. <em>SLU and Haute École En Hainaut, Mons, Belgium</em>.
+</div></li>
+</ol>
+</section>
+<section class="level2">
+<h2 class="anchored" data-anchor-id="">2023</h2>
+<ol start="23" type="1">
+<li><div id="ref-baran2023investigating" class="csl-entry" role="listitem">
+Baran, P. (2023). Investigating plant resistance and infection patterns in a wild plant - case study of plantago lancelota [Doctoral thesis]. <em>Helsingfors Universitet</em>. <a href="http://hdl.handle.net/10138/357227">http://hdl.handle.net/10138/357227</a>
+</div></li>
+<li><div id="ref-Bawin2023_bachelor" class="csl-entry" role="listitem">
+Bawin, N. (2023). Epigenetics studies on virus affected cassava [Bachelor thesis]. <em>SLU and Haute École En Hainaut, Mons, Belgium</em>.
+</div></li>
+<li><div id="ref-cojkic2023identification" class="csl-entry" role="listitem">
+Cojkic, A. (2023). Identification of bull semen microbiota and possible alternatives for antibiotics in semen extenders [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2023: 51</em>. <a href="https://doi.org/10.54612/a.4al7k99m30">https://doi.org/10.54612/a.4al7k99m30</a>
+</div></li>
+<li><div id="ref-colledge2023gene" class="csl-entry" role="listitem">
+Colledge, P. (2023). Gene regulation in fatty acid pathways in cyanobacteria exposed to far-red light [Masters thesis]. <em>Swansea University</em>. <a href="https://cronfa.swan.ac.uk/Record/cronfa63577">https://cronfa.swan.ac.uk/Record/cronfa63577</a>
+</div></li>
+<li><div id="ref-georgiev2023towards" class="csl-entry" role="listitem">
+Georgiev, D. T. (2023). Towards mapping the genetic cause of polydactyly in a miniature shetland pony family [Master thesis]. <em>SLU</em>. <a href="https://stud.epsilon.slu.se/19630/">https://stud.epsilon.slu.se/19630/</a>
+</div></li>
+<li><div id="ref-martin2023developing" class="csl-entry" role="listitem">
+Martin, M. T. M. (2023). Developing a reproducible bioinformatics workflow for canine inherited retinal disease [Master thesis]. <em>Uppsala Universitet</em>. <a href="https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1777515&amp;dswid=-7397">https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1777515&amp;dswid=-7397</a>
+</div></li>
+<li><div id="ref-Simon2023exploring" class="csl-entry" role="listitem">
+Simon, T. (2023). Exploring the genetic cause of myotonic dystrophy in horses [Masters thesis]. <em>SLU</em>. <a href="https://stud.epsilon.slu.se/19344/1/Simon_T_230814.pdf">https://stud.epsilon.slu.se/19344/1/Simon_T_230814.pdf</a>
+</div></li>
+<li><div id="ref-skytte2023apple" class="csl-entry" role="listitem">
+Skytte af Sätra, J. (2023). Apple genomics for the swedish breeding programme [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2023:18</em>. <a href="https://doi.org/10.54612/a.4usn6qgb7l">https://doi.org/10.54612/a.4usn6qgb7l</a>
+</div></li>
+<li><div id="ref-Wilfart2023_bachelor" class="csl-entry" role="listitem">
+Wilfart, L. (2023). Enhancing the capacity of biogas production by understanding the microbiota communities involved in the process [Bachelor thesis]. <em>SLU and Haute École En Hainaut, Mons, Belgium</em>.
+</div></li>
+</ol>
+</section>
+<section class="level2">
+<h2 class="anchored" data-anchor-id="">2022</h2>
+<ol start="32" type="1">
+<li><div id="ref-alameddine2022gene" class="csl-entry" role="listitem">
+Alameddine, A. (2022). Gene expression and mechanical properties regulating two phenotypes of horse’s skin appendages: Hoof strength and hair structure [Master thesis]. <em>SLU</em>. <a href="https://stud.epsilon.slu.se/18669/">https://stud.epsilon.slu.se/18669/</a>
+</div></li>
+<li><div id="ref-joshi2022resistance" class="csl-entry" role="listitem">
+Joshi, P. (2022). Resistance to virus yellows in sugar beet [Masters thesis]. <em>Universitat Politècnica de València</em>. <a href="https://riunet.upv.es/server/api/core/bitstreams/abe2f98e-bb79-45c2-a7b2-6eeeab0cc76e/content">https://riunet.upv.es/server/api/core/bitstreams/abe2f98e-bb79-45c2-a7b2-6eeeab0cc76e/content</a>
+</div></li>
+<li><div id="ref-ohlund2022insect" class="csl-entry" role="listitem">
+Öhlund, P. (2022). Insect-specific viruses as control measures for west nile virus infection of animals and humans [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2022:18</em>. <a href="https://res.slu.se/id/publ/116668">https://res.slu.se/id/publ/116668</a>
+</div></li>
+<li><div id="ref-Simon2022_bachelor" class="csl-entry" role="listitem">
+Simon, T. (2022). Bioinformatics analysis of sequencing data to understand cassava adaptation to virus infection. [Bachelor thesis]. <em>SLU and Haute École En Hainaut, Mons, Belgium</em>.
+</div></li>
+</ol>
+</section>
+<section class="level2">
+<h2 class="anchored" data-anchor-id="">2021</h2>
+<ol start="36" type="1">
+<li><div id="ref-andre2021molecular" class="csl-entry" role="listitem">
+André, D. (2021). Molecular regulation of the annual growth cycle in populus trees [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2021:39</em>. <a href="https://res.slu.se/id/publ/112568">https://res.slu.se/id/publ/112568</a>
+</div></li>
+<li><div id="ref-bailet2021new" class="csl-entry" role="listitem">
+Bailet, B. (2021). New methods for improving water management-exploring the role of diatoms in ecosystems [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2021: 55</em>. <a href="https://res.slu.se/id/publ/113051">https://res.slu.se/id/publ/113051</a>
+</div></li>
+<li><div id="ref-donev2021modification" class="csl-entry" role="listitem">
+Donev, E. (2021). Modification of forest trees by genetic engineering [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2021: 67</em>. <a href="https://res.slu.se/id/publ/113978">https://res.slu.se/id/publ/113978</a>
+</div></li>
+<li><div id="ref-mahmud2021molecular" class="csl-entry" role="listitem">
+Mahmud, A. K. M. F. (2021). Molecular mechanisms of yersinia pseudotuberculosis for adaptation and establishment of infection in host tissue [Doctoral thesis]. <em>Umeå Plant Science Centre, Umeå Uiversity</em>. <a href="https://www.diva-portal.org/smash/get/diva2:1540241/FULLTEXT01.pdf">https://www.diva-portal.org/smash/get/diva2:1540241/FULLTEXT01.pdf</a>
+</div></li>
+</ol>
+</section>
+<section class="level2">
+<h2 class="anchored" data-anchor-id="">2020</h2>
+<ol start="40" type="1">
+<li><div id="ref-Colette2020_bachelor" class="csl-entry" role="listitem">
+Colette, B. (2020). Bachelor thesis in biotechnique, bioinformatics [Bachelor thesis]. <em>SLU and Haute École En Hainaut, Mons, Belgium</em>.
+</div></li>
+<li><div id="ref-gourle2020dive" class="csl-entry" role="listitem">
+Gourlé, H. (2020). A dive into the coral microbiome [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2020: 29</em>. <a href="https://res.slu.se/id/publ/105415">https://res.slu.se/id/publ/105415</a>
+</div></li>
+<li><div id="ref-Kindt2020_bachelor" class="csl-entry" role="listitem">
+Kindt, L. (2020). Bachelor thesis in biotechnique, bioinformatics [Bachelor thesis]. <em>SLU and Haute École En Hainaut, Mons, Belgium</em>.
+</div></li>
+<li><div id="ref-mannapperuma2020human" class="csl-entry" role="listitem">
+Mannapperuma, C. (2020). Human-computer interaction principles for developing web-based genomics resources [Doctoral thesis]. <em>Umeå Plant Science Centre, Umeå Uiversity</em>. <a href="https://www.diva-portal.org/smash/get/diva2:1426665/FULLTEXT03.pdf">https://www.diva-portal.org/smash/get/diva2:1426665/FULLTEXT03.pdf</a>
+</div></li>
+<li><div id="ref-schiffthaler2020embracing" class="csl-entry" role="listitem">
+Schiffthaler, B. (2020). Embracing the data flood: Integrating diverse data to improve phenotype association discovery in forest trees [Doctoral thesis]. <em>Umeå University</em>.
+</div></li>
+<li><div id="ref-VanDamme2020_bachelor" class="csl-entry" role="listitem">
+Van Damme, R. (2020). Novel workflow for metagenomics and transcriptomics analysis of a.d. systems [Bachelor thesis]. <em>SLU and Haute École En Hainaut, Mons, Belgium</em>. <a href="http://urn.kb.se/resolve?urn=urn:nbn:se:slu:epsilon-s-15586">http://urn.kb.se/resolve?urn=urn:nbn:se:slu:epsilon-s-15586</a>
+</div></li>
+</ol>
+</section>
+<section class="level2">
+<h2 class="anchored" data-anchor-id="">2019</h2>
+<ol start="46" type="1">
+<li><div id="ref-al-kass2019characterization" class="csl-entry" role="listitem">
+Al-Kass, E. (2019). Characterization, quantification and removal of potential pathogens from stallion semen [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2019:17</em>. <a href="https://pub.epsilon.slu.se/16021/7/al_kass_z_190321.pdf">https://pub.epsilon.slu.se/16021/7/al_kass_z_190321.pdf</a>
+</div></li>
+<li><div id="ref-Druart2019_bachelor" class="csl-entry" role="listitem">
+Druart, A. (2019). Bachelor thesis in biotechnique, bioinformatics [Bachelor thesis]. <em>SLU and Haute École En Hainaut, Mons, Belgium</em>.
+</div></li>
+<li><div id="ref-naveed2019microplatics" class="csl-entry" role="listitem">
+Jhamat, N. (2019). Microplastics in freshwater ecosystems : Effects and drivers [Doctoral thesis]. <em>Acta Universitatis Agriculturae Sueciae</em>, <em>2019:15</em>. <a href="https://res.slu.se/id/publ/98432">https://res.slu.se/id/publ/98432</a>
+</div></li>
+</ol>
+</section>
+<section class="level2">
+<h2 class="anchored" data-anchor-id="">2018</h2>
+<ol start="49" type="1">
+<li><div id="ref-haas2018abiotics" class="csl-entry" role="listitem">
+Haas, J. C. (2018). Abiotic stress and plant-microbe interactions in norway spruce [Doctoral thesis]. <em>Umeå University</em>. <a href="https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1259961&amp;dswid=9415">https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1259961&amp;dswid=9415</a>
+</div></li>
+<li><div id="ref-Langroudi2018microplatics" class="csl-entry" role="listitem">
+Langroudi, P. P. (2018). Insights into the roles of the essential Pfh1 DNA helicase in the nuclear and mitochondrial genomes [Doctoral thesis]. <em>Umeå University</em>. <a href="https://www.diva-portal.org/smash/get/diva2:1205867/FULLTEXT01.pdf">https://www.diva-portal.org/smash/get/diva2:1205867/FULLTEXT01.pdf</a>
+</div></li>
+</ol>
+</section>
+</div>
 
-</center></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
