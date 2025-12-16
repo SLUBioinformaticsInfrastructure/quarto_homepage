@@ -1,0 +1,50 @@
+---
+title: "NADAS meeting in Uppsala"
+description: "Nordic Network of Agricultural Data Scientists"
+author: "Amrei"
+date: "2025-12-16"
+categories:
+  - meeting 
+image: 2048px-Uppsala_domkyrka.jpg
+start: "Feb 16th"
+end: "Feb 18th 2026" 
+---
+<br>
+
+::: {.quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Date
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} - {{< meta end >}}
+::::
+:::
+
+NADAS, the **Nordic Network of Agricultural Data Scientists** is supported by The Nordic Joint Committee for Agricultural and Food Research. The network brings together the researchers and PhD students from Aarhus University, Agricultural University of Iceland, Norwegian University of Life Sciences, Swedish University of Agricultural Sciences and Natural Resources Institute of Finland, as well as industry stakeholders in the region.
+
+The meeting in Uppsala will be an on-site meeting with sessions of two short courses on scientific computing and statistical methods in animal breeding. 
+
+**Dates:** 16th to 18th of February, 2026.
+
+**Venue:** The Ultuna Campus at SLU, Uppsala.
+
+**Travel expenses and accommodation:** may be covered if you are a PhD student or researcher at one of the partner institutions. Please contact your contact person for more information.
+
+**Meeting Schedule**
+
+
+| Date | Time | Event |
+|---|---|---|
+| 16–17 February | lunch-to-lunch | Final computer exercises for the course on *Statistical methods in animal breeding* (focus on Genomic Selection and GWAS) |
+| 17–18 February | lunch-to-lunch | Second meeting for the course on *Scientific computing using Julia language* |
+| 18 February | lunch-to-late | Final internal NADAS meeting and dinner |
+
+:  {.striped .hover}
+
+More information about NADAS on our [homepage](https://nadas-network.github.io/homepage/).
+
+Welcome!
+
+<br>
+<center>
+[![](2048px-Uppsala_domkyrka.jpg){.class width=60%}]()
