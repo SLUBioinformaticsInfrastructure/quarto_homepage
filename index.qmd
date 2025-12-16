@@ -5,11 +5,11 @@ description: |
 listing:
   contents: 
   - newsposts/events/20260216_nadas_uppsala
-  - newsposts/courses/20251006_course_medbioinfo
   - newsposts/courses/20251103_course_IntroToBioinf
   - newsposts/courses/20251120_course_NADAS_stats
   - newsposts/courses/20260119_course_illustrations
-  - newsposts/events/20251201_supervisor
+  - newsposts/news/20251201_supervisor
+  - newsposts/news/20251216_SLU_round
   id: future_events
   sort: "date desc"
   type: grid

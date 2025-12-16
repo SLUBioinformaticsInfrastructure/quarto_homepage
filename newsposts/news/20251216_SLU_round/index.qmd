@@ -1,0 +1,44 @@
+---
+title: "New compute and storage resources for SLU researchers"
+description: "A collaboration with UPPMAX at Uppsala University"
+author: "SLUBI"
+date: "12-16-2025"
+categories:
+    - data storage
+    - collaboration
+image: uppmax_logo.png
+---
+
+We are currently setting up a new shared solution for compute and storage at SLU, together with UPPMAX at Uppsala University, and SLU IT.
+
+The aim is simple: to make it easier for SLU researchers to run analyses, handle large datasets, and store research data safely without having to set everything up on their own.
+
+**What can you use it for?**
+
+Through this collaboration, SLU researchers will get access to UPPMAX's compute system, Pelle, the data storage systems Gorilla and Lutra, designed for computation ready storage and long-term data storage, respectively.
+
+**Affordable long-term storage with Lutra**
+
+One key part of this project is Lutra long-term storage, which will be available at a clear and predictable cost:
+
+500 SEK per TB per year
+
+This includes copies on two different media in two locations (warm storage in Uppsala and tape storage in Linköping) and makes Lutra a cost-effective option for storing large amounts of research data, such as sequencing data, processed results, or archived project data.
+
+**Opening soon for all SLU researchers**
+
+Right now, the system is being set up and tested. Very soon, it will be open to everyone at SLU through a local application round.
+
+**Help us test the system**
+
+If you’re curious, we invite you to come and try it out:
+
+- Apply for a project
+- Run your analyses on Pelle
+- Test long-term storage on Lutra
+- Tell us what works well (and what doesn’t)
+
+Your feedback will help us improve the service and make sure it fits research needs at SLU.
+
+<center>
+![](uppmax_logo.png){.class width=80%}
