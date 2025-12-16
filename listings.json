@@ -31,17 +31,26 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/newsposts/events/20260216_nadas_uppsala/index.html",
+      "/newsposts/news/20251216_SLU_round/index.html",
+      "/newsposts/news/20251201_supervisor/index.html",
+      "/newsposts/courses/20251103_course_IntroToBioinf/index.html",
+      "/newsposts/courses/20251120_course_NADAS_stats/index.html",
+      "/newsposts/courses/20260119_course_illustrations/index.html"
+    ]
+  },
+  {
     "listing": "/events.html",
     "items": [
       "/newsposts/events/20260216_nadas_uppsala/index.html",
-      "/newsposts/events/20251201_supervisor/index.html",
       "/newsposts/events/20251006_retreat_umea/index.html",
       "/newsposts/events/20250930_nbis/index.html",
       "/newsposts/events/20250506_breeding_network/index.html",
       "/newsposts/events/20250324_UPSCb_IT/index.html",
       "/newsposts/events/20241104_SBW24/index.html",
       "/newsposts/events/20240514_sasuf/index.html",
-      "/newsposts/events/20240314_nadas/index.html",
       "/newsposts/events/20231109_AMRI/index.html",
       "/newsposts/events/20230929_DayOfBioinformatics/index.html",
       "/newsposts/events/20230923_SciFest/index.html",
@@ -49,17 +58,6 @@
       "/newsposts/events/201903_Uppmax_meeting/index.html",
       "/newsposts/events/20180604_SLUBI_day/index.html",
       "/newsposts/events/20171027_kickoff/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/newsposts/events/20260216_nadas_uppsala/index.html",
-      "/newsposts/events/20251201_supervisor/index.html",
-      "/newsposts/courses/20251103_course_IntroToBioinf/index.html",
-      "/newsposts/courses/20251120_course_NADAS_stats/index.html",
-      "/newsposts/courses/20260119_course_illustrations/index.html",
-      "/newsposts/courses/20251006_course_medbioinfo/index.html"
     ]
   },
   {
@@ -130,7 +128,8 @@
     "listing": "/news.html",
     "items": [
       "/newsposts/events/20260216_nadas_uppsala/index.html",
-      "/newsposts/events/20251201_supervisor/index.html",
+      "/newsposts/news/20251216_SLU_round/index.html",
+      "/newsposts/news/20251201_supervisor/index.html",
       "/newsposts/courses/20260119_course_plant_breeding/index.html",
       "/newsposts/courses/20251103_course_IntroToBioinf/index.html",
       "/newsposts/courses/20251120_course_NADAS_stats/index.html",
@@ -170,7 +169,7 @@
       "/newsposts/3_bees/20240506_Session10_HPC/index.html",
       "/newsposts/3_bees/20240408_Session9_ggplot/index.html",
       "/newsposts/3_bees/20240325_Session8_neural/index.html",
-      "/newsposts/events/20240314_nadas/index.html",
+      "/newsposts/news/20240314_nadas/index.html",
       "/newsposts/3_bees/20240311_Session7_python/index.html",
       "/newsposts/3_bees/20240226_Session6_Rfunctions/index.html",
       "/newsposts/3_bees/20240212_Session5_Pop/index.html",
