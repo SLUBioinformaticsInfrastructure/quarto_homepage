@@ -8,7 +8,7 @@ categories:
   - training
   - plants
   - breeding
-image: image-1.png
+image: breeding_course_2026.png
 start: "Jan 19th - "
 end: "Mar 23rd, 2026" 
 ---
@@ -27,6 +27,6 @@ This course focuses on plant breeding and plant protection, emphasizing their gl
 SLUBI was teaching the bioinformatics part of the course, in hybrid lectures both in Alnarp and in Ultuna, as well as an exercise on bioinformatics analyses. 
 
 <center>
-![](image-1.png){ .class width=70%}
+![](breeding_course_2026.png){ .class width=70%}
 
 Image: Sajeevan Radha Sivarajan 
