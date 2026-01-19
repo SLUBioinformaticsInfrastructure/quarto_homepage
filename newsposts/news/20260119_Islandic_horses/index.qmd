@@ -1,0 +1,19 @@
+---
+title: "Lessons from Icelandic Horses"
+description: "A project presentation video"
+author: "SLUBI"
+date: "01-19-2026"
+categories:
+    - DNA data analysis
+    - Icelandic Horses
+    - collaboration
+image: Iceland_horses.jpg
+---
+
+Can research on horses help us better understand human hair growth? In the video below, we hear from Gabriella Lindgren, whose work on Icelandic horses shows how basic research in animals can uncover genetic mechanisms with relevance far beyond a single species. 
+
+Adnan from SLUBI contributed to the project by analysing genetic data, helping to identify regulatory mechanisms that may be shared across species.
+
+{{< video https://www.youtube.com/watch?v=RgS-O_V85PE >}}
+
+Video from [SLU's Youtube channel](https://www.youtube.com/@SluSe). 

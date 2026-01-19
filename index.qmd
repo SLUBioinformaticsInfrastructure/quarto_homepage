@@ -11,6 +11,7 @@ listing:
   - newsposts/courses/20260119_course_illustrations
   - newsposts/news/20251201_supervisor
   - newsposts/news/20251216_SLU_round
+  - newsposts/news/20260119_Islandic_horses
   id: future_events
   sort: "date desc"
   type: grid
