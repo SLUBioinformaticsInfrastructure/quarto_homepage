@@ -11,55 +11,71 @@ title: "Board"
     <div style="flex: 1; padding-left: 10px;">
         <!-- Place your text content here -->
         <p><strong>Dirk-Jan de Koning</strong><br>
-        chair of board (VH, Ultuna)<br>
+        Professor in Animal Breeding at the Department of Animal Biosciences, Faculty of Veterinary Medicine and Animal Science, VH, Ultuna. Pro Vice-Chancellor For Research Infrastructure at SLU. <br>
         </p>
     </div>
 </div>
 ```
 <br>
 
-<!-- # Stéphanie -->
+<!-- # Anna -->
 ```{=html}
 <div style="display: flex; align-items: center;">
     <div style="flex: 0 0 200px; padding-right: 10px;">
-        <img src="images/Stephanie_Robert.jpeg" alt="Image" style="width: 100%; height: auto; border-radius: 50%;">
+        <img src="images/anna.jpg" alt="Image" style="width: 100%; height: auto; border-radius: 50%;">
     </div>
     <div style="flex: 1; padding-left: 10px;">
         <!-- Place your text content here -->
-        <p><strong>Stéphanie Robert</strong><br>
-        board member (S, Umeå)<br>
+        <p><strong>Anna Wallenbeck</strong><br>
+        Associate Professor in Animal Welfare, Deputy Dean at the Faculty of Veterinary Medicine and Animal Science, VH, Ultuna.<br>
         </p>
     </div>
 </div>
 ```
 <br>
 
-<!-- # Anders -->
+<!-- # Ove -->
 ```{=html}
 <div style="display: flex; align-items: center;">
     <div style="flex: 0 0 200px; padding-right: 10px;">
-        <img src="images/AndersCarlsson_jsg.jpg" alt="Image" style="width: 100%; height: auto; border-radius: 50%;">
+        <img src="images/ove.jpg" alt="Image" style="width: 100%; height: auto; border-radius: 50%;">
     </div>
     <div style="flex: 1; padding-left: 10px;">
         <!-- Place your text content here -->
-        <p><strong>Anders Carlsson</strong><br>
-        board member (LTV, Alnarp)<br>
+        <p><strong>Ove Nilsson</strong><br>
+        Professor of Forest Genetics and Plant Physiology, Programme Director WIFORCE at the Faculty of Forest Sciences, S, Umeå.<br>
         </p>
     </div>
 </div>
 ```
 <br>
 
-<!-- # Sara -->
+<!-- # Aakash -->
 ```{=html}
 <div style="display: flex; align-items: center;">
     <div style="flex: 0 0 200px; padding-right: 10px;">
-        <img src="images/SaraHallin.jpg" alt="Image" style="width: 100%; height: auto; border-radius: 50%;">
+        <img src="images/aakash.jpg" alt="Image" style="width: 100%; height: auto; border-radius: 50%;">
     </div>
     <div style="flex: 1; padding-left: 10px;">
         <!-- Place your text content here -->
-        <p><strong>Sara Hallin</strong><br>
-        board member (NJ, Ultuna)<br>
+        <p><strong>Aakash Chawade</strong><br>
+        Associate Professor of Genetics and Breeding Informatics, Deputy Dean at the Faculty of Landscape Architecture, Horticulture and Crop Production Sciences, LTV, Alnarp.<br>
+        </p>
+    </div>
+</div>
+```
+<br>
+
+<!-- # Pär -->
+```{=html}
+<div style="display: flex; align-items: center;">
+    <div style="flex: 0 0 200px; padding-right: 10px;">
+        <img src="images/par-i.jpeg" alt="Image" style="width: 100%; height: auto; border-radius: 50%;">
+    </div>
+    <div style="flex: 1; padding-left: 10px;">
+        <!-- Place your text content here -->
+        <p><strong>Pär Ingvarsson</strong><br>
+        Professor in Plant Genomics and Plant Breeding, Deputy Dean at the Faculty of Natural Resources and Agricultural Sciences, NJ, Uppsala. <br>
         </p>
     </div>
 </div>
