@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="SLU’s Bioinformatics Infrastructure">
+<meta name="author" content="SLUBI">
+<meta name="dcterms.date" content="2026-01-19">
+<meta name="description" content="A project presentation video">
 
-<title>Welcome to SLUBI – SLU Bioinformatics Infrastructure</title>
+<title>Lessons from Icelandic Horses – SLU Bioinformatics Infrastructure</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0c6282e9eda64d97ea9e5255f7a37655.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-0c6282e9eda64d97ea9e5255f7a37655.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,67 +71,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-future_events .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-future_events'] = new List('listing-future_events', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed quarto-light">
@@ -141,11 +83,11 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/SLUBI_logo.png" alt="" class="navbar-logo light-content">
-    <img src="./images/SLUBI_logo.png" alt="" class="navbar-logo dark-content">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/SLUBI_logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../../images/SLUBI_logo.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">SLU Bioinformatics Infrastructure</span>
     </a>
   </div>
@@ -169,7 +111,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li><li class="breadcrumb-item"><a href="./index.html">Welcome to SLUBI</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lessons from Icelandic Horses</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -192,7 +134,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Welcome to SLUBI</span></a>
   </div>
 </li>
@@ -209,13 +151,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./support_what.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../support_what.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Support</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./dropin.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../dropin.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Drop-in</span></a>
   </div>
 </li>
@@ -232,37 +174,37 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./courses.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../courses.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Courses</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./workshops.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../workshops.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Seminars and Workshops</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./learning-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../learning-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Self learning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./online-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../online-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tools and resources</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./dardel.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../dardel.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to: Dardel</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hpc2n.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../hpc2n.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">How to: HPC2N</span></a>
   </div>
 </li>
@@ -279,13 +221,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./events.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../events.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Events</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./social.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../social.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fika</span></a>
   </div>
 </li>
@@ -302,31 +244,31 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./slubi.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../slubi.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SLUBI</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./contact.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../contact.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Contact</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./board.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../board.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Board</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./publications.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../publications.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Publications</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./theses.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../theses.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Theses</span></a>
   </div>
 </li>
@@ -343,7 +285,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./news.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../news.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">News and Events</span></a>
   </div>
 </li>
@@ -354,35 +296,44 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#services" id="toc-services" class="nav-link active" data-scroll-target="#services">Services</a></li>
-  <li><a href="#seminar-series" id="toc-seminar-series" class="nav-link" data-scroll-target="#seminar-series">Seminar series</a></li>
-  <li><a href="#current-news-and-events" id="toc-current-news-and-events" class="nav-link" data-scroll-target="#current-news-and-events">Current news and events</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li><li class="breadcrumb-item"><a href="./index.html">Welcome to SLUBI</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to SLUBI</h1>
-</div>
+<h1 class="title">Lessons from Icelandic Horses</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">DNA data analysis</div>
+    <div class="quarto-category">Icelandic Horses</div>
+    <div class="quarto-category">collaboration</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    <p>SLU’s Bioinformatics Infrastructure</p>
+    A project presentation video
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>SLUBI </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 19, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -392,276 +343,12 @@ window.Quarto = {
 </header>
 
 
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p>Welcome to SLUBI, where our mission is to provide support and training in bioinformatics for researchers, students, and faculty at SLU. <br><br> As a hub for bioinformatics expertise within the university, we facilitate the application of computational methods in biological research and strieve to build a strong community of bioinformaticians within SLU. <br><br> Our staff is located on the 3 SLU campuses in Ultuna, Umeå and Alnarp and available to you in <a href="./contact.html">many different ways</a>.</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/SLUBI_logo.png" class="class img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<section id="services" class="level1">
-<h1>Services</h1>
-<div class="card">
-<p><br> We offer a range of bioinformatics services, including data analysis, software support, consultation, and training, tailored to meet the diverse needs of the university community.</p>
-<p>In addition to our core services, we offer customized solutions and training courses to support researchers at every stage of their bioinformatics projects, from data acquisition to publication.</p>
-<p>More information on our support <a href="./support_what.html">here</a>.</p>
-</div>
-<p><br></p>
-</section>
-<div class="grid">
-<section id="drop-in" class="level1 g-col-6">
-<h1>Drop-in</h1>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Join our weekly digital drop-in sessions to ask questions, discuss your project, or find the best tools and analyses for your data.</p>
-<p>Every Wednesday from 13:00 to 14:00 on Zoom. More information <a href="./dropin.html">here</a>.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="training" class="level1 g-col-6">
-<h1>Training</h1>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>We offer curated <a href="./courses.html">courses</a>, <a href="./workshops.html">seminars &amp; workshops</a>, and personalized training sessions to advance bioinformatics expertise at SLU.</p>
-<p>Explore our current courses or <a href="./contact.html">contact us</a> to propose new topics to us.</p>
-</div>
-</div>
-</div>
-</section>
-</div>
-<section id="seminar-series" class="level1">
-<h1>Seminar series</h1>
-<div class="card">
-<center>
-<p><br> We are proud to present our collaborative workshop series, the Three Bees:</p>
-<p><img src="images/3bees_fulltext_ampersand2.png" id="id" class="class img-fluid" style="width:70.0%"></p>
-<p>Statistical concepts and bioinformatics tools explained to you by experts. Informative lessons and hands-on coding exercises on a variety of topics.</p>
-<p>All of this and more in our collaboration with SLU’s Center for Statistics.</p>
-More information <a href="3BS.html">here</a>.
-</center>
-<p><br></p>
-</div>
-<p><br></p>
-</section>
-<section id="current-news-and-events" class="level1">
-<h1>Current news and events</h1>
-<div id="listing-future_events" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="RE5BJTIwZGF0YSUyMGFuYWx5c2lzJTJDSWNlbGFuZGljJTIwSG9yc2VzJTJDY29sbGFib3JhdGlvbg==" data-listing-date-sort="1768780800000" data-listing-file-modified-sort="1768814610841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
-<a href="./newsposts/news/20260119_Islandic_horses/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/news/20260119_Islandic_horses/Iceland_horses.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title" data-anchor-id="current-news-and-events">
-Lessons from Icelandic Horses
-</h5>
-<div class="card-text listing-description delink">
-<p>A project presentation video</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Jan 19, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Y291cnNlJTJDdHJhaW5pbmclMkNxdWFudGl0YXRpdmUlMjBnZW5ldGljcyUyQ2p1bGlh" data-listing-date-sort="1768521600000" data-listing-file-modified-sort="1768814610773" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="714">
-<a href="./newsposts/courses/20260210_course_julia/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/courses/20260210_course_julia/julia.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Scientific computing using Julia language
-</h5>
-<div class="card-text listing-description delink">
-<p>A collaboration with NADAS</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Jan 16, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="bWVldGluZw==" data-listing-date-sort="1765843200000" data-listing-file-modified-sort="1768814610837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
-<a href="./newsposts/events/20260216_nadas_uppsala/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/events/20260216_nadas_uppsala/2048px-Uppsala_domkyrka.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-NADAS meeting in Uppsala
-</h5>
-<div class="card-text listing-description delink">
-<p>Nordic Network of Agricultural Data Scientists</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Amrei
-</div>
-<div class="listing-date">
-Dec 16, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="ZGF0YSUyMHN0b3JhZ2UlMkNjb2xsYWJvcmF0aW9u" data-listing-date-sort="1765843200000" data-listing-file-modified-sort="1768814610839" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="240">
-<a href="./newsposts/news/20251216_SLU_round/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/news/20251216_SLU_round/uppmax_logo.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-New compute and storage resources for SLU researchers
-</h5>
-<div class="card-text listing-description delink">
-<p>A collaboration with UPPMAX at Uppsala University</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Dec 16, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="dGVhY2hpbmclMkNhd2FyZCUyMG5vbWluYXRpb24lMkNjZWxlYnJhdGlvbg==" data-listing-date-sort="1764288000000" data-listing-file-modified-sort="1768814610839" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
-<a href="./newsposts/news/20251201_supervisor/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/news/20251201_supervisor/celebration-party-hats.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Supervisor of the Year 2025 Nomination
-</h5>
-<div class="card-text listing-description delink">
-<p>Stora sessionssalen, Alnarp</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Nov 28, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Y291cnNlJTJDdHJhaW5pbmclMkNwbGFudHMlMkNicmVlZGluZw==" data-listing-date-sort="1762300800000" data-listing-file-modified-sort="1768814610773" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
-<a href="./newsposts/courses/20260119_course_plant_breeding/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/courses/20260119_course_plant_breeding/breeding_course_2026.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Plant Biology for Breeding and Protection
-</h5>
-<div class="card-text listing-description delink">
-<p>and how bioinformatics can help you and your plants!</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Nov 5, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="Y291cnNlJTJDdHJhaW5pbmclMkNzdGF0aXN0aWNzJTJDYnJlZWRpbmc=" data-listing-date-sort="1761523200000" data-listing-file-modified-sort="1768814610756" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="427">
-<a href="./newsposts/courses/20251120_course_NADAS_stats/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/courses/20251120_course_NADAS_stats/NADAS_logo.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Statistical methods in animal breeding
-</h5>
-<div class="card-text listing-description delink">
-<p>With a focus on Genomic Selection and Genome-Wide Association Studies</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Oct 27, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="Y291cnNlJTJDdHJhaW5pbmclMkNnaXQlMkNyZXByb2R1Y2liaWxpdHklMkNxdWFydG8lMkNncy12bWFz" data-listing-date-sort="1761264000000" data-listing-file-modified-sort="1768814610757" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
-<a href="./newsposts/courses/20260119_course_illustrations/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./newsposts/courses/20260119_course_illustrations/illustrations.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data handling and high-quality illustrations for publications
-</h5>
-<div class="card-text listing-description delink">
-<p>A course on how to handle data and create appropriate illustrations for your project.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-SLUBI
-</div>
-<div class="listing-date">
-Oct 24, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<p>Can research on horses help us better understand human hair growth? In the video below, we hear from Gabriella Lindgren, whose work on Icelandic horses shows how basic research in animals can uncover genetic mechanisms with relevance far beyond a single species.</p>
+<p>Adnan from SLUBI contributed to the project by analysing genetic data, helping to identify regulatory mechanisms that may be shared across species.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/RgS-O_V85PE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Video from <a href="https://www.youtube.com/@SluSe">SLU’s Youtube channel</a>.</p>
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
