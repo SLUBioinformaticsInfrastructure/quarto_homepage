@@ -2,6 +2,7 @@
   {
     "listing": "/courses.html",
     "items": [
+      "/newsposts/courses/20260202_course_emplant/index.html",
       "/newsposts/courses/20260210_course_julia/index.html",
       "/newsposts/courses/20260119_course_plant_breeding/index.html",
       "/newsposts/courses/20251103_course_IntroToBioinf/index.html",
@@ -32,19 +33,6 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/newsposts/news/20260119_Islandic_horses/index.html",
-      "/newsposts/courses/20260210_course_julia/index.html",
-      "/newsposts/events/20260216_nadas_uppsala/index.html",
-      "/newsposts/news/20251216_SLU_round/index.html",
-      "/newsposts/news/20251201_supervisor/index.html",
-      "/newsposts/courses/20260119_course_plant_breeding/index.html",
-      "/newsposts/courses/20251120_course_NADAS_stats/index.html",
-      "/newsposts/courses/20260119_course_illustrations/index.html"
-    ]
-  },
-  {
     "listing": "/events.html",
     "items": [
       "/newsposts/events/20260216_nadas_uppsala/index.html",
@@ -61,6 +49,20 @@
       "/newsposts/events/201903_Uppmax_meeting/index.html",
       "/newsposts/events/20180604_SLUBI_day/index.html",
       "/newsposts/events/20171027_kickoff/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/newsposts/courses/20260202_course_emplant/index.html",
+      "/newsposts/news/20260119_Islandic_horses/index.html",
+      "/newsposts/courses/20260210_course_julia/index.html",
+      "/newsposts/events/20260216_nadas_uppsala/index.html",
+      "/newsposts/news/20251216_SLU_round/index.html",
+      "/newsposts/news/20251201_supervisor/index.html",
+      "/newsposts/courses/20260119_course_plant_breeding/index.html",
+      "/newsposts/courses/20251120_course_NADAS_stats/index.html",
+      "/newsposts/courses/20260119_course_illustrations/index.html"
     ]
   },
   {
@@ -130,6 +132,7 @@
   {
     "listing": "/news.html",
     "items": [
+      "/newsposts/courses/20260202_course_emplant/index.html",
       "/newsposts/news/20260119_Islandic_horses/index.html",
       "/newsposts/courses/20260210_course_julia/index.html",
       "/newsposts/events/20260216_nadas_uppsala/index.html",
