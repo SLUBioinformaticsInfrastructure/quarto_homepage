@@ -1,0 +1,33 @@
+---
+title: "emPLANT Bioinformatics Course"
+description: "A Erasmus Mundus Master Program in Plant Breeding - emPLANT Master course"
+author: "SLUBI"
+date: "01-21-2026"
+categories:
+  - course
+  - plant breeding
+  - reproducible research
+  - genomics
+image: logo-emplant.png
+start: "Feb 2nd"
+end: "Feb 6th, 2026"
+---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates:
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} - {{< meta end >}}
+::::
+:::
+
+This course is organised in collaboration with the [emPLANT master’s programme](https://emplant-master.eu/information-emplant-master-plant-breeding), a joint European MSc that brings together students and teachers from several universities with a focus on plant breeding and plant science.
+
+The course focuses on practical bioinformatics skills relevant to plant science and breeding. It introduces key tools and workflows used for sequence analysis, next-generation sequencing (NGS) data, and reproducible research. Through short lectures and hands-on sessions, students will work with Linux, perform sequence homology searches, assess sequencing data quality, and explore basic genome comparisons.
+
+We will be teaching along with other teachers from SLU and other institutions. 
+
+<br>
+<center>
+[![](logo-emplant.png){.class width=60%}]()
