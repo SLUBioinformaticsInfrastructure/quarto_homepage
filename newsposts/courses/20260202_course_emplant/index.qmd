@@ -5,7 +5,7 @@ author: "SLUBI"
 date: "01-21-2026"
 categories:
   - course
-  - plant breeding
+  - breeding
   - reproducible research
   - genomics
 image: logo-emplant.png
