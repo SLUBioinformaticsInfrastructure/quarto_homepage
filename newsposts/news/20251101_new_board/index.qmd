@@ -1,5 +1,5 @@
 ---
-title: "A welcome to our new board"
+title: "Introducing the SLUBI Board 2026"
 description: ""
 author: "SLUBI"
 date: 2025-11-01
@@ -20,24 +20,23 @@ Date
 ::::
 :::
 
-Introducing the SLUBI Board 2026
-
-We are pleased to introduce the current board of SLUBI, with representatives from across SLU’s faculties. The board will work to support ongoing activities and explore how SLUBI’s core services can continue to benefit the community.
+We are pleased to introduce the new board members of SLUBI, with representatives from across SLU’s faculties. The board will work to support ongoing activities and explore how SLUBI’s core services can continue to benefit the community.
 
 ## Head of the Board
 
-Dirk-Jan de Koning
+**Dirk-Jan de Koning**: 
+
 Professor in Animal Breeding, Faculty of Veterinary Medicine and Animal Science (VH), Ultuna.
 Pro Vice-Chancellor for Research Infrastructure at SLU.
 
 ## Faculty Representatives
 
-- Anna Wallenbeck (VH, Ultuna)
-- Ove Nilsson (S, Umeå)
-- Aakash Chawade (LTV, Alnarp)
-- Pär Ingvarsson (NJ, Uppsala)
+- **Anna Wallenbeck** (VH, Ultuna)
+- **Ove Nilsson** (S, Umeå)
+- **Aakash Chawade** (LTV, Alnarp)
+- **Pär Ingvarsson** (NJ, Uppsala)
 
-We thank the board members for their commitment and look forward to their work in the coming year.
+We thank the departing board members for their service and the new ones for their commitment. We look forward to working together in the coming year.
 
 [See the full board and profiles here](../../../board.qmd).
 
