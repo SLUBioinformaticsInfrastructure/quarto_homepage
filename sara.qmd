@@ -1,0 +1,12 @@
+---
+title: "Sara Rydman"
+about: 
+  template: jolla
+  image: images/sara.png
+  links:
+    - icon: GitHub
+      text: Github
+      url: "https://github.com/sarawestman"
+---
+ 
+Expert in metabolomics, RNA-seq, GWAS, eQTL mapping, and network analyses.

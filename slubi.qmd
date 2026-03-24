@@ -20,7 +20,7 @@ We also serve as a link to the broader bioinformatics community in Sweden, such 
 
 We are a group of skilled bioinformaticians. Please klick on us to see more about our background. 
 
-::: {layout-ncol=2}
+::::: {layout-ncol=2}
 
 :::: {.card}
 <br>
@@ -35,11 +35,11 @@ We are a group of skilled bioinformaticians. Please klick on us to see more abou
 :::: {.card}
 <br>
 <center>
-[![](images/NicolasDelhomme_9704.jpg){.class width=50%}](nicolas.qmd)
+[![](images/sara.png){.class width=50%}](sara.qmd)
 </center>
 
 <br>
-[Nicolas Delhomme, bioinformatician in Umeå (S faculty)](nicolas.qmd): head of the [UPSC Bioinformatics Facility](https://www.upsc.se/platforms/upsc-bioinformatics-facility.html), expert in expression profiling and anything bioinformatics related.
+[Sara Rydman, bioinformatician in Umeå (S faculty)](nicolas.qmd): our expert in metabolomics, RNA-seq, GWAS, eQTL mapping, and network analyses..
 ::::
 
 <br>
@@ -70,7 +70,8 @@ We are a group of skilled bioinformaticians. Please klick on us to see more abou
 
 <br>
 
-:::: {.card}
+:::: {.card .mb-4}
+::: {.card-body}
 <br>
 <center>
 [![](images/Abu_2023.jpg){.class width=50%}](abu.qmd)
@@ -78,9 +79,11 @@ We are a group of skilled bioinformaticians. Please klick on us to see more abou
 
 <br>
 [Abu Bakar Siddique, bioinformatician in Ultuna (NJ faculty)](abu.qmd): our expert in metagenomics, DNASeq, shotgun seq, metabarcoding (ITS), WGS analysis, read mapping, genome assembly and annotation. With wetlab experience in DNA, PCR and HTS library prep.
+:::
 ::::
 
-:::: {.card}
+:::: {.card .mb-4}
+::: {.card-body}
 <br>
 <center>
 [![](images/Renaud.jpg){.class width=50%}](renaud.qmd)
@@ -88,5 +91,6 @@ We are a group of skilled bioinformaticians. Please klick on us to see more abou
 
 <br>
 [Renaud Van Damme, system administrator and bioinformatician (VH faculty)](renaud.qmd): our system administrator for the local High Performance Computing cluster, pipeline developer and expert in metagenomics.
-::::
 :::
+::::
+:::::
