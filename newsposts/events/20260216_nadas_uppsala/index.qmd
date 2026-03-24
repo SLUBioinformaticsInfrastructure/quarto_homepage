@@ -37,7 +37,7 @@ The meeting in Uppsala will be an on-site meeting with sessions of two short cou
 |---|---|---|
 | 16–17 February | lunch-to-lunch | Final computer exercises for the course on *Statistical methods in animal breeding* (focus on Genomic Selection and GWAS) |
 | 17–18 February | lunch-to-lunch | Second meeting for the course on *Scientific computing using Julia language* |
-| 18 February | lunch-to-late | Final internal NADAS meeting and dinner |
+| 18 February | afternoon | Final internal NADAS meeting and dinner |
 
 :  {.striped .hover}
 
