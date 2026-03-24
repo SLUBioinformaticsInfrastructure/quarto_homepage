@@ -32,6 +32,8 @@ website:
           - workshops.qmd
           - learning-resources.qmd
           - online-resources.qmd
+      - section: "HPC clusters"
+        contents:
           - dardel.qmd
           - hpc2n.qmd
       - section: "Events"
