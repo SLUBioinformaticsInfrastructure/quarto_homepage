@@ -21,8 +21,8 @@ We also serve as a link to the broader bioinformatics community in Sweden, such 
 We are a group of skilled bioinformaticians. Please klick on us to see more about our background. 
 
 ::::: {layout-ncol=2}
-
 :::: {.card}
+::: {.card-body}
 <br>
 <center>
 [![](images/Amrei_Binzer-Panchal.jpg){.class width=50%}](amrei.qmd) 
@@ -30,33 +30,11 @@ We are a group of skilled bioinformaticians. Please klick on us to see more abou
 
 <br>
 [Amrei Binzer-Panchal, bioinformatician in Ultuna (VH faculty)](amrei.qmd): head of the infrastructure, and expert in analysing RNAseq, methylation data, microarrays, and 10x single cell RNAseq data.
+:::
 ::::
 
 :::: {.card}
-<br>
-<center>
-[![](images/sara.png){.class width=50%}](sara.qmd)
-</center>
-
-<br>
-[Sara Rydman, bioinformatician in Umeå (S faculty)](nicolas.qmd): our expert in metabolomics, RNA-seq, GWAS, eQTL mapping, and network analyses..
-::::
-
-<br>
-
-<br>
-
-:::: {.card}
-<br>
-<center>
-[![](images/potgieter.jpg){.class width=50%}](lizel.qmd)
-</center>
-
-<br>
-[Lizel Potgieter, bioinformatician in Alnarp (LTV faculty)](lizel.qmd): our plant breeding, comparative genomics, population genomics, variant calling, genome assembly and annotation expert.
-::::
-
-:::: {.card}
+::: {.card-body}
 <br>
 <center>
 [![](images/AdnanNiazi.jpg){.class width=50%}](adnan.qmd)
@@ -64,6 +42,31 @@ We are a group of skilled bioinformaticians. Please klick on us to see more abou
 
 <br>
 [Adnan Niazi, bioinformatician in Ultuna (VH faculty)](adnan.qmd): our expert in RNAseq, metabarcoding (16S/18S/ITS), epigenomics (WGBS/RRBS), genome assembly and annotation.
+:::
+::::
+
+:::: {.card}
+::: {.card-body}
+<br>
+<center>
+[![](images/sara.png){.class width=50%}](sara.qmd)
+</center>
+<br>
+<br>
+[Sara Rydman, bioinformatician in Umeå (S faculty)](nicolas.qmd): our expert in metabolomics, RNA-sequencing, genome-wide association studies (GWAS), eQTL mapping, and network analyses.
+:::
+::::
+
+:::: {.card}
+::: {.card-body}
+<br>
+<center>
+[![](images/potgieter.jpg){.class width=50%}](lizel.qmd)
+</center>
+
+<br>
+[Lizel Potgieter, bioinformatician in Alnarp (LTV faculty)](lizel.qmd): our plant breeding, comparative genomics, population genomics, variant calling, genome assembly and annotation expert.
+:::
 ::::
 
 <br> 
@@ -81,16 +84,21 @@ We are a group of skilled bioinformaticians. Please klick on us to see more abou
 [Abu Bakar Siddique, bioinformatician in Ultuna (NJ faculty)](abu.qmd): our expert in metagenomics, DNASeq, shotgun seq, metabarcoding (ITS), WGS analysis, read mapping, genome assembly and annotation. With wetlab experience in DNA, PCR and HTS library prep.
 :::
 ::::
+:::::
 
-:::: {.card .mb-4}
-::: {.card-body}
-<br>
-<center>
-[![](images/Renaud.jpg){.class width=50%}](renaud.qmd)
-</center>
 
+## Former members
+
+We would like to give a big thank you to our former colleagues for their important contributions to SLUBI. We truly enjoyed working with them and wish them all the best in their exciting new roles.
+
+::::: {layout-ncol=2}
+:::: {.card}
 <br>
-[Renaud Van Damme, system administrator and bioinformatician (VH faculty)](renaud.qmd): our system administrator for the local High Performance Computing cluster, pipeline developer and expert in metagenomics.
-:::
+<center> [![](images/NicolasDelhomme_9704.jpg){.class width=50%}](nicolas.qmd) </center> <br> [Nicolas Delhomme, former bioinformatician and UPSC Bioinformatics Facility Manager in Umeå (S faculty)](nicolas.qmd): now WIFORCE Data Center Coordinator. 
+::::
+
+:::: {.card}
+<br>
+<center> [![](images/Renaud.jpg){.class width=50%}](renaud.qmd) </center> <br> [Renaud Van Damme, former system administrator and bioinformatician (VH faculty)](renaud.qmd): now researcher for the GigaCow project at SLU. 
 ::::
 :::::
