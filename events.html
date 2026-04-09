@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ab5d381ca58736fabd8176ed4c4da3d0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1d75729acfce310eccd376c22942cc89.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -368,7 +368,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="YmlvaW5mb3JtYXRpY3M=">bioinformatics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YnJlZWRpbmc=">breeding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWR1Y2F0aW9u">education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="a3ViZXJuZXRlcw==">kubernetes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWVldGluZw==">meeting <span class="quarto-category-count">(7)</span></div><div class="category" data-category="bmV0d29ya2luZw==">networking <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV4dGZsb3c=">nextflow <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b3V0cmVhY2g=">outreach <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cHJlc2VudGF0aW9u">presentation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cmVwcm9kdWNpYmlsaXR5">reproducibility <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3ltcG9zaXVt">symposium <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJhaW5pbmc=">training <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d29ya3Nob3A=">workshop <span class="quarto-category-count">(4)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(15)</span></div><div class="category" data-category="YmlvaW5mb3JtYXRpY3M=">bioinformatics <span class="quarto-category-count">(3)</span></div><div class="category" data-category="YnJlZWRpbmc=">breeding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWR1Y2F0aW9u">education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="a3ViZXJuZXRlcw==">kubernetes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWVldGluZw==">meeting <span class="quarto-category-count">(8)</span></div><div class="category" data-category="bmV0d29ya2luZw==">networking <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV4dGZsb3c=">nextflow <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b3V0cmVhY2g=">outreach <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cHJlc2VudGF0aW9u">presentation <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cmVwcm9kdWNpYmlsaXR5">reproducibility <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3ltcG9zaXVt">symposium <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJhaW5pbmc=">training <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d29ya3Nob3A=">workshop <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
@@ -397,7 +397,42 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bWVldGluZw==" data-listing-date-sort="1765843200000" data-listing-file-modified-sort="1774619028339" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
+<div class="quarto-post image-right" data-index="0" data-categories="bWVldGluZyUyQ2Jpb2luZm9ybWF0aWNz" data-listing-date-sort="1775520000000" data-listing-file-modified-sort="1775717860551" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
+<div class="thumbnail"><a href="./newsposts/events/20260515_Eriks_symposium/index.html" class="no-external">
+
+<img loading="lazy" src="./newsposts/events/20260515_Eriks_symposium/symposium.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./newsposts/events/20260515_Eriks_symposium/index.html" class="no-external">Bioinformatics Across Genomes and Continents</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20260515_Eriks_symposium/index.html" class="no-external">A symposium honoring Prof.&nbsp;Erik Bongcam-Rudloff</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVldGluZw=='); return false;">meeting</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YmlvaW5mb3JtYXRpY3M='); return false;">bioinformatics</div>
+
+</div>
+<div class="delink listing-description"><a href="./newsposts/events/20260515_Eriks_symposium/index.html" class="no-external">
+<br>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./newsposts/events/20260515_Eriks_symposium/index.html" class="no-external">
+<div class="listing-date">
+Apr 7, 2026
+</div>
+<div class="listing-author">
+Amrei
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="bWVldGluZw==" data-listing-date-sort="1765843200000" data-listing-file-modified-sort="1775717860551" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
 <div class="thumbnail"><a href="./newsposts/events/20260216_nadas_uppsala/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/20260216_nadas_uppsala/2048px-Uppsala_domkyrka.jpg" class="thumbnail-image">
@@ -407,6 +442,9 @@ window.Quarto = {
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/20260216_nadas_uppsala/index.html" class="no-external">NADAS meeting in Uppsala</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20260216_nadas_uppsala/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('bWVldGluZw=='); return false;">meeting</div>
@@ -427,7 +465,7 @@ Amrei
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="bmV0d29ya2luZyUyQ2Jpb2luZm9ybWF0aWNzJTJDcHJlc2VudGF0aW9u" data-listing-date-sort="1759708800000" data-listing-file-modified-sort="1774619028338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="134">
+<div class="quarto-post image-right" data-index="2" data-categories="bmV0d29ya2luZyUyQ2Jpb2luZm9ybWF0aWNzJTJDcHJlc2VudGF0aW9u" data-listing-date-sort="1759708800000" data-listing-file-modified-sort="1775717860550" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="134">
 <div class="thumbnail"><a href="./newsposts/events/20251006_retreat_umea/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/20251006_retreat_umea/UPSC+logo.jpg" class="thumbnail-image">
@@ -437,6 +475,9 @@ Amrei
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/20251006_retreat_umea/index.html" class="no-external">Umeå Bioinformatics Retreat</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20251006_retreat_umea/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('bmV0d29ya2luZw=='); return false;">networking</div>
@@ -461,7 +502,7 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="bmV0d29ya2luZyUyQ2Jpb2luZm9ybWF0aWNzJTJDcHJlc2VudGF0aW9u" data-listing-date-sort="1759190400000" data-listing-file-modified-sort="1774619028338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
+<div class="quarto-post image-right" data-index="3" data-categories="bmV0d29ya2luZyUyQ2Jpb2luZm9ybWF0aWNzJTJDcHJlc2VudGF0aW9u" data-listing-date-sort="1759190400000" data-listing-file-modified-sort="1775717860550" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
 <div class="thumbnail"><a href="./newsposts/events/20250930_nbis/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/20250930_nbis/nbis_logo.png" class="thumbnail-image">
@@ -471,6 +512,9 @@ SLUBI
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/20250930_nbis/index.html" class="no-external">NBIS retreat</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20250930_nbis/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('bmV0d29ya2luZw=='); return false;">networking</div>
@@ -495,7 +539,7 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="bmV0d29ya2luZyUyQ2JyZWVkaW5nJTJDcHJlc2VudGF0aW9u" data-listing-date-sort="1746489600000" data-listing-file-modified-sort="1774619028338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="68">
+<div class="quarto-post image-right" data-index="4" data-categories="bmV0d29ya2luZyUyQ2JyZWVkaW5nJTJDcHJlc2VudGF0aW9u" data-listing-date-sort="1746489600000" data-listing-file-modified-sort="1775717860550" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="68">
 <div class="thumbnail"><a href="./newsposts/events/20250506_breeding_network/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/20250506_breeding_network/breeding-eng.webp" class="thumbnail-image">
@@ -505,6 +549,9 @@ SLUBI
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/20250506_breeding_network/index.html" class="no-external">SLU Breeding Network meeting</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20250506_breeding_network/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('bmV0d29ya2luZw=='); return false;">networking</div>
@@ -529,7 +576,7 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="d29ya3Nob3AlMkN0cmFpbmluZyUyQ2t1YmVybmV0ZXMlMkNuZXh0Zmxvdw==" data-listing-date-sort="1742774400000" data-listing-file-modified-sort="1774619028337" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<div class="quarto-post image-right" data-index="5" data-categories="d29ya3Nob3AlMkN0cmFpbmluZyUyQ2t1YmVybmV0ZXMlMkNuZXh0Zmxvdw==" data-listing-date-sort="1742774400000" data-listing-file-modified-sort="1775717860549" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
 <div class="thumbnail"><a href="./newsposts/events/20250324_UPSCb_IT/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/20250324_UPSCb_IT/Kubernetes.png" class="thumbnail-image">
@@ -539,6 +586,9 @@ SLUBI
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/20250324_UPSCb_IT/index.html" class="no-external">Kubernetes and nextflow</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20250324_UPSCb_IT/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
@@ -565,7 +615,7 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="d29ya3Nob3AlMkNvdXRyZWFjaA==" data-listing-date-sort="1730678400000" data-listing-file-modified-sort="1774619028336" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="188">
+<div class="quarto-post image-right" data-index="6" data-categories="d29ya3Nob3AlMkNvdXRyZWFjaA==" data-listing-date-sort="1730678400000" data-listing-file-modified-sort="1775717860548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="188">
 <div class="thumbnail"><a href="./newsposts/events/20241104_SBW24/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/20241104_SBW24/SBW2024_logo_pink_final.png" class="thumbnail-image">
@@ -575,6 +625,9 @@ SLUBI
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/20241104_SBW24/index.html" class="no-external">Swedish Bioinformatics Workshop 2024</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20241104_SBW24/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
@@ -597,7 +650,7 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="d29ya3Nob3AlMkNtZWV0aW5n" data-listing-date-sort="1715644800000" data-listing-file-modified-sort="1774619028305" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
+<div class="quarto-post image-right" data-index="7" data-categories="d29ya3Nob3AlMkNtZWV0aW5n" data-listing-date-sort="1715644800000" data-listing-file-modified-sort="1775717860517" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
 <div class="thumbnail"><a href="./newsposts/events/20240514_sasuf/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/20240514_sasuf/sasuf-logo.png" class="thumbnail-image">
@@ -607,6 +660,9 @@ SLUBI
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/20240514_sasuf/index.html" class="no-external">Workshop session at Sasuf Week</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20240514_sasuf/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
@@ -629,7 +685,7 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="b3V0cmVhY2glMkNyZXByb2R1Y2liaWxpdHklMkNlZHVjYXRpb24=" data-listing-date-sort="1699488000000" data-listing-file-modified-sort="1774619028304" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+<div class="quarto-post image-right" data-index="8" data-categories="b3V0cmVhY2glMkNyZXByb2R1Y2liaWxpdHklMkNlZHVjYXRpb24=" data-listing-date-sort="1699488000000" data-listing-file-modified-sort="1775717860515" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
 <div class="thumbnail"><a href="./newsposts/events/20231109_AMRI/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/20231109_AMRI/amri.png" class="thumbnail-image">
@@ -639,6 +695,9 @@ SLUBI
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/20231109_AMRI/index.html" class="no-external">Presentation: Practical considerations and available tools for big data science</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20231109_AMRI/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('b3V0cmVhY2g='); return false;">outreach</div>
@@ -663,7 +722,7 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="c3ltcG9zaXVtJTJDbWVldGluZw==" data-listing-date-sort="1695945600000" data-listing-file-modified-sort="1774619028299" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
+<div class="quarto-post image-right" data-index="9" data-categories="c3ltcG9zaXVtJTJDbWVldGluZw==" data-listing-date-sort="1695945600000" data-listing-file-modified-sort="1775717860510" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
 <div class="thumbnail"><a href="./newsposts/events/20230929_DayOfBioinformatics/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/20230929_DayOfBioinformatics/SDB.png" class="thumbnail-image">
@@ -673,6 +732,9 @@ SLUBI
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/20230929_DayOfBioinformatics/index.html" class="no-external">SLU’s Day of Bioinformatics</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20230929_DayOfBioinformatics/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('c3ltcG9zaXVt'); return false;">symposium</div>
@@ -695,7 +757,7 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="b3V0cmVhY2glMkNlZHVjYXRpb24=" data-listing-date-sort="1695427200000" data-listing-file-modified-sort="1774619028293" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
+<div class="quarto-post image-right" data-index="10" data-categories="b3V0cmVhY2glMkNlZHVjYXRpb24=" data-listing-date-sort="1695427200000" data-listing-file-modified-sort="1775717860505" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
 <div class="thumbnail"><a href="./newsposts/events/20230923_SciFest/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/20230923_SciFest/SciFest.png" class="thumbnail-image">
@@ -705,6 +767,9 @@ SLUBI
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/20230923_SciFest/index.html" class="no-external">SciFest 2023</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20230923_SciFest/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('b3V0cmVhY2g='); return false;">outreach</div>
@@ -727,7 +792,7 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="bmV3cyUyQ21lZXRpbmc=" data-listing-date-sort="1677456000000" data-listing-file-modified-sort="1774619028290" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="quarto-post image-right" data-index="11" data-categories="bmV3cyUyQ21lZXRpbmc=" data-listing-date-sort="1677456000000" data-listing-file-modified-sort="1775717860502" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
 <div class="thumbnail"><a href="./newsposts/events/20230227_SLUBI_day/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/20230227_SLUBI_day/IMG_8241.jpg" class="thumbnail-image">
@@ -737,6 +802,9 @@ SLUBI
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/20230227_SLUBI_day/index.html" class="no-external">SLUBI day 2023</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20230227_SLUBI_day/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
@@ -759,7 +827,7 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="d29ya3Nob3AlMkNtZWV0aW5n" data-listing-date-sort="1557273600000" data-listing-file-modified-sort="1774619028284" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
+<div class="quarto-post image-right" data-index="12" data-categories="d29ya3Nob3AlMkNtZWV0aW5n" data-listing-date-sort="1557273600000" data-listing-file-modified-sort="1775717860496" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
 <div class="thumbnail"><a href="./newsposts/events/201903_Uppmax_meeting/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/201903_Uppmax_meeting/uppmax.png" class="thumbnail-image">
@@ -769,6 +837,9 @@ SLUBI
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/201903_Uppmax_meeting/index.html" class="no-external">Uppmax meeting</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/201903_Uppmax_meeting/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
@@ -791,7 +862,7 @@ SASUF
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="bmV3cyUyQ21lZXRpbmc=" data-listing-date-sort="1528070400000" data-listing-file-modified-sort="1774619028284" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<div class="quarto-post image-right" data-index="13" data-categories="bmV3cyUyQ21lZXRpbmc=" data-listing-date-sort="1528070400000" data-listing-file-modified-sort="1775717860496" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
 <div class="thumbnail"><a href="./newsposts/events/20180604_SLUBI_day/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/20180604_SLUBI_day/20180604_SLUBI_day_flyer_1A4.png" class="thumbnail-image">
@@ -801,6 +872,9 @@ SASUF
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/20180604_SLUBI_day/index.html" class="no-external">SLUBI day 2018</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20180604_SLUBI_day/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
@@ -823,7 +897,7 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="bWVldGluZw==" data-listing-date-sort="1509062400000" data-listing-file-modified-sort="1774619028283" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
+<div class="quarto-post image-right" data-index="14" data-categories="bWVldGluZw==" data-listing-date-sort="1509062400000" data-listing-file-modified-sort="1775717860495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
 <div class="thumbnail"><a href="./newsposts/events/20171027_kickoff/index.html" class="no-external">
 
 <img loading="lazy" src="./newsposts/events/20171027_kickoff/group_pic.jpeg" class="thumbnail-image">
@@ -833,6 +907,9 @@ SLUBI
 <h3 class="no-anchor listing-title">
 <a href="./newsposts/events/20171027_kickoff/index.html" class="no-external">SLUBI kickoff meeting</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./newsposts/events/20171027_kickoff/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('bWVldGluZw=='); return false;">meeting</div>
