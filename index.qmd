@@ -5,6 +5,7 @@ description: |
 listing:
   contents: 
   - newsposts/events/20260515_Eriks_symposium
+  - newsposts/events/20260420_SCoRe_retreat
   - newsposts/news/20251101_new_board
   - newsposts/news/20251216_SLU_round
   - newsposts/news/20260119_Islandic_horses

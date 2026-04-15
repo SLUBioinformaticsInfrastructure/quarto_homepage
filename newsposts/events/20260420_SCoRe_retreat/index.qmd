@@ -1,0 +1,27 @@
+---
+title: "SCoRe retreat"
+description: "Swedish Bioinformatics Support United"
+author: "SLUBI"
+date: 2026-03-26
+categories:
+  - networking
+  - bioinformatics
+  - presentation
+image: NBIS-SCoRe_matrix-2048x1165.png
+---
+
+**Dates:** 20–21 April 2026  
+**Location:** Stockholm  
+
+
+SLUBI has been invited to join the upcoming retreat organised by the **Support for Computational Resources (SCoRe)** unit within NBIS/SciLifeLab.
+
+The retreat brings together people working with bioinformatics and high-performance computing support across Sweden. It’s a great opportunity to exchange ideas, share experiences, and connect with colleagues from other institutions.
+
+The meeting will follow a lunch-to-lunch format and include presentations and discussions on how to support computational life science going forward.
+
+We’re looking forward to taking part and to reconnecting with others working in this space.
+
+<br><br>
+<center>
+![](NBIS-SCoRe_matrix-2048x1165.png){.class width=40%}
