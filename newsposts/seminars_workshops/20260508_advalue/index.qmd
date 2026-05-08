@@ -1,0 +1,19 @@
+---
+title: "AI as your data science companion"
+description: "SLUBI workshop within the ADVALUE project"
+author: "SLUBI"
+date: 2026-04-15
+categories:
+  - workshop
+  - AI
+  - data science
+image: advalue.png
+---
+
+As part of the ADVALUE project, SLUBI recently gave the workshop “AI as your data science companion”.
+
+[ADVALUE](https://www.slu.se/en/research/research-catalogue/projekt/a/advalue/) is an international Erasmus+ project for strengthening doctoral education and sustainable agricultural research through data-driven approaches. It is a collaboration between partners in Europe, Kenya, and Uganda. 
+
+The workshop focused on how AI tools can support everyday work in bioinformatics and data science. Participants also discussed limitations and ethics when using AI.
+
+We thank the ADVALUE project for the invitation and for the interesting discussions.
