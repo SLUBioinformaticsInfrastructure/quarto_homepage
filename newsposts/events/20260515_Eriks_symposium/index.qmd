@@ -40,6 +40,8 @@ The program will bring together colleagues, collaborators, and researchers to re
 **When:** May 15th, 12:00 – 17:00  
 **Where:** Loftets Hörsal, Duhrevägen 8, Ultuna, Uppsala  
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3667.303175741931!2d17.6606613!3d59.8151526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465fc9912556a485%3A0xa88f783c992dd80f!2sLoftet-%20dinner%20venue!5e1!3m2!1sde!2sse!4v1778761796971!5m2!1sde!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 ---
 
 ## Program
@@ -62,6 +64,9 @@ The program will bring together colleagues, collaborators, and researchers to re
 | Time | Activity |
 |:---|:---|
 | **18:00 – 23:00** | Dinner |
+
+---
+
 <br>
 <center>
 [![](symposium.png){.class width=60%}]()
