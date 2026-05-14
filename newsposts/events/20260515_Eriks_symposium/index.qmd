@@ -22,9 +22,12 @@ Date
 
 ### Registration
 
-Registration is closed, but you can just swing by, or contact me at amrei.binzer.panchal@slu.se for more information. 
+Registration is closed, but you are welcome to just swing by, or contact me at amrei.binzer.panchal@slu.se for more information. 
 
 ---
+
+<center>
+[![](Eriks_journey.png){.class width=40%}]()
 
 This symposium celebrates the career and impact of Prof. Erik Bongcam-Rudloff, whose work has contributed to the development of bioinformatics at SLU and fostered international collaborations across continents.
 
