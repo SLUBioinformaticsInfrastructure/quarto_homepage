@@ -50,16 +50,19 @@ The program will bring together colleagues, collaborators, and researchers to re
 Lunch  
 
 **13:00**  
-Álvaro Martínez Barrio, Thermo Fisher Scientific PSX
+Álvaro Martínez Barrio, Thermo Fisher Scientific PSX:
+Three Bioinformatic Generations in 30min
 
 **13:30**  
-Ola Spjuth, Uppsala University  
+Ola Spjuth, Uppsala University:
+Science is a team sport
 
 **14:00**  
 Andreas Gisel, IITA Nigeria  
 
 **14:30**  
-Tomas Klingström, Gigacow, SLU
+Tomas Klingström, Gigacow, SLU:
+SLU Gigacow - Building an informatics platform to accelerate dairy cattle research
 
 **15:00**  
 Fika  
@@ -68,7 +71,8 @@ Fika
 Panel discussion 
 
 **16:00**  
-Erik Bongcam-Rudloff  
+Erik Bongcam-Rudloff:
+Why Research? How Did It Go? Was It Worth It? — Reflections on a Life in Science
 
 ---
 
