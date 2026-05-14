@@ -48,14 +48,14 @@ The program will bring together colleagues, collaborators, and researchers to re
 
 | Time | Speaker | Title |
 |:---|:---|:---|
-| **12:00 – 13:00** |  | Lunch |
-| **13:00** | Álvaro Martínez Barrio, Thermo Fisher Scientific PSX | *Three Bioinformatic Generations in 30min* |
-| **13:30** | Ola Spjuth, Uppsala University | *Science is a team sport* |
-| **14:00** | Andreas Gisel, IITA Nigeria | *Epigenetics in Cassava* |
-| **14:30** | Tomas Klingström, Gigacow, SLU | *SLU Gigacow – Building an informatics platform to accelerate dairy cattle research* |
+| **12:00** |  | Lunch |
+| **13:00** | **Álvaro Martínez Barrio**, Thermo Fisher Scientific PSX | *Three Bioinformatic Generations in 30min* |
+| **13:30** | **Ola Spjuth**, Uppsala University | *Science is a team sport* |
+| **14:00** | **Andreas Gisel**, IITA Nigeria | *Epigenetics in Cassava* |
+| **14:30** | **Tomas Klingström**, Gigacow, SLU | *SLU Gigacow – Building an informatics platform to accelerate dairy cattle research* |
 | **15:00** |  | Fika |
 | **15:30** |  | Panel discussion:  *Collaborations in Science* |
-| **16:00** | Erik Bongcam-Rudloff, SLU | *Why Research? How Did It Go? Was It Worth It? — Reflections on a Life in Science* |
+| **16:00** | **Erik Bongcam-Rudloff**, SLU | *Why Research? How Did It Go? Was It Worth It? — Reflections on a Life in Science* |
 
 ---
 
@@ -63,7 +63,7 @@ The program will bring together colleagues, collaborators, and researchers to re
 
 | Time | Activity |
 |:---|:---|
-| **18:00 – 23:00** | Dinner |
+| **18:00** | Dinner at Loftets Bankettsal |
 
 ---
 
