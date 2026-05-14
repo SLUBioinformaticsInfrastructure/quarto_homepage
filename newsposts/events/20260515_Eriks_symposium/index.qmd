@@ -59,7 +59,6 @@ The program will bring together colleagues, collaborators, and researchers to re
 
 :  {.striped .hover}
 
----
 
 ### Evening
 
@@ -69,7 +68,6 @@ The program will bring together colleagues, collaborators, and researchers to re
 
 :  {.striped .hover}
 
----
 
 <br>
 <center>
