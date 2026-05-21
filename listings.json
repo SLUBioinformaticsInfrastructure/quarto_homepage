@@ -32,9 +32,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/newsposts/courses/20261116_course_PopGen/index.html",
       "/newsposts/seminars_workshops/20260508_advalue/index.html",
       "/newsposts/events/20260515_Eriks_symposium/index.html",
-      "/newsposts/events/20260420_SCoRe_retreat/index.html",
       "/newsposts/news/20260119_Islandic_horses/index.html",
       "/newsposts/news/20251216_SLU_round/index.html",
       "/newsposts/news/20251101_new_board/index.html"
@@ -99,6 +99,7 @@
   {
     "listing": "/news.html",
     "items": [
+      "/newsposts/courses/20261116_course_PopGen/index.html",
       "/newsposts/seminars_workshops/20260508_advalue/index.html",
       "/newsposts/events/20260515_Eriks_symposium/index.html",
       "/newsposts/events/20260420_SCoRe_retreat/index.html",
@@ -183,6 +184,7 @@
   {
     "listing": "/courses.html",
     "items": [
+      "/newsposts/courses/20261116_course_PopGen/index.html",
       "/newsposts/courses/20260202_course_emplant/index.html",
       "/newsposts/courses/20260210_course_julia/index.html",
       "/newsposts/courses/20260119_course_plant_breeding/index.html",
