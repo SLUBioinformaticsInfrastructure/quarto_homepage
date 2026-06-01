@@ -7,7 +7,7 @@ listing:
   - newsposts/events/20260515_Eriks_symposium
   - newsposts/seminars_workshops/20260508_advalue
   - newsposts/courses/20261116_course_PopGen
-  - newsposts/news/20251101_new_board
+  - newsposts/courses/20260616_course_microcontroller
   - newsposts/news/20251216_SLU_round
   - newsposts/news/20260119_Islandic_horses
   id: future_events

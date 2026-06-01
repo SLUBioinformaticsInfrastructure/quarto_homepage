@@ -1,0 +1,35 @@
+---
+title: "Microcontroller programming and interfacing for medical and agricultural technology"
+description: "Hands-on microcontroller course at Makerere University, Kampala, Uganda."
+author: "SLUBI"
+date: "05-30-2026"
+categories:
+  - course
+  - training
+  - microcontrollers
+  - international
+start: "Jun 16th - "
+end: "Jun 17th, 2026"
+image: microbit.png
+---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
+
+This course takes place at **Makerere University in Kampala, Uganda**. SLUBI is producing the pre-course materials, quizzes, and hands-on exercises, and Samuel Flores (SLU) will teach and supervise on-site.
+
+Students will learn microcontroller architecture and programming using MakeCode, work with sensors and actuators from the Elecfreaks Smart Health Kit, and build a prototype product in teams of 4–5. Teaching follows the flipped spaced-repetition format.
+
+Pre-course assignments are due before the on-site sessions.
+
+<center>
+![](microbit.png){.class width=60%}
+
+*[Gareth Halfacree from Bradford, UK](https://commons.wikimedia.org/wiki/File:BBC_micro_bit_(26146399942).png), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons*
+</center>
