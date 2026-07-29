@@ -1,0 +1,29 @@
+---
+title: "AI Literacy and Implementation"
+description: "A workshop on AI literacy for researchers on Campus Alnarp."
+author: "SLUBI"
+date: "07-29-2026"
+categories:
+  - workshop
+  - AI
+  - training
+start: "Aug 25th, 2026, 13:00"
+end: "15:00"
+image: implementation2.png
+---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Date & time
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} – {{< meta end >}}, Campus Alnarp
+::::
+:::
+
+This workshop covers both the theory and practical aspects of AI literacy and implementation. It takes place on Campus Alnarp and combines a theoretical introduction with hands-on exercises.
+
+The workshop is platform- and LLM-agnostic and open to everyone — no prior experience with AI tools required.
+
+<center>
+![](implementation2.png){.class width=60%}

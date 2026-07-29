@@ -4,7 +4,7 @@ description: |
   SLU's Bioinformatics Infrastructure
 listing:
   contents: 
-  - newsposts/events/20260515_Eriks_symposium
+  - newsposts/seminars_workshops/20260825_AI_literacy
   - newsposts/seminars_workshops/20260508_advalue
   - newsposts/courses/20261116_course_PopGen
   - newsposts/courses/20260616_course_microcontroller
