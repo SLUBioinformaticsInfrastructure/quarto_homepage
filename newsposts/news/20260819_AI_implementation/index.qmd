@@ -3,6 +3,10 @@ title: "AI Literacy and Implementation at VF"
 subtitle: "Department of Plant Breeding — VF Report"
 author: "Lizel Potgieter"
 date: 2026-08-19
+categories:
+  - AI
+  - report
+  - LLM
 format:
   html:
     toc: true
