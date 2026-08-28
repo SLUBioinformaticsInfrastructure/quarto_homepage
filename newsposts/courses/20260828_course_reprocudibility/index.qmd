@@ -1,0 +1,18 @@
+---
+title: "Reproducible Research in Bioinformatics and Computational Biology"
+date: 2026-08-03
+image: workflow.png
+---
+
+SLUBI, together with the [GS-VMAS Graduate School](https://www.slu.se/) and [MedBioInfo](https://medbioinfo.se/), is running a new course on reproducible and scalable bioinformatics. The course teaches good working habits for data analysis and the practical tools that support them: version control with Git, reproducible environments with Pixi, containers with Apptainer, and workflow pipelines with Nextflow and nf-core. The aim is that participants can run their analyses reliably on any system, from a laptop to a high-performance cluster, and apply the same principles to their own research data.
+
+The course is aimed at researchers moving into data-heavy work, including those coming from field or wet-lab backgrounds.
+
+::: {.callout-note}
+## Course at a glance
+- **Dates:** 31 August – 18 September 2026 (three weeks)
+- **Credits:** 4.5 hp
+- **Format:** an online introductory module, a project assignment week, and an on-location advanced module in Ultuna
+- **Partners:** SLUBI, GS-VMAS Graduate School, and MedBioInfo
+- **Course website for the advanced module:** [amrei-bp.github.io/Reproducible_Research](https://amrei-bp.github.io/Reproducible_Research/)
+:::

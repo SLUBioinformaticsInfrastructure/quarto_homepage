@@ -4,6 +4,7 @@ description: |
   SLU's Bioinformatics Infrastructure
 listing:
   contents: 
+  - newsposts/courses/20260828_course_reprocudibility
   - newsposts/seminars_workshops/20260825_AI_literacy
   - newsposts/news/20260819_AI_implementation
   - newsposts/courses/20261116_course_PopGen
