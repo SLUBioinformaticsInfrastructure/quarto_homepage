@@ -5,7 +5,7 @@ description: |
 listing:
   contents: 
   - newsposts/seminars_workshops/20260825_AI_literacy
-  - newsposts/seminars_workshops/20260508_advalue
+  - newsposts/news/20260819_AI_implementation
   - newsposts/courses/20261116_course_PopGen
   - newsposts/courses/20260616_course_microcontroller
   - newsposts/news/20251216_SLU_round
