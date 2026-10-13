@@ -1,6 +1,7 @@
 ---
 title: "Reproducible Research in Bioinformatics and Computational Biology"
 date: 2026-08-03
+author: "SLUBI"
 categories:
   - course
   - training
@@ -15,7 +16,6 @@ image: workflow.png
 
 ::: {.course-meta-block .quarto-title-meta}
 :::: {.quarto-title-meta-heading}
-Course dates
 ::::
 :::: {.quarto-title-meta-contents}
 {{< meta start >}} {{< meta end >}}
