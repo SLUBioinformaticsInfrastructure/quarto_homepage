@@ -94,3 +94,9 @@
   border-left: 3px solid var(--bs-primary);
   line-height: 1.45;
 }
+
+img.thumbnail-image[src*="naiss_logo_black"] {
+  object-fit: contain !important;
+  object-position: center !important;
+  padding: 0.5rem;
+}
