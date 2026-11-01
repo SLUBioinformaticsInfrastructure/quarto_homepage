@@ -1,0 +1,32 @@
+---
+title: "Advanced Plant Breeding and Genetic Resources"
+description: "AI literacry and protein characterization"
+author: "SLUBI"
+date: "11-02-2026"
+categories:
+  - course
+  - training
+  - plants
+  - breeding
+  - bioinformatics
+image: 1280px-Jowar_Sorghum.jpeg
+start: "Nov 2nd, 2026 - "
+end: "Jan 17th, 2027"
+---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
+
+As part of this 15-credit master's-level course at Campus Alnarp, SLUBI joined forces with colleagues from WIFORCE to deliver a bioinformatics module. The first part covered AI literacy, and the second introduced students to protein characterization using [Phytozome](https://phytozome-next.jgi.doe.gov/): gene reports, functional annotation, protein homologs, BlastP, distance trees, and domain annotation.
+
+<center>
+![](1280px-Jowar_Sorghum.jpeg){.class width=70%}
+
+*MGB CEE, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons*
+</center>
