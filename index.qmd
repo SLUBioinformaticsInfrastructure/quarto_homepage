@@ -4,14 +4,11 @@ description: |
   SLU's Bioinformatics Infrastructure
 listing:
   contents: 
-  - newsposts/events/20261028_planetary_biology
-  - newsposts/events/20261006_naiss_user_forum
+  - newsposts/courses/20261103_course_Breeding_genetics
   - newsposts/courses/20261005_course_RNAseq
   - newsposts/courses/20260828_course_reprocudibility
   - newsposts/seminars_workshops/20260825_AI_literacy
-  - newsposts/news/20260819_AI_implementation
   - newsposts/news/20251216_SLU_round
-  - newsposts/news/20260119_Islandic_horses
   id: future_events
   sort: "date desc"
   type: grid
