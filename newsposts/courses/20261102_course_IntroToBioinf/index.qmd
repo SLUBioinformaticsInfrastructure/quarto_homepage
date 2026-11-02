@@ -1,0 +1,42 @@
+---
+title: "Introduction to Bioinformatics"
+description: "A course together with SLU’s Graduate School for Veterinary Medicine and Animal Science."
+author: "SLUBI"
+date: "11-02-2026"
+categories:
+  - course
+  - training
+  - NGS
+  - reproducibility
+  - RNAseq
+  - gs-vmas
+image: course_intro_image.png
+start: "Nov 2nd, 2026 - "
+end: "Jan 17th, 2027"
+---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
+
+This course provides a solid introduction to bioinformatics, focusing on essential methods and tools for analyzing DNA sequences and protein structures.
+
+Students will learn how to:
+
+- Work with biological databases and compare genetic and protein data.
+
+- Use software such as EMBOSS, UGENE, and R for sequence and statistical analyses.
+
+- Work in a High Performance Cluster Unix/Linux environment, as well as apply web-based bioinformatics tools.
+
+- Understand key bioinformatics concepts including phylogeny, comparative and functional genomics, and Next Generation Sequencing (NGS).
+
+SLUBI contributes several parts of the course: the introduction to the command line, working in HPC environments, coding for smart greenhouses, and Next Generation Sequencing, as well as RNA sequencing.
+
+<center>
+![](course_intro_image.png){.class width=60%}
