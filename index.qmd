@@ -4,6 +4,7 @@ description: |
   SLU's Bioinformatics Infrastructure
 listing:
   contents: 
+  - newsposts/courses/20261102_course_IntroToBioinf
   - newsposts/courses/20261103_course_Breeding_genetics
   - newsposts/events/20261026_Norlandia_visit
   - newsposts/courses/20261005_course_RNAseq
