@@ -95,7 +95,8 @@
   line-height: 1.45;
 }
 
-img.thumbnail-image[src*="naiss_logo_black"] {
+img.thumbnail-image[src*="naiss_logo_black"],
+img.thumbnail-image[src*="norlandia_logo"] {
   object-fit: contain !important;
   object-position: center !important;
   padding: 0.5rem;
