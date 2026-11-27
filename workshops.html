@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -40,14 +40,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2b5cb093d99d100b4a3d54a45db43b66.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d46b51260b8f764e5aa445c24ad0201f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -98,12 +99,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -139,11 +134,11 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed quarto-light">
+<body class="nav-sidebar floating nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
@@ -169,13 +164,13 @@ window.Quarto = {
           <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
+  <nav class="quarto-secondary-nav" aria-label="Toolbar">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./courses.html">Training</a></li><li class="breadcrumb-item"><a href="./workshops.html">Seminars and Workshops</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./courses.html">Training</a></li><li class="breadcrumb-item"><a href="./workshops.html">Seminars and Workshops</a></li></ol></nav>
+        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -183,18 +178,15 @@ window.Quarto = {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto" aria-label="Section">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Home</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-controls="quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-1-label">Home</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" aria-labelledby="quarto-sidebar-section-1-label" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
@@ -205,13 +197,10 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Services</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-controls="quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-2-label">Services</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" aria-labelledby="quarto-sidebar-section-2-label" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./support_what.html" class="sidebar-item-text sidebar-link">
@@ -228,13 +217,10 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Training</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-controls="quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-3-label">Training</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" aria-labelledby="quarto-sidebar-section-3-label" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./courses.html" class="sidebar-item-text sidebar-link">
@@ -263,13 +249,10 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">HPC clusters</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-controls="quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-4-label">HPC clusters</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-4" aria-labelledby="quarto-sidebar-section-4-label" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./dardel.html" class="sidebar-item-text sidebar-link">
@@ -286,13 +269,10 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
- <span class="menu-text">Events</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-controls="quarto-sidebar-section-5" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-5-label">Events</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-5" aria-labelledby="quarto-sidebar-section-5-label" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./events.html" class="sidebar-item-text sidebar-link">
@@ -309,13 +289,10 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
- <span class="menu-text">About us</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-controls="quarto-sidebar-section-6" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-6-label">About us</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-6" aria-labelledby="quarto-sidebar-section-6-label" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./slubi.html" class="sidebar-item-text sidebar-link">
@@ -350,13 +327,10 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
- <span class="menu-text">Archive</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-controls="quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-7-label">Archive</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-7" aria-labelledby="quarto-sidebar-section-7-label" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./news.html" class="sidebar-item-text sidebar-link">
@@ -374,9 +348,9 @@ window.Quarto = {
         
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(31)</span></div><div class="category" data-category="QUk=">AI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y29kZSUyMGFsb25n">code along <span class="quarto-category-count">(18)</span></div><div class="category" data-category="Y29tbWFuZCUyMGxpbmU=">command line <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RGFyZGVs">Dardel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGFyZGVs">dardel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGF0YSUyMG1hbmFnZW1lbnQ=">data management <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGF0YSUyMHNjaWVuY2U=">data science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWR1Y2F0aW9u">education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Z2dwbG90">ggplot <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Z2l0">git <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R2l0SHVi">GitHub <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aGlnaCUyMHBlcmZvcm1hbmNlJTIwY29tcHV0aW5n">high performance computing <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SFBDJTJGJTIwTkFJU1M=">HPC/ NAISS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFya2Rvd24=">markdown <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TkFJU1M=">NAISS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV1cmFsJTIwbmV0d29ya3M=">neural networks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV4dGZsb3c=">nextflow <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UENB">PCA <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cHl0aG9u">python <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cXVhcnRv">quarto <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(8)</span></div><div class="category" data-category="cmVwcm9kdWNpYmlsaXR5">reproducibility <span class="quarto-category-count">(10)</span></div><div class="category" data-category="c2VtaW5hcg==">seminar <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c2x1cm0=">slurm <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3RhdGlzdGljcw==">statistics <span class="quarto-category-count">(5)</span></div><div class="category" data-category="dHJhaW5pbmc=">training <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d29ya3Nob3A=">workshop <span class="quarto-category-count">(30)</span></div></div></div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content" tabindex="-1">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./courses.html">Training</a></li><li class="breadcrumb-item"><a href="./workshops.html">Seminars and Workshops</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./courses.html">Training</a></li><li class="breadcrumb-item"><a href="./workshops.html">Seminars and Workshops</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Seminars and Workshops</h1>
 </div>
@@ -401,15 +375,15 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="d29ya3Nob3AlMkNBSSUyQ3RyYWluaW5n" data-listing-date-sort="1785283200000" data-listing-file-modified-sort="1791899678472" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
-<div class="thumbnail"><a href="./newsposts/seminars_workshops/20260825_AI_literacy/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="0" data-categories="d29ya3Nob3AlMkNBSSUyQ3RyYWluaW5n" data-listing-date-sort="1785283200000" data-listing-file-modified-sort="1795791107156" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
+<div class="thumbnail"><a href="./newsposts/seminars_workshops/20260825_AI_literacy/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/seminars_workshops/20260825_AI_literacy/implementation2.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/seminars_workshops/20260825_AI_literacy/index.html" class="no-external">AI Literacy and Implementation</a>
+<a href="./newsposts/seminars_workshops/20260825_AI_literacy/index.html" class="no-external-icon">AI Literacy and Implementation</a>
 </h3>
 <div class="listing-categories">
 
@@ -420,12 +394,14 @@ window.Quarto = {
 <div class="listing-category" onclick="window.quartoListingCategory('dHJhaW5pbmc='); return false;">training</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/seminars_workshops/20260825_AI_literacy/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/seminars_workshops/20260825_AI_literacy/index.html" class="no-external-icon">
 <p>A workshop on AI literacy for researchers on Campus Alnarp.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/seminars_workshops/20260825_AI_literacy/index.html" class="no-external">
+<a href="./newsposts/seminars_workshops/20260825_AI_literacy/index.html" class="no-external-icon">
 <div class="listing-date">
 Jul 29, 2026
 </div>
@@ -435,15 +411,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="d29ya3Nob3AlMkNBSSUyQ2RhdGElMjBzY2llbmNl" data-listing-date-sort="1776211200000" data-listing-file-modified-sort="1791899678472" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
-<div class="thumbnail"><a href="./newsposts/seminars_workshops/20260508_advalue/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="1" data-categories="d29ya3Nob3AlMkNBSSUyQ2RhdGElMjBzY2llbmNl" data-listing-date-sort="1776211200000" data-listing-file-modified-sort="1795791107155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
+<div class="thumbnail"><a href="./newsposts/seminars_workshops/20260508_advalue/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/seminars_workshops/20260508_advalue/advalue.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/seminars_workshops/20260508_advalue/index.html" class="no-external">AI as your data science companion</a>
+<a href="./newsposts/seminars_workshops/20260508_advalue/index.html" class="no-external-icon">AI as your data science companion</a>
 </h3>
 <div class="listing-categories">
 
@@ -454,12 +430,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('ZGF0YSUyMHNjaWVuY2U='); return false;">data science</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/seminars_workshops/20260508_advalue/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/seminars_workshops/20260508_advalue/index.html" class="no-external-icon">
 <p>SLUBI workshop within the ADVALUE project</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/seminars_workshops/20260508_advalue/index.html" class="no-external">
+<a href="./newsposts/seminars_workshops/20260508_advalue/index.html" class="no-external-icon">
 <div class="listing-date">
 Apr 15, 2026
 </div>
@@ -469,15 +447,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="d29ya3Nob3AlMkNoaWdoJTIwcGVyZm9ybWFuY2UlMjBjb21wdXRpbmclMkNOQUlTUyUyQ0RhcmRlbA==" data-listing-date-sort="1746403200000" data-listing-file-modified-sort="1791899678316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
-<div class="thumbnail"><a href="./newsposts/3_bees/20250505_Session25_pdc/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="2" data-categories="d29ya3Nob3AlMkNoaWdoJTIwcGVyZm9ybWFuY2UlMjBjb21wdXRpbmclMkNOQUlTUyUyQ0RhcmRlbA==" data-listing-date-sort="1746403200000" data-listing-file-modified-sort="1795791106945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
+<div class="thumbnail"><a href="./newsposts/3_bees/20250505_Session25_pdc/index.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="images/3bees_fulltext_ampersand2.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20250505_Session25_pdc/index.html" class="no-external">Q&amp;A on Dardel, with HPC support staff</a>
+<a href="./newsposts/3_bees/20250505_Session25_pdc/index.html" class="no-external-icon">Q&amp;A on Dardel, with HPC support staff</a>
 </h3>
 <div class="listing-categories">
 
@@ -490,12 +468,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('RGFyZGVs'); return false;">Dardel</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20250505_Session25_pdc/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20250505_Session25_pdc/index.html" class="no-external-icon">
 <p>Session 25 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20250505_Session25_pdc/index.html" class="no-external">
+<a href="./newsposts/3_bees/20250505_Session25_pdc/index.html" class="no-external-icon">
 <div class="listing-date">
 May 5, 2025
 </div>
@@ -505,15 +485,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNyZXByb2R1Y2liaWxpdHklMkNSJTJDZ2dwbG90" data-listing-date-sort="1743984000000" data-listing-file-modified-sort="1791899678316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183">
-<div class="thumbnail"><a href="./newsposts/3_bees/20250407_Session24_ggplot/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="3" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNyZXByb2R1Y2liaWxpdHklMkNSJTJDZ2dwbG90" data-listing-date-sort="1743984000000" data-listing-file-modified-sort="1795791106945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183">
+<div class="thumbnail"><a href="./newsposts/3_bees/20250407_Session24_ggplot/index.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="images/3bees_fulltext_ampersand2.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20250407_Session24_ggplot/index.html" class="no-external">Make pretty graphics - learn to ggplot in R</a>
+<a href="./newsposts/3_bees/20250407_Session24_ggplot/index.html" class="no-external-icon">Make pretty graphics - learn to ggplot in R</a>
 </h3>
 <div class="listing-categories">
 
@@ -528,12 +508,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Z2dwbG90'); return false;">ggplot</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20250407_Session24_ggplot/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20250407_Session24_ggplot/index.html" class="no-external-icon">
 <p>Session 24 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20250407_Session24_ggplot/index.html" class="no-external">
+<a href="./newsposts/3_bees/20250407_Session24_ggplot/index.html" class="no-external-icon">
 <div class="listing-date">
 Apr 7, 2025
 </div>
@@ -543,15 +525,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="d29ya3Nob3AlMkNkYXRhJTIwbWFuYWdlbWVudCUyQ3JlcHJvZHVjaWJpbGl0eQ==" data-listing-date-sort="1742774400000" data-listing-file-modified-sort="1791899678316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
-<div class="thumbnail"><a href="./newsposts/3_bees/20250324_Session23_dms/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="4" data-categories="d29ya3Nob3AlMkNkYXRhJTIwbWFuYWdlbWVudCUyQ3JlcHJvZHVjaWJpbGl0eQ==" data-listing-date-sort="1742774400000" data-listing-file-modified-sort="1795791106945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
+<div class="thumbnail"><a href="./newsposts/3_bees/20250324_Session23_dms/index.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="images/3bees_fulltext_ampersand2.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20250324_Session23_dms/index.html" class="no-external">Data Management Resources at SLU</a>
+<a href="./newsposts/3_bees/20250324_Session23_dms/index.html" class="no-external-icon">Data Management Resources at SLU</a>
 </h3>
 <div class="listing-categories">
 
@@ -562,12 +544,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmlsaXR5'); return false;">reproducibility</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20250324_Session23_dms/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20250324_Session23_dms/index.html" class="no-external-icon">
 <p>Session 23 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20250324_Session23_dms/index.html" class="no-external">
+<a href="./newsposts/3_bees/20250324_Session23_dms/index.html" class="no-external-icon">
 <div class="listing-date">
 Mar 24, 2025
 </div>
@@ -577,15 +561,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="d29ya3Nob3AlMkNzdGF0aXN0aWNzJTJDY29kZSUyMGFsb25n" data-listing-date-sort="1741564800000" data-listing-file-modified-sort="1791899678316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
-<div class="thumbnail"><a href="./newsposts/3_bees/20250310_Session22_statistics/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="5" data-categories="d29ya3Nob3AlMkNzdGF0aXN0aWNzJTJDY29kZSUyMGFsb25n" data-listing-date-sort="1741564800000" data-listing-file-modified-sort="1795791106945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
+<div class="thumbnail"><a href="./newsposts/3_bees/20250310_Session22_statistics/index.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="images/3bees_fulltext_ampersand2.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20250310_Session22_statistics/index.html" class="no-external">Common statistical tests</a>
+<a href="./newsposts/3_bees/20250310_Session22_statistics/index.html" class="no-external-icon">Common statistical tests</a>
 </h3>
 <div class="listing-categories">
 
@@ -596,12 +580,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Y29kZSUyMGFsb25n'); return false;">code along</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20250310_Session22_statistics/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20250310_Session22_statistics/index.html" class="no-external-icon">
 <p>Session 22 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20250310_Session22_statistics/index.html" class="no-external">
+<a href="./newsposts/3_bees/20250310_Session22_statistics/index.html" class="no-external-icon">
 <div class="listing-date">
 Mar 10, 2025
 </div>
@@ -611,15 +597,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="d29ya3Nob3AlMkNxdWFydG8lMkNyZXByb2R1Y2liaWxpdHklMkNjb2RlJTIwYWxvbmc=" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1791899678316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
-<div class="thumbnail"><a href="./newsposts/3_bees/20250224_Session21_quarto/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="6" data-categories="d29ya3Nob3AlMkNxdWFydG8lMkNyZXByb2R1Y2liaWxpdHklMkNjb2RlJTIwYWxvbmc=" data-listing-date-sort="1740355200000" data-listing-file-modified-sort="1795791106945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
+<div class="thumbnail"><a href="./newsposts/3_bees/20250224_Session21_quarto/index.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="images/3bees_fulltext_ampersand2.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20250224_Session21_quarto/index.html" class="no-external">Make reports, presentations and hompages in Quarto</a>
+<a href="./newsposts/3_bees/20250224_Session21_quarto/index.html" class="no-external-icon">Make reports, presentations and hompages in Quarto</a>
 </h3>
 <div class="listing-categories">
 
@@ -632,12 +618,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Y29kZSUyMGFsb25n'); return false;">code along</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20250224_Session21_quarto/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20250224_Session21_quarto/index.html" class="no-external-icon">
 <p>Session 21 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20250224_Session21_quarto/index.html" class="no-external">
+<a href="./newsposts/3_bees/20250224_Session21_quarto/index.html" class="no-external-icon">
 <div class="listing-date">
 Feb 24, 2025
 </div>
@@ -647,15 +635,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="d29ya3Nob3AlMkNtYXJrZG93biUyQ3JlcHJvZHVjaWJpbGl0eSUyQ2NvZGUlMjBhbG9uZw==" data-listing-date-sort="1739145600000" data-listing-file-modified-sort="1791899678316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
-<div class="thumbnail"><a href="./newsposts/3_bees/20250210_Session20_markdown/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="7" data-categories="d29ya3Nob3AlMkNtYXJrZG93biUyQ3JlcHJvZHVjaWJpbGl0eSUyQ2NvZGUlMjBhbG9uZw==" data-listing-date-sort="1739145600000" data-listing-file-modified-sort="1795791106945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
+<div class="thumbnail"><a href="./newsposts/3_bees/20250210_Session20_markdown/index.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="images/3bees_fulltext_ampersand2.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20250210_Session20_markdown/index.html" class="no-external">Reporting with Markdown</a>
+<a href="./newsposts/3_bees/20250210_Session20_markdown/index.html" class="no-external-icon">Reporting with Markdown</a>
 </h3>
 <div class="listing-categories">
 
@@ -668,12 +656,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Y29kZSUyMGFsb25n'); return false;">code along</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20250210_Session20_markdown/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20250210_Session20_markdown/index.html" class="no-external-icon">
 <p>Session 20 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20250210_Session20_markdown/index.html" class="no-external">
+<a href="./newsposts/3_bees/20250210_Session20_markdown/index.html" class="no-external-icon">
 <div class="listing-date">
 Feb 10, 2025
 </div>
@@ -683,15 +673,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="d29ya3Nob3AlMkNweXRob24lMkNyZXByb2R1Y2liaWxpdHklMkNjb2RlJTIwYWxvbmc=" data-listing-date-sort="1736899200000" data-listing-file-modified-sort="1791899678316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
-<div class="thumbnail"><a href="./newsposts/3_bees/20250115_Session19_python/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="8" data-categories="d29ya3Nob3AlMkNweXRob24lMkNyZXByb2R1Y2liaWxpdHklMkNjb2RlJTIwYWxvbmc=" data-listing-date-sort="1736899200000" data-listing-file-modified-sort="1795791106945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
+<div class="thumbnail"><a href="./newsposts/3_bees/20250115_Session19_python/index.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="images/3bees_fulltext_ampersand2.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20250115_Session19_python/index.html" class="no-external">Introduction to Python</a>
+<a href="./newsposts/3_bees/20250115_Session19_python/index.html" class="no-external-icon">Introduction to Python</a>
 </h3>
 <div class="listing-categories">
 
@@ -704,12 +694,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Y29kZSUyMGFsb25n'); return false;">code along</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20250115_Session19_python/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20250115_Session19_python/index.html" class="no-external-icon">
 <p>Session 19 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20250115_Session19_python/index.html" class="no-external">
+<a href="./newsposts/3_bees/20250115_Session19_python/index.html" class="no-external-icon">
 <div class="listing-date">
 Jan 15, 2025
 </div>
@@ -719,15 +711,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="d29ya3Nob3AlMkNQQ0ElMkNzdGF0aXN0aWNzJTJDY29kZSUyMGFsb25n" data-listing-date-sort="1733097600000" data-listing-file-modified-sort="1791899678316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
-<div class="thumbnail"><a href="./newsposts/3_bees/20241202_Session18_PCA/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="9" data-categories="d29ya3Nob3AlMkNQQ0ElMkNzdGF0aXN0aWNzJTJDY29kZSUyMGFsb25n" data-listing-date-sort="1733097600000" data-listing-file-modified-sort="1795791106945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
+<div class="thumbnail"><a href="./newsposts/3_bees/20241202_Session18_PCA/index.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="images/3bees_fulltext_ampersand2.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20241202_Session18_PCA/index.html" class="no-external">PCA - Theory and Practice</a>
+<a href="./newsposts/3_bees/20241202_Session18_PCA/index.html" class="no-external-icon">PCA - Theory and Practice</a>
 </h3>
 <div class="listing-categories">
 
@@ -740,12 +732,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Y29kZSUyMGFsb25n'); return false;">code along</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20241202_Session18_PCA/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20241202_Session18_PCA/index.html" class="no-external-icon">
 <p>Session 18 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20241202_Session18_PCA/index.html" class="no-external">
+<a href="./newsposts/3_bees/20241202_Session18_PCA/index.html" class="no-external-icon">
 <div class="listing-date">
 Dec 2, 2024
 </div>
@@ -755,15 +749,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="d29ya3Nob3AlMkNSJTJDY29kZSUyMGFsb25n" data-listing-date-sort="1729468800000" data-listing-file-modified-sort="1791899678315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
-<div class="thumbnail"><a href="./newsposts/3_bees/20241021_Session17_R/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="10" data-categories="d29ya3Nob3AlMkNSJTJDY29kZSUyMGFsb25n" data-listing-date-sort="1729468800000" data-listing-file-modified-sort="1795791106945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
+<div class="thumbnail"><a href="./newsposts/3_bees/20241021_Session17_R/index.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="images/3bees_fulltext_ampersand2.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20241021_Session17_R/index.html" class="no-external">Introduction to R</a>
+<a href="./newsposts/3_bees/20241021_Session17_R/index.html" class="no-external-icon">Introduction to R</a>
 </h3>
 <div class="listing-categories">
 
@@ -774,12 +768,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Y29kZSUyMGFsb25n'); return false;">code along</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20241021_Session17_R/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20241021_Session17_R/index.html" class="no-external-icon">
 <p>Session 17 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20241021_Session17_R/index.html" class="no-external">
+<a href="./newsposts/3_bees/20241021_Session17_R/index.html" class="no-external-icon">
 <div class="listing-date">
 Oct 21, 2024
 </div>
@@ -789,15 +785,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="d29ya3Nob3AlMkNIUEMlMkYlMjBOQUlTUyUyQ2RhcmRlbCUyQ2hpZ2glMjBwZXJmb3JtYW5jZSUyMGNvbXB1dGluZw==" data-listing-date-sort="1728259200000" data-listing-file-modified-sort="1791899678315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
-<div class="thumbnail"><a href="./newsposts/3_bees/20241007_Session16_dardel/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="11" data-categories="d29ya3Nob3AlMkNIUEMlMkYlMjBOQUlTUyUyQ2RhcmRlbCUyQ2hpZ2glMjBwZXJmb3JtYW5jZSUyMGNvbXB1dGluZw==" data-listing-date-sort="1728259200000" data-listing-file-modified-sort="1795791106945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
+<div class="thumbnail"><a href="./newsposts/3_bees/20241007_Session16_dardel/index.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="images/3bees_fulltext_ampersand2.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20241007_Session16_dardel/index.html" class="no-external">Introduction to the Dardel Supercomputer</a>
+<a href="./newsposts/3_bees/20241007_Session16_dardel/index.html" class="no-external-icon">Introduction to the Dardel Supercomputer</a>
 </h3>
 <div class="listing-categories">
 
@@ -810,12 +806,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('aGlnaCUyMHBlcmZvcm1hbmNlJTIwY29tcHV0aW5n'); return false;">high performance computing</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20241007_Session16_dardel/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20241007_Session16_dardel/index.html" class="no-external-icon">
 <p>Session 16 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20241007_Session16_dardel/index.html" class="no-external">
+<a href="./newsposts/3_bees/20241007_Session16_dardel/index.html" class="no-external-icon">
 <div class="listing-date">
 Oct 7, 2024
 </div>
@@ -825,15 +823,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNjb21tYW5kJTIwbGluZQ==" data-listing-date-sort="1727049600000" data-listing-file-modified-sort="1791899678315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="279">
-<div class="thumbnail"><a href="./newsposts/3_bees/20240923_Session15_command_line/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="12" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNjb21tYW5kJTIwbGluZQ==" data-listing-date-sort="1727049600000" data-listing-file-modified-sort="1795791106945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="279">
+<div class="thumbnail"><a href="./newsposts/3_bees/20240923_Session15_command_line/index.html" class="no-external-icon">
 
 <p class="card-img-top"><img loading='lazy' src="images/3bees_fulltext_ampersand2.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20240923_Session15_command_line/index.html" class="no-external">Introduction to the command line</a>
+<a href="./newsposts/3_bees/20240923_Session15_command_line/index.html" class="no-external-icon">Introduction to the command line</a>
 </h3>
 <div class="listing-categories">
 
@@ -844,12 +842,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Y29tbWFuZCUyMGxpbmU='); return false;">command line</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20240923_Session15_command_line/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20240923_Session15_command_line/index.html" class="no-external-icon">
 <p>Session 15 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20240923_Session15_command_line/index.html" class="no-external">
+<a href="./newsposts/3_bees/20240923_Session15_command_line/index.html" class="no-external-icon">
 <div class="listing-date">
 Sep 23, 2024
 </div>
@@ -859,15 +859,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNS" data-listing-date-sort="1719792000000" data-listing-file-modified-sort="1791899678315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
-<div class="thumbnail"><a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="13" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNS" data-listing-date-sort="1719792000000" data-listing-file-modified-sort="1795791106945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
+<div class="thumbnail"><a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/3_bees/20240701_Session14_shiny/3bees_session14.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="no-external">Shiny - interactive data visualization in R</a>
+<a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="no-external-icon">Shiny - interactive data visualization in R</a>
 </h3>
 <div class="listing-categories">
 
@@ -878,12 +878,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="no-external-icon">
 <p>Session 14 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="no-external">
+<a href="./newsposts/3_bees/20240701_Session14_shiny/index.html" class="no-external-icon">
 <div class="listing-date">
 Jul 1, 2024
 </div>
@@ -893,15 +895,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="d29ya3Nob3AlMkNyZXByb2R1Y2liaWxpdHklMkNS" data-listing-date-sort="1718582400000" data-listing-file-modified-sort="1791899678309" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
-<div class="thumbnail"><a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="14" data-categories="d29ya3Nob3AlMkNyZXByb2R1Y2liaWxpdHklMkNS" data-listing-date-sort="1718582400000" data-listing-file-modified-sort="1795791106936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
+<div class="thumbnail"><a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/3_bees/20240617_Session13_projMan/3bees_session13.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="no-external">Project organization in R</a>
+<a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="no-external-icon">Project organization in R</a>
 </h3>
 <div class="listing-categories">
 
@@ -912,12 +914,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="no-external-icon">
 <p>Session 13 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="no-external">
+<a href="./newsposts/3_bees/20240617_Session13_projMan/index.html" class="no-external-icon">
 <div class="listing-date">
 Jun 17, 2024
 </div>
@@ -927,15 +931,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="d29ya3Nob3AlMkNnaXQlMkNHaXRIdWIlMkNyZXByb2R1Y2liaWxpdHk=" data-listing-date-sort="1717372800000" data-listing-file-modified-sort="1791899678303" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
-<div class="thumbnail"><a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="15" data-categories="d29ya3Nob3AlMkNnaXQlMkNHaXRIdWIlMkNyZXByb2R1Y2liaWxpdHk=" data-listing-date-sort="1717372800000" data-listing-file-modified-sort="1795791106927" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
+<div class="thumbnail"><a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/3_bees/20240603_Session12_git/3bees_session12.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="no-external">Introduction to git and Github</a>
+<a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="no-external-icon">Introduction to git and Github</a>
 </h3>
 <div class="listing-categories">
 
@@ -948,12 +952,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmlsaXR5'); return false;">reproducibility</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="no-external-icon">
 <p>Session 12 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="no-external">
+<a href="./newsposts/3_bees/20240603_Session12_git/index.html" class="no-external-icon">
 <div class="listing-date">
 Jun 3, 2024
 </div>
@@ -963,15 +969,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="d29ya3Nob3AlMkNyZXByb2R1Y2liaWxpdHklMkNnaXQlMkNxdWFydG8=" data-listing-date-sort="1716163200000" data-listing-file-modified-sort="1791899678297" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
-<div class="thumbnail"><a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="16" data-categories="d29ya3Nob3AlMkNyZXByb2R1Y2liaWxpdHklMkNnaXQlMkNxdWFydG8=" data-listing-date-sort="1716163200000" data-listing-file-modified-sort="1795791106918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
+<div class="thumbnail"><a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/3_bees/20240520_Session11_repResearch/3bees_session11.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="no-external">Tools and tricks for reproducible research</a>
+<a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="no-external-icon">Tools and tricks for reproducible research</a>
 </h3>
 <div class="listing-categories">
 
@@ -984,12 +990,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('cXVhcnRv'); return false;">quarto</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="no-external-icon">
 <p>Session 11 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="no-external">
+<a href="./newsposts/3_bees/20240520_Session11_repResearch/index.html" class="no-external-icon">
 <div class="listing-date">
 May 20, 2024
 </div>
@@ -999,15 +1007,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="d29ya3Nob3AlMkNoaWdoJTIwcGVyZm9ybWFuY2UlMjBjb21wdXRpbmclMkNzbHVybQ==" data-listing-date-sort="1714953600000" data-listing-file-modified-sort="1791899678291" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
-<div class="thumbnail"><a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="17" data-categories="d29ya3Nob3AlMkNoaWdoJTIwcGVyZm9ybWFuY2UlMjBjb21wdXRpbmclMkNzbHVybQ==" data-listing-date-sort="1714953600000" data-listing-file-modified-sort="1795791106909" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
+<div class="thumbnail"><a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/3_bees/20240506_Session10_HPC/3bees_session10.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="no-external">Introduction to High performance Computing (HPC)</a>
+<a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="no-external-icon">Introduction to High performance Computing (HPC)</a>
 </h3>
 <div class="listing-categories">
 
@@ -1018,12 +1026,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('c2x1cm0='); return false;">slurm</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="no-external-icon">
 <p>Session 10 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="no-external">
+<a href="./newsposts/3_bees/20240506_Session10_HPC/index.html" class="no-external-icon">
 <div class="listing-date">
 May 6, 2024
 </div>
@@ -1033,15 +1043,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="d29ya3Nob3AlMkNSJTJDZ2dwbG90JTJDY29kZSUyMGFsb25n" data-listing-date-sort="1712534400000" data-listing-file-modified-sort="1791899678285" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
-<div class="thumbnail"><a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="18" data-categories="d29ya3Nob3AlMkNSJTJDZ2dwbG90JTJDY29kZSUyMGFsb25n" data-listing-date-sort="1712534400000" data-listing-file-modified-sort="1795791106899" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="thumbnail"><a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/3_bees/20240408_Session9_ggplot/3bees_session9.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="no-external">Intermediate ggplot in R</a>
+<a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="no-external-icon">Intermediate ggplot in R</a>
 </h3>
 <div class="listing-categories">
 
@@ -1054,12 +1064,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Y29kZSUyMGFsb25n'); return false;">code along</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="no-external-icon">
 <p>Session 9 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="no-external">
+<a href="./newsposts/3_bees/20240408_Session9_ggplot/index.html" class="no-external-icon">
 <div class="listing-date">
 Apr 8, 2024
 </div>
@@ -1069,15 +1081,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="d29ya3Nob3AlMkNweXRob24lMkNuZXVyYWwlMjBuZXR3b3JrcyUyQ2NvZGUlMjBhbG9uZw==" data-listing-date-sort="1711324800000" data-listing-file-modified-sort="1791899678279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
-<div class="thumbnail"><a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="19" data-categories="d29ya3Nob3AlMkNweXRob24lMkNuZXVyYWwlMjBuZXR3b3JrcyUyQ2NvZGUlMjBhbG9uZw==" data-listing-date-sort="1711324800000" data-listing-file-modified-sort="1795791106890" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
+<div class="thumbnail"><a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/3_bees/20240325_Session8_neural/3bees_session8.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="no-external">Introduction to Neural Networks</a>
+<a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="no-external-icon">Introduction to Neural Networks</a>
 </h3>
 <div class="listing-categories">
 
@@ -1090,12 +1102,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Y29kZSUyMGFsb25n'); return false;">code along</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="no-external-icon">
 <p>Session 8 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="no-external">
+<a href="./newsposts/3_bees/20240325_Session8_neural/index.html" class="no-external-icon">
 <div class="listing-date">
 Mar 25, 2024
 </div>
@@ -1105,15 +1119,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="d29ya3Nob3AlMkNweXRob24lMkNjb2RlJTIwYWxvbmc=" data-listing-date-sort="1710115200000" data-listing-file-modified-sort="1791899678273" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
-<div class="thumbnail"><a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="20" data-categories="d29ya3Nob3AlMkNweXRob24lMkNjb2RlJTIwYWxvbmc=" data-listing-date-sort="1710115200000" data-listing-file-modified-sort="1795791106881" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
+<div class="thumbnail"><a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/3_bees/20240311_Session7_python/3bees_session7.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="no-external">Introduction to Python</a>
+<a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="no-external-icon">Introduction to Python</a>
 </h3>
 <div class="listing-categories">
 
@@ -1124,12 +1138,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Y29kZSUyMGFsb25n'); return false;">code along</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="no-external-icon">
 <p>Session 7 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="no-external">
+<a href="./newsposts/3_bees/20240311_Session7_python/index.html" class="no-external-icon">
 <div class="listing-date">
 Mar 11, 2024
 </div>
@@ -1139,15 +1155,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNyZXByb2R1Y2liaWxpdHklMkNS" data-listing-date-sort="1708905600000" data-listing-file-modified-sort="1791899678266" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
-<div class="thumbnail"><a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="21" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNyZXByb2R1Y2liaWxpdHklMkNS" data-listing-date-sort="1708905600000" data-listing-file-modified-sort="1795791106871" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
+<div class="thumbnail"><a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/3_bees/20240226_Session6_Rfunctions/3bees_session6.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="no-external">Introduction to writing functions in R</a>
+<a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="no-external-icon">Introduction to writing functions in R</a>
 </h3>
 <div class="listing-categories">
 
@@ -1160,12 +1176,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="no-external-icon">
 <p>Session 6 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="no-external">
+<a href="./newsposts/3_bees/20240226_Session6_Rfunctions/index.html" class="no-external-icon">
 <div class="listing-date">
 Feb 26, 2024
 </div>
@@ -1175,15 +1193,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNS" data-listing-date-sort="1707696000000" data-listing-file-modified-sort="1791899678258" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
-<div class="thumbnail"><a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="22" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNS" data-listing-date-sort="1707696000000" data-listing-file-modified-sort="1795791106860" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
+<div class="thumbnail"><a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/3_bees/20240212_Session5_Pop/3bees_session5.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="no-external">Population structure analyses</a>
+<a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="no-external-icon">Population structure analyses</a>
 </h3>
 <div class="listing-categories">
 
@@ -1194,12 +1212,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="no-external-icon">
 <p>Session 5 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="no-external">
+<a href="./newsposts/3_bees/20240212_Session5_Pop/index.html" class="no-external-icon">
 <div class="listing-date">
 Feb 12, 2024
 </div>
@@ -1209,15 +1229,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNyZXByb2R1Y2liaWxpdHklMkNtYXJrZG93bg==" data-listing-date-sort="1705276800000" data-listing-file-modified-sort="1791899678251" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
-<div class="thumbnail"><a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="23" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNyZXByb2R1Y2liaWxpdHklMkNtYXJrZG93bg==" data-listing-date-sort="1705276800000" data-listing-file-modified-sort="1795791106848" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
+<div class="thumbnail"><a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/3_bees/20240115_Session4_MD/3bees_session4.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="no-external">Introduction to Markdown</a>
+<a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="no-external-icon">Introduction to Markdown</a>
 </h3>
 <div class="listing-categories">
 
@@ -1230,12 +1250,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('bWFya2Rvd24='); return false;">markdown</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="no-external-icon">
 <p>Session 4 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="no-external">
+<a href="./newsposts/3_bees/20240115_Session4_MD/index.html" class="no-external-icon">
 <div class="listing-date">
 Jan 15, 2024
 </div>
@@ -1245,15 +1267,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="d29ya3Nob3AlMkNQQ0ElMkNzdGF0aXN0aWNzJTJDY29kZSUyMGFsb25n" data-listing-date-sort="1702252800000" data-listing-file-modified-sort="1791899678244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
-<div class="thumbnail"><a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="24" data-categories="d29ya3Nob3AlMkNQQ0ElMkNzdGF0aXN0aWNzJTJDY29kZSUyMGFsb25n" data-listing-date-sort="1702252800000" data-listing-file-modified-sort="1795791106838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="thumbnail"><a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="no-external-icon">
 
 <img loading="lazy" src="./newsposts/3_bees/20231211_Session3_PCA/3bees_session3.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="no-external">PCA: Theory and Practice</a>
+<a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="no-external-icon">PCA: Theory and Practice</a>
 </h3>
 <div class="listing-categories">
 
@@ -1266,12 +1288,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Y29kZSUyMGFsb25n'); return false;">code along</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="no-external-icon">
 <p>Session 3 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="no-external">
+<a href="./newsposts/3_bees/20231211_Session3_PCA/index.html" class="no-external-icon">
 <div class="listing-date">
 Dec 11, 2023
 </div>
@@ -1281,15 +1305,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNjb21tYW5kJTIwbGluZQ==" data-listing-date-sort="1701043200000" data-listing-file-modified-sort="1791899678238" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="179">
-<div class="thumbnail"><a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="25" data-categories="d29ya3Nob3AlMkNjb2RlJTIwYWxvbmclMkNjb21tYW5kJTIwbGluZQ==" data-listing-date-sort="1701043200000" data-listing-file-modified-sort="1795791106829" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="179">
+<div class="thumbnail"><a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="no-external-icon">
 
 <img loading="lazy" data-src="./newsposts/3_bees/20231127_Session2_linux/3bees_session2.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="no-external">Introduction to the command line</a>
+<a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="no-external-icon">Introduction to the command line</a>
 </h3>
 <div class="listing-categories">
 
@@ -1300,12 +1324,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Y29tbWFuZCUyMGxpbmU='); return false;">command line</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="no-external-icon">
 <p>Session 2 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="no-external">
+<a href="./newsposts/3_bees/20231127_Session2_linux/index.html" class="no-external-icon">
 <div class="listing-date">
 Nov 27, 2023
 </div>
@@ -1315,15 +1341,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="c2VtaW5hciUyQ25leHRmbG93JTJDZWR1Y2F0aW9uJTJDd29ya3Nob3A=" data-listing-date-sort="1700092800000" data-listing-file-modified-sort="1791899678463" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
-<div class="thumbnail"><a href="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="26" data-categories="c2VtaW5hciUyQ25leHRmbG93JTJDZWR1Y2F0aW9uJTJDd29ya3Nob3A=" data-listing-date-sort="1700092800000" data-listing-file-modified-sort="1795791107143" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
+<div class="thumbnail"><a href="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html" class="no-external-icon">
 
 <img loading="lazy" data-src="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/nf_umea.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html" class="no-external">Bioinformatics in Umeå Workshop Series</a>
+<a href="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html" class="no-external-icon">Bioinformatics in Umeå Workshop Series</a>
 </h3>
 <div class="listing-categories">
 
@@ -1336,12 +1362,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html" class="no-external-icon">
 <p>The first instance of the new bioinformatics workshop series. Learn about Nextflow and how to write your own pipeline.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html" class="no-external">
+<a href="./newsposts/seminars_workshops/20231116_seminar_NF_umeaa/index.html" class="no-external-icon">
 <div class="listing-date">
 Nov 16, 2023
 </div>
@@ -1351,15 +1379,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="d29ya3Nob3AlMkNSJTJDY29kZSUyMGFsb25n" data-listing-date-sort="1699920000000" data-listing-file-modified-sort="1791899678231" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
-<div class="thumbnail"><a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="27" data-categories="d29ya3Nob3AlMkNSJTJDY29kZSUyMGFsb25n" data-listing-date-sort="1699920000000" data-listing-file-modified-sort="1795791106818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
+<div class="thumbnail"><a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="no-external-icon">
 
 <img loading="lazy" data-src="./newsposts/3_bees/20231114_Session1_R/3bees_session1.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="no-external">Introduction to R</a>
+<a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="no-external-icon">Introduction to R</a>
 </h3>
 <div class="listing-categories">
 
@@ -1370,12 +1398,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('Y29kZSUyMGFsb25n'); return false;">code along</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="no-external-icon">
 <p>Session 1 in the series Basic Biostatistics and Bioinformatics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="no-external">
+<a href="./newsposts/3_bees/20231114_Session1_R/index.html" class="no-external-icon">
 <div class="listing-date">
 Nov 14, 2023
 </div>
@@ -1385,15 +1415,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="28" data-categories="c2VtaW5hciUyQ3dvcmtzaG9wJTJDc3RhdGlzdGljcw==" data-listing-date-sort="1699833600000" data-listing-file-modified-sort="1791899678463" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
-<div class="thumbnail"><a href="./newsposts/seminars_workshops/20231113_3bees/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="28" data-categories="c2VtaW5hciUyQ3dvcmtzaG9wJTJDc3RhdGlzdGljcw==" data-listing-date-sort="1699833600000" data-listing-file-modified-sort="1795791107142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
+<div class="thumbnail"><a href="./newsposts/seminars_workshops/20231113_3bees/index.html" class="no-external-icon">
 
 <img loading="lazy" data-src="./newsposts/seminars_workshops/20231113_3bees/3bees_fulltext.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/seminars_workshops/20231113_3bees/index.html" class="no-external">3B’s: Basic Biostatistics &amp; Bioinformatics</a>
+<a href="./newsposts/seminars_workshops/20231113_3bees/index.html" class="no-external-icon">3B’s: Basic Biostatistics &amp; Bioinformatics</a>
 </h3>
 <div class="listing-categories">
 
@@ -1404,12 +1434,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/seminars_workshops/20231113_3bees/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/seminars_workshops/20231113_3bees/index.html" class="no-external-icon">
 <p>Today we finally launch our long awaited collaboration with SLU’s Center for Statistics.</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/seminars_workshops/20231113_3bees/index.html" class="no-external">
+<a href="./newsposts/seminars_workshops/20231113_3bees/index.html" class="no-external-icon">
 <div class="listing-date">
 Nov 13, 2023
 </div>
@@ -1419,15 +1451,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="29" data-categories="c2VtaW5hciUyQ3N0YXRpc3RpY3M=" data-listing-date-sort="1630022400000" data-listing-file-modified-sort="1791899678458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<div class="thumbnail"><a href="./newsposts/seminars_workshops/20210827_seminar_statistics/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="29" data-categories="c2VtaW5hciUyQ3N0YXRpc3RpY3M=" data-listing-date-sort="1630022400000" data-listing-file-modified-sort="1795791107135" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
+<div class="thumbnail"><a href="./newsposts/seminars_workshops/20210827_seminar_statistics/index.html" class="no-external-icon">
 
 <img loading="lazy" data-src="./newsposts/seminars_workshops/20210827_seminar_statistics/Statistics_Seminar_screenshot.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/seminars_workshops/20210827_seminar_statistics/index.html" class="no-external">Statistics seminar series</a>
+<a href="./newsposts/seminars_workshops/20210827_seminar_statistics/index.html" class="no-external-icon">Statistics seminar series</a>
 </h3>
 <div class="listing-categories">
 
@@ -1436,12 +1468,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('c3RhdGlzdGljcw=='); return false;">statistics</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/seminars_workshops/20210827_seminar_statistics/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/seminars_workshops/20210827_seminar_statistics/index.html" class="no-external-icon">
 <p>The 2021 edition of the seminar series of SLU’s Center for Statistics, this year on environmental statistics</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/seminars_workshops/20210827_seminar_statistics/index.html" class="no-external">
+<a href="./newsposts/seminars_workshops/20210827_seminar_statistics/index.html" class="no-external-icon">
 <div class="listing-date">
 Aug 27, 2021
 </div>
@@ -1451,15 +1485,15 @@ SLUBI
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="30" data-categories="ZWR1Y2F0aW9uJTJDd29ya3Nob3A=" data-listing-date-sort="1537747200000" data-listing-file-modified-sort="1791899678456" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail"><a href="./newsposts/seminars_workshops/20180924_R_workshop/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="30" data-categories="ZWR1Y2F0aW9uJTJDd29ya3Nob3A=" data-listing-date-sort="1537747200000" data-listing-file-modified-sort="1795791107133" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
+<div class="thumbnail"><a href="./newsposts/seminars_workshops/20180924_R_workshop/index.html" class="no-external-icon">
 
 <img loading="lazy" data-src="./newsposts/seminars_workshops/20180924_R_workshop/workshop_R_2018_sept.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./newsposts/seminars_workshops/20180924_R_workshop/index.html" class="no-external">Workshop for supervisors: Introduction to, and visualisation in R</a>
+<a href="./newsposts/seminars_workshops/20180924_R_workshop/index.html" class="no-external-icon">Workshop for supervisors: Introduction to, and visualisation in R</a>
 </h3>
 <div class="listing-categories">
 
@@ -1468,12 +1502,14 @@ SLUBI
 <div class="listing-category" onclick="window.quartoListingCategory('d29ya3Nob3A='); return false;">workshop</div>
 
 </div>
-<div class="delink listing-description"><a href="./newsposts/seminars_workshops/20180924_R_workshop/index.html" class="no-external">
+<div class="listing-description">
+<a href="./newsposts/seminars_workshops/20180924_R_workshop/index.html" class="no-external-icon">
 <p>Training day to get to know the possibilities of R</p>
-</a></div>
+</a>
+</div>
 </div>
 <div class="metadata">
-<a href="./newsposts/seminars_workshops/20180924_R_workshop/index.html" class="no-external">
+<a href="./newsposts/seminars_workshops/20180924_R_workshop/index.html" class="no-external-icon">
 <div class="listing-date">
 Sep 24, 2018
 </div>
@@ -1567,7 +1603,8 @@ SLUBI
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -1576,8 +1613,69 @@ SLUBI
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -1591,6 +1689,7 @@ SLUBI
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -1753,44 +1852,54 @@ SLUBI
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -1888,6 +1997,9 @@ SLUBI
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 
